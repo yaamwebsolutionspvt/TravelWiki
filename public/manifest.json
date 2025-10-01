@@ -1,0 +1,85 @@
+{
+  "name": "Travel Wiki - Kashmir Tourism",
+  "short_name": "Travel Wiki",
+  "description": "Best Kashmir Tourism Company offering exclusive tour packages for Srinagar, Gulmarg, Pahalgam, Sonamarg and Ladakh. Honeymoon packages, family tours, adventure trips.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#059669",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "en",
+  "dir": "ltr",
+  "categories": ["travel", "tourism", "lifestyle"],
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.webp",
+      "sizes": "192x192",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/android-chrome-512x512.webp",
+      "sizes": "512x512",
+      "type": "image/webp",
+      "purpose": "any maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/logo.webp",
+      "sizes": "1280x720",
+      "type": "image/webp",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/logo.webp",
+      "sizes": "750x1334",
+      "type": "image/webp",
+      "form_factor": "narrow"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Kashmir Packages",
+      "short_name": "Packages",
+      "description": "View Kashmir tour packages",
+      "url": "/packages-listing",
+      "icons": [
+        {
+          "src": "/logo.webp",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Ladakh Tours",
+      "short_name": "Ladakh",
+      "description": "Explore Ladakh packages",
+      "url": "/leh-ladakh-packages",
+      "icons": [
+        {
+          "src": "/logo.webp",
+          "sizes": "96x96"
+        }
+      ]
+    },
+    {
+      "name": "Contact Us",
+      "short_name": "Contact",
+      "description": "Get in touch with us",
+      "url": "/contact",
+      "icons": [
+        {
+          "src": "/logo.webp",
+          "sizes": "96x96"
+        }
+      ]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "edge_side_panel": {
+    "preferred_width": 400
+  }
+}

@@ -1,0 +1,12 @@
+# Authorized Digital Sellers for travelwiki.org.in
+# Replace placeholders with your actual seller accounts.
+
+# Google AdSense example (replace with your publisher ID)
+# google.com, pub-XXXXXXXXXXXXXXXX, DIRECT, f08c47fec0942fa0
+
+# Google Ad Manager example (if applicable)
+# google.com, pub-XXXXXXXXXXXXXXXX, RESELLER, f08c47fec0942fa0
+
+# Add additional ad partners here following IAB ads.txt spec:
+# domain, publisher_account_id, DIRECT|RESELLER, certification_authority_id(optional)
+

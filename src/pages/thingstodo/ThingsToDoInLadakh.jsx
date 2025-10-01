@@ -1,0 +1,411 @@
+import React from 'react';
+import { Helmet } from 'react-helmet-async';
+
+const ThingsToDoInLadakh = () => {
+  return (
+    <>
+      <Helmet>
+        <title>35 Best Things to Do in Ladakh - Land of High Passes Adventure Guide 2025</title>
+        <meta 
+          name="description" 
+          content="Discover the top 35 unforgettable things to do in Ladakh including Pangong Lake, Khardung La, monasteries, trekking, river rafting, and unique high-altitude experiences." 
+        />
+        <meta name="keywords" content="things to do in Ladakh, Leh Ladakh activities, Pangong Lake, Khardung La, monasteries, trekking Ladakh, river rafting, Nubra Valley, Ladakh tourism" />
+        <link rel="canonical" href="/things-to-do-in-ladakh" />
+      </Helmet>
+
+      <div className="min-h-screen bg-gray-50">
+        {/* Hero Section */}
+        <div className="relative bg-gradient-to-r from-orange-900 to-red-900 text-white py-25">
+          <div className="absolute inset-0 bg-black opacity-50"></div>
+          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div className="text-center">
+              <h1 className="text-4xl md:text-6xl font-bold mb-6">
+                35 Best Things to Do in Ladakh
+              </h1>
+              <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto">
+                Experience the Land of High Passes with breathtaking landscapes, ancient monasteries, 
+                and adventures at 3,000 meters above sea level
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* Introduction */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+          <div className="prose max-w-none">
+            <p className="text-lg text-gray-700 leading-relaxed mb-8">
+              What are the best things to do in Ladakh? Let's take you through this magical piece of land that 
+              sits at a lofty height of 3,000m above sea level. Ladakh is a destination where every experience 
+              becomes a lifetime memory, from sunrise at Pangong Lake to the spiritual ambiance of ancient monasteries.
+            </p>
+            
+            <p className="text-lg text-gray-700 leading-relaxed mb-12">
+              The varied geography and unique culture make Ladakh perfect for all kinds of travelers - adventure 
+              enthusiasts, spiritual seekers, nature lovers, and those seeking tranquility in the lap of the 
+              Himalayas. Let's explore the chronological guide of how you should spend your days while touring 
+              around Leh-Ladakh and get Leh'ed!
+            </p>
+          </div>
+
+          {/* Quick Navigation */}
+          <div className="bg-white rounded-lg shadow-md p-6 mb-12">
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">Quick Navigation - Top Highlights</h2>
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+              <a href="#homestay" className="text-emerald-600 hover:text-emerald-800 font-semibold">1. Stay in Local Homestays</a>
+              <a href="#pangong-sunrise" className="text-emerald-600 hover:text-emerald-800 font-semibold">2. Pangong Lake Sunrise</a>
+              <a href="#thiksey-prayers" className="text-emerald-600 hover:text-emerald-800 font-semibold">3. Thiksey Monastery Prayers</a>
+              <a href="#maitreya-buddha" className="text-emerald-600 hover:text-emerald-800 font-semibold">4. Maitreya Buddha Blessings</a>
+              <a href="#shanti-stupa" className="text-emerald-600 hover:text-emerald-800 font-semibold">5. Shanti Stupa Visit</a>
+              <a href="#leh-palace" className="text-emerald-600 hover:text-emerald-800 font-semibold">6. Leh Palace History</a>
+              <a href="#zanskar-valley" className="text-emerald-600 hover:text-emerald-800 font-semibold">7. Zanskar Valley Adventure</a>
+              <a href="#rafting" className="text-emerald-600 hover:text-emerald-800 font-semibold">8. Zanskar River Rafting</a>
+              <a href="#chadar-trek" className="text-emerald-600 hover:text-emerald-800 font-semibold">9. Chadar Trek</a>
+              <a href="#magnetic-hill" className="text-emerald-600 hover:text-emerald-800 font-semibold">10. Magnetic Hill Mystery</a>
+              <a href="#khardung-la" className="text-emerald-600 hover:text-emerald-800 font-semibold">11. Khardung La Pass</a>
+              <a href="#nubra-valley" className="text-emerald-600 hover:text-emerald-800 font-semibold">12. Nubra Valley Camping</a>
+            </div>
+            <p className="text-sm text-gray-600 mt-4">*Showing top 12 of 35 activities - scroll down to explore all experiences</p>
+          </div>
+
+          {/* Top Activities - Featured Section */}
+          <div className="mb-16">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Top 12 Must-Do Experiences</h2>
+
+            {/* Activity 1: Homestay */}
+            <section id="homestay" className="mb-12">
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div className="p-8">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">1. Stay Local to Be a Local in Ladakh</h3>
+                  
+                  <p className="text-gray-700 mb-6 leading-relaxed">
+                    If you want to explore the real colors of Ladakh, check into a local homestay or lodge. Staying 
+                    in local homestays allows you to spend time with local hosts and families, know about their culture 
+                    and traditions, interact with them, dine with them, and get acquainted with their lifestyle.
+                  </p>
+
+                  <div className="bg-blue-50 p-6 rounded-lg">
+                    <h4 className="text-lg font-semibold text-blue-800 mb-3">Homestay Benefits</h4>
+                    <ul className="list-disc list-inside text-gray-700 space-y-2">
+                      <li>Experience authentic Ladakhi lifestyle and culture</li>
+                      <li>Great hospitality and utmost generosity from hosts</li>
+                      <li>Traditional meals prepared with local ingredients</li>
+                      <li>Learn about local customs and Buddhist traditions</li>
+                      <li>More affordable than luxury hotels</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            {/* Activity 2: Pangong Lake Sunrise */}
+            <section id="pangong-sunrise" className="mb-12">
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div className="p-8">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">2. Enchanting Sunrise Views at Pangong Lake</h3>
+                  
+                  <p className="text-gray-700 mb-6 leading-relaxed">
+                    What could be the best way to begin your day, but by catching the eternal flames of the rising sun? 
+                    Seated gracefully at an elevation of 4,350m (14,270ft), Pangong Lake is one of the best places 
+                    on earth to enjoy the virgin beauty of the rising sun.
+                  </p>
+
+                  <div className="grid md:grid-cols-2 gap-8">
+                    <div>
+                      <h4 className="text-xl font-semibold text-cyan-800 mb-3">Lake Features</h4>
+                      <ul className="text-gray-700 space-y-2">
+                        <li>• Elevation: 4,350m (14,270ft)</li>
+                        <li>• Azure blue water that changes colors</li>
+                        <li>• Stretches across India-China border</li>
+                        <li>• Perfect mirror reflection of mountains</li>
+                      </ul>
+                    </div>
+                    
+                    <div>
+                      <h4 className="text-xl font-semibold text-cyan-800 mb-3">Sunrise Experience</h4>
+                      <ul className="text-gray-700 space-y-2">
+                        <li>• Sun rising from mighty peaks</li>
+                        <li>• Golden rays creating magical ambiance</li>
+                        <li>• Rays striking against azure water</li>
+                        <li>• Once-in-a-lifetime phenomenon</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            {/* Activity 3: Thiksey Monastery */}
+            <section id="thiksey-prayers" className="mb-12">
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div className="p-8">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">3. Morning Prayers at Thiksey Monastery</h3>
+                  
+                  <p className="text-gray-700 mb-6 leading-relaxed">
+                    Peace, serenity, divinity, and solace of mind make wanderlusts get Leh'ed! Wake up to the prayer 
+                    chants of Thiksey Monastery in Ladakh. This place can pacify your mornings and enlighten your day 
+                    with spiritual blessings.
+                  </p>
+
+                  <div className="bg-amber-50 p-6 rounded-lg">
+                    <h4 className="text-lg font-semibold text-amber-800 mb-3">Spiritual Experience</h4>
+                    <ul className="list-disc list-inside text-gray-700 space-y-2">
+                      <li>Unique sense of devotion and spirituality</li>
+                      <li>Melodious 'sutras' (prayers) chanted by monks</li>
+                      <li>Drum beats and mollifying tunes of bugles</li>
+                      <li>Positivity and calmness for mind and soul</li>
+                      <li>Authentic Buddhist monastery experience</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            {/* Activity 4: Maitreya Buddha */}
+            <section id="maitreya-buddha" className="mb-12">
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div className="p-8">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">4. Seek Blessings from Maitreya Buddha</h3>
+                  
+                  <p className="text-gray-700 mb-6 leading-relaxed">
+                    Visit the golden statue of Maitreya Buddha at Thiksey Monastery. The largest statue of the future 
+                    Lord Buddha is considered a devout source of blessings and sanctity. This divine form of the Lord 
+                    helps usher spirituality and begin your Ladakh tour with purity and calmness.
+                  </p>
+
+                  <div className="bg-yellow-50 p-6 rounded-lg">
+                    <h4 className="text-lg font-semibold text-yellow-800 mb-3">Spiritual Significance</h4>
+                    <p className="text-gray-700">
+                      The largest statue of the future Lord Buddha represents hope and enlightenment. Visitors seek 
+                      blessings for their spiritual journey and find inner peace in the presence of this magnificent statue.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            {/* Activity 5: Shanti Stupa */}
+            <section id="shanti-stupa" className="mb-12">
+              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+                <div className="p-8">
+                  <h3 className="text-2xl font-bold text-gray-900 mb-4">5. Visit Shanti Stupa - Contribute to World Peace</h3>
+                  
+                  <p className="text-gray-700 mb-6 leading-relaxed">
+                    The Shanti Stupa in Ladakh is a universal testimony that irrespective of who we are, we all crave 
+                    love and peace. Positioned atop a scenic hill in Chanspa, this white-colored dome structure was 
+                    built by Japanese Buddhist Organization to promote World Peace.
+                  </p>
+
+                  <div className="grid md:grid-cols-2 gap-8">
+                    <div>
+                      <h4 className="text-xl font-semibold text-purple-800 mb-3">Structure Details</h4>
+                      <ul className="text-gray-700 space-y-2">
+                        <li>• White-colored dome structure</li>
+                        <li>• Located atop scenic hill in Chanspa</li>
+                        <li>• Built by Japanese Buddhist Organization</li>
+                        <li>• Commemorates 2 centuries of Buddhism</li>
+                      </ul>
+                    </div>
+                    
+                    <div>
+                      <h4 className="text-xl font-semibold text-purple-800 mb-3">Peace Mission</h4>
+                      <ul className="text-gray-700 space-y-2">
+                        <li>• Promotes World Peace message</li>
+                        <li>• Universal symbol of love and peace</li>
+                        <li>• Encourages contribution to better world</li>
+                        <li>• Stunning views of Leh valley</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            {/* Continue with more featured activities... */}
+          </div>
+
+          {/* Additional Activities Grid */}
+          <div className="mb-16">
+            <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">More Adventures Await</h2>
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {/* Quick cards for remaining activities */}
+              <div className="bg-white rounded-lg shadow-md p-6">
+                <h4 className="text-lg font-semibold text-gray-900 mb-3">Khardung La Pass</h4>
+                <p className="text-gray-700 text-sm mb-4">
+                  Test your driving skills at the world's highest motorable pass at 18,379ft elevation.
+                </p>
+                <div className="text-emerald-600 text-sm font-semibold">World's Highest Motorable Pass</div>
+              </div>
+
+              <div className="bg-white rounded-lg shadow-md p-6">
+                <h4 className="text-lg font-semibold text-gray-900 mb-3">Nubra Valley Desert</h4>
+                <p className="text-gray-700 text-sm mb-4">
+                  Camp under stars in Hundur Sand Dunes and enjoy double-humped camel rides.
+                </p>
+                <div className="text-emerald-600 text-sm font-semibold">High-Altitude Desert Experience</div>
+              </div>
+
+              <div className="bg-white rounded-lg shadow-md p-6">
+                <h4 className="text-lg font-semibold text-gray-900 mb-3">Chadar Trek</h4>
+                <p className="text-gray-700 text-sm mb-4">
+                  Walk on frozen Zanskar River in one of the world's most challenging winter treks.
+                </p>
+                <div className="text-emerald-600 text-sm font-semibold">Frozen River Walking</div>
+              </div>
+
+              <div className="bg-white rounded-lg shadow-md p-6">
+                <h4 className="text-lg font-semibold text-gray-900 mb-3">Magnetic Hill</h4>
+                <p className="text-gray-700 text-sm mb-4">
+                  Experience the mysterious gravitational pull that defies natural laws.
+                </p>
+                <div className="text-emerald-600 text-sm font-semibold">Gravity-Defying Mystery</div>
+              </div>
+
+              <div className="bg-white rounded-lg shadow-md p-6">
+                <h4 className="text-lg font-semibold text-gray-900 mb-3">Tso Moriri Lake</h4>
+                <p className="text-gray-700 text-sm mb-4">
+                  Bird watching at high-altitude lake and enjoy serene emerald waters.
+                </p>
+                <div className="text-emerald-600 text-sm font-semibold">High-Altitude Bird Watching</div>
+              </div>
+
+              <div className="bg-white rounded-lg shadow-md p-6">
+                <h4 className="text-lg font-semibold text-gray-900 mb-3">Hemis Monastery</h4>
+                <p className="text-gray-700 text-sm mb-4">
+                  Attend the colorful Hemis Festival with traditional mask dances and cultural performances.
+                </p>
+                <div className="text-emerald-600 text-sm font-semibold">Cultural Festival Experience</div>
+              </div>
+
+              <div className="bg-white rounded-lg shadow-md p-6">
+                <h4 className="text-lg font-semibold text-gray-900 mb-3">Snow Leopard Spotting</h4>
+                <p className="text-gray-700 text-sm mb-4">
+                  Unique wildlife experience at Hemis High Altitude Wildlife Sanctuary.
+                </p>
+                <div className="text-emerald-600 text-sm font-semibold">Rare Wildlife Encounter</div>
+              </div>
+
+              <div className="bg-white rounded-lg shadow-md p-6">
+                <h4 className="text-lg font-semibold text-gray-900 mb-3">Lamayuru Moonland</h4>
+                <p className="text-gray-700 text-sm mb-4">
+                  Visit lunar-like landscapes and experience feeling like you're on the moon.
+                </p>
+                <div className="text-emerald-600 text-sm font-semibold">Moon-like Terrain</div>
+              </div>
+
+              <div className="bg-white rounded-lg shadow-md p-6">
+                <h4 className="text-lg font-semibold text-gray-900 mb-3">Local Cuisine Experience</h4>
+                <p className="text-gray-700 text-sm mb-4">
+                  Try Thukpa, Chang, and Chhupri (Yak cheese) - authentic Ladakhi delicacies.
+                </p>
+                <div className="text-emerald-600 text-sm font-semibold">Authentic Local Food</div>
+              </div>
+            </div>
+          </div>
+
+          {/* Full Activity List */}
+          <div className="bg-white rounded-lg shadow-lg p-8 mb-16">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Complete List of 35 Things to Do in Ladakh</h2>
+            
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 text-sm">
+              <div className="space-y-2">
+                <div className="font-semibold text-emerald-600">Spiritual & Cultural (1-10)</div>
+                <ul className="text-gray-700 space-y-1">
+                  <li>1. Stay in Local Homestays</li>
+                  <li>2. Pangong Lake Sunrise</li>
+                  <li>3. Thiksey Monastery Prayers</li>
+                  <li>4. Maitreya Buddha Blessings</li>
+                  <li>5. Shanti Stupa Visit</li>
+                  <li>6. Leh Palace History</li>
+                  <li>7. Hemis Monastery Festival</li>
+                  <li>8. Hang with Monks</li>
+                  <li>9. Tibetan Culture Experience</li>
+                  <li>10. Gurbaani at Guru Patthhar Sahib</li>
+                </ul>
+              </div>
+
+              <div className="space-y-2">
+                <div className="font-semibold text-blue-600">Adventure & Nature (11-20)</div>
+                <ul className="text-gray-700 space-y-1">
+                  <li>11. Zanskar Valley Adventure</li>
+                  <li>12. Zanskar River Rafting</li>
+                  <li>13. Chadar Trek</li>
+                  <li>14. Magnetic Hill Mystery</li>
+                  <li>15. Khardung La Driving</li>
+                  <li>16. Nubra Valley Camping</li>
+                  <li>17. Bactrian Camel Rides</li>
+                  <li>18. Spituk Monastery Trek</li>
+                  <li>19. Spituk-Stok Trek</li>
+                  <li>20. Snow Leopard Spotting</li>
+                </ul>
+              </div>
+
+              <div className="space-y-2">
+                <div className="font-semibold text-purple-600">Unique Experiences (21-35)</div>
+                <ul className="text-gray-700 space-y-1">
+                  <li>21. Jeep Safari Changthang</li>
+                  <li>22. Donkey Sanctuary Visit</li>
+                  <li>23. Tso Kar Lake Serenity</li>
+                  <li>24. Tso Moriri Bird Watching</li>
+                  <li>25. World's Highest Cafeteria</li>
+                  <li>26. Lamayuru Moonland</li>
+                  <li>27. Stargazing Experience</li>
+                  <li>28. Drang-Drung Glacier Trek</li>
+                  <li>29. Himalayan Biking</li>
+                  <li>30. Motorcycle Expedition</li>
+                  <li>31. Hall of Fame Tribute</li>
+                  <li>32. Leh Marketplace Shopping</li>
+                  <li>33. Chang & Thukpa Tasting</li>
+                  <li>34. Chhupri & Vintage Wine</li>
+                  <li>35. Photography Expeditions</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* Best Time & Tips */}
+          <div className="bg-gradient-to-r from-orange-50 to-red-50 rounded-lg p-8 mb-16">
+            <h2 className="text-2xl font-bold text-gray-900 mb-6">Essential Ladakh Travel Information</h2>
+            
+            <div className="grid md:grid-cols-2 gap-8">
+              <div>
+                <h4 className="text-lg font-semibold text-orange-800 mb-3">Best Time to Visit</h4>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• <strong>Summer (May-September):</strong> Perfect weather for most activities</li>
+                  <li>• <strong>Winter (November-February):</strong> For Chadar Trek and frozen lake experiences</li>
+                  <li>• <strong>Monsoon (July-August):</strong> Road conditions can be challenging</li>
+                  <li>• <strong>Festival Season (June-July):</strong> For cultural festivals and celebrations</li>
+                </ul>
+              </div>
+              
+              <div>
+                <h4 className="text-lg font-semibold text-red-800 mb-3">Important Tips</h4>
+                <ul className="text-gray-700 space-y-2">
+                  <li>• Acclimatize for 24-48 hours upon arrival</li>
+                  <li>• Carry sufficient cash (limited ATMs)</li>
+                  <li>• Pack warm clothes even in summer</li>
+                  <li>• Stay hydrated and avoid alcohol initially</li>
+                  <li>• Respect local customs and photography restrictions</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          {/* Call to Action */}
+          <div className="bg-gradient-to-r from-orange-600 to-red-600 rounded-lg p-8 text-white text-center">
+            <h2 className="text-3xl font-bold mb-4">Ready to Get Leh'ed?</h2>
+            <p className="text-xl mb-6">
+              Plan your ultimate Ladakh adventure with our comprehensive tour packages covering all 35 experiences
+            </p>
+            <button className="bg-white text-orange-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
+              View Ladakh Packages
+            </button>
+          </div>
+        </div>
+      </div>
+    </>
+  );
+};
+
+export default ThingsToDoInLadakh;
