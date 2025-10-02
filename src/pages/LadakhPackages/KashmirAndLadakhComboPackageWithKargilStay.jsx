@@ -7,10 +7,38 @@ const KashmirAndLadakhComboPackageWithKargilStay = () => {
   return (
     <>
       <SEO 
-        title="Kashmir and Ladakh Combo Package with Kargil Stay - 9N/10D Starting ₹36,999 | Travel Wiki"
-        description="Experience the best of Kashmir and Ladakh in one comprehensive tour. Visit Srinagar, Gulmarg, Pahalgam, Kargil, Leh, Nubra Valley & Pangong Lake starting from ₹36,999 per person."
-        keywords="Kashmir Ladakh combo tour, Kargil stay package, Srinagar Gulmarg Pahalgam Ladakh tour, comprehensive Kashmir Ladakh package"
-      />
+        pageType="ladakh"
+        customTitle="Kashmir and Ladakh Combo Package with Kargil Stay - 9N/10D Starting ₹36,999"
+        customDescription="Experience the best of Kashmir and Ladakh in one comprehensive tour. Visit Srinagar, Gulmarg, Pahalgam, Kargil, Leh, Nubra Valley & Pangong Lake starting from ₹36,999 per person."
+        customKeywords={["Kashmir Ladakh combo tour", "Kargil stay package", "Srinagar Gulmarg Pahalgam Ladakh tour", "comprehensive Kashmir Ladakh package"]}
+        customImage={ld8}
+      >
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TouristTrip",
+            "name": "Kashmir and Ladakh Combo Package with Kargil Stay",
+            "description": "Experience the best of Kashmir and Ladakh in one comprehensive tour. Visit Srinagar, Gulmarg, Pahalgam, Kargil, Leh, Nubra Valley & Pangong Lake.",
+            "image": ld8,
+            "offers": {
+              "@type": "Offer",
+              "price": "36999",
+              "priceCurrency": "INR",
+              "availability": "https://schema.org/InStock",
+              "validFrom": "2025-01-01",
+              "priceValidUntil": "2025-12-31"
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Travel Wiki",
+              "url": "https://travelwiki.in",
+              "telephone": "+91 8899971960"
+            },
+            "duration": "P9DT10N",
+            "touristType": ["Cultural Explorers", "Nature Lovers", "Adventure Seekers", "Photography Enthusiasts"]
+          })}
+        </script>
+      </SEO>
       
       <div className="min-h-screen  pt-24">
         {/* Hero Section */}

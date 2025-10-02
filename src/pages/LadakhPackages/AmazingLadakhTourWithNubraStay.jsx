@@ -2,35 +2,102 @@ import React from "react";
 import { Link } from "react-router-dom";
 import SEO from "../../components/SEO";
 import OptimizedImage from "../../components/OptimizedImage";
-const ld11 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514658/travelwiki/assets/Ladakh/ld11.jpg";
+const ld11 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1758523704/Desert_Mirage_Nubra_Valley_w5msem.png";
 
 const AmazingLadakhTourWithNubraStay = () => {
   return (
     <>
       <SEO
-        title="Amazing Ladakh Tour with Nubra Stay - 4N/5D Starting ₹16,999 | Travel Wiki"
-        description="Experience the perfect blend of thrill and natural beauty with our 4 nights 5 days Ladakh tour including Leh city tour, Sham Valley, Nubra Valley and Pangong Lake. Book now!"
-        keywords="Amazing Ladakh tour, Nubra Valley stay, Pangong Lake tour, Khardung La Pass, Sham Valley excursion, Ladakh 4 nights 5 days"
-      />
+        pageType="ladakh"
+        customTitle="Amazing Ladakh Tour with Nubra Stay - 4N/5D Starting ₹16,999"
+        customDescription="Experience the perfect blend of thrill and natural beauty with our 4 nights 5 days Ladakh tour including Leh city tour, Sham Valley, Nubra Valley and Pangong Lake. Book now!"
+        customKeywords={["Amazing Ladakh tour", "Nubra Valley stay", "Pangong Lake tour", "Khardung La Pass", "Sham Valley excursion", "Ladakh 4 nights 5 days"]}
+        customImage="https://res.cloudinary.com/dw1sh368y/image/upload/v1758523704/Desert_Mirage_Nubra_Valley_w5msem.png"
+      >
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TouristTrip",
+            "name": "Amazing Ladakh Tour with Nubra Stay",
+            "description": "Experience the perfect blend of thrill and natural beauty with our 4 nights 5 days Ladakh tour including Leh city tour, Sham Valley, Nubra Valley and Pangong Lake.",
+            "image": "https://res.cloudinary.com/dw1sh368y/image/upload/v1758523704/Desert_Mirage_Nubra_Valley_w5msem.png",
+            "url": "https://travelwiki.in/ladakh-packages/amazing-ladakh-tour-with-nubra-stay",
+            "offers": {
+              "@type": "Offer",
+              "price": "16999",
+              "priceCurrency": "INR",
+              "availability": "https://schema.org/InStock",
+              "validFrom": "2025-01-01",
+              "priceValidUntil": "2025-12-31"
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Travel Wiki",
+              "url": "https://travelwiki.in",
+              "telephone": "+91 8899971960"
+            },
+            "duration": "P4DT5N",
+            "touristType": ["Adventure Seekers", "Nature Lovers", "Photography Enthusiasts"],
+            "itinerary": [
+              {
+                "@type": "Day",
+                "name": "Day 1: Arrival in Leh",
+                "description": "Arrival at Leh Airport, transfer to hotel and acclimatization"
+              },
+              {
+                "@type": "Day", 
+                "name": "Day 2: Sham Valley Excursion",
+                "description": "Visit Sangam, Gurudwara Pathar Sahib, Magnetic Hill, Hall of Fame, and Shanti Stupa"
+              },
+              {
+                "@type": "Day",
+                "name": "Day 3: Leh to Nubra Valley",
+                "description": "Travel via Khardung La Pass, camel safari at Hunder sand dunes"
+              },
+              {
+                "@type": "Day",
+                "name": "Day 4: Pangong Lake Excursion",
+                "description": "Visit Pangong Lake via Shayok River, return to Leh"
+              },
+              {
+                "@type": "Day",
+                "name": "Day 5: Departure",
+                "description": "Transfer to Leh Airport for onward journey"
+              }
+            ],
+            "includesObject": [
+              "4 nights accommodation",
+              "Daily breakfast and dinner",
+              "Non-AC cab transfers",
+              "Airport assistance",
+              "Inner line permits"
+            ]
+          })}
+        </script>
+      </SEO>
 
       <div className="min-h-screen  pt-24">
         {/* Hero Section */}
-        <div className="relative h-96 w-full">
+        <div className="relative h-[500px] md:h-[600px] w-full overflow-hidden">
           {/* Background image */}
           <OptimizedImage
-            src='/ladakhbg.png'
+            src={ld11}
             alt="Amazing Ladakh Tour"
             width={1920}
-            height={384}
-            className="absolute inset-0 w-full h-full object-cover"
-            sizes="100vw"
+            height={600}
+            className="absolute inset-0 w-full h-full object-cover object-center"
             loading="eager"
             decoding="async"
             fetchpriority="high"
+            style={{ 
+              imageRendering: 'crisp-edges',
+              backfaceVisibility: 'hidden',
+              transform: 'translateZ(0)'
+            }}
           />
 
-          {/* Overlay */}
-          <div className="absolute inset-0 bg-black/40"></div>
+          {/* Dark overlay for better text readability */}
+          {/* <div className="absolute inset-0 bg-black bg-opacity-40"></div> */}
 
           {/* Content */}
           <div className="relative z-10 flex items-center justify-center h-full">

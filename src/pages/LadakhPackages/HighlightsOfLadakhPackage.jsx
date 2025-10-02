@@ -7,10 +7,38 @@ const HighlightsOfLadakhPackage = () => {
   return (
     <>
       <SEO 
-        title="Highlights of Ladakh Package - 4N/5D Starting ₹14,999 | Travel Wiki"
-        description="Experience Ladakh's major highlights in 4 nights. Visit Sham Valley, Khardung La Pass & Pangong Lake with comfortable Leh stays starting from ₹14,999 per person."
-        keywords="Ladakh highlights tour, 4 nights Ladakh package, Sham Valley tour, Khardung La Pangong Lake package, best Ladakh highlights"
-      />
+        pageType="ladakh"
+        customTitle="Highlights of Ladakh Package - 4N/5D Starting ₹14,999"
+        customDescription="Experience Ladakh's major highlights in 4 nights. Visit Sham Valley, Khardung La Pass & Pangong Lake with comfortable Leh stays starting from ₹14,999 per person."
+        customKeywords={["Ladakh highlights tour", "4 nights Ladakh package", "Sham Valley tour", "Khardung La Pangong Lake package", "best Ladakh highlights"]}
+        customImage={ld12}
+      >
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TouristTrip",
+            "name": "Highlights of Ladakh Package",
+            "description": "Experience Ladakh's major highlights in 4 nights. Visit Sham Valley, Khardung La Pass & Pangong Lake with comfortable Leh stays starting from ₹14,999 per person.",
+            "image": ld12,
+            "offers": {
+              "@type": "Offer",
+              "price": "14999",
+              "priceCurrency": "INR",
+              "availability": "https://schema.org/InStock",
+              "validFrom": "2025-01-01",
+              "priceValidUntil": "2025-12-31"
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Travel Wiki",
+              "url": "https://travelwiki.in",
+              "telephone": "+91 8899971960"
+            },
+            "duration": "P4DT5N",
+            "touristType": ["First-time Visitors", "Nature Lovers", "Photography Enthusiasts", "Adventure Seekers"]
+          })}
+        </script>
+      </SEO>
       
       <div className="min-h-screen  pt-24">
         {/* Hero Section */}

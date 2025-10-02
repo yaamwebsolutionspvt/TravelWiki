@@ -7,10 +7,38 @@ const JeepSafariTourPackageFromManaliToLehLadakh = () => {
   return (
     <>
       <SEO 
-        title="Jeep Safari Tour Package From Manali To Leh Ladakh - 7N/8D Starting ₹28,999 | Travel Wiki"
-        description="Experience the ultimate jeep safari adventure from Manali to Leh Ladakh with our 7 nights 8 days package. Cross high altitude passes, visit Nubra Valley and Pangong Lake. Book now!"
-        keywords="Manali to Leh jeep safari, Ladakh road trip, Manali Leh highway, Sarchu Jispa tour, Nubra Valley Pangong Lake package"
-      />
+        pageType="ladakh"
+        customTitle="Jeep Safari Tour Package From Manali To Leh Ladakh - 7N/8D Starting ₹28,999"
+        customDescription="Experience the ultimate jeep safari adventure from Manali to Leh Ladakh with our 7 nights 8 days package. Cross high altitude passes, visit Nubra Valley and Pangong Lake. Book now!"
+        customKeywords={["Manali to Leh jeep safari", "Ladakh road trip", "Manali Leh highway", "Sarchu Jispa tour", "Nubra Valley Pangong Lake package"]}
+        customImage={ld10}
+      >
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TouristTrip",
+            "name": "Jeep Safari Tour Package From Manali To Leh Ladakh",
+            "description": "Experience the ultimate jeep safari adventure from Manali to Leh Ladakh with our 7 nights 8 days package. Cross high altitude passes, visit Nubra Valley and Pangong Lake.",
+            "image": ld10,
+            "offers": {
+              "@type": "Offer",
+              "price": "28999",
+              "priceCurrency": "INR",
+              "availability": "https://schema.org/InStock",
+              "validFrom": "2025-01-01",
+              "priceValidUntil": "2025-12-31"
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Travel Wiki",
+              "url": "https://travelwiki.in",
+              "telephone": "+91 8899971960"
+            },
+            "duration": "P7DT8N",
+            "touristType": ["Adventure Seekers", "Road Trip Enthusiasts", "Mountain Lovers", "Photography Enthusiasts"]
+          })}
+        </script>
+      </SEO>
       
       <div className="min-h-screen  pt-24">
         {/* Hero Section */}

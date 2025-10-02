@@ -1,17 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useSEO } from "../../hooks/useSEO";
 import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
 
 
 export default function KashmirHoneymoonTour() {
-  const seoData = useSEO({
-    title: "Kashmir Honeymoon Tour Package | 3 Nights 4 Days Romantic Getaway",
-    description: "Perfect Kashmir honeymoon package for couples with romantic experiences in Srinagar and Gulmarg. Houseboat stay, Shikara rides, and intimate moments in paradise. Starting at ₹13,999.",
-    keywords: "Kashmir honeymoon package, romantic Kashmir tour, Kashmir honeymoon 3 nights, couples tour Kashmir, romantic getaway Kashmir",
-    canonical: "https://www.travelwiki.org.in/packages/kashmir-honeymoon-tour/"
-  });
 
   const packageData = {
     name: "Kashmir Honeymoon Tour Package",
@@ -31,7 +24,39 @@ export default function KashmirHoneymoonTour() {
 
   return (
     <>
-      <SEO {...seoData} />
+      <SEO 
+        pageType="honeymoon"
+        customTitle="Kashmir Honeymoon Tour Package | 3 Nights 4 Days Romantic Getaway"
+        customDescription="Perfect Kashmir honeymoon package for couples with romantic experiences in Srinagar and Gulmarg. Houseboat stay, Shikara rides, and intimate moments in paradise. Starting at ₹13,999."
+        customKeywords={["Kashmir honeymoon package", "romantic Kashmir tour", "Kashmir honeymoon 3 nights", "couples tour Kashmir", "romantic getaway Kashmir"]}
+        customImage="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514592/travelwiki/assets/Bestseller/kashmir-package.jpg"
+      >
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TouristTrip",
+            "name": packageData.name,
+            "description": packageData.description,
+            "image": "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514592/travelwiki/assets/Bestseller/kashmir-package.jpg",
+            "offers": {
+              "@type": "Offer",
+              "price": packageData.price,
+              "priceCurrency": "INR",
+              "availability": "https://schema.org/InStock",
+              "validFrom": "2025-01-01",
+              "priceValidUntil": "2025-12-31"
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Travel Wiki",
+              "url": "https://travelwiki.in",
+              "telephone": "+91 8899971960"
+            },
+            "duration": packageData.duration,
+            "touristType": ["Honeymoon Couples", "Romantic Travelers", "Newlyweds"]
+          })}
+        </script>
+      </SEO>
       <TourPackageSchema data={packageData} />
       
       <div className="min-h-screen  mt-4">

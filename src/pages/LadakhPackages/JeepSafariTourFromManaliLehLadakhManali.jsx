@@ -7,10 +7,38 @@ const JeepSafariTourFromManaliLehLadakhManali = () => {
   return (
     <>
       <SEO 
-        title="Jeep Safari Tour From Manali-Leh Ladakh-Manali - 8N/9D Starting ₹46,999 | Travel Wiki"
-        description="Experience the ultimate adventure with our 8 nights 9 days jeep safari tour from Manali to Leh Ladakh. Covers Khardung La Pass, Nubra Valley, Pangong Lake starting from ₹46,999 per person."
-        keywords="Manali Leh jeep safari, Ladakh adventure tour, Khardung La Pass, Pangong Lake safari, Nubra Valley expedition"
-      />
+        pageType="ladakh"
+        customTitle="Jeep Safari Tour From Manali-Leh Ladakh-Manali - 8N/9D Starting ₹46,999"
+        customDescription="Experience the ultimate adventure with our 8 nights 9 days jeep safari tour from Manali to Leh Ladakh. Covers Khardung La Pass, Nubra Valley, Pangong Lake starting from ₹46,999 per person."
+        customKeywords={["Manali Leh jeep safari", "Ladakh adventure tour", "Khardung La Pass", "Pangong Lake safari", "Nubra Valley expedition"]}
+        customImage={ld5}
+      >
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TouristTrip",
+            "name": "Jeep Safari Tour From Manali-Leh Ladakh-Manali",
+            "description": "Experience the ultimate adventure with our 8 nights 9 days jeep safari tour from Manali to Leh Ladakh. Covers Khardung La Pass, Nubra Valley, Pangong Lake.",
+            "image": ld5,
+            "offers": {
+              "@type": "Offer",
+              "price": "46999",
+              "priceCurrency": "INR",
+              "availability": "https://schema.org/InStock",
+              "validFrom": "2025-01-01",
+              "priceValidUntil": "2025-12-31"
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Travel Wiki",
+              "url": "https://travelwiki.in",
+              "telephone": "+91 8899971960"
+            },
+            "duration": "P8DT9N",
+            "touristType": ["Adventure Seekers", "Road Trip Enthusiasts", "Nature Lovers", "Thrill Seekers"]
+          })}
+        </script>
+      </SEO>
       
       <div className="min-h-screen  pt-24">
         {/* Hero Section */}

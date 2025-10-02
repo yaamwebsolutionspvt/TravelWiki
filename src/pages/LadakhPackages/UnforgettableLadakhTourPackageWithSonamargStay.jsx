@@ -7,10 +7,38 @@ const UnforgettableLadakhTourPackageWithSonamargStay = () => {
   return (
     <>
       <SEO 
-        title="Unforgettable Ladakh Tour Package with Sonamarg Stay - 11N/12D Starting ₹47,999 | Travel Wiki"
-        description="Experience the ultimate Kashmir-Ladakh journey with our comprehensive 11 nights 12 days tour package. Includes Srinagar, Sonamarg, Kargil, Leh, Nubra Valley, Pangong Lake starting from ₹47,999 per person."
-        keywords="Kashmir Ladakh combo tour, Sonamarg Ladakh package, Srinagar to Manali tour, comprehensive Himalayan tour, Kashmir Ladakh holiday"
-      />
+        pageType="ladakh"
+        customTitle="Unforgettable Ladakh Tour Package with Sonamarg Stay - 11N/12D Starting ₹47,999"
+        customDescription="Experience the ultimate Kashmir-Ladakh journey with our comprehensive 11 nights 12 days tour package. Includes Srinagar, Sonamarg, Kargil, Leh, Nubra Valley, Pangong Lake starting from ₹47,999 per person."
+        customKeywords={["Kashmir Ladakh combo tour", "Sonamarg Ladakh package", "Srinagar to Manali tour", "comprehensive Himalayan tour", "Kashmir Ladakh holiday"]}
+        customImage={ld6}
+      >
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TouristTrip",
+            "name": "Unforgettable Ladakh Tour Package with Sonamarg Stay",
+            "description": "Experience the ultimate Kashmir-Ladakh journey with our comprehensive 11 nights 12 days tour package. Includes Srinagar, Sonamarg, Kargil, Leh, Nubra Valley, Pangong Lake.",
+            "image": ld6,
+            "offers": {
+              "@type": "Offer",
+              "price": "47999",
+              "priceCurrency": "INR",
+              "availability": "https://schema.org/InStock",
+              "validFrom": "2025-01-01",
+              "priceValidUntil": "2025-12-31"
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Travel Wiki",
+              "url": "https://travelwiki.in",
+              "telephone": "+91 8899971960"
+            },
+            "duration": "P11DT12N",
+            "touristType": ["Adventure Seekers", "Cultural Explorers", "Nature Lovers", "Photography Enthusiasts"]
+          })}
+        </script>
+      </SEO>
       
       <div className="min-h-screen  pt-24">
         {/* Hero Section */}

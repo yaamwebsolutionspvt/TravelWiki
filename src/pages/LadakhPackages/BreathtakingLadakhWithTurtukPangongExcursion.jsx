@@ -7,10 +7,38 @@ const BreathtakingLadakhWithTurtukPangongExcursion = () => {
   return (
     <>
       <SEO 
-        title="Breathtaking Ladakh with Turtuk & Pangong Excursion - 5N/6D Starting ₹21,999 | Travel Wiki"
-        description="Explore the hidden gem of Turtuk village and pristine Pangong Lake with our 5 nights 6 days Ladakh tour package. Includes Khardung La Pass and cultural experiences starting from ₹21,999 per person."
-        keywords="Turtuk village tour, Pangong Lake excursion, Ladakh cultural tour, Khardung La Pass, Nubra Valley tour"
-      />
+        pageType="ladakh"
+        customTitle="Breathtaking Ladakh with Turtuk & Pangong Excursion - 5N/6D Starting ₹21,999"
+        customDescription="Explore the hidden gem of Turtuk village and pristine Pangong Lake with our 5 nights 6 days Ladakh tour package. Includes Khardung La Pass and cultural experiences starting from ₹21,999 per person."
+        customKeywords={["Turtuk village tour", "Pangong Lake excursion", "Ladakh cultural tour", "Khardung La Pass", "Nubra Valley tour"]}
+        customImage={ld4}
+      >
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TouristTrip",
+            "name": "Breathtaking Ladakh with Turtuk & Pangong Excursion",
+            "description": "Explore the hidden gem of Turtuk village and pristine Pangong Lake with our 5 nights 6 days Ladakh tour package. Includes Khardung La Pass and cultural experiences.",
+            "image": ld4,
+            "offers": {
+              "@type": "Offer",
+              "price": "21999",
+              "priceCurrency": "INR",
+              "availability": "https://schema.org/InStock",
+              "validFrom": "2025-01-01",
+              "priceValidUntil": "2025-12-31"
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Travel Wiki",
+              "url": "https://travelwiki.in",
+              "telephone": "+91 8899971960"
+            },
+            "duration": "P5DT6N",
+            "touristType": ["Cultural Explorers", "Adventure Seekers", "Nature Lovers", "Photography Enthusiasts"]
+          })}
+        </script>
+      </SEO>
       
       <div className="min-h-screen  pt-24">
         {/* Hero Section */}

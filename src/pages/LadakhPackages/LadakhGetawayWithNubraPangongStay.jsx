@@ -7,10 +7,38 @@ const LadakhGetawayWithNubraPangongStay = () => {
   return (
     <>
       <SEO 
-        title="Ladakh Getaway with Nubra & Pangong Stay - 4N/5D Starting ₹18,999 | Travel Wiki"
-        description="Experience the ultimate Ladakh getaway with stays at Nubra Valley and Pangong Lake. Our 4 nights 5 days package covers Khardung La Pass starting from ₹18,999 per person."
-        keywords="Ladakh getaway, Nubra Valley tour, Pangong Lake stay, Khardung La Pass, Ladakh tour package"
-      />
+        pageType="ladakh"
+        customTitle="Ladakh Getaway with Nubra & Pangong Stay - 4N/5D Starting ₹18,999"
+        customDescription="Experience the ultimate Ladakh getaway with stays at Nubra Valley and Pangong Lake. Our 4 nights 5 days package covers Khardung La Pass starting from ₹18,999 per person."
+        customKeywords={["Ladakh getaway", "Nubra Valley tour", "Pangong Lake stay", "Khardung La Pass", "Ladakh tour package"]}
+        customImage={ld3}
+      >
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TouristTrip",
+            "name": "Ladakh Getaway with Nubra & Pangong Stay",
+            "description": "Experience the ultimate Ladakh getaway with stays at Nubra Valley and Pangong Lake. Our 4 nights 5 days package covers Khardung La Pass starting from ₹18,999 per person.",
+            "image": ld3,
+            "offers": {
+              "@type": "Offer",
+              "price": "18999",
+              "priceCurrency": "INR",
+              "availability": "https://schema.org/InStock",
+              "validFrom": "2025-01-01",
+              "priceValidUntil": "2025-12-31"
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Travel Wiki",
+              "url": "https://travelwiki.in",
+              "telephone": "+91 8899971960"
+            },
+            "duration": "P4DT5N",
+            "touristType": ["Adventure Seekers", "Nature Lovers", "Photography Enthusiasts"]
+          })}
+        </script>
+      </SEO>
       
       <div className="min-h-screen  pt-24">
         {/* Hero Section */}

@@ -1,16 +1,9 @@
 import React from "react";
-import { useSEO } from "../../hooks/useSEO";
 import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
 const kashmirPackage = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514592/travelwiki/assets/Bestseller/kashmir-package.jpg";
 
 export default function KashmirValleyTour() {
-  const seoData = useSEO({
-    title: "Kashmir Valley Tour Package | 7 Nights Complete Kashmir Experience",
-    description: "Comprehensive Kashmir Valley tour covering all major destinations. 7 nights package including Srinagar, Gulmarg, Pahalgam, and Sonamarg. Complete paradise experience at ₹16,999.",
-    keywords: "Kashmir valley tour, complete Kashmir package, 7 nights Kashmir tour, Kashmir valley experience, comprehensive Kashmir tour",
-    canonical: "https://www.travelwiki.org.in/packages/kashmir-valley-tour/"
-  });
 
   const packageData = {
     name: "Kashmir Valley Tour Package",
@@ -31,7 +24,39 @@ export default function KashmirValleyTour() {
 
   return (
     <>
-      <SEO {...seoData} />
+      <SEO 
+        pageType="packages"
+        customTitle="Kashmir Valley Tour Package | 7 Nights Complete Kashmir Experience"
+        customDescription="Comprehensive Kashmir Valley tour covering all major destinations. 7 nights package including Srinagar, Gulmarg, Pahalgam, and Sonamarg. Complete paradise experience at ₹16,999."
+        customKeywords={["Kashmir valley tour", "complete Kashmir package", "7 nights Kashmir tour", "Kashmir valley experience", "comprehensive Kashmir tour"]}
+        customImage={kashmirPackage}
+      >
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TouristTrip",
+            "name": packageData.name,
+            "description": packageData.description,
+            "image": kashmirPackage,
+            "offers": {
+              "@type": "Offer",
+              "price": packageData.price,
+              "priceCurrency": "INR",
+              "availability": "https://schema.org/InStock",
+              "validFrom": "2025-01-01",
+              "priceValidUntil": "2025-12-31"
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Travel Wiki",
+              "url": "https://travelwiki.in",
+              "telephone": "+91 8899971960"
+            },
+            "duration": packageData.duration,
+            "touristType": ["Nature Lovers", "Family Travelers", "Honeymoon Couples", "Adventure Seekers"]
+          })}
+        </script>
+      </SEO>
       <TourPackageSchema data={packageData} />
       
       <div className="min-h-screen  mt-4">

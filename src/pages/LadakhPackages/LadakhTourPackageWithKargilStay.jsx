@@ -7,10 +7,38 @@ const LadakhTourPackageWithKargilStay = () => {
   return (
     <>
       <SEO 
-        title="Ladakh Tour Package With Kargil Stay - 6N/7D Starting ₹25,999 | Travel Wiki"
-        description="Experience the best of Ladakh with our 6 nights 7 days tour package including Kargil stay. Visit Leh, Nubra Valley, Pangong Lake starting from ₹25,999 per person."
-        keywords="Ladakh tour with Kargil, Leh Ladakh package, Nubra Valley tour, Pangong Lake tour, Kargil stay package"
-      />
+        pageType="ladakh"
+        customTitle="Ladakh Tour Package With Kargil Stay - 6N/7D Starting ₹25,999"
+        customDescription="Experience the best of Ladakh with our 6 nights 7 days tour package including Kargil stay. Visit Leh, Nubra Valley, Pangong Lake starting from ₹25,999 per person."
+        customKeywords={["Ladakh tour with Kargil", "Leh Ladakh package", "Nubra Valley tour", "Pangong Lake tour", "Kargil stay package"]}
+        customImage={ld2}
+      >
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TouristTrip",
+            "name": "Ladakh Tour Package With Kargil Stay",
+            "description": "Experience the best of Ladakh with our 6 nights 7 days tour package including Kargil stay. Visit Leh, Nubra Valley, Pangong Lake starting from ₹25,999 per person.",
+            "image": ld2,
+            "offers": {
+              "@type": "Offer",
+              "price": "25999",
+              "priceCurrency": "INR",
+              "availability": "https://schema.org/InStock",
+              "validFrom": "2025-01-01",
+              "priceValidUntil": "2025-12-31"
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Travel Wiki",
+              "url": "https://travelwiki.in",
+              "telephone": "+91 8899971960"
+            },
+            "duration": "P6DT7N",
+            "touristType": ["Adventure Seekers", "Cultural Explorers", "Nature Lovers"]
+          })}
+        </script>
+      </SEO>
       
       <div className="min-h-screen  pt-24">
         {/* Hero Section */}

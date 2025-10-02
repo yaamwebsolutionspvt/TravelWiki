@@ -6,24 +6,14 @@ import ItineraryAccordion from "./ItineraryAccordion";
 import FaqSection from "./FaqSection";
 import WhyLadakhTourism from "./WhyLadakhTourism";
 import { ladakhPackages, ladakhContent } from "../../data/packages/ladakh";
-const bannerimage = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514644/travelwiki/assets/Ladakh/bannerimage.webp";
 
-// Package data is now imported from data files
+const bannerimage =
+  "https://res.cloudinary.com/dw1sh368y/image/upload/v1759314589/Kashmir_With_Gurez_Valley_Cultural_Tour_wlx64s.png";
 
-// Filter component
-const FilterSection = ({
-  filters,
-  setFilters,
-  isFilterOpen,
-  setIsFilterOpen,
-}) => {
+// ------------------- Filter Component -------------------
+const FilterSection = ({ filters, setFilters, isFilterOpen, setIsFilterOpen }) => {
   const packageCategories = ["Best Seller", "Family/Leisure", "Jeep Safari"];
-  const inclusionCategories = [
-    "Cab Transfer",
-    "Hotel Stay",
-    "Meals",
-    "Sightseeing",
-  ];
+  const inclusionCategories = ["Cab Transfer", "Hotel Stay", "Meals", "Sightseeing"];
   const destinations = [
     "Gulmarg",
     "Hanle",
@@ -83,9 +73,7 @@ const FilterSection = ({
                     <input
                       type="checkbox"
                       checked={filters.categories.includes(category)}
-                      onChange={() =>
-                        handleFilterChange("categories", category)
-                      }
+                      onChange={() => handleFilterChange("categories", category)}
                       className="mr-2"
                     />
                     {category}
@@ -103,9 +91,7 @@ const FilterSection = ({
                     <input
                       type="checkbox"
                       checked={filters.inclusions.includes(inclusion)}
-                      onChange={() =>
-                        handleFilterChange("inclusions", inclusion)
-                      }
+                      onChange={() => handleFilterChange("inclusions", inclusion)}
                       className="mr-2"
                     />
                     {inclusion}
@@ -123,9 +109,7 @@ const FilterSection = ({
                     <input
                       type="checkbox"
                       checked={filters.destinations.includes(destination)}
-                      onChange={() =>
-                        handleFilterChange("destinations", destination)
-                      }
+                      onChange={() => handleFilterChange("destinations", destination)}
                       className="mr-2"
                     />
                     {destination}
@@ -135,6 +119,7 @@ const FilterSection = ({
             </div>
           </div>
 
+          {/* Action Buttons */}
           <div className="flex gap-4 mt-6">
             <button
               onClick={() => setIsFilterOpen(false)}
@@ -144,7 +129,7 @@ const FilterSection = ({
             </button>
             <button
               onClick={clearFilters}
-              className="0 text-white px-6 py-2 rounded hover:bg-gray-600"
+              className="bg-gray-500 text-white px-6 py-2 rounded hover:bg-gray-600"
             >
               Clear Filter
             </button>
@@ -155,7 +140,7 @@ const FilterSection = ({
   );
 };
 
-// Package Card Component
+// ------------------- Package Card -------------------
 const PackageCard = ({ package: pkg }) => (
   <div className="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-lg transition-shadow">
     <div className="relative">
@@ -168,7 +153,10 @@ const PackageCard = ({ package: pkg }) => (
         sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
         loading="lazy"
         decoding="async"
-        onError={(e) => { e.target.src = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"; }}
+        onError={(e) => {
+          e.target.src =
+            "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png";
+        }}
       />
     </div>
 
@@ -222,6 +210,7 @@ const PackageCard = ({ package: pkg }) => (
   </div>
 );
 
+// ------------------- Main Component -------------------
 const LehLadakhPackages = () => {
   const [filters, setFilters] = useState({
     categories: [],
@@ -231,7 +220,13 @@ const LehLadakhPackages = () => {
   const [isFilterOpen, setIsFilterOpen] = useState(false);
   const [sortBy, setSortBy] = useState("");
 
-  // Filter packages based on selected filters
+  // helper: extract duration number
+  const getDuration = (str) => {
+    const match = str.match(/\d+/);
+    return match ? parseInt(match[0]) : 0;
+  };
+
+  // Filter packages
   const filteredPackages = ladakhPackages.filter((pkg) => {
     if (
       filters.categories.length > 0 &&
@@ -262,9 +257,9 @@ const LehLadakhPackages = () => {
       case "price-high":
         return parseInt(b.price) - parseInt(a.price);
       case "duration-short":
-        return parseInt(a.duration) - parseInt(b.duration);
+        return getDuration(a.duration) - getDuration(b.duration);
       case "duration-long":
-        return parseInt(b.duration) - parseInt(a.duration);
+        return getDuration(b.duration) - getDuration(a.duration);
       default:
         return 0;
     }
@@ -273,11 +268,47 @@ const LehLadakhPackages = () => {
   return (
     <>
       <SEO
-        title="Book Leh Ladakh Tour Packages Online Starting 9999/-PP | Travel Wiki"
-        description="Explore the hand-picked selection of Leh Ladakh tour packages on Travel Wiki. Book thrilling and unforgettable Leh Ladakh holidays to the Land of High Passes in just a few clicks."
-        keywords="Leh Ladakh packages, Ladakh tour packages, Leh tour, Nubra Valley, Pangong Lake, Tso Moriri, Ladakh holiday packages"
-      />
+        pageType="ladakh"
+        customTitle="Book Leh Ladakh Tour Packages Online Starting ₹9,999"
+        customDescription="Explore the hand-picked selection of Leh Ladakh tour packages on Travel Wiki. Book thrilling and unforgettable Leh Ladakh holidays to the Land of High Passes in just a few clicks."
+        customKeywords={["Leh Ladakh packages", "Ladakh tour packages", "Leh tour", "Nubra Valley", "Pangong Lake", "Tso Moriri", "Ladakh holiday packages"]}
+        customImage={bannerimage}
+      >
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": "Leh Ladakh Tour Packages",
+            "description": "Explore the hand-picked selection of Leh Ladakh tour packages on Travel Wiki. Book thrilling and unforgettable Leh Ladakh holidays to the Land of High Passes.",
+            "image": bannerimage,
+            "url": "https://travelwiki.in/ladakh-packages",
+            "mainEntity": {
+              "@type": "ItemList",
+              "name": "Ladakh Tour Packages Collection",
+              "numberOfItems": ladakhPackages.length,
+              "itemListElement": ladakhPackages.slice(0, 5).map((pkg, index) => ({
+                "@type": "TouristTrip",
+                "position": index + 1,
+                "name": pkg.title,
+                "description": pkg.description,
+                "offers": {
+                  "@type": "Offer",
+                  "price": pkg.price.toString(),
+                  "priceCurrency": "INR"
+                }
+              }))
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Travel Wiki",
+              "url": "https://travelwiki.in",
+              "telephone": "+91 8899971960"
+            }
+          })}
+        </script>
+      </SEO>
 
+      {/* Banner */}
       <div className="relative">
         <OptimizedImage
           src={bannerimage}
@@ -290,7 +321,7 @@ const LehLadakhPackages = () => {
           decoding="async"
           fetchpriority="high"
         />
-        <div className="absolute inset-0 bg-black/40"></div> {/* overlay */}
+        <div className="absolute inset-0 bg-black/40"></div>
         <div className="absolute inset-0 flex items-center justify-center">
           <div className="text-center text-white">
             <h1 className="text-4xl md:text-6xl font-bold mb-4">
@@ -301,28 +332,27 @@ const LehLadakhPackages = () => {
         </div>
       </div>
 
-
       {/* Main Content */}
       <div className="max-w-7xl mx-auto px-4 py-8">
-        {/* Description Section */}
+        {/* Description */}
         <div className="mb-8">
           <h2 className="text-2xl font-bold text-gray-800 mb-4">
             Leh Ladakh Tour Packages
           </h2>
           <p className="text-gray-700 leading-relaxed">
             Explore the hand-picked selection of{" "}
-            <strong>Leh Ladakh tour packages</strong> on Travel Wiki below,
-            and book thrilling and unforgettable Leh Ladakh holidays to the
-            Land of High Passes in just a few clicks. At Travel Wiki, we
-            provide a diverse range of tour packages to Leh Ladakh for an
-            ultimate Himalayan getaway. Our travel experts have curated Ladakh
-            Leh holiday packages with suitable activities and attractions,
-            promising a delightful Ladakh tour.
+            <strong>Leh Ladakh tour packages</strong> on Travel Wiki below, and
+            book thrilling and unforgettable Leh Ladakh holidays to the Land of
+            High Passes in just a few clicks. At Travel Wiki, we provide a
+            diverse range of tour packages to Leh Ladakh for an ultimate
+            Himalayan getaway. Our travel experts have curated Ladakh Leh
+            holiday packages with suitable activities and attractions, promising
+            a delightful Ladakh tour.
           </p>
           <p className="text-gray-700 leading-relaxed mt-4">
             Whether you want to go on a Leh Ladakh honeymoon, a family holiday
-            or adventure trip with friends, our Leh Ladakh holiday packages
-            have you covered. Experience the natural splendour of snow-clad
+            or adventure trip with friends, our Leh Ladakh holiday packages have
+            you covered. Experience the natural splendour of snow-clad
             mountains, serene valleys and tranquillity of Pangong lake on your
             Ladakh holiday package. Visit the popular tourist places with Leh
             Ladakh tour package holidays. The top Ladakh places for tourists
@@ -335,7 +365,7 @@ const LehLadakhPackages = () => {
           </p>
         </div>
 
-        {/* Filter and Sort Controls */}
+        {/* Filter and Sort */}
         <div className="flex flex-wrap gap-4 mb-6">
           <button
             onClick={() => setIsFilterOpen(true)}
@@ -357,7 +387,7 @@ const LehLadakhPackages = () => {
           </select>
         </div>
 
-        {/* Package Grid */}
+        {/* Packages Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {sortedPackages.map((pkg) => (
             <PackageCard key={pkg.id} package={pkg} />
@@ -393,7 +423,8 @@ const LehLadakhPackages = () => {
         isFilterOpen={isFilterOpen}
         setIsFilterOpen={setIsFilterOpen}
       />
-    </div >
+
+      {/* Bottom Sections */}
       <ItineraryAccordion />
       <FaqSection />
       <WhyLadakhTourism />

@@ -1,17 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { useSEO } from "../../hooks/useSEO";
 import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
 const kashmirTourism = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514594/travelwiki/assets/Bestseller/kashmir-tourism.jpg";
 
 export default function MagicalKashmirTour() {
-  const seoData = useSEO({
-    title: "Magical Kashmir Tour Package 2025 | 4 Nights 5 Days Srinagar Pahalgam Gulmarg Tour ₹14,999",
-    description: "Experience magical Kashmir with our 4N5D tour package covering Srinagar Dal Lake, Pahalgam valleys, Gulmarg skiing. Includes houseboat stay, shikara rides, Gondola ride. Best Kashmir tourism package at ₹14,999 with 17% discount.",
-    keywords: "magical Kashmir tour, 4 nights Kashmir package, Kashmir tour 4N5D, Srinagar Pahalgam Gulmarg tour, Kashmir vacation package, Kashmir tourism, Kashmir holiday package, Dal Lake tour, Kashmir houseboat stay, Gulmarg Gondola, Pahalgam Betaab Valley, Kashmir shikara ride, Kashmir tour package 2025, best Kashmir tour, Kashmir travel package, Kashmir honeymoon package, Kashmir family tour, Kashmir adventure tour, Kashmir sightseeing tour, Kashmir cultural tour",
-    canonical: "/packages/magical-kashmir-tour"
-  });
 
   const packageData = {
     name: "Magical Kashmir Tour Package",
@@ -32,7 +25,39 @@ export default function MagicalKashmirTour() {
 
   return (
     <>
-      <SEO {...seoData} />
+      <SEO 
+        pageType="packages"
+        customTitle="Magical Kashmir Tour Package 2025 | 4 Nights 5 Days Srinagar Pahalgam Gulmarg Tour ₹14,999"
+        customDescription="Experience magical Kashmir with our 4N5D tour package covering Srinagar Dal Lake, Pahalgam valleys, Gulmarg skiing. Includes houseboat stay, shikara rides, Gondola ride. Best Kashmir tourism package at ₹14,999 with 17% discount."
+        customKeywords={["magical Kashmir tour", "4 nights Kashmir package", "Kashmir tour 4N5D", "Srinagar Pahalgam Gulmarg tour", "Kashmir vacation package", "Kashmir tourism", "Kashmir holiday package", "Dal Lake tour", "Kashmir houseboat stay", "Gulmarg Gondola", "Pahalgam Betaab Valley", "Kashmir shikara ride"]}
+        customImage={kashmirTourism}
+      >
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TouristTrip",
+            "name": packageData.name,
+            "description": packageData.description,
+            "image": kashmirTourism,
+            "offers": {
+              "@type": "Offer",
+              "price": packageData.price,
+              "priceCurrency": "INR",
+              "availability": "https://schema.org/InStock",
+              "validFrom": "2025-01-01",
+              "priceValidUntil": "2025-12-31"
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Travel Wiki",
+              "url": "https://travelwiki.in",
+              "telephone": "+91 8899971960"
+            },
+            "duration": packageData.duration,
+            "touristType": ["Nature Lovers", "Family Travelers", "Honeymoon Couples", "Cultural Explorers"]
+          })}
+        </script>
+      </SEO>
       <TourPackageSchema data={packageData} />
       
       <div className="min-h-screen mt-4">

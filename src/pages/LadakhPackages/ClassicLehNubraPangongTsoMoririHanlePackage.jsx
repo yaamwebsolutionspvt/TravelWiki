@@ -7,10 +7,38 @@ const ClassicLehNubraPangongTsoMoririHanlePackage = () => {
   return (
     <>
       <SEO 
-        title="Classic Leh, Nubra Valley, Pangong, Tso Moriri & Hanle Holiday Package - 9N/10D | Travel Wiki"
-        description="Experience the ultimate Ladakh adventure with our 9 nights 10 days package covering Leh, Nubra Valley, Pangong Lake, Tso Moriri, and Hanle. Book now starting from ₹42,999."
-        keywords="Leh Ladakh package, Nubra Valley tour, Pangong Lake, Tso Moriri, Hanle, 9 days Ladakh tour"
-      />
+        pageType="ladakh"
+        customTitle="Classic Leh, Nubra Valley, Pangong, Tso Moriri & Hanle Holiday Package - 9N/10D"
+        customDescription="Experience the ultimate Ladakh adventure with our 9 nights 10 days package covering Leh, Nubra Valley, Pangong Lake, Tso Moriri, and Hanle. Book now starting from ₹42,999."
+        customKeywords={["Leh Ladakh package", "Nubra Valley tour", "Pangong Lake", "Tso Moriri", "Hanle", "9 days Ladakh tour"]}
+        customImage={ladakhBg}
+      >
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TouristTrip",
+            "name": "Classic Leh, Nubra Valley, Pangong, Tso Moriri & Hanle Holiday Package",
+            "description": "Experience the ultimate Ladakh adventure with our 9 nights 10 days package covering Leh, Nubra Valley, Pangong Lake, Tso Moriri, and Hanle.",
+            "image": ladakhBg,
+            "offers": {
+              "@type": "Offer",
+              "price": "42999",
+              "priceCurrency": "INR",
+              "availability": "https://schema.org/InStock",
+              "validFrom": "2025-01-01",
+              "priceValidUntil": "2025-12-31"
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Travel Wiki",
+              "url": "https://travelwiki.in",
+              "telephone": "+91 8899971960"
+            },
+            "duration": "P9DT10N",
+            "touristType": ["Adventure Seekers", "Nature Lovers", "Photography Enthusiasts", "Cultural Explorers"]
+          })}
+        </script>
+      </SEO>
       
       <div className="min-h-screen  pt-24">
         {/* Hero Section */}

@@ -7,10 +7,38 @@ const BudgetLadakhTourPackage = () => {
   return (
     <>
       <SEO 
-        title="Budget Ladakh Tour Package - 3N/4D Starting ₹11,999 | Travel Wiki"
-        description="Explore Ladakh on a budget with our affordable 3 nights 4 days tour package. Visit Khardung La Pass and Pangong Lake starting from ₹11,999 per person. Perfect for short trips."
-        keywords="budget Ladakh tour, cheap Ladakh package, 3 days Ladakh tour, Khardung La budget tour, Pangong Lake budget package"
-      />
+        pageType="ladakh"
+        customTitle="Budget Ladakh Tour Package - 3N/4D Starting ₹11,999"
+        customDescription="Explore Ladakh on a budget with our affordable 3 nights 4 days tour package. Visit Khardung La Pass and Pangong Lake starting from ₹11,999 per person. Perfect for short trips."
+        customKeywords={["budget Ladakh tour", "cheap Ladakh package", "3 days Ladakh tour", "Khardung La budget tour", "Pangong Lake budget package"]}
+        customImage={ld7}
+      >
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TouristTrip",
+            "name": "Budget Ladakh Tour Package",
+            "description": "Explore Ladakh on a budget with our affordable 3 nights 4 days tour package. Visit Khardung La Pass and Pangong Lake starting from ₹11,999 per person.",
+            "image": ld7,
+            "offers": {
+              "@type": "Offer",
+              "price": "11999",
+              "priceCurrency": "INR",
+              "availability": "https://schema.org/InStock",
+              "validFrom": "2025-01-01",
+              "priceValidUntil": "2025-12-31"
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Travel Wiki",
+              "url": "https://travelwiki.in",
+              "telephone": "+91 8899971960"
+            },
+            "duration": "P3DT4N",
+            "touristType": ["Budget Travelers", "Adventure Seekers", "First-time Visitors"]
+          })}
+        </script>
+      </SEO>
       
       <div className="min-h-screen  pt-24">
         {/* Hero Section */}

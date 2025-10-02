@@ -7,10 +7,38 @@ const EnthrallingLadakhTourFromSrinagar = () => {
   return (
     <>
       <SEO 
-        title="Enthralling Ladakh Tour from Srinagar - 7N/8D Starting ₹28,999 | Travel Wiki"
-        description="Experience the ultimate Ladakh adventure starting from Srinagar. Visit Kargil, Leh, Nubra Valley, and Pangong Lake in this comprehensive 7 nights 8 days tour package."
-        keywords="Srinagar to Leh tour, Ladakh tour from Srinagar, Kargil Leh Nubra Pangong tour, Kashmir Ladakh combo package"
-      />
+        pageType="ladakh"
+        customTitle="Enthralling Ladakh Tour from Srinagar - 7N/8D Starting ₹28,999"
+        customDescription="Experience the ultimate Ladakh adventure starting from Srinagar. Visit Kargil, Leh, Nubra Valley, and Pangong Lake in this comprehensive 7 nights 8 days tour package."
+        customKeywords={["Srinagar to Leh tour", "Ladakh tour from Srinagar", "Kargil Leh Nubra Pangong tour", "Kashmir Ladakh combo package"]}
+        customImage={ld9}
+      >
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TouristTrip",
+            "name": "Enthralling Ladakh Tour from Srinagar",
+            "description": "Experience the ultimate Ladakh adventure starting from Srinagar. Visit Kargil, Leh, Nubra Valley, and Pangong Lake in this comprehensive 7 nights 8 days tour package.",
+            "image": ld9,
+            "offers": {
+              "@type": "Offer",
+              "price": "28999",
+              "priceCurrency": "INR",
+              "availability": "https://schema.org/InStock",
+              "validFrom": "2025-01-01",
+              "priceValidUntil": "2025-12-31"
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Travel Wiki",
+              "url": "https://travelwiki.in",
+              "telephone": "+91 8899971960"
+            },
+            "duration": "P7DT8N",
+            "touristType": ["Adventure Seekers", "Cultural Explorers", "Nature Lovers", "Road Trip Enthusiasts"]
+          })}
+        </script>
+      </SEO>
       
       <div className="min-h-screen  pt-24">
         {/* Hero Section */}

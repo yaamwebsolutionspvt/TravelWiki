@@ -1,15 +1,8 @@
 import React from "react";
-import { useSEO } from "../../hooks/useSEO";
 import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
 
 export default function KashmirFamilyTour() {
-  const seoData = useSEO({
-    title: "Kashmir Family Tour Package | 5 Nights 6 Days Family Holiday",
-    description: "Perfect Kashmir family tour package for 5 nights covering Srinagar, Gulmarg, and Pahalgam. Family-friendly activities, comfortable accommodations, and memorable experiences. Starting at ₹11,999.",
-    keywords: "Kashmir family tour, Kashmir family package, 5 nights Kashmir tour, family holiday Kashmir, Srinagar Gulmarg Pahalgam family tour",
-    canonical: "https://www.travelwiki.org.in/packages/kashmir-family-tour/"
-  });
 
   const packageData = {
     name: "Kashmir Family Tour Package",
@@ -29,7 +22,39 @@ export default function KashmirFamilyTour() {
 
   return (
     <>
-      <SEO {...seoData} />
+      <SEO 
+        pageType="family"
+        customTitle="Kashmir Family Tour Package | 5 Nights 6 Days Family Holiday"
+        customDescription="Perfect Kashmir family tour package for 5 nights covering Srinagar, Gulmarg, and Pahalgam. Family-friendly activities, comfortable accommodations, and memorable experiences. Starting at ₹11,999."
+        customKeywords={["Kashmir family tour", "Kashmir family package", "5 nights Kashmir tour", "family holiday Kashmir", "Srinagar Gulmarg Pahalgam family tour"]}
+        customImage="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514592/travelwiki/assets/Bestseller/kashmir-package.jpg"
+      >
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "TouristTrip",
+            "name": packageData.name,
+            "description": packageData.description,
+            "image": "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514592/travelwiki/assets/Bestseller/kashmir-package.jpg",
+            "offers": {
+              "@type": "Offer",
+              "price": packageData.price,
+              "priceCurrency": "INR",
+              "availability": "https://schema.org/InStock",
+              "validFrom": "2025-01-01",
+              "priceValidUntil": "2025-12-31"
+            },
+            "provider": {
+              "@type": "TravelAgency",
+              "name": "Travel Wiki",
+              "url": "https://travelwiki.in",
+              "telephone": "+91 8899971960"
+            },
+            "duration": packageData.duration,
+            "touristType": ["Family Travelers", "Multi-generational Groups", "Children and Parents"]
+          })}
+        </script>
+      </SEO>
       <TourPackageSchema data={packageData} />
       
       <div className="min-h-screen  mt-4">
