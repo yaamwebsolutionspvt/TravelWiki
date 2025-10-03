@@ -101,7 +101,7 @@ const SEO = ({
 
       {/* Business Schema Meta Tags */}
       <meta name="business:contact:phone" content="+91 8899971960" />
-      <meta name="business:contact:email" content="info@travelwiki.in" />
+      <meta name="business:contact:email" content="info@travelwiki.org.in" />
       <meta name="business:contact:address" content="Srinagar, Kashmir, India" />
       
       {/* Page-specific meta tags based on page type */}
@@ -189,11 +189,11 @@ const SEO = ({
           "@type": "TravelAgency",
           "name": "Travel Wiki",
           "description": "Best Kashmir Tourism Company offering exclusive tour packages",
-          "url": "https://travelwiki.in",
+          "url": "https://travelwiki.org.in",
           "logo": "https://res.cloudinary.com/dw1sh368y/travelwiki/public/logo.png",
           "image": image,
           "telephone": "+91 8899971960",
-          "email": "info@travelwiki.in",
+          "email": "info@travelwiki.org.in",
           "address": {
             "@type": "PostalAddress",
             "addressLocality": "Srinagar",

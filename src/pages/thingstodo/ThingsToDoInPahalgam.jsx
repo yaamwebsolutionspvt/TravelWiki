@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import heroBg from '../../assets/dal_lake.webp';
 import { FaBinoculars, FaCampground, FaWater, FaSkiing, FaHiking, FaGolfBall, FaLandmark, FaCircle, FaMountain, FaSnowflake } from 'react-icons/fa';
 
 const ThingsToDoInPahalgam = () => {
@@ -12,12 +13,15 @@ const ThingsToDoInPahalgam = () => {
           content="Discover the top 10 exciting things to do in Pahalgam including river rafting, skiing, trekking to Kolahoi Glacier, camping in Aru Valley, and more adventures." 
         />
         <meta name="keywords" content="things to do in Pahalgam, Pahalgam activities, Aru Valley camping, Kolahoi Glacier trek, river rafting, Betaab Valley, Pahalgam tourism" />
-        <link rel="canonical" href="/things-to-do-in-pahalgam" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
-        <div className="relative bg-gradient-to-r from-forest-900 to-green-900 text-white py-25">
+        <div
+          className="relative text-white py-25 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url(${heroBg})` }}
+        >
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">

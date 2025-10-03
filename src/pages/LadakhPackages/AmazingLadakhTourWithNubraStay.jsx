@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SEO from "../../components/SEO";
-import OptimizedImage from "../../components/OptimizedImage";
+import OptimizedImage from "../../j/OptimizedImage";
 const ld11 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1758523704/Desert_Mirage_Nubra_Valley_w5msem.png";
 
 const AmazingLadakhTourWithNubraStay = () => {
@@ -21,7 +21,7 @@ const AmazingLadakhTourWithNubraStay = () => {
             "name": "Amazing Ladakh Tour with Nubra Stay",
             "description": "Experience the perfect blend of thrill and natural beauty with our 4 nights 5 days Ladakh tour including Leh city tour, Sham Valley, Nubra Valley and Pangong Lake.",
             "image": "https://res.cloudinary.com/dw1sh368y/image/upload/v1758523704/Desert_Mirage_Nubra_Valley_w5msem.png",
-            "url": "https://travelwiki.in/ladakh-packages/amazing-ladakh-tour-with-nubra-stay",
+            "url": "https://travelwiki.org.in/ladakh-packages/amazing-ladakh-tour-with-nubra-stay",
             "offers": {
               "@type": "Offer",
               "price": "16999",
@@ -33,7 +33,7 @@ const AmazingLadakhTourWithNubraStay = () => {
             "provider": {
               "@type": "TravelAgency",
               "name": "Travel Wiki",
-              "url": "https://travelwiki.in",
+              "url": "https://travelwiki.org.in",
               "telephone": "+91 8899971960"
             },
             "duration": "P4DT5N",

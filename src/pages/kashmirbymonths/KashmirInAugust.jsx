@@ -11,7 +11,7 @@ const KashmirInAugust = () => {
           content="Visit Kashmir in August for post-monsoon clarity, lush landscapes, and perfect weather. Complete guide to attractions and activities in late summer Kashmir." 
         />
         <meta name="keywords" content="Kashmir in August, August Kashmir weather, post monsoon Kashmir, late summer Kashmir, August Kashmir travel" />
-        <link rel="canonical" href="/kashmir-in-august" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

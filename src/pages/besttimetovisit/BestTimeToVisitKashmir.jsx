@@ -11,7 +11,7 @@ const BestTimeToVisitKashmir = () => {
           content="Discover the best time to visit Kashmir with our comprehensive seasonal guide. Find ideal weather, activities, and travel tips for each season in paradise on earth." 
         />
         <meta name="keywords" content="best time to visit Kashmir, Kashmir weather, Kashmir seasons, Kashmir travel guide, when to visit Kashmir" />
-        <link rel="canonical" href="/best-time-to-visit-kashmir" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

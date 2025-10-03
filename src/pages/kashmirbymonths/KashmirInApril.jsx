@@ -11,7 +11,7 @@ const KashmirInApril = () => {
           content="Experience Kashmir in April during tulip festival season. Perfect spring weather, blooming gardens, and ideal trekking conditions. Complete guide to attractions and activities." 
         />
         <meta name="keywords" content="Kashmir in April, tulip festival Kashmir, April Kashmir weather, spring in Kashmir, Kashmir tulip garden, April Kashmir travel" />
-        <link rel="canonical" href="/kashmir-in-april" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

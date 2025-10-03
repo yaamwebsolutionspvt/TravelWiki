@@ -8,7 +8,7 @@ export default function TermsAndCondition() {
         <title>Terms and Conditions - Travel Wiki</title>
         <meta name="description" content="Read the terms and conditions for using Travel Wiki. Learn about booking policies, user responsibilities, and our commitment to your travel experience." />
         
-        <link rel="canonical" href="/terms-and-conditions" />
+        
       </Helmet>
       <div className="max-w-4xl mx-auto px-4 py-25">
         <h1 className="text-4xl font-bold text-green-700 mb-6">Terms and Conditions</h1>

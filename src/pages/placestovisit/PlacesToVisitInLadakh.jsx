@@ -11,7 +11,7 @@ const PlacesToVisitInLadakh = () => {
           content="Discover the top 10 must-visit destinations in Ladakh including Pangong Tso, Nubra Valley, Leh Palace, Hemis Monastery, and more. Complete travel guide to the Land of High Passes." 
         />
         <meta name="keywords" content="Ladakh places to visit, Pangong Tso, Nubra Valley, Leh Palace, Hemis Monastery, Khardung La Pass, Zanskar Valley, Tso Moriri, Shanti Stupa, Magnetic Hill" />
-        <link rel="canonical" href="/places-to-visit-in-ladakh" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

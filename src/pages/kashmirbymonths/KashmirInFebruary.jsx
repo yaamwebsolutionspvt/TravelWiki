@@ -11,7 +11,7 @@ const KashmirInFebruary = () => {
           content="Discover Kashmir in February with perfect winter weather, snow activities, and romantic settings. Complete guide to attractions, weather conditions, and travel tips." 
         />
         <meta name="keywords" content="Kashmir in February, Kashmir February weather, winter sports Kashmir, February Kashmir travel, snow activities February, Kashmir winter romance" />
-        <link rel="canonical" href="/kashmir-in-february" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

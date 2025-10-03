@@ -49,7 +49,7 @@ export default function KashmirValleyTour() {
             "provider": {
               "@type": "TravelAgency",
               "name": "Travel Wiki",
-              "url": "https://travelwiki.in",
+              "url": "https://travelwiki.org.in",
               "telephone": "+91 8899971960"
             },
             "duration": packageData.duration,
@@ -61,7 +61,14 @@ export default function KashmirValleyTour() {
       
       <div className="min-h-screen  mt-4">
         {/* Hero Section */}
-        <div className="relative text-white h-[75vh] overflow-hidden bg-gradient-to-br from-indigo-600 via-purple-600 to-pink-600">
+        <div
+          className="relative text-white h-[75vh] overflow-hidden"
+          style={{
+            backgroundImage: `url(${kashmirPackage})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        >
           <div className="relative container mx-auto px-4 py-8 sm:py-12 md:py-16 h-full flex items-center justify-center">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6 mt-16 sm:mt-20 md:mt-8" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.7)'}}>

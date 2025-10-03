@@ -11,7 +11,7 @@ const KashmirWeatherInAugust = () => {
           content="Kashmir weather in August 2025 - late monsoon season, clearer skies, stable weather patterns, and excellent conditions for tourism." 
         />
         <meta name="keywords" content="Kashmir weather August, August Kashmir temperature, late monsoon Kashmir, August weather conditions" />
-        <link rel="canonical" href="/kashmir-weather-in-august" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

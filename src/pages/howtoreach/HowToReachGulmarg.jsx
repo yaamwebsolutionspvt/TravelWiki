@@ -11,7 +11,7 @@ const HowToReachGulmarg = () => {
           content="Complete guide on how to reach Gulmarg, the Heart of Kashmir, by air, rail and road. Find the best transportation options to reach this skiing paradise and gondola destination." 
         />
         <meta name="keywords" content="how to reach Gulmarg, Gulmarg travel guide, travel to Gulmarg, Gondola ride, skiing in Kashmir, Gulmarg winter sports" />
-        <link rel="canonical" href="/how-to-reach-gulmarg" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

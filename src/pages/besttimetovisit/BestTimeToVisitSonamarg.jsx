@@ -11,7 +11,7 @@ const BestTimeToVisitSonamarg = () => {
           content="Discover the best time to visit Sonamarg, the Meadow of Gold. Complete guide to seasons, weather, glaciers, and trekking in this pristine Kashmir destination." 
         />
         <meta name="keywords" content="best time to visit Sonamarg, Sonamarg weather, Thajiwas Glacier, Kashmir trekking, Meadow of Gold" />
-        <link rel="canonical" href="/best-time-to-visit-sonamarg" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

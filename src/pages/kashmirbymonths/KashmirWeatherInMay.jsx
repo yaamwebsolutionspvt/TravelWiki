@@ -11,7 +11,7 @@ const KashmirWeatherInMay = () => {
           content="Kashmir weather in May 2025 - perfect temperatures, peak tourist season, clear skies, and ideal conditions for all outdoor activities." 
         />
         <meta name="keywords" content="Kashmir weather May, May Kashmir temperature, Kashmir summer weather, peak season Kashmir May" />
-        <link rel="canonical" href="/kashmir-weather-in-may" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

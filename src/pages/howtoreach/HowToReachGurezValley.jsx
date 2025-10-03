@@ -11,7 +11,7 @@ const HowToReachGurezValley = () => {
           content="Complete guide on how to reach Gurez Valley, the Hidden Gem of Kashmir, by air, rail and road. Find the best transportation options to reach this pristine valley." 
         />
         <meta name="keywords" content="how to reach Gurez Valley, Gurez Valley travel guide, travel to Gurez Valley, Kishanganga River, Habba Khatoon peak, Kashmir offbeat" />
-        <link rel="canonical" href="/how-to-reach-gurez-valley" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

@@ -11,7 +11,7 @@ const ThingsToDoInGulmarg = () => {
           content="Discover the top 8 exciting things to do in Gulmarg including skiing, Gondola rides, golf, trekking, and exploring the biosphere reserve. Complete adventure guide." 
         />
         <meta name="keywords" content="things to do in Gulmarg, Gulmarg activities, skiing Gulmarg, Gondola ride, Apharwat Peak, Gulmarg golf, Alpather Lake trek, Gulmarg tourism" />
-        <link rel="canonical" href="/things-to-do-in-gulmarg" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

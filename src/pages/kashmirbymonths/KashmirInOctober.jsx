@@ -11,7 +11,7 @@ const KashmirInOctober = () => {
           content="Experience Kashmir in October with peak autumn colors, golden chinar trees, and perfect weather. Complete guide to autumn attractions and activities." 
         />
         <meta name="keywords" content="Kashmir in October, October Kashmir weather, autumn Kashmir, golden chinars Kashmir, October Kashmir travel, autumn colors Kashmir" />
-        <link rel="canonical" href="/kashmir-in-october" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

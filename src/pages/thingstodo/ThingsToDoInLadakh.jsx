@@ -11,7 +11,7 @@ const ThingsToDoInLadakh = () => {
           content="Discover the top 35 unforgettable things to do in Ladakh including Pangong Lake, Khardung La, monasteries, trekking, river rafting, and unique high-altitude experiences." 
         />
         <meta name="keywords" content="things to do in Ladakh, Leh Ladakh activities, Pangong Lake, Khardung La, monasteries, trekking Ladakh, river rafting, Nubra Valley, Ladakh tourism" />
-        <link rel="canonical" href="/things-to-do-in-ladakh" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

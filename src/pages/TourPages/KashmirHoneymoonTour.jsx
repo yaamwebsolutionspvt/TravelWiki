@@ -49,7 +49,7 @@ export default function KashmirHoneymoonTour() {
             "provider": {
               "@type": "TravelAgency",
               "name": "Travel Wiki",
-              "url": "https://travelwiki.in",
+              "url": "https://travelwiki.org.in",
               "telephone": "+91 8899971960"
             },
             "duration": packageData.duration,

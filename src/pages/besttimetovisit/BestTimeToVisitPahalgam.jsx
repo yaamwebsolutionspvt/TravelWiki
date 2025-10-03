@@ -11,7 +11,7 @@ const BestTimeToVisitPahalgam = () => {
           content="Discover the best time to visit Pahalgam, the Valley of Shepherds. Complete guide to seasons, weather, Betaab Valley, and activities in this scenic Kashmir destination." 
         />
         <meta name="keywords" content="best time to visit Pahalgam, Pahalgam weather, Betaab Valley, Aru Valley, Kashmir trekking, Amarnath base" />
-        <link rel="canonical" href="/best-time-to-visit-pahalgam" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

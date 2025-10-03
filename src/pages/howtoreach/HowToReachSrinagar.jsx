@@ -11,7 +11,7 @@ const HowToReachSrinagar = () => {
           content="Complete guide on how to reach Srinagar, the summer capital of Kashmir, by air, rail and road. Find the best transportation options to reach the heaven on earth." 
         />
         <meta name="keywords" content="how to reach Srinagar, Srinagar travel guide, travel to Srinagar, Srinagar airport, Dal Lake, houseboats, Kashmir travel" />
-        <link rel="canonical" href="/how-to-reach-srinagar" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

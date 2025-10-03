@@ -11,7 +11,7 @@ const KashmirInSeptember = () => {
           content="Experience Kashmir in September with perfect autumn weather, golden landscapes, and ideal conditions for all activities. Complete travel guide and tips." 
         />
         <meta name="keywords" content="Kashmir in September, September Kashmir weather, autumn Kashmir, golden season Kashmir, September Kashmir travel" />
-        <link rel="canonical" href="/kashmir-in-september" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

@@ -1,4 +1,5 @@
 import React from "react";
+import heroBg from '../../assets/dal_lake.webp';
 import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
 
@@ -47,7 +48,7 @@ export default function KashmirFamilyTour() {
             "provider": {
               "@type": "TravelAgency",
               "name": "Travel Wiki",
-              "url": "https://travelwiki.in",
+              "url": "https://travelwiki.org.in",
               "telephone": "+91 8899971960"
             },
             "duration": packageData.duration,
@@ -59,7 +60,10 @@ export default function KashmirFamilyTour() {
       
       <div className="min-h-screen  mt-4">
         {/* Hero Section */}
-        <div className="relative bg-gradient-to-r from-green-600 to-blue-700 text-white py-25">
+        <div
+          className="relative text-white py-25 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url(${heroBg})` }}
+        >
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">

@@ -11,7 +11,7 @@ const KashmirWeatherInDecember = () => {
           content="Kashmir weather in December 2025 - winter season begins, early snowfall, cold temperatures, and winter weather patterns." 
         />
         <meta name="keywords" content="Kashmir weather December, December Kashmir temperature, Kashmir winter December, early snow Kashmir" />
-        <link rel="canonical" href="/kashmir-weather-in-december" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

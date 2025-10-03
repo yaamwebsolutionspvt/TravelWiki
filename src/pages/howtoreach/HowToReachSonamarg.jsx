@@ -11,7 +11,7 @@ const HowToReachSonamarg = () => {
           content="Complete guide on how to reach Sonamarg, the Meadow of Gold, by air, rail and road. Find the best transportation options to reach this pristine hill station in Kashmir." 
         />
         <meta name="keywords" content="how to reach Sonamarg, Sonamarg travel guide, travel to Sonamarg, Thajiwas glacier, Amarnath yatra, Kashmir hill stations" />
-        <link rel="canonical" href="/how-to-reach-sonamarg" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

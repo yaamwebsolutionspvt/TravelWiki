@@ -50,7 +50,7 @@ export default function MagicalKashmirTour() {
             "provider": {
               "@type": "TravelAgency",
               "name": "Travel Wiki",
-              "url": "https://travelwiki.in",
+              "url": "https://travelwiki.org.in",
               "telephone": "+91 8899971960"
             },
             "duration": packageData.duration,
@@ -62,7 +62,14 @@ export default function MagicalKashmirTour() {
       
       <div className="min-h-screen mt-4">
         {/* Hero Section */}
-        <div className="relative text-white min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh] lg:min-h-[85vh] overflow-visible bg-gradient-to-br from-green-600 via-blue-600 to-purple-600">
+        <div
+          className="relative text-white min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh] lg:min-h-[85vh] overflow-visible"
+          style={{
+            backgroundImage: `url(${kashmirTourism})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        >
           <div className="relative container mx-auto px-4 py-16 sm:py-16 md:py-20 h-full flex items-center justify-center">
             <div className="max-w-4xl mx-auto text-center px-2">
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 leading-tight" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.7)'}}>

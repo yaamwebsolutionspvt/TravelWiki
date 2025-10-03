@@ -83,7 +83,7 @@ export default function AboutUs() {
           name="description"
           content="Kashmir Tourism Travel Wiki - Leading Kashmir tour operator with 10+ years experience. Local experts providing authentic Kashmir & Ladakh tours, honeymoon packages, family trips. 5000+ happy customers, best prices, responsible tourism. Based in Bijbihara, J&K."
         />
-        <link rel="canonical" href="/about-us" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gradient-to-b from-emerald-50 to-white overflow-x-hidden w-full pt-20">
@@ -519,7 +519,7 @@ export default function AboutUs() {
                 </div>
                 <h3 className="font-semibold text-lg mb-2">Email Us</h3>
                 <p className="text-gray-600">
-                  info@travelwiki.in<br />
+                  info@travelwiki.org.in<br />
                   support@kashmirtravelwiki.org.in<br />
                   24/7 Support Available
                 </p>

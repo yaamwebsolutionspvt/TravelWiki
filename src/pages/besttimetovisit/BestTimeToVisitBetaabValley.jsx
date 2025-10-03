@@ -11,7 +11,7 @@ const BestTimeToVisitBetaabValley = () => {
           content="Discover the best time to visit Betaab Valley, Bollywood's favorite filming location. Complete guide to seasons, weather, and activities in this scenic Kashmir valley." 
         />
         <meta name="keywords" content="best time to visit Betaab Valley, Betaab Valley weather, Bollywood filming location, Kashmir tourism, Pahalgam attractions" />
-        <link rel="canonical" href="/best-time-to-visit-betaab-valley" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

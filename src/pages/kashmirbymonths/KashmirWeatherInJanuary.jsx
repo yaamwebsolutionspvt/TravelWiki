@@ -11,7 +11,7 @@ const KashmirWeatherInJanuary = () => {
           content="Complete Kashmir weather guide for January 2025. Snow conditions, temperature ranges, what to pack, and detailed weather information for planning your winter trip." 
         />
         <meta name="keywords" content="Kashmir weather January, January Kashmir temperature, Kashmir snow January, Kashmir winter weather, January weather Kashmir" />
-        <link rel="canonical" href="/kashmir-weather-in-january" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

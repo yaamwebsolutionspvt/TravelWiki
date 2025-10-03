@@ -11,7 +11,7 @@ const KashmirInJune = () => {
           content="Visit Kashmir in June for perfect summer weather, Amarnath Yatra season, and lush green landscapes. Complete guide to summer activities and travel tips." 
         />
         <meta name="keywords" content="Kashmir in June, June Kashmir weather, Amarnath Yatra, Kashmir summer, June Kashmir activities, summer Kashmir guide" />
-        <link rel="canonical" href="/kashmir-in-june" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

@@ -11,7 +11,7 @@ const KashmirWeatherInSeptember = () => {
           content="Kashmir weather in September 2025 - post-monsoon clarity, early autumn signs, perfect temperatures, and ideal tourist conditions." 
         />
         <meta name="keywords" content="Kashmir weather September, September Kashmir temperature, post monsoon Kashmir, early autumn Kashmir" />
-        <link rel="canonical" href="/kashmir-weather-in-september" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

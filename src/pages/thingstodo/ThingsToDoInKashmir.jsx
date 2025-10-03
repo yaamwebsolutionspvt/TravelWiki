@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import heroBg from '../../assets/dal_lake.webp';
 import { FaWater, FaHome, FaTrain, FaPagelines, FaGolfBall, FaHorse, FaSeedling, FaShoppingBag, FaUtensils, FaSkiing, FaCampground, FaHiking, FaHotTub } from 'react-icons/fa';
 
 const ThingsToDoInKashmir = () => {
@@ -12,12 +13,15 @@ const ThingsToDoInKashmir = () => {
           content="Discover the top 14 unforgettable things to do in Kashmir including shikara rides, houseboats, skiing, trekking, and more. Complete adventure guide to the Paradise on Earth." 
         />
         <meta name="keywords" content="things to do in Kashmir, Kashmir activities, shikara ride, Dal Lake, Kashmir skiing, trekking Kashmir, Kashmir tourism, things to do Srinagar" />
-        <link rel="canonical" href="/things-to-do-in-kashmir" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
-        <div className="relative bg-gradient-to-r from-emerald-900 to-blue-900 text-white py-25">
+        <div
+          className="relative text-white py-25 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url(${heroBg})` }}
+        >
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">

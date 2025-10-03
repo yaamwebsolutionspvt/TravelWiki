@@ -11,7 +11,7 @@ const KashmirInMarch = () => {
           content="Experience Kashmir in March as winter transitions to spring. Witness magnificent almond blossoms, perfect weather, and fewer crowds. Complete travel guide with tips and attractions." 
         />
         <meta name="keywords" content="Kashmir in March, March Kashmir weather, almond blossoms Kashmir, spring in Kashmir, Kashmir March travel guide, tulip festival Kashmir" />
-        <link rel="canonical" href="/kashmir-in-march" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

@@ -11,7 +11,7 @@ const HowToReachPahalgam = () => {
           content="Complete guide on how to reach Pahalgam, the Valley of Shepherds, by air, rail and road. Find the best transportation options to reach this scenic destination in Kashmir." 
         />
         <meta name="keywords" content="how to reach Pahalgam, Pahalgam travel guide, travel to Pahalgam, Betaab Valley, Aru Valley, Amarnath yatra, Kashmir travel" />
-        <link rel="canonical" href="/how-to-reach-pahalgam" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

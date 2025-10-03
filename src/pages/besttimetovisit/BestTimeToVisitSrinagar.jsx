@@ -11,7 +11,7 @@ const BestTimeToVisitSrinagar = () => {
           content="Discover the best time to visit Srinagar, the Venice of the East. Complete guide to seasons, weather, Dal Lake, and activities in Kashmir's summer capital." 
         />
         <meta name="keywords" content="best time to visit Srinagar, Srinagar weather, Dal Lake, Kashmir summer capital, Srinagar seasons" />
-        <link rel="canonical" href="/best-time-to-visit-srinagar" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

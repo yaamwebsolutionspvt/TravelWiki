@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import heroBg from '../../assets/dal_lake.webp';
 
 const PlacesToVisitInSrinagar = () => {
   return (
@@ -11,12 +12,15 @@ const PlacesToVisitInSrinagar = () => {
           content="Discover the top 10 must-visit destinations in Srinagar including Dal Lake, Mughal Gardens, Tulip Garden, and more. Complete travel guide to Kashmir's summer capital." 
         />
         <meta name="keywords" content="Srinagar places to visit, Dal Lake, Shalimar Bagh, Nishat Bagh, Tulip Garden, Srinagar tourism, Kashmir summer capital, Mughal gardens, houseboats" />
-        <link rel="canonical" href="/places-to-visit-in-srinagar" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
-        <div className="relative bg-gradient-to-r from-emerald-900 to-blue-900 text-white py-25">
+        <div
+          className="relative text-white py-25 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url(${heroBg})` }}
+        >
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">

@@ -11,7 +11,7 @@ const KashmirWeatherInJuly = () => {
           content="Kashmir weather in July 2025 - monsoon season, lush green valleys, rainfall patterns, and temperature conditions during summer monsoons." 
         />
         <meta name="keywords" content="Kashmir weather July, July Kashmir temperature, Kashmir monsoon, July rainfall Kashmir" />
-        <link rel="canonical" href="/kashmir-weather-in-july" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

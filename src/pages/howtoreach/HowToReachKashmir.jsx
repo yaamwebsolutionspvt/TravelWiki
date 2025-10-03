@@ -11,7 +11,7 @@ const HowToReachKashmir = () => {
           content="Complete guide on how to reach Kashmir Valley by air, rail and road. Discover the best ways to travel to the Paradise on Earth with detailed transport information." 
         />
         <meta name="keywords" content="how to reach Kashmir, Kashmir travel guide, travel to Kashmir, Kashmir by air, Kashmir by train, Kashmir by road, Srinagar airport, Jammu railway station" />
-        <link rel="canonical" href="/how-to-reach-kashmir" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

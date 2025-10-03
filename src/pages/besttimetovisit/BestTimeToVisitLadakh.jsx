@@ -11,7 +11,7 @@ const BestTimeToVisitLadakh = () => {
           content="Discover the best time to visit Leh Ladakh, the Land of High Passes. Complete guide to seasons, weather, road accessibility, and high-altitude adventures." 
         />
         <meta name="keywords" content="best time to visit Ladakh, Ladakh weather, Leh travel guide, high altitude travel, Ladakh road conditions" />
-        <link rel="canonical" href="/best-time-to-visit-ladakh" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

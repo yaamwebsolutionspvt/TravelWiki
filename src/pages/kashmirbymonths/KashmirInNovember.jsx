@@ -11,7 +11,7 @@ const KashmirInNovember = () => {
           content="Experience Kashmir in November with late autumn colors, comfortable weather, and pre-winter charm. Perfect for peaceful travel with fewer crowds." 
         />
         <meta name="keywords" content="Kashmir in November, November Kashmir weather, late autumn Kashmir, pre-winter Kashmir, November Kashmir travel" />
-        <link rel="canonical" href="/kashmir-in-november" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

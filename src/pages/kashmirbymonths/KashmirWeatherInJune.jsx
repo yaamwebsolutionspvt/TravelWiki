@@ -11,7 +11,7 @@ const KashmirWeatherInJune = () => {
           content="Kashmir weather in June 2025: 18-30°C temperature, perfect for Amarnath Yatra, trekking, sightseeing. Best time to visit Gulmarg, Pahalgam, Sonamarg. Complete June weather guide for Kashmir tourism with travel tips, what to pack, and top activities." 
         />
         <meta name="keywords" content="Kashmir weather June, Kashmir weather in June 2025, June Kashmir temperature, Kashmir climate June, Kashmir in June, Kashmir tourism June, Amarnath Yatra weather, Kashmir summer weather, Kashmir June travel guide, Kashmir weather forecast June, Kashmir temperature June, Kashmir rainfall June, best time visit Kashmir June, Kashmir tour packages June, Kashmir holiday June, Kashmir weather conditions June, Kashmir June tourism, Kashmir travel June, Kashmir sightseeing June, Kashmir activities June" />
-        <link rel="canonical" href="/kashmir-weather-in-june" />
+        
         <meta property="og:title" content="Kashmir Weather in June 2025 | Complete Climate Guide" />
         <meta property="og:description" content="Kashmir weather in June: 18-30°C, perfect for Amarnath Yatra & trekking. Complete guide for Kashmir tourism in June." />
         <meta property="og:type" content="article" />

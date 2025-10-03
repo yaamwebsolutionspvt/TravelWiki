@@ -11,7 +11,7 @@ const KashmirInDecember = () => {
           content="Experience Kashmir in December as winter wonderland begins. Early snowfall, cozy experiences, and pre-peak winter beauty. Complete December travel guide." 
         />
         <meta name="keywords" content="Kashmir in December, December Kashmir weather, winter Kashmir, early snow Kashmir, December Kashmir travel, winter wonderland Kashmir" />
-        <link rel="canonical" href="/kashmir-in-december" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

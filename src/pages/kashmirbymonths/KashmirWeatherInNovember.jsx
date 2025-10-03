@@ -11,7 +11,7 @@ const KashmirWeatherInNovember = () => {
           content="Kashmir weather in November 2025 - late autumn conditions, pre-winter temperatures, weather patterns, and travel conditions." 
         />
         <meta name="keywords" content="Kashmir weather November, November Kashmir temperature, late autumn Kashmir, pre-winter weather" />
-        <link rel="canonical" href="/kashmir-weather-in-november" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

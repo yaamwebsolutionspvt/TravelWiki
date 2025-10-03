@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import heroBg from '../../assets/dal_lake.webp';
 
 const BestTimeToVisitAruValley = () => {
   return (
@@ -11,12 +12,15 @@ const BestTimeToVisitAruValley = () => {
           content="Discover the best time to visit Aru Valley, a trekker's paradise near Pahalgam. Complete guide to seasons, weather, and trekking in this pristine Kashmir valley." 
         />
         <meta name="keywords" content="best time to visit Aru Valley, Aru Valley weather, Kashmir trekking, Kolhoi Glacier, Aru Valley Pahalgam" />
-        <link rel="canonical" href="/best-time-to-visit-aru-valley" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
-        <div className="relative bg-gradient-to-r from-green-900 to-emerald-800 text-white py-24">
+        <div
+          className="relative text-white py-24 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url(${heroBg})` }}
+        >
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">

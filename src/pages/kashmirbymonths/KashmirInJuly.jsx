@@ -11,7 +11,7 @@ const KashmirInJuly = () => {
           content="Experience Kashmir in July with monsoon showers creating lush landscapes. Perfect for nature lovers seeking green valleys and refreshing weather." 
         />
         <meta name="keywords" content="Kashmir in July, July Kashmir weather, monsoon Kashmir, Kashmir green season, July Kashmir travel" />
-        <link rel="canonical" href="/kashmir-in-july" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

@@ -8,7 +8,7 @@ export default function PrivacyPolicy() {
         <title>Privacy Policy - Travel Wiki</title>
         <meta name="description" content="Read the privacy policy of Travel Wiki. Learn how we collect, use, and protect your personal information when you use our travel services." />
         
-        <link rel="canonical" href="/privacy-policy" />
+        
       </Helmet>
       <div className="max-w-4xl mx-auto px-4 py-25">
         <h1 className="text-4xl font-bold text-green-700 mb-6">Privacy Policy</h1>

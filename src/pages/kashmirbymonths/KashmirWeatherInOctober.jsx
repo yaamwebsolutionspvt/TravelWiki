@@ -11,7 +11,7 @@ const KashmirWeatherInOctober = () => {
           content="Kashmir weather in October 2025 - peak autumn colors, golden chinar trees, perfect temperatures, and ideal weather for tourism." 
         />
         <meta name="keywords" content="Kashmir weather October, October Kashmir temperature, autumn Kashmir, golden chinars October" />
-        <link rel="canonical" href="/kashmir-weather-in-october" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

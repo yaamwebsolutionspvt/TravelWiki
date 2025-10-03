@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import heroBg from '../../assets/dal_lake.webp';
 
 const ThingsToDoInSonamarg = () => {
   return (
@@ -11,12 +12,15 @@ const ThingsToDoInSonamarg = () => {
           content="Discover the top 8 thrilling things to do in Sonamarg including trekking, river rafting, skiing, camping, and visits to Thajiwas Glacier. Complete adventure guide." 
         />
         <meta name="keywords" content="things to do in Sonamarg, Sonamarg activities, Thajiwas Glacier, trekking Sonamarg, river rafting, skiing, Sonamarg tourism" />
-        <link rel="canonical" href="/things-to-do-in-sonamarg" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
-        <div className="relative bg-gradient-to-r from-green-900 to-emerald-900 text-white py-25">
+        <div
+          className="relative text-white py-25 bg-cover bg-center bg-no-repeat"
+          style={{ backgroundImage: `url(${heroBg})` }}
+        >
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">

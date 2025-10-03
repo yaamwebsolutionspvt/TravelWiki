@@ -11,7 +11,7 @@ const KashmirInJanuary = () => {
           content="Plan your Kashmir tour in January with our complete guide. Discover winter attractions, snow activities, weather conditions, and travel tips for the perfect winter wonderland experience." 
         />
         <meta name="keywords" content="Kashmir in January, Kashmir winter tour, January Kashmir weather, winter sports Kashmir, snow activities Kashmir, Kashmir January travel guide" />
-        <link rel="canonical" href="/kashmir-in-january" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

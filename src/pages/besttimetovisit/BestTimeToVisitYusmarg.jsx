@@ -11,7 +11,7 @@ const BestTimeToVisitYusmarg = () => {
           content="Discover the best time to visit Yusmarg, the Meadow of Jesus. Complete guide to seasons, weather, and activities in this pristine Kashmir destination." 
         />
         <meta name="keywords" content="best time to visit Yusmarg, Yusmarg weather, Meadow of Jesus, Kashmir offbeat, Yusmarg seasons" />
-        <link rel="canonical" href="/best-time-to-visit-yusmarg" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

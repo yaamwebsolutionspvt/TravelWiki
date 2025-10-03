@@ -11,7 +11,7 @@ const KashmirWeatherInFebruary = () => {
           content="Kashmir weather guide for February 2025. Temperature ranges, snowfall patterns, and detailed weather information for your winter Kashmir trip." 
         />
         <meta name="keywords" content="Kashmir weather February, February Kashmir temperature, Kashmir snow February, Kashmir winter weather February" />
-        <link rel="canonical" href="/kashmir-weather-in-february" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

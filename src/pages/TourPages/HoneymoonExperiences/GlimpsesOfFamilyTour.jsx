@@ -35,7 +35,14 @@ export default function GlimpsesOfFamilyTour() {
       
       <div className="min-h-screen mt-4">
         {/* Hero Section */}
-        <div className="relative text-white h-[65vh] py-25 overflow-hidden bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-600">
+        <div
+          className="relative text-white h-[65vh] py-25 overflow-hidden"
+          style={{
+            backgroundImage: `url(${balloonRide})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        >
           <div className="absolute inset-0 bg-black opacity-60"></div>
           <div className="relative container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">

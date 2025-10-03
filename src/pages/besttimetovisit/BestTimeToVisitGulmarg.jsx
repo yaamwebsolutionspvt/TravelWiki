@@ -11,7 +11,7 @@ const BestTimeToVisitGulmarg = () => {
           content="Discover the best time to visit Gulmarg, the Heart of Kashmir. Complete guide to seasons, skiing, Gondola rides, and activities in this world-famous destination." 
         />
         <meta name="keywords" content="best time to visit Gulmarg, Gulmarg weather, Gondola ride, skiing Kashmir, Gulmarg seasons, winter sports" />
-        <link rel="canonical" href="/best-time-to-visit-gulmarg" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

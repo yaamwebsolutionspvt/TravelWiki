@@ -281,7 +281,7 @@ const LehLadakhPackages = () => {
             "name": "Leh Ladakh Tour Packages",
             "description": "Explore the hand-picked selection of Leh Ladakh tour packages on Travel Wiki. Book thrilling and unforgettable Leh Ladakh holidays to the Land of High Passes.",
             "image": bannerimage,
-            "url": "https://travelwiki.in/ladakh-packages",
+            "url": "https://travelwiki.org.in/ladakh-packages",
             "mainEntity": {
               "@type": "ItemList",
               "name": "Ladakh Tour Packages Collection",
@@ -301,7 +301,7 @@ const LehLadakhPackages = () => {
             "provider": {
               "@type": "TravelAgency",
               "name": "Travel Wiki",
-              "url": "https://travelwiki.in",
+              "url": "https://travelwiki.org.in",
               "telephone": "+91 8899971960"
             }
           })}

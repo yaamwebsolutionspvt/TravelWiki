@@ -11,7 +11,7 @@ const KashmirInMay = () => {
           content="Visit Kashmir in May for perfect summer weather, lush green landscapes, and peak tourist season activities. Complete guide to attractions, trekking, and travel tips." 
         />
         <meta name="keywords" content="Kashmir in May, May Kashmir weather, peak season Kashmir, Kashmir summer travel, May Kashmir trekking, Kashmir May tourism" />
-        <link rel="canonical" href="/kashmir-in-may" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

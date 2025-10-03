@@ -11,7 +11,7 @@ const KashmirWeatherInApril = () => {
           content="Kashmir weather in April 2025 - tulip season, perfect spring temperatures, cherry blossoms, and ideal weather conditions for sightseeing." 
         />
         <meta name="keywords" content="Kashmir weather April, April Kashmir temperature, Kashmir spring weather, tulips Kashmir April" />
-        <link rel="canonical" href="/kashmir-weather-in-april" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

@@ -11,7 +11,7 @@ const KashmirWeatherInMarch = () => {
           content="Kashmir weather in March 2025 - transition from winter to spring, almond blossoms, temperature ranges, and detailed weather conditions." 
         />
         <meta name="keywords" content="Kashmir weather March, March Kashmir temperature, Kashmir spring weather, almond blossoms March Kashmir" />
-        <link rel="canonical" href="/kashmir-weather-in-march" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

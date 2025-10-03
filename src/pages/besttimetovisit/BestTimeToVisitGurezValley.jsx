@@ -11,7 +11,7 @@ const BestTimeToVisitGurezValley = () => {
           content="Discover the best time to visit Gurez Valley, the Hidden Gem of Kashmir. Complete guide to seasons, weather, and activities in this pristine valley." 
         />
         <meta name="keywords" content="best time to visit Gurez Valley, Gurez Valley weather, Kashmir hidden gem, Kishanganga River, Habba Khatoon peak" />
-        <link rel="canonical" href="/best-time-to-visit-gurez-valley" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

@@ -11,7 +11,7 @@ const PlacesToVisitInSonamarg = () => {
           content="Discover the top 10 must-visit destinations in Sonamarg including Thajiwas Glacier, Zojila Pass, pristine lakes, and more. Complete travel guide to Kashmir's golden meadow." 
         />
         <meta name="keywords" content="Sonamarg places to visit, Thajiwas Glacier, Zojila Pass, Baltal Valley, Sonamarg tourism, Kashmir meadow of gold, alpine lakes, Sonamarg travel guide" />
-        <link rel="canonical" href="/places-to-visit-in-sonamarg" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">

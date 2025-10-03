@@ -11,7 +11,7 @@ const HowToReachLadakh = () => {
           content="Complete guide on how to reach Leh Ladakh, the Land of High Passes, by air, rail and road. Find the best transportation options to reach this high altitude desert." 
         />
         <meta name="keywords" content="how to reach Ladakh, Leh Ladakh travel guide, travel to Ladakh, Kushok Bakula Airport, Manali Leh highway, Srinagar Leh highway" />
-        <link rel="canonical" href="/how-to-reach-ladakh" />
+        
       </Helmet>
 
       <div className="min-h-screen bg-gray-50">
