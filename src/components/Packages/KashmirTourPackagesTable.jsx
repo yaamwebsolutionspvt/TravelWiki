@@ -20,7 +20,7 @@ const PackageTable = ({ data }) => (
           <td className="px-2 py-2 border">{pkg.price || "-"}</td>
           <td className="px-2 py-2 border">
           <Link to={pkg.link || "#"} className="text-blue-600 hover:underline">
-            <button className="bg-gradient-to-r from-red-500 to-orange-500 text-white px-2 py-2 rounded hover:opacity-90 cursor-pointer transition-all duration-300">
+            <button className="bg-gradient-to-r from-red-500 to-orange-500 text-white px-4 py-2 rounded hover:opacity-90 cursor-pointer transition-all duration-300 w-full min-w-[100px] h-[36px] flex items-center justify-center">
               View Details
             </button>
             </Link>

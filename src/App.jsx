@@ -91,9 +91,38 @@ const SrinagarTourPackage = lazy(() => import('./pages/TourPages/HoneymoonExperi
 // Other Pages
 const Contact = lazy(() => import('./pages/Contact'));
 const PlacesToVisit = lazy(() => import('./pages/placestovisit/PlacesToVisitInKashmir'));
+const PlacesToVisitInKashmir = lazy(() => import('./pages/placestovisit/PlacesToVisitInKashmir'));
+const PlacesToVisitInSrinagar = lazy(() => import('./pages/placestovisit/PlacesToVisitInSrinagar'));
+const PlacesToVisitInGulmarg = lazy(() => import('./pages/placestovisit/PlacesToVisitInGulmarg'));
+const PlacesToVisitInPahalgam = lazy(() => import('./pages/placestovisit/PlacesToVisitInPahalgam'));
+const PlacesToVisitInSonamarg = lazy(() => import('./pages/placestovisit/PlacesToVisitInSonamarg'));
+const PlacesToVisitInLadakh = lazy(() => import('./pages/placestovisit/PlacesToVisitInLadakh'));
 const ThingsToDo = lazy(() => import('./pages/thingstodo/ThingsToDoInKashmir'));
+const ThingsToDoInKashmir = lazy(() => import('./pages/thingstodo/ThingsToDoInKashmir'));
+const ThingsToDoInGulmarg = lazy(() => import('./pages/thingstodo/ThingsToDoInGulmarg'));
+const ThingsToDoInPahalgam = lazy(() => import('./pages/thingstodo/ThingsToDoInPahalgam'));
+const ThingsToDoInSonamarg = lazy(() => import('./pages/thingstodo/ThingsToDoInSonamarg'));
+const ThingsToDoInLadakh = lazy(() => import('./pages/thingstodo/ThingsToDoInLadakh'));
 const HowToReach = lazy(() => import('./pages/howtoreach/HowToReachKashmir'));
+const HowToReachKashmir = lazy(() => import('./pages/howtoreach/HowToReachKashmir'));
+const HowToReachSrinagar = lazy(() => import('./pages/howtoreach/HowToReachSrinagar'));
+const HowToReachGulmarg = lazy(() => import('./pages/howtoreach/HowToReachGulmarg'));
+const HowToReachPahalgam = lazy(() => import('./pages/howtoreach/HowToReachPahalgam'));
+const HowToReachSonamarg = lazy(() => import('./pages/howtoreach/HowToReachSonamarg'));
+const HowToReachLadakh = lazy(() => import('./pages/howtoreach/HowToReachLadakh'));
+const HowToReachGurezValley = lazy(() => import('./pages/howtoreach/HowToReachGurezValley'));
+
 const BestTimeToVisit = lazy(() => import('./pages/besttimetovisit/BestTimeToVisitKashmir'));
+const BestTimeToVisitKashmir = lazy(() => import('./pages/besttimetovisit/BestTimeToVisitKashmir'));
+const BestTimeToVisitSrinagar = lazy(() => import('./pages/besttimetovisit/BestTimeToVisitSrinagar'));
+const BestTimeToVisitGulmarg = lazy(() => import('./pages/besttimetovisit/BestTimeToVisitGulmarg'));
+const BestTimeToVisitPahalgam = lazy(() => import('./pages/besttimetovisit/BestTimeToVisitPahalgam'));
+const BestTimeToVisitSonamarg = lazy(() => import('./pages/besttimetovisit/BestTimeToVisitSonamarg'));
+const BestTimeToVisitLadakh = lazy(() => import('./pages/besttimetovisit/BestTimeToVisitLadakh'));
+const BestTimeToVisitYusmarg = lazy(() => import('./pages/besttimetovisit/BestTimeToVisitYusmarg'));
+const BestTimeToVisitGurezValley = lazy(() => import('./pages/besttimetovisit/BestTimeToVisitGurezValley'));
+const BestTimeToVisitAruValley = lazy(() => import('./pages/besttimetovisit/BestTimeToVisitAruValley'));
+const BestTimeToVisitBetaabValley = lazy(() => import('./pages/besttimetovisit/BestTimeToVisitBetaabValley'));
 // Kashmir by Months
 const KashmirInJanuary = lazy(() => import('./pages/kashmirbymonths/KashmirInJanuary'));
 const KashmirInFebruary = lazy(() => import('./pages/kashmirbymonths/KashmirInFebruary'));
@@ -302,16 +331,16 @@ function App() {
             <Route path="/packages-listing" element={<PackagesListing />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/places-to-visit" element={<PlacesToVisit />} />
-            <Route path="/places-to-visit-in-srinagar" element={<PlacesToVisit />} />
-            <Route path="/places-to-visit-in-gulmarg" element={<PlacesToVisit />} />
-            <Route path="/places-to-visit-in-pahalgam" element={<PlacesToVisit />} />
-            <Route path="/places-to-visit-in-sonamarg" element={<PlacesToVisit />} />
-            <Route path="/places-to-visit-in-kashmir" element={<PlacesToVisit />} />
-            <Route path="/places-to-visit-in-ladakh" element={<PlacesToVisit />} />
-            <Route path="/places-to-visit/srinagar" element={<PlacesToVisit />} />
-            <Route path="/places-to-visit/gulmarg" element={<PlacesToVisit />} />
-            <Route path="/places-to-visit/pahalgam" element={<PlacesToVisit />} />
-            <Route path="/places-to-visit/sonamarg" element={<PlacesToVisit />} />
+            <Route path="/places-to-visit-in-srinagar" element={<PlacesToVisitInSrinagar />} />
+            <Route path="/places-to-visit-in-gulmarg" element={<PlacesToVisitInGulmarg />} />
+            <Route path="/places-to-visit-in-pahalgam" element={<PlacesToVisitInPahalgam />} />
+            <Route path="/places-to-visit-in-sonamarg" element={<PlacesToVisitInSonamarg />} />
+            <Route path="/places-to-visit-in-kashmir" element={<PlacesToVisitInKashmir />} />
+            <Route path="/places-to-visit-in-ladakh" element={<PlacesToVisitInLadakh />} />
+            <Route path="/places-to-visit/srinagar" element={<PlacesToVisitInSrinagar />} />
+            <Route path="/places-to-visit/gulmarg" element={<PlacesToVisitInGulmarg />} />
+            <Route path="/places-to-visit/pahalgam" element={<PlacesToVisitInPahalgam />} />
+            <Route path="/places-to-visit/sonamarg" element={<PlacesToVisitInSonamarg />} />
             <Route path="/things-to-do" element={<ThingsToDo />} />
             <Route path="/how-to-reach" element={<HowToReach />} />
             <Route path="/best-time-to-visit" element={<BestTimeToVisit />} />
@@ -347,32 +376,32 @@ function App() {
             <Route path="/kashmir-weather-in-december" element={<KashmirWeatherInDecember />} />
 
             {/* How to Reach Routes */}
-            <Route path="/how-to-reach-kashmir" element={<HowToReach />} />
-            <Route path="/how-to-reach-srinagar" element={<HowToReach />} />
-            <Route path="/how-to-reach-gulmarg" element={<HowToReach />} />
-            <Route path="/how-to-reach-pahalgam" element={<HowToReach />} />
-            <Route path="/how-to-reach-sonamarg" element={<HowToReach />} />
-            <Route path="/how-to-reach-ladakh" element={<HowToReach />} />
-            <Route path="/how-to-reach-gurez-valley" element={<HowToReach />} />
+            <Route path="/how-to-reach-kashmir" element={<HowToReachKashmir />} />
+            <Route path="/how-to-reach-srinagar" element={<HowToReachSrinagar />} />
+            <Route path="/how-to-reach-gulmarg" element={<HowToReachGulmarg />} />
+            <Route path="/how-to-reach-pahalgam" element={<HowToReachPahalgam />} />
+            <Route path="/how-to-reach-sonamarg" element={<HowToReachSonamarg />} />
+            <Route path="/how-to-reach-ladakh" element={<HowToReachLadakh />} />
+            <Route path="/how-to-reach-gurez-valley" element={<HowToReachGurezValley />} />
 
             {/* Things to Do Routes */}
-            <Route path="/things-to-do-in-kashmir" element={<ThingsToDo />} />
-            <Route path="/things-to-do-in-gulmarg" element={<ThingsToDo />} />
-            <Route path="/things-to-do-in-pahalgam" element={<ThingsToDo />} />
-            <Route path="/things-to-do-in-sonamarg" element={<ThingsToDo />} />
-            <Route path="/things-to-do-in-ladakh" element={<ThingsToDo />} />
+            <Route path="/things-to-do-in-kashmir" element={<ThingsToDoInKashmir />} />
+            <Route path="/things-to-do-in-gulmarg" element={<ThingsToDoInGulmarg />} />
+            <Route path="/things-to-do-in-pahalgam" element={<ThingsToDoInPahalgam />} />
+            <Route path="/things-to-do-in-sonamarg" element={<ThingsToDoInSonamarg />} />
+            <Route path="/things-to-do-in-ladakh" element={<ThingsToDoInLadakh />} />
 
             {/* Best Time to Visit Routes */}
-            <Route path="/best-time-to-visit-kashmir" element={<BestTimeToVisit />} />
-            <Route path="/best-time-to-visit-srinagar" element={<BestTimeToVisit />} />
-            <Route path="/best-time-to-visit-gulmarg" element={<BestTimeToVisit />} />
-            <Route path="/best-time-to-visit-pahalgam" element={<BestTimeToVisit />} />
-            <Route path="/best-time-to-visit-sonamarg" element={<BestTimeToVisit />} />
-            <Route path="/best-time-to-visit-ladakh" element={<BestTimeToVisit />} />
-            <Route path="/best-time-to-visit-yusmarg" element={<BestTimeToVisit />} />
-            <Route path="/best-time-to-visit-gurez-valley" element={<BestTimeToVisit />} />
-            <Route path="/best-time-to-visit-aru-valley" element={<BestTimeToVisit />} />
-            <Route path="/best-time-to-visit-betaab-valley" element={<BestTimeToVisit />} />
+            <Route path="/best-time-to-visit-kashmir" element={<BestTimeToVisitKashmir />} />
+            <Route path="/best-time-to-visit-srinagar" element={<BestTimeToVisitSrinagar />} />
+            <Route path="/best-time-to-visit-gulmarg" element={<BestTimeToVisitGulmarg />} />
+            <Route path="/best-time-to-visit-pahalgam" element={<BestTimeToVisitPahalgam />} />
+            <Route path="/best-time-to-visit-sonamarg" element={<BestTimeToVisitSonamarg />} />
+            <Route path="/best-time-to-visit-ladakh" element={<BestTimeToVisitLadakh />} />
+            <Route path="/best-time-to-visit-yusmarg" element={<BestTimeToVisitYusmarg />} />
+            <Route path="/best-time-to-visit-gurez-valley" element={<BestTimeToVisitGurezValley />} />
+            <Route path="/best-time-to-visit-aru-valley" element={<BestTimeToVisitAruValley />} />
+            <Route path="/best-time-to-visit-betaab-valley" element={<BestTimeToVisitBetaabValley />} />
 
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/terms-and-condition" element={<TermsAndCondition />} />

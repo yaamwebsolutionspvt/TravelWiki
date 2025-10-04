@@ -80,7 +80,7 @@ const OptimizedImage = ({
       onLoad={handleLoad}
       onError={handleError}
       style={{
-        backgroundColor: '#f3f4f6',
+        // backgroundColor: '#f3f4f6',
         ...(width && height && { aspectRatio: `${width}/${height}` }),
         objectFit: 'cover'
       }}
