@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SEO from "../../components/SEO";
-import OptimizedImage from "../../j/OptimizedImage";
+import OptimizedImage from "../../components/OptimizedImage";
+import ItineraryCard from "../../components/ItineraryCard";
 const ld11 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1758523704/Desert_Mirage_Nubra_Valley_w5msem.png";
 
 const AmazingLadakhTourWithNubraStay = () => {
@@ -166,77 +167,90 @@ const AmazingLadakhTourWithNubraStay = () => {
               <div className="bg-white rounded-lg shadow-lg p-6 mb-6">
                 <h2 className="text-2xl font-bold text-gray-800 mb-4">Detailed Itinerary</h2>
                 <div className="space-y-6">
-                  <div className="border-l-4 border-blue-500 pl-4">
-                    <h3 className="font-semibold text-lg mb-2">Day 1: Arrival in Leh</h3>
-                    <p className="text-gray-700">
-                      Upon arrival at the Leh Airport, you will be welcomed by our representative and transferred to your hotel. Complete your check-in formalities and rest for the day. Since you have arrived by air at 11000 feet, we strictly advise you to take complete rest and acclimatize with Leh weather and altitude. We recommend you to drink ample water and avoid any strenuous activity.
-                    </p>
-                    <p className="text-gray-700 mt-2">
-                      Enjoy an overnight stay at a hotel in Leh and gear up for upcoming journeys.
-                    </p>
-                  </div>
+                  <ItineraryCard
+                    title="Day 1: Arrival in Leh"
+                    activities={[
+                      "Arrival at Leh Airport and transfer to hotel",
+                      "Complete check-in formalities and rest for acclimatization",
+                      "Drink ample water and avoid strenuous activity",
+                      "Enjoy overnight stay at hotel in Leh"
+                    ]}
+                    imageUrl="https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Leh+Airport"
+                    imageAlt="Leh Airport Arrival"
+                    imageTitle="Leh Airport"
+                    imageSubtitle="Arrival & Acclimatization"
+                    icon="🏔️"
+                  />
 
-                  <div className="border-l-4 border-green-500 pl-4">
-                    <h3 className="font-semibold text-lg mb-2">Day 2: Excursion to Sham Valley</h3>
-                    <p className="text-gray-700 mb-2">
-                      Begin your day with a wholesome breakfast and head for the Sham Valley excursion.
-                    </p>
-                    <ul className="list-disc list-inside text-gray-700 space-y-1 ml-4">
-                      <li>Drive alongside the banks of the Indus River till you reach Sangam</li>
-                      <li>Witness the beautiful confluence of Indus and Zanskar Rivers</li>
-                      <li>Visit Gurudwara Pathar Sahib, a revered Sikh shrine</li>
-                      <li>Experience Magnetic Hill where vehicles defy gravity</li>
-                      <li>Visit Hall of Fame museum built by the Indian Army</li>
-                      <li>End the day at Shanti Stupa with stunning views of Leh city</li>
-                    </ul>
-                    <p className="text-gray-700 mt-2">Return to your hotel for an overnight stay.</p>
-                  </div>
+                  <ItineraryCard
+                    title="Day 2: Excursion to Sham Valley"
+                    activities={[
+                      "Drive alongside the banks of the Indus River till you reach Sangam",
+                      "Witness the beautiful confluence of Indus and Zanskar Rivers",
+                      "Visit Gurudwara Pathar Sahib, a revered Sikh shrine",
+                      "Experience Magnetic Hill where vehicles defy gravity",
+                      "Visit Hall of Fame museum built by the Indian Army",
+                      "End the day at Shanti Stupa with stunning views of Leh city",
+                      "Return to hotel for overnight stay"
+                    ]}
+                    imageUrl="https://via.placeholder.com/400x300/10B981/FFFFFF?text=Sham+Valley"
+                    imageAlt="Sham Valley Excursion"
+                    imageTitle="Sham Valley"
+                    imageSubtitle="Scenic Beauty & Acclimatization"
+                    icon="🏔️"
+                  />
 
-                  <div className="border-l-4 border-purple-500 pl-4">
-                    <h3 className="font-semibold text-lg mb-2">Day 3: Leh to Nubra Valley via Khardung La Pass</h3>
-                    <p className="text-gray-700 mb-2">
-                      <strong>Distance:</strong> 160.3 km / 4 hrs 43 minutes | <strong>Height:</strong> 10,000m
-                    </p>
-                    <p className="text-gray-700 mb-2">
-                      Wake up to a beautiful day and have a hearty meal. Afterwards, pack your bags as today you will be proceeding towards Nubra Valley. En route, you will make a pit stop at Khardung La Pass which is one of the highest mountain passes in the world located at 18,832 feet above sea level.
-                    </p>
-                    <ul className="list-disc list-inside text-gray-700 space-y-1 ml-4">
-                      <li>Photo opportunities at Khardung La Pass with snow-capped peaks</li>
-                      <li>Scenic drive through Nubra Valley</li>
-                      <li>Check-in to camp accommodation</li>
-                      <li>Visit Hunder sand dunes</li>
-                      <li>Double hump Bactrian camel safari</li>
-                      <li>Yak safari and ATV ride opportunities</li>
-                      <li>Stroll along the sand dunes of Hunder village</li>
-                    </ul>
-                    <p className="text-gray-700 mt-2">Overnight stay at the camp.</p>
-                  </div>
+                  <ItineraryCard
+                    title="Day 3: Leh to Nubra Valley via Khardung La Pass"
+                    activities={[
+                      "Photo opportunities at Khardung La Pass (18,832 ft)",
+                      "Scenic drive through Nubra Valley",
+                      "Check-in to camp accommodation",
+                      "Visit Hunder sand dunes",
+                      "Double hump Bactrian camel safari",
+                      "Yak safari and ATV ride opportunities",
+                      "Stroll along the sand dunes of Hunder village",
+                      "Overnight stay at the camp"
+                    ]}
+                    imageUrl="https://via.placeholder.com/400x300/8B5CF6/FFFFFF?text=Nubra+Valley"
+                    imageAlt="Nubra Valley Experience"
+                    imageTitle="Nubra Valley"
+                    imageSubtitle="Desert & Mountains"
+                    icon="🐪"
+                  />
 
-                  <div className="border-l-4 border-orange-500 pl-4">
-                    <h3 className="font-semibold text-lg mb-2">Day 4: Excursion to Pangong Lake via Shayok River / Wari La Pass and Return to Leh</h3>
-                    <p className="text-gray-700 mb-2">
-                      <strong>Distance:</strong> 140 km / 6 hours | <strong>Height:</strong> 4,250m
-                    </p>
-                    <p className="text-gray-700 mb-2">
-                      Wake up to a beautiful view of Nubra Valley. Have a scrumptious breakfast and then check out to proceed towards Pangong Lake - the highest saltwater lake in the world and one of the most pristine lakes in India.
-                    </p>
-                    <ul className="list-disc list-inside text-gray-700 space-y-1 ml-4">
-                      <li>Marvel at the mesmerizing turquoise waters of Pangong Lake</li>
-                      <li>Take a stroll near the bank of the lake</li>
-                      <li>Spot several migratory birds that flock here</li>
-                      <li>Enjoy the ethereal beauty set amidst lofty Himalayan mountains</li>
-                    </ul>
-                    <p className="text-gray-700 mt-2">
-                      After having a fun-filled day at Pangong Lake, leave for Leh City by late afternoon. Reach Leh and check in to your hotel. Overnight stay at Leh.
-                    </p>
-                  </div>
+                  <ItineraryCard
+                    title="Day 4: Excursion to Pangong Lake"
+                    activities={[
+                      "Marvel at mesmerizing turquoise waters of Pangong Lake",
+                      "Take a stroll near the bank of the lake",
+                      "Spot several migratory birds that flock here",
+                      "Enjoy the ethereal beauty set amidst lofty Himalayan mountains",
+                      "After fun-filled day at Pangong Lake, leave for Leh City",
+                      "Reach Leh and check in to hotel",
+                      "Overnight stay at Leh"
+                    ]}
+                    imageUrl="https://via.placeholder.com/400x300/F59E0B/FFFFFF?text=Pangong+Lake"
+                    imageAlt="Pangong Lake Experience"
+                    imageTitle="Pangong Lake"
+                    imageSubtitle="Highest Saltwater Lake"
+                    icon="🏞️"
+                  />
 
-                  <div className="border-l-4 border-red-500 pl-4">
-                    <h3 className="font-semibold text-lg mb-2">Day 5: Departure from Leh</h3>
-                    <p className="text-gray-700">
-                      Arise to a surreal sunrise and then have a toothsome breakfast. Your 4 nights 5 days amazing Ladakh tour with Nubra stay has come to an end. It's time to depart, pack your bags and check out from the hotel. Our representative will assist you in transferring to the airport to board the onward flight.
-                    </p>
-                  </div>
+                  <ItineraryCard
+                    title="Day 5: Departure from Leh"
+                    activities={[
+                      "Surreal sunrise and hearty breakfast",
+                      "Pack bags and check out from hotel",
+                      "Transfer to Leh Airport for onward flight",
+                      "End of amazing 4N5D Ladakh tour"
+                    ]}
+                    imageUrl="https://via.placeholder.com/400x300/EF4444/FFFFFF?text=Leh+Departure"
+                    imageAlt="Leh Departure"
+                    imageTitle="Leh Departure"
+                    imageSubtitle="End of Amazing Journey"
+                    icon="✈️"
+                  />
                 </div>
               </div>
 

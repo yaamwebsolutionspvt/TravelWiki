@@ -2,6 +2,7 @@ import React from "react";
 import { useSEO } from "../../hooks/useSEO";
 import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
+import ItineraryCard from "../../components/ItineraryCard";
 
 export default function KashmirPahalgamTour() {
   const seoData = useSEO({
@@ -151,71 +152,107 @@ export default function KashmirPahalgamTour() {
               <h2 className="text-3xl font-bold text-gray-800 mb-8">Pahalgam Tour Itinerary</h2>
               
               <div className="space-y-6">
-                <div className="border-l-4 border-green-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 1: Arrival in Srinagar</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Airport pickup and hotel check-in</li>
-                    <li>Local sightseeing in Srinagar</li>
-                    <li>Dal Lake Shikara ride</li>
-                    <li>Visit Mughal Gardens</li>
-                    <li>Overnight stay in Srinagar</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 1: Arrival in Srinagar"
+                  activities={[
+                    "Airport pickup and hotel check-in",
+                    "Local sightseeing in Srinagar",
+                    "Dal Lake Shikara ride",
+                    "Visit Mughal Gardens",
+                    "Overnight stay in Srinagar"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Srinagar+Arrival"
+                  imageAlt="Srinagar Arrival"
+                  imageTitle="Srinagar Arrival"
+                  imageSubtitle="Capital Welcome"
+                  icon="🏛️"
+                  imageOnRight={false}
+                />
 
-                <div className="border-l-4 border-emerald-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 2: Srinagar to Pahalgam</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Drive to Pahalgam (95 km, 2.5 hours)</li>
-                    <li>Check-in at Pahalgam hotel</li>
-                    <li>Explore Pahalgam main market</li>
-                    <li>Walk along Lidder River</li>
-                    <li>Evening leisure time</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 2: Srinagar to Pahalgam"
+                  activities={[
+                    "Drive to Pahalgam (95 km, 2.5 hours)",
+                    "Check-in at Pahalgam hotel",
+                    "Explore Pahalgam main market",
+                    "Walk along Lidder River",
+                    "Evening leisure time"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/10B981/FFFFFF?text=Pahalgam+Drive"
+                  imageAlt="Drive to Pahalgam"
+                  imageTitle="Drive to Pahalgam"
+                  imageSubtitle="Valley of Shepherds"
+                  icon="🚗"
+                  imageOnRight={true}
+                />
 
-                <div className="border-l-4 border-blue-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 3: Betaab Valley & Aru Valley</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Morning visit to Betaab Valley</li>
-                    <li>Photography and nature walks</li>
-                    <li>Lunch amidst scenic surroundings</li>
-                    <li>Afternoon excursion to Aru Valley</li>
-                    <li>Camping experience (optional)</li>
-                    <li>Return to Pahalgam for overnight stay</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 3: Betaab Valley & Aru Valley"
+                  activities={[
+                    "Morning visit to Betaab Valley",
+                    "Photography and nature walks",
+                    "Lunch amidst scenic surroundings",
+                    "Afternoon excursion to Aru Valley",
+                    "Camping experience (optional)",
+                    "Return to Pahalgam for overnight stay"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/06B6D4/FFFFFF?text=Betaab+Valley"
+                  imageAlt="Betaab Valley Experience"
+                  imageTitle="Betaab Valley"
+                  imageSubtitle="Bollywood Location"
+                  icon="🎬"
+                  imageOnRight={false}
+                />
 
-                <div className="border-l-4 border-purple-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 4: Chandanwari Excursion</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Early morning drive to Chandanwari</li>
-                    <li>Glacier viewing and snow activities</li>
-                    <li>Pony rides to nearby viewpoints</li>
-                    <li>Adventure activities and trekking</li>
-                    <li>Return to Pahalgam</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 4: Chandanwari Excursion"
+                  activities={[
+                    "Early morning drive to Chandanwari",
+                    "Glacier viewing and snow activities",
+                    "Pony rides to nearby viewpoints",
+                    "Adventure activities and trekking",
+                    "Return to Pahalgam"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/8B5CF6/FFFFFF?text=Chandanwari"
+                  imageAlt="Chandanwari Excursion"
+                  imageTitle="Chandanwari"
+                  imageSubtitle="Amarnath Yatra Start"
+                  icon="❄️"
+                  imageOnRight={true}
+                />
 
-                <div className="border-l-4 border-red-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 5: Adventure Activities</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>River rafting on Lidder River</li>
-                    <li>Fishing in mountain streams</li>
-                    <li>Nature photography tours</li>
-                    <li>Local handicraft shopping</li>
-                    <li>Cultural evening program</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 5: Adventure Activities"
+                  activities={[
+                    "River rafting on Lidder River",
+                    "Fishing in mountain streams",
+                    "Nature photography tours",
+                    "Local handicraft shopping",
+                    "Cultural evening program"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/EF4444/FFFFFF?text=River+Rafting"
+                  imageAlt="River Rafting Adventure"
+                  imageTitle="River Rafting"
+                  imageSubtitle="Lidder River Adventure"
+                  icon="🌊"
+                  imageOnRight={false}
+                />
 
-                <div className="border-l-4 border-orange-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 6: Return to Srinagar & Departure</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Check-out from Pahalgam hotel</li>
-                    <li>Drive back to Srinagar</li>
-                    <li>Last-minute shopping</li>
-                    <li>Airport transfer and departure</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 6: Return to Srinagar & Departure"
+                  activities={[
+                    "Check-out from Pahalgam hotel",
+                    "Drive back to Srinagar",
+                    "Last-minute shopping",
+                    "Airport transfer and departure"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/F59E0B/FFFFFF?text=Departure"
+                  imageAlt="Departure"
+                  imageTitle="Departure"
+                  imageSubtitle="Journey End"
+                  icon="✈️"
+                  imageOnRight={true}
+                />
               </div>
             </div>
           </div>

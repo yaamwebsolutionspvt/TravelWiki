@@ -2,6 +2,7 @@ import React from "react";
 import { useSEO } from "../../../hooks/useSEO";
 import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
+import ItineraryCard from "../../../components/ItineraryCard";
 const ex6 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514623/travelwiki/assets/Excursion/ex6.png";
 
 export default function SrinagarGetawayPackage() {
@@ -120,57 +121,81 @@ export default function SrinagarGetawayPackage() {
             <div className="bg-gradient-to-r from-teal-50 to-cyan-50 rounded-lg p-8 mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Perfect Getaway Itinerary</h2>
               <div className="space-y-8">
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🌟 Day 1: Warm Srinagar Welcome</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Friendly arrival at Srinagar Airport</li>
-                    <li>• Quick check-in to comfortable centrally-located hotel</li>
-                    <li>• Welcome refreshments and Kashmir orientation</li>
-                    <li>• Evening relaxed Shikara ride on beautiful Dal Lake</li>
-                    <li>• First taste of Kashmir with traditional dinner</li>
-                    <li>• Comfortable overnight stay in heart of Srinagar</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 1: Warm Srinagar Welcome"
+                  activities={[
+                    "Friendly arrival at Srinagar Airport",
+                    "Quick check-in to comfortable centrally-located hotel",
+                    "Welcome refreshments and Kashmir orientation",
+                    "Evening relaxed Shikara ride on beautiful Dal Lake",
+                    "First taste of Kashmir with traditional dinner",
+                    "Comfortable overnight stay in heart of Srinagar"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/0EA5E9/FFFFFF?text=Warm+Srinagar+Welcome"
+                  imageAlt="Warm Srinagar Welcome"
+                  imageTitle="Warm Srinagar Welcome"
+                  imageSubtitle="Friendly Airport Arrival"
+                  icon="🌟"
+                  imageOnRight={false}
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🚣‍♀️ Day 2: Essential Srinagar Sightseeing</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Essential 01 Hour Shikara ride on iconic Dal Lake</li>
-                    <li>• Comprehensive tour of world-famous Mughal Gardens</li>
-                    <li>• Visit stunning Shalimar Bagh, Nishat Bagh, and Chashme Shahi</li>
-                    <li>• Quick visit to Shankaracharya Temple for panoramic views</li>
-                    <li>• Lunch at popular local restaurant</li>
-                    <li>• Evening shopping at famous Lal Chowk market</li>
-                    <li>• Traditional dinner with local entertainment</li>
-                    <li>• Comfortable overnight stay</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 2: Essential Srinagar Sightseeing"
+                  activities={[
+                    "Essential 01 Hour Shikara ride on iconic Dal Lake",
+                    "Comprehensive tour of world-famous Mughal Gardens",
+                    "Visit stunning Shalimar Bagh, Nishat Bagh, and Chashme Shahi",
+                    "Quick visit to Shankaracharya Temple for panoramic views",
+                    "Lunch at popular local restaurant",
+                    "Evening shopping at famous Lal Chowk market",
+                    "Traditional dinner with local entertainment",
+                    "Comfortable overnight stay"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Essential+Sightseeing"
+                  imageAlt="Essential Srinagar Sightseeing"
+                  imageTitle="Essential Sightseeing"
+                  imageSubtitle="Dal Lake & Mughal Gardens"
+                  icon="🚣‍♀️"
+                  imageOnRight={true}
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🏔️ Day 3: Pahalgam Valley Excursion</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Early morning departure for scenic Pahalgam Valley</li>
-                    <li>• Complete tour of beautiful Pahalgam attractions</li>
-                    <li>• Visit picturesque Betab Valley and Aru Valley</li>
-                    <li>• Quick stop at Chandanwari for mountain views</li>
-                    <li>• Lunch in Pahalgam with valley views</li>
-                    <li>• Optional pony rides and nature walks</li>
-                    <li>• Return to Srinagar in the evening</li>
-                    <li>• Relaxed dinner and overnight stay</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 3: Pahalgam Valley Excursion"
+                  activities={[
+                    "Early morning departure for scenic Pahalgam Valley",
+                    "Complete tour of beautiful Pahalgam attractions",
+                    "Visit picturesque Betab Valley and Aru Valley",
+                    "Quick stop at Chandanwari for mountain views",
+                    "Lunch in Pahalgam with valley views",
+                    "Optional pony rides and nature walks",
+                    "Return to Srinagar in the evening",
+                    "Relaxed dinner and overnight stay"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/10B981/FFFFFF?text=Pahalgam+Valley"
+                  imageAlt="Pahalgam Valley Excursion"
+                  imageTitle="Pahalgam Valley"
+                  imageSubtitle="Scenic Valley Experience"
+                  icon="🏔️"
+                  imageOnRight={false}
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🎨 Day 4: Cultural Experience & Departure</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Morning visit to traditional handicraft centers</li>
-                    <li>• Quick cultural experience and local interactions</li>
-                    <li>• Final shopping for Kashmir specialties and souvenirs</li>
-                    <li>• Last-minute sightseeing or relaxation time</li>
-                    <li>• Check-out and transfer to Srinagar Airport</li>
-                    <li>• Departure with wonderful short getaway memories</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 4: Cultural Experience & Departure"
+                  activities={[
+                    "Morning visit to traditional handicraft centers",
+                    "Quick cultural experience and local interactions",
+                    "Final shopping for Kashmir specialties and souvenirs",
+                    "Last-minute sightseeing or relaxation time",
+                    "Check-out and transfer to Srinagar Airport",
+                    "Departure with wonderful short getaway memories"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/7C3AED/FFFFFF?text=Cultural+Experience"
+                  imageAlt="Cultural Experience & Departure"
+                  imageTitle="Cultural Experience"
+                  imageSubtitle="Final Cultural Moments"
+                  icon="🎨"
+                  imageOnRight={true}
+                />
               </div>
             </div>
 

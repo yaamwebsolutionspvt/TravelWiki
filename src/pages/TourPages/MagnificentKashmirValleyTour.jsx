@@ -2,6 +2,7 @@ import React from "react";
 import { useSEO } from "../../hooks/useSEO";
 import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
+import ItineraryCard from "../../components/ItineraryCard";
 const gandolaRide = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514591/travelwiki/assets/Bestseller/gandola-ride-kashmir.jpg";
 
 export default function MagnificentKashmirValleyTour() {
@@ -124,60 +125,80 @@ export default function MagnificentKashmirValleyTour() {
             <div className="bg-gradient-to-r from-purple-50 to-pink-50 rounded-lg p-8 mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Magnificent Itinerary</h2>
               <div className="space-y-8">
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🏛️ Srinagar (2 Nights)</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Arrival at Srinagar and check-in to premium hotel</li>
-                    <li>• Welcome 01 Hour Shikara ride on magnificent Dal Lake</li>
-                    <li>• Comprehensive tour of all Mughal Gardens</li>
-                    <li>• Visit Hazratbal Shrine and Jamia Masjid</li>
-                    <li>• Explore Shankaracharya Temple for panoramic views</li>
-                    <li>• Traditional handicraft shopping in old bazaars</li>
-                    <li>• Cultural evening with traditional music and dance</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Srinagar (2 Nights)"
+                  activities={[
+                    "Arrival at Srinagar and check-in to premium hotel",
+                    "Welcome 01 Hour Shikara ride on magnificent Dal Lake",
+                    "Comprehensive tour of all Mughal Gardens",
+                    "Visit Hazratbal Shrine and Jamia Masjid",
+                    "Explore Shankaracharya Temple for panoramic views",
+                    "Traditional handicraft shopping in old bazaars",
+                    "Cultural evening with traditional music and dance"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/7C3AED/FFFFFF?text=Srinagar+Shikara"
+                  imageAlt="Srinagar Shikara Ride Experience"
+                  imageTitle="Srinagar Shikara"
+                  imageSubtitle="01 Hour Dal Lake Experience"
+                  icon="🏛️"
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🌲 Pahalgam (2 Nights)</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Scenic drive to Pahalgam with multiple photo stops</li>
-                    <li>• Day 1: Complete tour of Chandanwari and surrounding areas</li>
-                    <li>• Extended exploration of Aru Valley with leisure time</li>
-                    <li>• Visit magnificent Betab Valley and Mini Switzerland</li>
-                    <li>• Day 2: Adventure day with trekking and river activities</li>
-                    <li>• Pony trekking to Baisaran meadows</li>
-                    <li>• Golf at Pahalgam Golf Course (seasonal)</li>
-                    <li>• Nature walks along Lidder River</li>
-                    <li>• Village visits and local cultural interactions</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Pahalgam (2 Nights)"
+                  activities={[
+                    "Scenic drive to Pahalgam with multiple photo stops",
+                    "Day 1: Complete tour of Chandanwari and surrounding areas",
+                    "Extended exploration of Aru Valley with leisure time",
+                    "Visit magnificent Betab Valley and Mini Switzerland",
+                    "Day 2: Adventure day with trekking and river activities",
+                    "Pony trekking to Baisaran meadows",
+                    "Golf at Pahalgam Golf Course (seasonal)",
+                    "Nature walks along Lidder River",
+                    "Village visits and local cultural interactions"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/EA580C/FFFFFF?text=Pahalgam+Valley"
+                  imageAlt="Pahalgam Valley Experience"
+                  imageTitle="Pahalgam Valley"
+                  imageSubtitle="2 Nights Valley Exploration"
+                  icon="🌲"
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🚡 Gulmarg (1 Night)</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Drive to magnificent Gulmarg meadows</li>
-                    <li>• Gulmarg Gondola Phase 1 & 2 to Apharwat Peak</li>
-                    <li>• Snow activities and skiing (winter season)</li>
-                    <li>• Comprehensive exploration of Gulmarg biosphere</li>
-                    <li>• Visit world's highest golf course</li>
-                    <li>• Alpine trekking and nature photography</li>
-                    <li>• Visit St. Mary's Church and local attractions</li>
-                    <li>• Adventure sports and mountain biking</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Gulmarg (1 Night)"
+                  activities={[
+                    "Drive to magnificent Gulmarg meadows",
+                    "Gulmarg Gondola Phase 1 & 2 to Apharwat Peak",
+                    "Snow activities and skiing (winter season)",
+                    "Comprehensive exploration of Gulmarg biosphere",
+                    "Visit world's highest golf course",
+                    "Alpine trekking and nature photography",
+                    "Visit St. Mary's Church and local attractions",
+                    "Adventure sports and mountain biking"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/0891B2/FFFFFF?text=Gulmarg+Gondola"
+                  imageAlt="Gulmarg Gondola Experience"
+                  imageTitle="Gulmarg Gondola"
+                  imageSubtitle="1 Night Mountain Adventure"
+                  icon="🚡"
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🏠 Srinagar Houseboat (1 Night)</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Return to Srinagar and check-in to premium houseboat</li>
-                    <li>• Sunset Shikara ride with photography session</li>
-                    <li>• Traditional Wazwan dinner experience</li>
-                    <li>• Evening leisure on houseboat deck</li>
-                    <li>• Early morning floating market visit</li>
-                    <li>• Final shopping and souvenir collection</li>
-                    <li>• Departure transfer to airport</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Srinagar Houseboat (1 Night)"
+                  activities={[
+                    "Return to Srinagar and check-in to premium houseboat",
+                    "Sunset Shikara ride with photography session",
+                    "Traditional Wazwan dinner experience",
+                    "Evening leisure on houseboat deck",
+                    "Early morning floating market visit",
+                    "Final shopping and souvenir collection",
+                    "Departure transfer to airport"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/059669/FFFFFF?text=Houseboat+Stay"
+                  imageAlt="Luxury Houseboat Experience"
+                  imageTitle="Luxury Houseboat"
+                  imageSubtitle="1 Night Floating Experience"
+                  icon="🏠"
+                />
               </div>
             </div>
 

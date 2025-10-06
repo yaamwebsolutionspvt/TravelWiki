@@ -2,6 +2,7 @@ import React from "react";
 import { useSEO } from "../../../hooks/useSEO";
 import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
+import ItineraryCard from "../../../components/ItineraryCard";
 const fm5 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514631/travelwiki/assets/Family/fm5.png";
 
 export default function AmazingKashmirHolidayPackage() {
@@ -67,6 +68,45 @@ export default function AmazingKashmirHolidayPackage() {
           </div>
         </div>
 
+        {/* Image Gallery Section 1 - After Hero */}
+        <div className="container mx-auto px-4 py-12">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Amazing Kashmir Moments</h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="relative group overflow-hidden rounded-lg shadow-lg">
+                <img 
+                  src="https://via.placeholder.com/400x300/4F46E5/FFFFFF?text=Image+1" 
+                  alt="Amazing Kashmir Family Experience" 
+                  className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
+                  <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-semibold">Amazing Family Fun</span>
+                </div>
+              </div>
+              <div className="relative group overflow-hidden rounded-lg shadow-lg">
+                <img 
+                  src="https://via.placeholder.com/400x300/059669/FFFFFF?text=Image+2" 
+                  alt="Luxury Houseboat Experience" 
+                  className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
+                  <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-semibold">Luxury Houseboat</span>
+                </div>
+              </div>
+              <div className="relative group overflow-hidden rounded-lg shadow-lg">
+                <img 
+                  src="https://via.placeholder.com/400x300/DC2626/FFFFFF?text=Image+3" 
+                  alt="Gulmarg Mountain Adventure" 
+                  className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
+                  <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-semibold">Mountain Adventure</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
         {/* Package Details */}
         <div className="container mx-auto px-4 py-12">
           <div className="max-w-6xl mx-auto">
@@ -118,46 +158,61 @@ export default function AmazingKashmirHolidayPackage() {
             <div className="bg-gradient-to-r from-blue-50 to-cyan-50 rounded-lg p-8 mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Amazing Family Holiday Itinerary</h2>
               <div className="space-y-8">
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🏛️ Day 1: Amazing Srinagar Welcome</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Amazing arrival welcome at Srinagar Airport</li>
-                    <li>• Luxury transfer to premium family-friendly hotel</li>
-                    <li>• Check-in to spacious family rooms with amazing lake views</li>
-                    <li>• Welcome refreshments with amazing Kashmir specialties</li>
-                    <li>• Evening leisure time to enjoy amazing hotel amenities</li>
-                    <li>• Traditional dinner with amazing Kashmiri flavors</li>
-                    <li>• Overnight in amazing luxury accommodations</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 1: Amazing Srinagar Welcome"
+                  activities={[
+                    "Amazing arrival welcome at Srinagar Airport",
+                    "Luxury transfer to premium family-friendly hotel",
+                    "Check-in to spacious family rooms with amazing lake views",
+                    "Welcome refreshments with amazing Kashmir specialties",
+                    "Evening leisure time to enjoy amazing hotel amenities",
+                    "Traditional dinner with amazing Kashmiri flavors",
+                    "Overnight in amazing luxury accommodations"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Srinagar+Airport"
+                  imageAlt="Srinagar Airport Welcome"
+                  imageTitle="Srinagar Airport"
+                  imageSubtitle="Amazing Welcome Experience"
+                  icon="🏛️"
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🚣‍♀️ Day 2: Amazing Srinagar Lake Experience</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Amazing 01 Hour family Shikara ride on Dal Lake</li>
-                    <li>• Visit amazing floating gardens and local communities</li>
-                    <li>• Amazing family tour of spectacular Mughal Gardens</li>
-                    <li>• Interactive sessions with amazing garden stories</li>
-                    <li>• Lunch at restaurant with amazing lake views</li>
-                    <li>• Amazing family shopping experience at local markets</li>
-                    <li>• Evening cultural program with amazing performances</li>
-                    <li>• Overnight with amazing family entertainment facilities</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 2: Amazing Srinagar Lake Experience"
+                  activities={[
+                    "Amazing 01 Hour family Shikara ride on Dal Lake",
+                    "Visit amazing floating gardens and local communities",
+                    "Amazing family tour of spectacular Mughal Gardens",
+                    "Interactive sessions with amazing garden stories",
+                    "Lunch at restaurant with amazing lake views",
+                    "Amazing family shopping experience at local markets",
+                    "Evening cultural program with amazing performances",
+                    "Overnight with amazing family entertainment facilities"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/06B6D4/FFFFFF?text=Dal+Lake+Shikara"
+                  imageAlt="Dal Lake Shikara Ride"
+                  imageTitle="Dal Lake Shikara"
+                  imageSubtitle="01 Hour Family Experience"
+                  icon="🚣‍♀️"
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🚡 Day 3: Amazing Gulmarg Mountain Adventure</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Amazing scenic drive to beautiful Gulmarg</li>
-                    <li>• Amazing family-friendly Gulmarg Gondola experience</li>
-                    <li>• Amazing snow activities and mountain games</li>
-                    <li>• Amazing family lunch at high-altitude restaurant</li>
-                    <li>• Amazing exploration of world's highest golf course</li>
-                    <li>• Amazing family photo sessions in meadow settings</li>
-                    <li>• Return to Srinagar with amazing mountain memories</li>
-                    <li>• Overnight in luxury hotel</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 3: Amazing Gulmarg Mountain Adventure"
+                  activities={[
+                    "Amazing scenic drive to beautiful Gulmarg",
+                    "Amazing family-friendly Gulmarg Gondola experience",
+                    "Amazing snow activities and mountain games",
+                    "Amazing family lunch at high-altitude restaurant",
+                    "Amazing exploration of world's highest golf course",
+                    "Amazing family photo sessions in meadow settings",
+                    "Return to Srinagar with amazing mountain memories",
+                    "Overnight in luxury hotel"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/8B5CF6/FFFFFF?text=Gulmarg+Gondola"
+                  imageAlt="Gulmarg Gondola Experience"
+                  imageTitle="Gulmarg Gondola"
+                  imageSubtitle="Mountain Adventure"
+                  icon="🚡"
+                />
                 
                 <div className="bg-white rounded-lg p-6 shadow-md">
                   <h3 className="text-xl font-bold text-gray-800 mb-4">🏡 Day 4: Amazing Houseboat Experience</h3>
@@ -182,6 +237,115 @@ export default function AmazingKashmirHolidayPackage() {
                     <li>• Amazing transfer to airport with comfort</li>
                     <li>• Departure with amazing lifetime Kashmir memories</li>
                   </ul>
+                </div>
+              </div>
+            </div>
+
+            {/* Image Gallery Section 2 - Itinerary Highlights */}
+            <div className="bg-white rounded-lg shadow-md p-8 mb-12">
+              <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Amazing Itinerary Highlights</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div className="space-y-6">
+                  <div className="relative group overflow-hidden rounded-lg shadow-lg">
+                    <img 
+                      src="https://via.placeholder.com/500x350/7C3AED/FFFFFF?text=Shikara+Ride" 
+                      alt="Amazing Shikara Ride Experience" 
+                      className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
+                      <div className="p-4 text-white">
+                        <h3 className="font-bold text-lg">Amazing Shikara Ride</h3>
+                        <p className="text-sm opacity-90">01 Hour family experience on Dal Lake</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="relative group overflow-hidden rounded-lg shadow-lg">
+                    <img 
+                      src="https://via.placeholder.com/500x350/EA580C/FFFFFF?text=Gulmarg+Gondola" 
+                      alt="Gulmarg Gondola Experience" 
+                      className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
+                      <div className="p-4 text-white">
+                        <h3 className="font-bold text-lg">Gulmarg Gondola</h3>
+                        <p className="text-sm opacity-90">Family-friendly mountain adventure</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div className="space-y-6">
+                  <div className="relative group overflow-hidden rounded-lg shadow-lg">
+                    <img 
+                      src="https://via.placeholder.com/500x350/0891B2/FFFFFF?text=Houseboat+Stay" 
+                      alt="Luxury Houseboat Experience" 
+                      className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
+                      <div className="p-4 text-white">
+                        <h3 className="font-bold text-lg">Luxury Houseboat</h3>
+                        <p className="text-sm opacity-90">Amazing floating accommodation</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="relative group overflow-hidden rounded-lg shadow-lg">
+                    <img 
+                      src="https://via.placeholder.com/500x350/059669/FFFFFF?text=Mughal+Gardens" 
+                      alt="Mughal Gardens Tour" 
+                      className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+                    />
+                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
+                      <div className="p-4 text-white">
+                        <h3 className="font-bold text-lg">Mughal Gardens</h3>
+                        <p className="text-sm opacity-90">Spectacular garden tours</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Image Gallery Section 3 - Package Experience */}
+            <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-8 mb-12">
+              <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Amazing Package Experience</h2>
+              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div className="relative group overflow-hidden rounded-xl shadow-lg">
+                  <img 
+                    src="https://via.placeholder.com/400x300/DC2626/FFFFFF?text=Family+Fun" 
+                    alt="Amazing Family Activities" 
+                    className="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end">
+                    <div className="p-4 text-white">
+                      <h3 className="font-bold text-lg mb-1">Family Activities</h3>
+                      <p className="text-sm opacity-90">Amazing experiences for all ages</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="relative group overflow-hidden rounded-xl shadow-lg">
+                  <img 
+                    src="https://via.placeholder.com/400x300/059669/FFFFFF?text=Luxury+Stay" 
+                    alt="Luxury Accommodations" 
+                    className="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end">
+                    <div className="p-4 text-white">
+                      <h3 className="font-bold text-lg mb-1">Luxury Stay</h3>
+                      <p className="text-sm opacity-90">Premium accommodations</p>
+                    </div>
+                  </div>
+                </div>
+                <div className="relative group overflow-hidden rounded-xl shadow-lg">
+                  <img 
+                    src="https://via.placeholder.com/400x300/7C3AED/FFFFFF?text=Memories" 
+                    alt="Amazing Memories" 
+                    className="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end">
+                    <div className="p-4 text-white">
+                      <h3 className="font-bold text-lg mb-1">Amazing Memories</h3>
+                      <p className="text-sm opacity-90">Lifetime experiences</p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

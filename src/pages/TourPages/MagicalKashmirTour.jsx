@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
+import ItineraryCard from "../../components/ItineraryCard";
 const kashmirTourism = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514594/travelwiki/assets/Bestseller/kashmir-tourism.jpg";
 
 export default function MagicalKashmirTour() {
@@ -162,44 +163,59 @@ export default function MagicalKashmirTour() {
             <div className="bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-8 mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Detailed Itinerary</h2>
               <div className="space-y-8">
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🏛️ Srinagar (2 Nights - 1 Night Houseboat)</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Arrival at Srinagar Airport and transfer to houseboat</li>
-                    <li>• 01 Hour magical Shikara ride on Dal Lake</li>
-                    <li>• Visit to famous Mughal Gardens - Shalimar, Nishat, and Chashme Shahi</li>
-                    <li>• Explore floating vegetable market in early morning</li>
-                    <li>• Traditional houseboat stay experience</li>
-                    <li>• Shopping at local handicraft markets</li>
-                    <li>• Visit Jamia Masjid and old city exploration</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Srinagar (2 Nights - 1 Night Houseboat)"
+                  activities={[
+                    "Arrival at Srinagar Airport and transfer to houseboat",
+                    "01 Hour magical Shikara ride on Dal Lake",
+                    "Visit to famous Mughal Gardens - Shalimar, Nishat, and Chashme Shahi",
+                    "Explore floating vegetable market in early morning",
+                    "Traditional houseboat stay experience",
+                    "Shopping at local handicraft markets",
+                    "Visit Jamia Masjid and old city exploration"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Srinagar+Houseboat"
+                  imageAlt="Srinagar Houseboat Experience"
+                  imageTitle="Srinagar Houseboat"
+                  imageSubtitle="Traditional Stay Experience"
+                  icon="🏛️"
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🌲 Pahalgam (1 Night)</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Scenic drive to Pahalgam via Awantipora ruins</li>
-                    <li>• Tour to Chandanwari - starting point of Amarnath Yatra</li>
-                    <li>• Visit picturesque Aru Valley with its meadows</li>
-                    <li>• Explore Betab Valley (named after Bollywood movie Betaab)</li>
-                    <li>• Lidder River activities and nature walks</li>
-                    <li>• Pony rides to scenic viewpoints</li>
-                    <li>• Local trout fishing experience</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Pahalgam (1 Night)"
+                  activities={[
+                    "Scenic drive to Pahalgam via Awantipora ruins",
+                    "Tour to Chandanwari - starting point of Amarnath Yatra",
+                    "Visit picturesque Aru Valley with its meadows",
+                    "Explore Betab Valley (named after Bollywood movie Betaab)",
+                    "Lidder River activities and nature walks",
+                    "Pony rides to scenic viewpoints",
+                    "Local trout fishing experience"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/10B981/FFFFFF?text=Pahalgam+Valley"
+                  imageAlt="Pahalgam Valley Experience"
+                  imageTitle="Pahalgam Valley"
+                  imageSubtitle="Nature & Adventure"
+                  icon="🌲"
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🚡 Gulmarg (1 Night)</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Drive to Gulmarg - "Meadow of Flowers"</li>
-                    <li>• Gulmarg Gondola Phase 1 & 2 (subject to weather)</li>
-                    <li>• Visit Apharwat Peak for snow activities</li>
-                    <li>• Golf course views and local walks</li>
-                    <li>• Skiing and snow activities (winter season)</li>
-                    <li>• Photography sessions in alpine meadows</li>
-                    <li>• Visit St. Mary's Church</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Gulmarg (1 Night)"
+                  activities={[
+                    "Drive to Gulmarg - 'Meadow of Flowers'",
+                    "Gulmarg Gondola Phase 1 & 2 (subject to weather)",
+                    "Visit Apharwat Peak for snow activities",
+                    "Golf course views and local walks",
+                    "Skiing and snow activities (winter season)",
+                    "Photography sessions in alpine meadows",
+                    "Visit St. Mary's Church"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/8B5CF6/FFFFFF?text=Gulmarg+Gondola"
+                  imageAlt="Gulmarg Gondola Experience"
+                  imageTitle="Gulmarg Gondola"
+                  imageSubtitle="Meadow of Flowers"
+                  icon="🚡"
+                />
               </div>
             </div>
 

@@ -2,6 +2,7 @@ import React from "react";
 import { useSEO } from "../../../hooks/useSEO";
 import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
+import ItineraryCard from "../../../components/ItineraryCard";
 const holiday = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514636/travelwiki/assets/Honeymoon/kashmir-holiday.jpg";
 
 export default function BestSellingKashmirTour() {
@@ -119,79 +120,109 @@ export default function BestSellingKashmirTour() {
             <div className="bg-gradient-to-r from-emerald-50 to-teal-50 rounded-lg p-8 mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Complete Kashmir Itinerary</h2>
               <div className="space-y-8">
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🏛️ Day 1: Arrival in Srinagar</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Arrival at Srinagar Airport and VIP welcome</li>
-                    <li>• Check-in to premium hotel in Srinagar</li>
-                    <li>• Welcome cake and fresh fruit basket</li>
-                    <li>• Evening visit to local markets</li>
-                    <li>• Special candlelight dinner</li>
-                    <li>• Overnight stay in Srinagar hotel</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 1: Arrival in Srinagar"
+                  activities={[
+                    "Arrival at Srinagar Airport and VIP welcome",
+                    "Check-in to premium hotel in Srinagar",
+                    "Welcome cake and fresh fruit basket",
+                    "Evening visit to local markets",
+                    "Special candlelight dinner",
+                    "Overnight stay in Srinagar hotel"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Srinagar+Arrival"
+                  imageAlt="Srinagar Arrival"
+                  imageTitle="Srinagar Arrival"
+                  imageSubtitle="VIP Welcome"
+                  icon="🏛️"
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🚣‍♀️ Day 2: Srinagar Sightseeing</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Morning breakfast at hotel</li>
-                    <li>• Romantic 01 Hour Shikara ride on Dal Lake</li>
-                    <li>• Visit famous Mughal Gardens (Nishat & Shalimar)</li>
-                    <li>• Explore Shankaracharya Temple for panoramic views</li>
-                    <li>• Visit Hazratbal Shrine and Jamia Masjid</li>
-                    <li>• Shopping time at Boulevard Road</li>
-                    <li>• Overnight stay in Srinagar hotel</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 2: Srinagar Sightseeing"
+                  activities={[
+                    "Morning breakfast at hotel",
+                    "Romantic 01 Hour Shikara ride on Dal Lake",
+                    "Visit famous Mughal Gardens (Nishat & Shalimar)",
+                    "Explore Shankaracharya Temple for panoramic views",
+                    "Visit Hazratbal Shrine and Jamia Masjid",
+                    "Shopping time at Boulevard Road",
+                    "Overnight stay in Srinagar hotel"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/06B6D4/FFFFFF?text=Dal+Lake+Shikara"
+                  imageAlt="Dal Lake Shikara Ride"
+                  imageTitle="Dal Lake Shikara"
+                  imageSubtitle="Romantic Experience"
+                  icon="🚣‍♀️"
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🌲 Day 3: Pahalgam Excursion</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Morning breakfast and drive to Pahalgam</li>
-                    <li>• Check-in to hotel in Pahalgam</li>
-                    <li>• Visit Betab Valley (Bollywood shooting location)</li>
-                    <li>• Explore Aru Valley's pristine beauty</li>
-                    <li>• Horse riding or pony trekking experience</li>
-                    <li>• Evening walks along Lidder River</li>
-                    <li>• Overnight stay in Pahalgam</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 3: Pahalgam Excursion"
+                  activities={[
+                    "Morning breakfast and drive to Pahalgam",
+                    "Check-in to hotel in Pahalgam",
+                    "Visit Betab Valley (Bollywood shooting location)",
+                    "Explore Aru Valley's pristine beauty",
+                    "Horse riding or pony trekking experience",
+                    "Evening walks along Lidder River",
+                    "Overnight stay in Pahalgam"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/10B981/FFFFFF?text=Pahalgam+Valley"
+                  imageAlt="Pahalgam Valley Experience"
+                  imageTitle="Pahalgam Valley"
+                  imageSubtitle="Nature & Adventure"
+                  icon="🌲"
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🚡 Day 4: Gulmarg Adventure</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Early breakfast and drive to Gulmarg</li>
-                    <li>• Check-in to hotel in Gulmarg</li>
-                    <li>• Gulmarg Gondola cable car ride (Phase 1 & 2)</li>
-                    <li>• Visit the world's highest golf course</li>
-                    <li>• Adventure activities and snow sports (seasonal)</li>
-                    <li>• Scenic photography at viewpoints</li>
-                    <li>• Overnight stay in Gulmarg</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 4: Gulmarg Adventure"
+                  activities={[
+                    "Early breakfast and drive to Gulmarg",
+                    "Check-in to hotel in Gulmarg",
+                    "Gulmarg Gondola cable car ride (Phase 1 & 2)",
+                    "Visit the world's highest golf course",
+                    "Adventure activities and snow sports (seasonal)",
+                    "Scenic photography at viewpoints",
+                    "Overnight stay in Gulmarg"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/8B5CF6/FFFFFF?text=Gulmarg+Gondola"
+                  imageAlt="Gulmarg Gondola Experience"
+                  imageTitle="Gulmarg Gondola"
+                  imageSubtitle="Meadow of Flowers"
+                  icon="🚡"
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🏠 Day 5: Houseboat Experience</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Morning breakfast and return to Srinagar</li>
-                    <li>• Check-in to traditional houseboat on Dal Lake</li>
-                    <li>• Leisure time on houseboat deck</li>
-                    <li>• Sunset Shikara ride with photography</li>
-                    <li>• Traditional Kashmiri dinner on houseboat</li>
-                    <li>• Romantic evening under the stars</li>
-                    <li>• Overnight stay in houseboat</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 5: Houseboat Experience"
+                  activities={[
+                    "Morning breakfast and return to Srinagar",
+                    "Check-in to traditional houseboat on Dal Lake",
+                    "Leisure time on houseboat deck",
+                    "Sunset Shikara ride with photography",
+                    "Traditional Kashmiri dinner on houseboat",
+                    "Romantic evening under the stars",
+                    "Overnight stay in houseboat"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/F59E0B/FFFFFF?text=Houseboat+Experience"
+                  imageAlt="Houseboat Experience"
+                  imageTitle="Houseboat Experience"
+                  imageSubtitle="Traditional Stay"
+                  icon="🏠"
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">✈️ Day 6: Departure</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Morning breakfast on houseboat</li>
-                    <li>• Last-minute shopping for souvenirs</li>
-                    <li>• Check-out and departure transfer to airport</li>
-                    <li>• Departure with wonderful memories</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 6: Departure"
+                  activities={[
+                    "Morning breakfast on houseboat",
+                    "Last-minute shopping for souvenirs",
+                    "Check-out and departure transfer to airport",
+                    "Departure with wonderful memories"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/EF4444/FFFFFF?text=Departure"
+                  imageAlt="Departure"
+                  imageTitle="Departure"
+                  imageSubtitle="Wonderful Memories"
+                  icon="✈️"
+                />
               </div>
             </div>
 

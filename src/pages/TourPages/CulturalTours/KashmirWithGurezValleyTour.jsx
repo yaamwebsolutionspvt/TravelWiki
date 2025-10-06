@@ -2,6 +2,7 @@ import React from "react";
 import { useSEO } from "../../../hooks/useSEO";
 import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
+import ItineraryCard from "../../../components/ItineraryCard";
 const ct1 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514604/travelwiki/assets/CulturalTours/ct1.jpg";
 
 export default function KashmirWithGurezValleyTour() {
@@ -118,79 +119,115 @@ export default function KashmirWithGurezValleyTour() {
             <div className="bg-gradient-to-r from-purple-50 to-indigo-50 rounded-lg p-8 mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Heritage Cultural Itinerary</h2>
               <div className="space-y-8">
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🏛️ Day 1: Srinagar Heritage Introduction</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Grand arrival at Srinagar and check-in to heritage hotel</li>
-                    <li>• Traditional Kashmiri welcome with Kahwa and local sweets</li>
-                    <li>• Cultural orientation session about Kashmir's diverse heritage</li>
-                    <li>• Visit Shankaracharya Temple for spiritual cultural experience</li>
-                    <li>• Explore Jamia Masjid and experience Islamic architecture</li>
-                    <li>• Evening cultural walk through old city and traditional bazaars</li>
-                    <li>• Traditional dinner with live Kashmiri folk music</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 1: Srinagar Heritage Introduction"
+                  activities={[
+                    "Grand arrival at Srinagar and check-in to heritage hotel",
+                    "Traditional Kashmiri welcome with Kahwa and local sweets",
+                    "Cultural orientation session about Kashmir's diverse heritage",
+                    "Visit Shankaracharya Temple for spiritual cultural experience",
+                    "Explore Jamia Masjid and experience Islamic architecture",
+                    "Evening cultural walk through old city and traditional bazaars",
+                    "Traditional dinner with live Kashmiri folk music"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/7C3AED/FFFFFF?text=Srinagar+Heritage"
+                  imageAlt="Srinagar Heritage Introduction"
+                  imageTitle="Srinagar Heritage"
+                  imageSubtitle="Cultural Introduction"
+                  icon="🏛️"
+                  imageOnRight={false}
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🚣‍♀️ Day 2: Srinagar Cultural Deep Dive</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Heritage 01 Hour Shikara ride with cultural storytelling</li>
-                    <li>• Visit to all major Mughal Gardens with historical narratives</li>
-                    <li>• Traditional handicraft workshop visits - carpet, shawl, paper mache</li>
-                    <li>• Interact with master artisans and learn craft techniques</li>
-                    <li>• Traditional Indian lunch with authentic Wazwan preparation</li>
-                    <li>• Visit Kashmir Government Arts Emporium for cultural shopping</li>
-                    <li>• Evening cultural program with Rouf dance performance</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 2: Srinagar Cultural Deep Dive"
+                  activities={[
+                    "Heritage 01 Hour Shikara ride with cultural storytelling",
+                    "Visit to all major Mughal Gardens with historical narratives",
+                    "Traditional handicraft workshop visits - carpet, shawl, paper mache",
+                    "Interact with master artisans and learn craft techniques",
+                    "Traditional Indian lunch with authentic Wazwan preparation",
+                    "Visit Kashmir Government Arts Emporium for cultural shopping",
+                    "Evening cultural program with Rouf dance performance"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/059669/FFFFFF?text=Cultural+Deep+Dive"
+                  imageAlt="Srinagar Cultural Deep Dive"
+                  imageTitle="Cultural Deep Dive"
+                  imageSubtitle="Heritage Exploration"
+                  icon="🚣‍♀️"
+                  imageOnRight={true}
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🚗 Day 3: Journey to Gurez Cultural Heart</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Early departure for cultural expedition to Gurez Valley</li>
-                    <li>• Scenic cultural route via Bandipora with village stops</li>
-                    <li>• Interact with different communities along the mountain route</li>
-                    <li>• Check-in to traditional guesthouse in Gurez</li>
-                    <li>• Introduction to Dard culture and community leaders</li>
-                    <li>• Traditional welcome ceremony by local Dard community</li>
-                    <li>• Authentic dinner with folk songs and cultural stories</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 3: Journey to Gurez Cultural Heart"
+                  activities={[
+                    "Early departure for cultural expedition to Gurez Valley",
+                    "Scenic cultural route via Bandipora with village stops",
+                    "Interact with different communities along the mountain route",
+                    "Check-in to traditional guesthouse in Gurez",
+                    "Introduction to Dard culture and community leaders",
+                    "Traditional welcome ceremony by local Dard community",
+                    "Authentic dinner with folk songs and cultural stories"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/DC2626/FFFFFF?text=Gurez+Cultural+Heart"
+                  imageAlt="Journey to Gurez Cultural Heart"
+                  imageTitle="Gurez Cultural Heart"
+                  imageSubtitle="Cultural Expedition"
+                  icon="🚗"
+                  imageOnRight={false}
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🌄 Day 4: Gurez Cultural Immersion</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Full day dedicated to Dard culture exploration</li>
-                    <li>• Visit traditional wooden houses and architectural heritage</li>
-                    <li>• Participate in traditional craft making with local artisans</li>
-                    <li>• Learn about traditional farming and seasonal cultural practices</li>
-                    <li>• Traditional lunch prepared by community women</li>
-                    <li>• Visit local cultural center and meet tribal elders</li>
-                    <li>• Evening cultural bonfire with traditional songs and dances</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 4: Gurez Cultural Immersion"
+                  activities={[
+                    "Full day dedicated to Dard culture exploration",
+                    "Visit traditional wooden houses and architectural heritage",
+                    "Participate in traditional craft making with local artisans",
+                    "Learn about traditional farming and seasonal cultural practices",
+                    "Traditional lunch prepared by community women",
+                    "Visit local cultural center and meet tribal elders",
+                    "Evening cultural bonfire with traditional songs and dances"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/7C2D12/FFFFFF?text=Gurez+Cultural+Immersion"
+                  imageAlt="Gurez Cultural Immersion"
+                  imageTitle="Gurez Cultural Immersion"
+                  imageSubtitle="Dard Culture Exploration"
+                  icon="🌄"
+                  imageOnRight={true}
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🏛️ Day 5: Cultural Integration & Return</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Final cultural interaction and farewell ceremony</li>
-                    <li>• Purchase authentic cultural handicrafts and souvenirs</li>
-                    <li>• Cultural documentation and photography session</li>
-                    <li>• Scenic return journey to Srinagar with cultural reflection</li>
-                    <li>• Check-in to Srinagar hotel and cultural summary session</li>
-                    <li>• Traditional farewell dinner with cultural program</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 5: Cultural Integration & Return"
+                  activities={[
+                    "Final cultural interaction and farewell ceremony",
+                    "Purchase authentic cultural handicrafts and souvenirs",
+                    "Cultural documentation and photography session",
+                    "Scenic return journey to Srinagar with cultural reflection",
+                    "Check-in to Srinagar hotel and cultural summary session",
+                    "Traditional farewell dinner with cultural program"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/0891B2/FFFFFF?text=Cultural+Integration"
+                  imageAlt="Cultural Integration & Return"
+                  imageTitle="Cultural Integration"
+                  imageSubtitle="Farewell Ceremony"
+                  icon="🏛️"
+                  imageOnRight={false}
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">✈️ Day 6: Cultural Farewell & Departure</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Final breakfast with cultural experience sharing</li>
-                    <li>• Last-minute cultural shopping at traditional markets</li>
-                    <li>• Cultural certificate presentation ceremony</li>
-                    <li>• Departure transfer with cultural memories and insights</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 6: Cultural Farewell & Departure"
+                  activities={[
+                    "Final breakfast with cultural experience sharing",
+                    "Last-minute cultural shopping at traditional markets",
+                    "Cultural certificate presentation ceremony",
+                    "Departure transfer with cultural memories and insights"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/10B981/FFFFFF?text=Cultural+Farewell"
+                  imageAlt="Cultural Farewell & Departure"
+                  imageTitle="Cultural Farewell"
+                  imageSubtitle="Final Cultural Experience"
+                  icon="✈️"
+                  imageOnRight={true}
+                />
               </div>
             </div>
 

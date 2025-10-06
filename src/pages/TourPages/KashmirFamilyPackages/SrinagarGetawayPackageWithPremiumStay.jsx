@@ -2,6 +2,7 @@ import React from "react";
 import { useSEO } from "../../../hooks/useSEO";
 import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
+import ItineraryCard from "../../../components/ItineraryCard";
 const fm1 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514624/travelwiki/assets/Family/fm1.png";
 
 export default function SrinagarGetawayPackageWithPremiumStay() {
@@ -117,60 +118,84 @@ export default function SrinagarGetawayPackageWithPremiumStay() {
             <div className="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-lg p-8 mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Premium Getaway Itinerary</h2>
               <div className="space-y-8">
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🏨 Day 1: Premium Srinagar Arrival</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• VIP arrival welcome at Srinagar Airport</li>
-                    <li>• Luxury transfer to premium family resort</li>
-                    <li>• Check-in to exclusive family suites with lake views</li>
-                    <li>• Welcome refreshments in premium lounge setting</li>
-                    <li>• Premium hotel amenities tour and family orientation</li>
-                    <li>• Evening leisure at luxury spa and recreation facilities</li>
-                    <li>• Gourmet dinner at hotel's premium restaurant</li>
-                    <li>• Overnight in luxury family accommodations</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 1: Premium Srinagar Arrival"
+                  activities={[
+                    "VIP arrival welcome at Srinagar Airport",
+                    "Luxury transfer to premium family resort",
+                    "Check-in to exclusive family suites with lake views",
+                    "Welcome refreshments in premium lounge setting",
+                    "Premium hotel amenities tour and family orientation",
+                    "Evening leisure at luxury spa and recreation facilities",
+                    "Gourmet dinner at hotel's premium restaurant",
+                    "Overnight in luxury family accommodations"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Premium+Srinagar+Arrival"
+                  imageAlt="Premium Srinagar Arrival"
+                  imageTitle="Premium Srinagar Arrival"
+                  imageSubtitle="VIP Welcome Experience"
+                  icon="🏨"
+                  imageOnRight={false}
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🚣‍♀️ Day 2: Premium Dal Lake & Gardens Experience</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Exclusive 01 Hour premium family Shikara ride</li>
-                    <li>• Private access to premium areas of Dal Lake</li>
-                    <li>• VIP tour of magnificent Mughal Gardens with expert guide</li>
-                    <li>• Premium family photography sessions in gardens</li>
-                    <li>• Luxury lunch at Kashmir's finest heritage restaurant</li>
-                    <li>• Premium shopping experience at exclusive boutiques</li>
-                    <li>• Evening premium cultural program at hotel</li>
-                    <li>• Overnight in luxury with premium family services</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 2: Premium Dal Lake & Gardens Experience"
+                  activities={[
+                    "Exclusive 01 Hour premium family Shikara ride",
+                    "Private access to premium areas of Dal Lake",
+                    "VIP tour of magnificent Mughal Gardens with expert guide",
+                    "Premium family photography sessions in gardens",
+                    "Luxury lunch at Kashmir's finest heritage restaurant",
+                    "Premium shopping experience at exclusive boutiques",
+                    "Evening premium cultural program at hotel",
+                    "Overnight in luxury with premium family services"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/7C3AED/FFFFFF?text=Premium+Dal+Lake"
+                  imageAlt="Premium Dal Lake & Gardens Experience"
+                  imageTitle="Premium Dal Lake"
+                  imageSubtitle="Exclusive Family Experience"
+                  icon="🚣‍♀️"
+                  imageOnRight={true}
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🏔️ Day 3: Premium Pahalgam Valley Excursion</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Luxury private transfer to beautiful Pahalgam Valley</li>
-                    <li>• Premium guided tour of Pahalgam's scenic attractions</li>
-                    <li>• VIP access to Betab Valley with exclusive arrangements</li>
-                    <li>• Premium family pony rides with professional guides</li>
-                    <li>• Luxury picnic lunch in pristine valley settings</li>
-                    <li>• Premium family activities by Lidder River</li>
-                    <li>• Comfortable return to Srinagar luxury hotel</li>
-                    <li>• Premium spa treatments for family relaxation</li>
-                    <li>• Overnight in luxury accommodations</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 3: Premium Pahalgam Valley Excursion"
+                  activities={[
+                    "Luxury private transfer to beautiful Pahalgam Valley",
+                    "Premium guided tour of Pahalgam's scenic attractions",
+                    "VIP access to Betab Valley with exclusive arrangements",
+                    "Premium family pony rides with professional guides",
+                    "Luxury picnic lunch in pristine valley settings",
+                    "Premium family activities by Lidder River",
+                    "Comfortable return to Srinagar luxury hotel",
+                    "Premium spa treatments for family relaxation",
+                    "Overnight in luxury accommodations"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/10B981/FFFFFF?text=Premium+Pahalgam"
+                  imageAlt="Premium Pahalgam Valley Excursion"
+                  imageTitle="Premium Pahalgam"
+                  imageSubtitle="Luxury Valley Experience"
+                  icon="🏔️"
+                  imageOnRight={false}
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">✈️ Day 4: Premium Departure & Final Experiences</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Final luxury breakfast with premium service</li>
-                    <li>• Exclusive last-minute shopping with personal assistant</li>
-                    <li>• Premium family photo session at iconic Srinagar locations</li>
-                    <li>• Luxury souvenir selection and memory compilation</li>
-                    <li>• VIP transfer to airport with premium comfort</li>
-                    <li>• Departure with exclusive premium getaway memories</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 4: Premium Departure & Final Experiences"
+                  activities={[
+                    "Final luxury breakfast with premium service",
+                    "Exclusive last-minute shopping with personal assistant",
+                    "Premium family photo session at iconic Srinagar locations",
+                    "Luxury souvenir selection and memory compilation",
+                    "VIP transfer to airport with premium comfort",
+                    "Departure with exclusive premium getaway memories"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/0891B2/FFFFFF?text=Premium+Departure"
+                  imageAlt="Premium Departure & Final Experiences"
+                  imageTitle="Premium Departure"
+                  imageSubtitle="Final Luxury Experience"
+                  icon="✈️"
+                  imageOnRight={true}
+                />
               </div>
             </div>
 

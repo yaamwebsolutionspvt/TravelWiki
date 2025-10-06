@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SEO from "../../components/SEO";
+import ItineraryCard from "../../components/ItineraryCard";
 const ld8 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514670/travelwiki/assets/Ladakh/ld8.jpg";
 
 const KashmirAndLadakhComboPackageWithKargilStay = () => {

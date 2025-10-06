@@ -2,6 +2,7 @@ import React from "react";
 import { useSEO } from "../../../hooks/useSEO";
 import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
+import ItineraryCard from "../../../components/ItineraryCard";
 const balloonRide = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514633/travelwiki/assets/Honeymoon/baloon-ride-kashmir.jpg";
 
 export default function GlimpsesOfFamilyTour() {
@@ -120,53 +121,73 @@ export default function GlimpsesOfFamilyTour() {
             <div className="bg-gradient-to-r from-rose-50 to-pink-50 rounded-lg p-8 mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">3 Nights Srinagar Itinerary</h2>
               <div className="space-y-8">
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🏛️ Day 1: Arrival in Srinagar</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Arrival at Srinagar Airport and warm welcome</li>
-                    <li>• Check-in to premium hotel in Srinagar</li>
-                    <li>• Welcome refreshments and rest</li>
-                    <li>• Evening at leisure to explore nearby areas</li>
-                    <li>• Special welcome cake and fresh fruit basket</li>
-                    <li>• Overnight stay in Srinagar</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 1: Arrival in Srinagar"
+                  activities={[
+                    "Arrival at Srinagar Airport and warm welcome",
+                    "Check-in to premium hotel in Srinagar",
+                    "Welcome refreshments and rest",
+                    "Evening at leisure to explore nearby areas",
+                    "Special welcome cake and fresh fruit basket",
+                    "Overnight stay in Srinagar"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Srinagar+Arrival"
+                  imageAlt="Srinagar Arrival"
+                  imageTitle="Srinagar Arrival"
+                  imageSubtitle="Warm Welcome"
+                  icon="🏛️"
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🚣‍♀️ Day 2: Dal Lake & Mughal Gardens</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Morning breakfast at hotel</li>
-                    <li>• Romantic 01 Hour Shikara ride on Dal Lake</li>
-                    <li>• Visit to famous Mughal Gardens (Nishat & Shalimar)</li>
-                    <li>• Explore Shankaracharya Temple for panoramic views</li>
-                    <li>• Shopping time at local markets</li>
-                    <li>• Special candlelight dinner at hotel</li>
-                    <li>• Overnight stay in Srinagar</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 2: Dal Lake & Mughal Gardens"
+                  activities={[
+                    "Morning breakfast at hotel",
+                    "Romantic 01 Hour Shikara ride on Dal Lake",
+                    "Visit to famous Mughal Gardens (Nishat & Shalimar)",
+                    "Explore Shankaracharya Temple for panoramic views",
+                    "Shopping time at local markets",
+                    "Special candlelight dinner at hotel",
+                    "Overnight stay in Srinagar"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/06B6D4/FFFFFF?text=Dal+Lake+Shikara"
+                  imageAlt="Dal Lake Shikara Ride"
+                  imageTitle="Dal Lake Shikara"
+                  imageSubtitle="Romantic Experience"
+                  icon="🚣‍♀️"
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🕌 Day 3: Srinagar Local Sightseeing</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Morning breakfast and check-out</li>
-                    <li>• Visit Hazratbal Shrine and Jamia Masjid</li>
-                    <li>• Explore local handicraft centers</li>
-                    <li>• Visit Pari Mahal and Chashme Shahi Garden</li>
-                    <li>• Leisure time for photography and shopping</li>
-                    <li>• Check-in to new hotel for final night</li>
-                    <li>• Overnight stay in Srinagar</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 3: Srinagar Local Sightseeing"
+                  activities={[
+                    "Morning breakfast and check-out",
+                    "Visit Hazratbal Shrine and Jamia Masjid",
+                    "Explore local handicraft centers",
+                    "Visit Pari Mahal and Chashme Shahi Garden",
+                    "Leisure time for photography and shopping",
+                    "Check-in to new hotel for final night",
+                    "Overnight stay in Srinagar"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/8B5CF6/FFFFFF?text=Srinagar+Sightseeing"
+                  imageAlt="Srinagar Sightseeing"
+                  imageTitle="Srinagar Sightseeing"
+                  imageSubtitle="Local Exploration"
+                  icon="🕌"
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">✈️ Day 4: Departure</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Morning breakfast at hotel</li>
-                    <li>• Final shopping and souvenir collection</li>
-                    <li>• Check-out and departure transfer to airport</li>
-                    <li>• Departure with beautiful memories of Kashmir</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 4: Departure"
+                  activities={[
+                    "Morning breakfast at hotel",
+                    "Final shopping and souvenir collection",
+                    "Check-out and departure transfer to airport",
+                    "Departure with beautiful memories of Kashmir"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/EF4444/FFFFFF?text=Departure"
+                  imageAlt="Departure"
+                  imageTitle="Departure"
+                  imageSubtitle="Beautiful Memories"
+                  icon="✈️"
+                />
               </div>
             </div>
 

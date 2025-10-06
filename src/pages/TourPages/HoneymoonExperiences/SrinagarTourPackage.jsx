@@ -2,6 +2,7 @@ import React from "react";
 import { useSEO } from "../../../hooks/useSEO";
 import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
+import ItineraryCard from "../../../components/ItineraryCard";
 import { Link } from "react-router-dom";
 
 export default function SrinagarTourPackage() {
@@ -204,86 +205,128 @@ export default function SrinagarTourPackage() {
             </div>
 
             {/* Detailed Itinerary */}
-            <div className="bg-white rounded-lg shadow-md p-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-8">Comprehensive Srinagar Itinerary</h2>
+            <div className="bg-gradient-to-r from-teal-50 to-cyan-50 rounded-lg p-8 mb-12">
+              <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Comprehensive Srinagar Itinerary</h2>
               
-              <div className="space-y-6">
-                <div className="border-l-4 border-teal-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 1: Arrival & Dal Lake Introduction</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Airport pickup and transfer to houseboat</li>
-                    <li>Traditional welcome with Kahwa tea</li>
-                    <li>Houseboat orientation and local briefing</li>
-                    <li>Evening Shikara ride on Dal Lake</li>
-                    <li>Dinner on houseboat with local cuisine</li>
-                  </ul>
-                </div>
+              <div className="space-y-8">
+                <ItineraryCard
+                  title="Day 1: Arrival & Dal Lake Introduction"
+                  activities={[
+                    "Airport pickup and transfer to houseboat",
+                    "Traditional welcome with Kahwa tea",
+                    "Houseboat orientation and local briefing",
+                    "Evening Shikara ride on Dal Lake",
+                    "Dinner on houseboat with local cuisine"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/14B8A6/FFFFFF?text=Dal+Lake+Introduction"
+                  imageAlt="Dal Lake Introduction"
+                  imageTitle="Dal Lake Introduction"
+                  imageSubtitle="Traditional Welcome Experience"
+                  icon="🏛️"
+                  imageOnRight={false}
+                />
 
-                <div className="border-l-4 border-cyan-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 2: Mughal Gardens & City Tour</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Morning visit to Shalimar Bagh (Abode of Love)</li>
-                    <li>Nishat Bagh (Garden of Joy) exploration</li>
-                    <li>Chashme Shahi (Royal Spring) visit</li>
-                    <li>Local handicraft shopping and demonstrations</li>
-                    <li>Evening leisure at Boulevard Road</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 2: Mughal Gardens & City Tour"
+                  activities={[
+                    "Morning visit to Shalimar Bagh (Abode of Love)",
+                    "Nishat Bagh (Garden of Joy) exploration",
+                    "Chashme Shahi (Royal Spring) visit",
+                    "Local handicraft shopping and demonstrations",
+                    "Evening leisure at Boulevard Road"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/0891B2/FFFFFF?text=Mughal+Gardens"
+                  imageAlt="Mughal Gardens & City Tour"
+                  imageTitle="Mughal Gardens"
+                  imageSubtitle="Royal Garden Experience"
+                  icon="🌸"
+                  imageOnRight={true}
+                />
 
-                <div className="border-l-4 border-blue-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 3: Heritage & Culture Day</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Old city heritage walk with expert guide</li>
-                    <li>Jamia Masjid and historic mosques tour</li>
-                    <li>Traditional bazaars and local markets</li>
-                    <li>Kashmiri handicraft workshops visit</li>
-                    <li>Cultural program with traditional music</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 3: Heritage & Culture Day"
+                  activities={[
+                    "Old city heritage walk with expert guide",
+                    "Jamia Masjid and historic mosques tour",
+                    "Traditional bazaars and local markets",
+                    "Kashmiri handicraft workshops visit",
+                    "Cultural program with traditional music"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Heritage+Culture"
+                  imageAlt="Heritage & Culture Day"
+                  imageTitle="Heritage & Culture"
+                  imageSubtitle="Traditional Experience"
+                  icon="🏛️"
+                  imageOnRight={false}
+                />
 
-                <div className="border-l-4 border-green-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 4: Nigeen Lake & Local Experiences</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Morning boat ride on Nigeen Lake</li>
-                    <li>Visit to floating vegetable market</li>
-                    <li>Local family home visit and cultural exchange</li>
-                    <li>Traditional Wazwan lunch experience</li>
-                    <li>Sunset photography session</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 4: Nigeen Lake & Local Experiences"
+                  activities={[
+                    "Morning boat ride on Nigeen Lake",
+                    "Visit to floating vegetable market",
+                    "Local family home visit and cultural exchange",
+                    "Traditional Wazwan lunch experience",
+                    "Sunset photography session"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/10B981/FFFFFF?text=Nigeen+Lake"
+                  imageAlt="Nigeen Lake & Local Experiences"
+                  imageTitle="Nigeen Lake"
+                  imageSubtitle="Local Cultural Exchange"
+                  icon="🛥️"
+                  imageOnRight={true}
+                />
 
-                <div className="border-l-4 border-purple-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 5: Shankaracharya & Surroundings</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Early morning visit to Shankaracharya Temple</li>
-                    <li>Panoramic views of Srinagar city</li>
-                    <li>Pari Mahal (Palace of Fairies) exploration</li>
-                    <li>Botanical garden and nature walks</li>
-                    <li>Traditional carpet weaving center visit</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 5: Shankaracharya & Surroundings"
+                  activities={[
+                    "Early morning visit to Shankaracharya Temple",
+                    "Panoramic views of Srinagar city",
+                    "Pari Mahal (Palace of Fairies) exploration",
+                    "Botanical garden and nature walks",
+                    "Traditional carpet weaving center visit"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/7C3AED/FFFFFF?text=Shankaracharya+Temple"
+                  imageAlt="Shankaracharya & Surroundings"
+                  imageTitle="Shankaracharya Temple"
+                  imageSubtitle="Panoramic City Views"
+                  icon="🏔️"
+                  imageOnRight={false}
+                />
 
-                <div className="border-l-4 border-red-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 6: Arts & Crafts Deep Dive</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Pashmina weaving workshops and factory visits</li>
-                    <li>Paper mache art demonstrations</li>
-                    <li>Walnut wood carving workshops</li>
-                    <li>Saffron cultivation and processing tour</li>
-                    <li>Shopping for authentic souvenirs</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 6: Arts & Crafts Deep Dive"
+                  activities={[
+                    "Pashmina weaving workshops and factory visits",
+                    "Paper mache art demonstrations",
+                    "Walnut wood carving workshops",
+                    "Saffron cultivation and processing tour",
+                    "Shopping for authentic souvenirs"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/DC2626/FFFFFF?text=Arts+Crafts"
+                  imageAlt="Arts & Crafts Deep Dive"
+                  imageTitle="Arts & Crafts"
+                  imageSubtitle="Traditional Workshops"
+                  icon="🎨"
+                  imageOnRight={true}
+                />
 
-                <div className="border-l-4 border-orange-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 7: Farewell & Departure</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Final Shikara ride with breakfast on lake</li>
-                    <li>Last-minute shopping and souvenir collection</li>
-                    <li>Check-out from houseboat</li>
-                    <li>Airport transfer with cultural send-off</li>
-                    <li>Departure with authentic Kashmir memories</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 7: Farewell & Departure"
+                  activities={[
+                    "Final Shikara ride with breakfast on lake",
+                    "Last-minute shopping and souvenir collection",
+                    "Check-out from houseboat",
+                    "Airport transfer with cultural send-off",
+                    "Departure with authentic Kashmir memories"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/F97316/FFFFFF?text=Farewell+Departure"
+                  imageAlt="Farewell & Departure"
+                  imageTitle="Farewell & Departure"
+                  imageSubtitle="Final Memories"
+                  icon="✈️"
+                  imageOnRight={false}
+                />
               </div>
             </div>
           </div>

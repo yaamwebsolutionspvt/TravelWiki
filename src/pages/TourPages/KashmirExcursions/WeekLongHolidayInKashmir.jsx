@@ -2,6 +2,7 @@ import React from "react";
 import { useSEO } from "../../../hooks/useSEO";
 import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
+import ItineraryCard from "../../../components/ItineraryCard";
 const ex4 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514619/travelwiki/assets/Excursion/ex4.png";
 
 export default function WeekLongHolidayInKashmir() {
@@ -125,95 +126,130 @@ export default function WeekLongHolidayInKashmir() {
             <div className="bg-gradient-to-r from-purple-50 to-blue-50 rounded-lg p-8 mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Perfect Week Holiday Itinerary</h2>
               <div className="space-y-8">
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🌟 Day 1: Relaxed Srinagar Arrival</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Comfortable arrival at Srinagar with warm welcome</li>
-                    <li>• Check-in to quality hotel with excellent amenities</li>
-                    <li>• Relaxed afternoon with welcome refreshments</li>
-                    <li>• Gentle orientation about the week's itinerary</li>
-                    <li>• Evening leisure time to settle in comfortably</li>
-                    <li>• Welcome dinner with local specialties</li>
-                    <li>• Peaceful overnight stay in Srinagar</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 1: Relaxed Srinagar Arrival"
+                  activities={[
+                    "Comfortable arrival at Srinagar with warm welcome",
+                    "Check-in to quality hotel with excellent amenities",
+                    "Relaxed afternoon with welcome refreshments",
+                    "Gentle orientation about the week's itinerary",
+                    "Evening leisure time to settle in comfortably",
+                    "Welcome dinner with local specialties",
+                    "Peaceful overnight stay in Srinagar"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Srinagar+Arrival"
+                  imageAlt="Srinagar Arrival"
+                  imageTitle="Srinagar Arrival"
+                  imageSubtitle="Relaxed Welcome"
+                  icon="🌟"
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🚣‍♀️ Day 2: Srinagar Highlights Tour</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Leisurely 01 Hour Shikara ride on beautiful Dal Lake</li>
-                    <li>• Comprehensive tour of stunning Mughal Gardens</li>
-                    <li>• Visit Shalimar Bagh, Nishat Bagh with ample time for photos</li>
-                    <li>• Relaxed lunch at garden restaurant</li>
-                    <li>• Visit Shankaracharya Temple for panoramic views</li>
-                    <li>• Evening free time for personal exploration</li>
-                    <li>• Comfortable overnight stay</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 2: Srinagar Highlights Tour"
+                  activities={[
+                    "Leisurely 01 Hour Shikara ride on beautiful Dal Lake",
+                    "Comprehensive tour of stunning Mughal Gardens",
+                    "Visit Shalimar Bagh, Nishat Bagh with ample time for photos",
+                    "Relaxed lunch at garden restaurant",
+                    "Visit Shankaracharya Temple for panoramic views",
+                    "Evening free time for personal exploration",
+                    "Comfortable overnight stay"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/06B6D4/FFFFFF?text=Dal+Lake+Shikara"
+                  imageAlt="Dal Lake Shikara Ride"
+                  imageTitle="Dal Lake Shikara"
+                  imageSubtitle="01 Hour Experience"
+                  icon="🚣‍♀️"
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🌲 Day 3: Peaceful Pahalgam Journey</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Comfortable morning departure for Pahalgam</li>
-                    <li>• Scenic drive with multiple photo stops</li>
-                    <li>• Check-in to riverside hotel in Pahalgam</li>
-                    <li>• Relaxed lunch with valley views</li>
-                    <li>• Afternoon leisure time by Lidder River</li>
-                    <li>• Evening walk in Pahalgam's natural surroundings</li>
-                    <li>• Peaceful overnight stay with nature sounds</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 3: Peaceful Pahalgam Journey"
+                  activities={[
+                    "Comfortable morning departure for Pahalgam",
+                    "Scenic drive with multiple photo stops",
+                    "Check-in to riverside hotel in Pahalgam",
+                    "Relaxed lunch with valley views",
+                    "Afternoon leisure time by Lidder River",
+                    "Evening walk in Pahalgam's natural surroundings",
+                    "Peaceful overnight stay with nature sounds"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/10B981/FFFFFF?text=Pahalgam+Valley"
+                  imageAlt="Pahalgam Valley"
+                  imageTitle="Pahalgam Valley"
+                  imageSubtitle="Nature & Peace"
+                  icon="🌲"
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🏔️ Day 4: Complete Pahalgam Valley Experience</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Comprehensive tour of Pahalgam Valley attractions</li>
-                    <li>• Visit beautiful Betab Valley with leisure time</li>
-                    <li>• Exploration of scenic Aru Valley</li>
-                    <li>• Optional pony rides for valley exploration</li>
-                    <li>• Relaxed picnic lunch in natural settings</li>
-                    <li>• Visit Chandanwari with glacial views</li>
-                    <li>• Evening relaxation at hotel</li>
-                    <li>• Comfortable overnight stay</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 4: Complete Pahalgam Valley Experience"
+                  activities={[
+                    "Comprehensive tour of Pahalgam Valley attractions",
+                    "Visit beautiful Betab Valley with leisure time",
+                    "Exploration of scenic Aru Valley",
+                    "Optional pony rides for valley exploration",
+                    "Relaxed picnic lunch in natural settings",
+                    "Visit Chandanwari with glacial views",
+                    "Evening relaxation at hotel",
+                    "Comfortable overnight stay"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/8B5CF6/FFFFFF?text=Betab+Valley"
+                  imageAlt="Betab Valley Experience"
+                  imageTitle="Betab Valley"
+                  imageSubtitle="Bollywood Location"
+                  icon="🏔️"
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🎿 Day 5: Gulmarg Meadow Experience</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Scenic journey to beautiful Gulmarg meadows</li>
-                    <li>• Check-in to hotel with meadow views</li>
-                    <li>• Gulmarg Gondola ride to Apharwat Peak at leisure pace</li>
-                    <li>• Snow activities and mountain exploration</li>
-                    <li>• Relaxed lunch at high altitude</li>
-                    <li>• Visit to world's highest golf course</li>
-                    <li>• Evening leisure time in meadow surroundings</li>
-                    <li>• Peaceful overnight stay in mountain air</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 5: Gulmarg Meadow Experience"
+                  activities={[
+                    "Scenic journey to beautiful Gulmarg meadows",
+                    "Check-in to hotel with meadow views",
+                    "Gulmarg Gondola ride to Apharwat Peak at leisure pace",
+                    "Snow activities and mountain exploration",
+                    "Relaxed lunch at high altitude",
+                    "Visit to world's highest golf course",
+                    "Evening leisure time in meadow surroundings",
+                    "Peaceful overnight stay in mountain air"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/F59E0B/FFFFFF?text=Gulmarg+Gondola"
+                  imageAlt="Gulmarg Gondola Experience"
+                  imageTitle="Gulmarg Gondola"
+                  imageSubtitle="Meadow of Flowers"
+                  icon="🎿"
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🌅 Day 6: Final Srinagar Experiences</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Relaxed return journey to Srinagar</li>
-                    <li>• Check-in to comfortable hotel</li>
-                    <li>• Visit local handicraft centers and markets</li>
-                    <li>• Final shopping for Kashmir specialties</li>
-                    <li>• Sunset Shikara ride with reflection time</li>
-                    <li>• Farewell dinner with traditional cuisine</li>
-                    <li>• Final comfortable night in Kashmir</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 6: Final Srinagar Experiences"
+                  activities={[
+                    "Relaxed return journey to Srinagar",
+                    "Check-in to comfortable hotel",
+                    "Visit local handicraft centers and markets",
+                    "Final shopping for Kashmir specialties",
+                    "Sunset Shikara ride with reflection time",
+                    "Farewell dinner with traditional cuisine",
+                    "Final comfortable night in Kashmir"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/EC4899/FFFFFF?text=Srinagar+Sunset"
+                  imageAlt="Srinagar Sunset"
+                  imageTitle="Srinagar Sunset"
+                  imageSubtitle="Final Experiences"
+                  icon="🌅"
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">✈️ Day 7: Perfect Holiday Conclusion</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Relaxed final breakfast with Kashmir views</li>
-                    <li>• Last-minute souvenir shopping</li>
-                    <li>• Comfortable transfer to Srinagar Airport</li>
-                    <li>• Departure with perfect holiday memories</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 7: Perfect Holiday Conclusion"
+                  activities={[
+                    "Relaxed final breakfast with Kashmir views",
+                    "Last-minute souvenir shopping",
+                    "Comfortable transfer to Srinagar Airport",
+                    "Departure with perfect holiday memories"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/EF4444/FFFFFF?text=Departure"
+                  imageAlt="Departure"
+                  imageTitle="Departure"
+                  imageSubtitle="Perfect Holiday End"
+                  icon="✈️"
+                />
               </div>
             </div>
 

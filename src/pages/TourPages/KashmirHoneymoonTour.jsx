@@ -2,6 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
+import ItineraryCard from "../../components/ItineraryCard";
 
 
 export default function KashmirHoneymoonTour() {
@@ -158,48 +159,68 @@ export default function KashmirHoneymoonTour() {
               <h2 className="text-3xl font-bold text-gray-800 mb-8">Romantic Itinerary</h2>
               
               <div className="space-y-6">
-                <div className="border-l-4 border-pink-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 1: Arrival & Romance Begins</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Airport pickup with flower garlands</li>
-                    <li>Check-in to romantic houseboat</li>
-                    <li>Welcome drink and room decoration</li>
-                    <li>Evening Shikara ride with sunset views</li>
-                    <li>Candlelight dinner on houseboat</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 1: Arrival & Romance Begins"
+                  activities={[
+                    "Airport pickup with flower garlands",
+                    "Check-in to romantic houseboat",
+                    "Welcome drink and room decoration",
+                    "Evening Shikara ride with sunset views",
+                    "Candlelight dinner on houseboat"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/EC4899/FFFFFF?text=Romantic+Arrival"
+                  imageAlt="Romantic Arrival"
+                  imageTitle="Romantic Arrival"
+                  imageSubtitle="Love Begins"
+                  icon="💕"
+                />
 
-                <div className="border-l-4 border-red-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 2: Srinagar Exploration</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Visit Mughal Gardens (Shalimar & Nishat)</li>
-                    <li>Couple photography session</li>
-                    <li>Shopping in local markets</li>
-                    <li>Traditional Kashmiri lunch</li>
-                    <li>Romantic evening at houseboat</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 2: Srinagar Exploration"
+                  activities={[
+                    "Visit Mughal Gardens (Shalimar & Nishat)",
+                    "Couple photography session",
+                    "Shopping in local markets",
+                    "Traditional Kashmiri lunch",
+                    "Romantic evening at houseboat"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/06B6D4/FFFFFF?text=Mughal+Gardens"
+                  imageAlt="Mughal Gardens"
+                  imageTitle="Mughal Gardens"
+                  imageSubtitle="Romantic Exploration"
+                  icon="🌹"
+                />
 
-                <div className="border-l-4 border-purple-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 3: Gulmarg Adventure</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Transfer to Gulmarg</li>
-                    <li>Gondola ride to Kongdoori</li>
-                    <li>Snow activities (seasonal)</li>
-                    <li>Romantic lunch with mountain views</li>
-                    <li>Evening return to Srinagar</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 3: Gulmarg Adventure"
+                  activities={[
+                    "Transfer to Gulmarg",
+                    "Gondola ride to Kongdoori",
+                    "Snow activities (seasonal)",
+                    "Romantic lunch with mountain views",
+                    "Evening return to Srinagar"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/8B5CF6/FFFFFF?text=Gulmarg+Gondola"
+                  imageAlt="Gulmarg Gondola Experience"
+                  imageTitle="Gulmarg Gondola"
+                  imageSubtitle="Mountain Adventure"
+                  icon="🚡"
+                />
 
-                <div className="border-l-4 border-orange-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 4: Farewell</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Late breakfast on houseboat</li>
-                    <li>Final shopping for souvenirs</li>
-                    <li>Airport transfer</li>
-                    <li>Departure with beautiful memories</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 4: Farewell"
+                  activities={[
+                    "Late breakfast on houseboat",
+                    "Final shopping for souvenirs",
+                    "Airport transfer",
+                    "Departure with beautiful memories"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/EF4444/FFFFFF?text=Departure"
+                  imageAlt="Departure"
+                  imageTitle="Departure"
+                  imageSubtitle="Beautiful Memories"
+                  icon="✈️"
+                />
               </div>
             </div>
           </div>

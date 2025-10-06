@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SEO from "../../components/SEO";
+import ItineraryCard from "../../components/ItineraryCard";
 const ld9 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514672/travelwiki/assets/Ladakh/ld9.jpg";
 
 const EnthrallingLadakhTourFromSrinagar = () => {

@@ -2,6 +2,7 @@ import React from "react";
 import { useSEO } from "../../hooks/useSEO";
 import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
+import ItineraryCard from "../../components/ItineraryCard";
 const baloonRideKashmir = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514587/travelwiki/assets/Bestseller/baloon-ride-kashmir.jpg";
 
 export default function ThreeNightsFourDaysSrinagarPahalgamGulmargTour() {
@@ -123,76 +124,68 @@ export default function ThreeNightsFourDaysSrinagarPahalgamGulmargTour() {
             {/* Itinerary */}
             <div className="bg-white rounded-lg shadow-md p-8 mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-8">Detailed Itinerary</h2>
-              
-              {/* Day 1 */}
-              <div className="mb-8 border-l-4 border-blue-500 pl-6">
-                <h3 className="text-xl font-bold text-gray-800 mb-3">
-                  Day 1: Arrival in Srinagar (Height 1585m)
-                </h3>
-                <p className="text-gray-600 leading-relaxed mb-4">
-                  Upon your arrival in the capital, our representative will greet you with a warm welcome 
-                  and show you to your houseboat or hotel. After you check-in and freshen up, you can move 
-                  out to visit your first tourist spot.
-                </p>
-                <ul className="list-disc list-inside text-gray-600 space-y-2">
-                  <li>Walk around the scenic Boulevard Road with Dal Lake views</li>
-                  <li>2-hour Shikara ride in Dal Lake</li>
-                  <li>Photography of mountain ranges and lotus flowers</li>
-                  <li>Overnight stay at houseboat or hotel</li>
-                </ul>
-              </div>
+              <div className="space-y-8">
+                <ItineraryCard
+                  title="Day 1: Arrival in Srinagar (Height 1585m)"
+                  activities={[
+                    "Walk around the scenic Boulevard Road with Dal Lake views",
+                    "2-hour Shikara ride in Dal Lake",
+                    "Photography of mountain ranges and lotus flowers",
+                    "Overnight stay at houseboat or hotel"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Srinagar+Arrival"
+                  imageAlt="Srinagar Arrival"
+                  imageTitle="Srinagar Arrival"
+                  imageSubtitle="Capital Welcome"
+                  icon="🏛️"
+                />
 
-              {/* Day 2 */}
-              <div className="mb-8 border-l-4 border-green-500 pl-6">
-                <h3 className="text-xl font-bold text-gray-800 mb-3">
-                  Day 2: Excursion to Sonamarg (Height 2730m)
-                </h3>
-                <p className="text-gray-600 leading-relaxed mb-4">
-                  Begin your morning with a healthy breakfast and then head out to take a tour of Sonamarg, 
-                  the "meadow of gold" located 85kms away from Srinagar.
-                </p>
-                <ul className="list-disc list-inside text-gray-600 space-y-2">
-                  <li>Scenic drive to Sonamarg with Himalayan peak views</li>
-                  <li>Visit Vishansar Lake (freezes in winter, green grass in summer)</li>
-                  <li>Explore Zoji La Pass with snow-covered roads</li>
-                  <li>White River Rafting at Shutkari Bridge (optional)</li>
-                  <li>Return to Srinagar for dinner and overnight stay</li>
-                </ul>
-              </div>
+                <ItineraryCard
+                  title="Day 2: Excursion to Sonamarg (Height 2730m)"
+                  activities={[
+                    "Scenic drive to Sonamarg with Himalayan peak views",
+                    "Visit Vishansar Lake (freezes in winter, green grass in summer)",
+                    "Explore Zoji La Pass with snow-covered roads",
+                    "White River Rafting at Shutkari Bridge (optional)",
+                    "Return to Srinagar for dinner and overnight stay"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/10B981/FFFFFF?text=Sonamarg"
+                  imageAlt="Sonamarg Excursion"
+                  imageTitle="Sonamarg"
+                  imageSubtitle="Meadow of Gold"
+                  icon="🏔️"
+                />
 
-              {/* Day 3 */}
-              <div className="mb-8 border-l-4 border-purple-500 pl-6">
-                <h3 className="text-xl font-bold text-gray-800 mb-3">
-                  Day 3: Srinagar to Gulmarg (49.5 km / 1 hrs 36 minutes, Height 2650m)
-                </h3>
-                <p className="text-gray-600 leading-relaxed mb-4">
-                  Today you will be leaving for Gulmarg. Have an early breakfast and keep your luggage packed. 
-                  Once you reach Gulmarg and finish with the check-in process, explore the valley.
-                </p>
-                <ul className="list-disc list-inside text-gray-600 space-y-2">
-                  <li>Transfer to Gulmarg and hotel check-in</li>
-                  <li>Gulmarg Gondola ride (world's second-longest cable car)</li>
-                  <li>Visit Kongdoori Station and Apharwat Peak</li>
-                  <li>Skiing adventure (suitable for amateur and professional skiers)</li>
-                  <li>Overnight stay in Gulmarg</li>
-                </ul>
-              </div>
+                <ItineraryCard
+                  title="Day 3: Srinagar to Gulmarg (Height 2650m)"
+                  activities={[
+                    "Transfer to Gulmarg and hotel check-in",
+                    "Gulmarg Gondola ride (world's second-longest cable car)",
+                    "Visit Kongdoori Station and Apharwat Peak",
+                    "Skiing adventure (suitable for amateur and professional skiers)",
+                    "Overnight stay in Gulmarg"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/8B5CF6/FFFFFF?text=Gulmarg+Gondola"
+                  imageAlt="Gulmarg Gondola Experience"
+                  imageTitle="Gulmarg Gondola"
+                  imageSubtitle="Meadow of Flowers"
+                  icon="🚡"
+                />
 
-              {/* Day 4 */}
-              <div className="border-l-4 border-red-500 pl-6">
-                <h3 className="text-xl font-bold text-gray-800 mb-3">
-                  Day 4: Gulmarg to Srinagar (50.5 km / 1 hrs 33 minutes)
-                </h3>
-                <p className="text-gray-600 leading-relaxed mb-4">
-                  On this day you will be heading back to Srinagar. Be well packed and leave for your drive 
-                  to Srinagar after a healthy breakfast.
-                </p>
-                <ul className="list-disc list-inside text-gray-600 space-y-2">
-                  <li>Check-out from Gulmarg hotel after breakfast</li>
-                  <li>Drive back to Srinagar</li>
-                  <li>Drop at Srinagar airport or railway station</li>
-                  <li>Departure for onward journey</li>
-                </ul>
+                <ItineraryCard
+                  title="Day 4: Gulmarg to Srinagar"
+                  activities={[
+                    "Check-out from Gulmarg hotel after breakfast",
+                    "Drive back to Srinagar",
+                    "Drop at Srinagar airport or railway station",
+                    "Departure for onward journey"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/EF4444/FFFFFF?text=Departure"
+                  imageAlt="Departure"
+                  imageTitle="Departure"
+                  imageSubtitle="Journey End"
+                  icon="✈️"
+                />
               </div>
             </div>
 

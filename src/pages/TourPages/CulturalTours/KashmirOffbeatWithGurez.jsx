@@ -2,6 +2,7 @@ import React from "react";
 import { useSEO } from "../../../hooks/useSEO";
 import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
+import ItineraryCard from "../../../components/ItineraryCard";
 const ct2 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514607/travelwiki/assets/CulturalTours/ct2.png";
 
 export default function KashmirOffbeatWithGurez() {
@@ -118,105 +119,153 @@ export default function KashmirOffbeatWithGurez() {
             <div className="bg-gradient-to-r from-teal-50 to-cyan-50 rounded-lg p-8 mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Offbeat Cultural Discovery Itinerary</h2>
               <div className="space-y-8">
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🏛️ Day 1: Srinagar Cultural Foundation</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Arrival and check-in to traditional Kashmiri heritage hotel</li>
-                    <li>• Cultural orientation with local cultural expert guide</li>
-                    <li>• Visit lesser-known cultural sites and hidden heritage locations</li>
-                    <li>• Explore traditional neighborhood communities</li>
-                    <li>• Evening cultural immersion in old city's authentic atmosphere</li>
-                    <li>• Traditional welcome dinner with local cultural storytelling</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 1: Srinagar Cultural Foundation"
+                  activities={[
+                    "Arrival and check-in to traditional Kashmiri heritage hotel",
+                    "Cultural orientation with local cultural expert guide",
+                    "Visit lesser-known cultural sites and hidden heritage locations",
+                    "Explore traditional neighborhood communities",
+                    "Evening cultural immersion in old city's authentic atmosphere",
+                    "Traditional welcome dinner with local cultural storytelling"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/10B981/FFFFFF?text=Srinagar+Cultural+Foundation"
+                  imageAlt="Srinagar Cultural Foundation Experience"
+                  imageTitle="Cultural Foundation"
+                  imageSubtitle="Traditional Heritage Welcome"
+                  icon="🏛️"
+                  imageOnRight={false}
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🚣‍♀️ Day 2: Srinagar Offbeat Cultural Sites</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Early morning 01 Hour cultural Shikara ride with local historians</li>
-                    <li>• Visit offbeat historical sites and hidden architectural gems</li>
-                    <li>• Explore traditional workshops in lesser-known neighborhoods</li>
-                    <li>• Meet with master craftsmen in authentic working environments</li>
-                    <li>• Traditional Indian lunch with local family in their home</li>
-                    <li>• Visit cultural sites rarely accessed by regular tourists</li>
-                    <li>• Evening cultural program with authentic folk performances</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 2: Srinagar Offbeat Cultural Sites"
+                  activities={[
+                    "Early morning 01 Hour cultural Shikara ride with local historians",
+                    "Visit offbeat historical sites and hidden architectural gems",
+                    "Explore traditional workshops in lesser-known neighborhoods",
+                    "Meet with master craftsmen in authentic working environments",
+                    "Traditional Indian lunch with local family in their home",
+                    "Visit cultural sites rarely accessed by regular tourists",
+                    "Evening cultural program with authentic folk performances"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/059669/FFFFFF?text=Offbeat+Cultural+Sites"
+                  imageAlt="Srinagar Offbeat Cultural Sites"
+                  imageTitle="Offbeat Cultural Sites"
+                  imageSubtitle="Hidden Architectural Gems"
+                  icon="🚣‍♀️"
+                  imageOnRight={true}
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🏘️ Day 3: Extended Srinagar Cultural Exploration</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Full day dedicated to deep cultural exploration</li>
-                    <li>• Visit traditional communities and cultural centers</li>
-                    <li>• Participate in cultural workshops and learning sessions</li>
-                    <li>• Meet cultural preservationists and tradition keepers</li>
-                    <li>• Document cultural practices through photography and interaction</li>
-                    <li>• Traditional cooking session with local cuisine masters</li>
-                    <li>• Evening cultural reflection and preparation for remote journey</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 3: Extended Srinagar Cultural Exploration"
+                  activities={[
+                    "Full day dedicated to deep cultural exploration",
+                    "Visit traditional communities and cultural centers",
+                    "Participate in cultural workshops and learning sessions",
+                    "Meet cultural preservationists and tradition keepers",
+                    "Document cultural practices through photography and interaction",
+                    "Traditional cooking session with local cuisine masters",
+                    "Evening cultural reflection and preparation for remote journey"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/0891B2/FFFFFF?text=Cultural+Exploration"
+                  imageAlt="Extended Srinagar Cultural Exploration"
+                  imageTitle="Cultural Exploration"
+                  imageSubtitle="Deep Cultural Immersion"
+                  icon="🏘️"
+                  imageOnRight={false}
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🌄 Day 4: Journey to Remote Cultural Heart</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Early departure for remote cultural expedition to Gurez</li>
-                    <li>• Scenic cultural route with stops at traditional mountain villages</li>
-                    <li>• Interact with pastoral communities along the route</li>
-                    <li>• Experience changing cultural influences with altitude</li>
-                    <li>• Check-in to authentic local accommodation in Gurez</li>
-                    <li>• Traditional Dard welcome ceremony by community elders</li>
-                    <li>• First evening of authentic Gurez cultural experience</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 4: Journey to Remote Cultural Heart"
+                  activities={[
+                    "Early departure for remote cultural expedition to Gurez",
+                    "Scenic cultural route with stops at traditional mountain villages",
+                    "Interact with pastoral communities along the route",
+                    "Experience changing cultural influences with altitude",
+                    "Check-in to authentic local accommodation in Gurez",
+                    "Traditional Dard welcome ceremony by community elders",
+                    "First evening of authentic Gurez cultural experience"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/7C2D12/FFFFFF?text=Remote+Cultural+Heart"
+                  imageAlt="Journey to Remote Cultural Heart"
+                  imageTitle="Remote Cultural Heart"
+                  imageSubtitle="Journey to Gurez Valley"
+                  icon="🌄"
+                  imageOnRight={true}
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🏔️ Day 5: Deep Gurez Cultural Immersion</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Full day dedicated to Dard culture exploration</li>
-                    <li>• Visit ancient cultural sites and traditional architecture</li>
-                    <li>• Participate in traditional daily activities with locals</li>
-                    <li>• Learn traditional crafts and cultural practices</li>
-                    <li>• Share meals with local families and learn cooking traditions</li>
-                    <li>• Evening cultural program with traditional music and stories</li>
-                    <li>• Overnight in traditional accommodation with community</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 5: Deep Gurez Cultural Immersion"
+                  activities={[
+                    "Full day dedicated to Dard culture exploration",
+                    "Visit ancient cultural sites and traditional architecture",
+                    "Participate in traditional daily activities with locals",
+                    "Learn traditional crafts and cultural practices",
+                    "Share meals with local families and learn cooking traditions",
+                    "Evening cultural program with traditional music and stories",
+                    "Overnight in traditional accommodation with community"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/DC2626/FFFFFF?text=Gurez+Cultural+Immersion"
+                  imageAlt="Deep Gurez Cultural Immersion"
+                  imageTitle="Gurez Cultural Immersion"
+                  imageSubtitle="Dard Culture Exploration"
+                  icon="🏔️"
+                  imageOnRight={false}
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🎭 Day 6: Advanced Cultural Discovery</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Extended cultural exploration of remote Gurez areas</li>
-                    <li>• Visit cultural sites accessible only to dedicated explorers</li>
-                    <li>• Advanced cultural workshops and skill learning</li>
-                    <li>• Meet with tribal elders and cultural knowledge keepers</li>
-                    <li>• Participate in cultural preservation activities</li>
-                    <li>• Cultural documentation and authentic experience sharing</li>
-                    <li>• Final evening celebration with community</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 6: Advanced Cultural Discovery"
+                  activities={[
+                    "Extended cultural exploration of remote Gurez areas",
+                    "Visit cultural sites accessible only to dedicated explorers",
+                    "Advanced cultural workshops and skill learning",
+                    "Meet with tribal elders and cultural knowledge keepers",
+                    "Participate in cultural preservation activities",
+                    "Cultural documentation and authentic experience sharing",
+                    "Final evening celebration with community"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/7C3AED/FFFFFF?text=Advanced+Cultural+Discovery"
+                  imageAlt="Advanced Cultural Discovery"
+                  imageTitle="Advanced Cultural Discovery"
+                  imageSubtitle="Remote Cultural Sites"
+                  icon="🎭"
+                  imageOnRight={true}
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🏛️ Day 7: Cultural Integration & Return</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Farewell ceremony with Gurez community</li>
-                    <li>• Cultural certificate presentation from community leaders</li>
-                    <li>• Return journey with cultural reflection and integration</li>
-                    <li>• Check-in to Srinagar for cultural summary session</li>
-                    <li>• Visit final cultural sites and complete experience</li>
-                    <li>• Traditional farewell dinner with complete cultural program</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 7: Cultural Integration & Return"
+                  activities={[
+                    "Farewell ceremony with Gurez community",
+                    "Cultural certificate presentation from community leaders",
+                    "Return journey with cultural reflection and integration",
+                    "Check-in to Srinagar for cultural summary session",
+                    "Visit final cultural sites and complete experience",
+                    "Traditional farewell dinner with complete cultural program"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/059669/FFFFFF?text=Cultural+Integration"
+                  imageAlt="Cultural Integration & Return"
+                  imageTitle="Cultural Integration"
+                  imageSubtitle="Community Farewell"
+                  icon="🏛️"
+                  imageOnRight={false}
+                />
                 
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">✈️ Day 8: Cultural Conclusion & Departure</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Final morning cultural activities and shopping</li>
-                    <li>• Complete cultural experience evaluation and sharing</li>
-                    <li>• Purchase authentic cultural artifacts and handmade items</li>
-                    <li>• Cultural documentation completion and memory preservation</li>
-                    <li>• Departure with deep cultural insights and lasting memories</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 8: Cultural Conclusion & Departure"
+                  activities={[
+                    "Final morning cultural activities and shopping",
+                    "Complete cultural experience evaluation and sharing",
+                    "Purchase authentic cultural artifacts and handmade items",
+                    "Cultural documentation completion and memory preservation",
+                    "Departure with deep cultural insights and lasting memories"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/0891B2/FFFFFF?text=Cultural+Conclusion"
+                  imageAlt="Cultural Conclusion & Departure"
+                  imageTitle="Cultural Conclusion"
+                  imageSubtitle="Final Cultural Experience"
+                  icon="✈️"
+                  imageOnRight={true}
+                />
               </div>
             </div>
 
