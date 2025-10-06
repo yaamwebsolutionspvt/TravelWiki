@@ -3,7 +3,7 @@ import { useSEO } from "../../hooks/useSEO";
 import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
 import ItineraryCard from "../../components/ItineraryCard";
-const dalLake = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514589/travelwiki/assets/Bestseller/exotic_tour.jpg";
+const dalLake = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759219502/Stay_on_Heritage_Houseboats_vynbfb.webp";
 
 export default function KashmirExoticTour() {
   const seoData = useSEO({
@@ -81,31 +81,31 @@ export default function KashmirExoticTour() {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="relative group overflow-hidden rounded-lg shadow-lg">
                 <img 
-                  src="https://via.placeholder.com/400x300/4F46E5/FFFFFF?text=Image+1" 
+                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1758868872/Skiing_Snow_Adventures_pbm63b.webp" 
                   alt="Exotic Kashmir Experience" 
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
+                <div className="absolute inset-0  bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
                   <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-semibold">Exotic Adventure</span>
                 </div>
               </div>
               <div className="relative group overflow-hidden rounded-lg shadow-lg">
                 <img 
-                  src="https://via.placeholder.com/400x300/059669/FFFFFF?text=Image+2" 
+                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759485998/Kashmir_5_Pahalgam_t9jyon.webp" 
                   alt="Comprehensive Kashmir Tour" 
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
+                <div className="absolute inset-0  bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
                   <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-semibold">Complete Tour</span>
                 </div>
               </div>
               <div className="relative group overflow-hidden rounded-lg shadow-lg">
                 <img 
-                  src="https://via.placeholder.com/400x300/DC2626/FFFFFF?text=Image+3" 
+                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759219502/Stay_on_Heritage_Houseboats_vynbfb.webp" 
                   alt="Kashmir Valley Exploration" 
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
                 />
-                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
+                <div className="absolute inset-0  bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
                   <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-semibold">Valley Exploration</span>
                 </div>
               </div>
@@ -175,7 +175,7 @@ export default function KashmirExoticTour() {
                     "Traditional Kashmiri Wazwan cuisine experience",
                     "Sunset photography at Boulevard Road"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/7C3AED/FFFFFF?text=Srinagar+Houseboat"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759219502/Stay_on_Heritage_Houseboats_vynbfb.webp"
                   imageAlt="Srinagar Houseboat Experience"
                   imageTitle="Srinagar Houseboat"
                   imageSubtitle="2 Nights with 1 Night Houseboat"
@@ -195,7 +195,7 @@ export default function KashmirExoticTour() {
                     "Local village visits and cultural interactions",
                     "Photography sessions in pristine landscapes"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/EA580C/FFFFFF?text=Pahalgam+Extended"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759485998/Kashmir_5_Pahalgam_t9jyon.webp"
                   imageAlt="Pahalgam Extended Stay Experience"
                   imageTitle="Pahalgam Extended"
                   imageSubtitle="2 Nights Valley Exploration"
@@ -214,7 +214,7 @@ export default function KashmirExoticTour() {
                     "Adventure activities - ATV rides and horse riding",
                     "Sunset views from Apharwat Peak"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/0891B2/FFFFFF?text=Gulmarg+Adventure"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1758868872/Skiing_Snow_Adventures_pbm63b.webp"
                   imageAlt="Gulmarg Adventure Experience"
                   imageTitle="Gulmarg Adventure"
                   imageSubtitle="1 Night Mountain Experience"
@@ -224,113 +224,10 @@ export default function KashmirExoticTour() {
             </div>
 
             {/* Image Gallery Section 2 - Itinerary Highlights */}
-            <div className="bg-white rounded-lg shadow-md p-8 mb-12">
-              <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Exotic Itinerary Highlights</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-                <div className="space-y-6">
-                  <div className="relative group overflow-hidden rounded-lg shadow-lg">
-                    <img 
-                      src="https://via.placeholder.com/500x350/7C3AED/FFFFFF?text=Shikara+Ride" 
-                      alt="Exotic Shikara Ride Experience" 
-                      className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
-                      <div className="p-4 text-white">
-                        <h3 className="font-bold text-lg">Exotic Shikara Ride</h3>
-                        <p className="text-sm opacity-90">01 Hour experience on Dal Lake</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="relative group overflow-hidden rounded-lg shadow-lg">
-                    <img 
-                      src="https://via.placeholder.com/500x350/EA580C/FFFFFF?text=Pahalgam+Valley" 
-                      alt="Pahalgam Valley Tours" 
-                      className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
-                      <div className="p-4 text-white">
-                        <h3 className="font-bold text-lg">Pahalgam Valley</h3>
-                        <p className="text-sm opacity-90">Extended 2-night valley exploration</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div className="space-y-6">
-                  <div className="relative group overflow-hidden rounded-lg shadow-lg">
-                    <img 
-                      src="https://via.placeholder.com/500x350/0891B2/FFFFFF?text=Houseboat+Stay" 
-                      alt="Luxury Houseboat Experience" 
-                      className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
-                      <div className="p-4 text-white">
-                        <h3 className="font-bold text-lg">Luxury Houseboat</h3>
-                        <p className="text-sm opacity-90">2 nights in Srinagar houseboat</p>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="relative group overflow-hidden rounded-lg shadow-lg">
-                    <img 
-                      src="https://via.placeholder.com/500x350/059669/FFFFFF?text=Gulmarg+Adventure" 
-                      alt="Gulmarg Adventure Activities" 
-                      className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
-                    />
-                    <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end">
-                      <div className="p-4 text-white">
-                        <h3 className="font-bold text-lg">Gulmarg Adventure</h3>
-                        <p className="text-sm opacity-90">1 night mountain experience</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+           
 
             {/* Image Gallery Section 3 - Package Experience */}
-            <div className="bg-gradient-to-r from-green-50 to-blue-50 rounded-lg p-8 mb-12">
-              <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Exotic Package Experience</h2>
-              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                <div className="relative group overflow-hidden rounded-xl shadow-lg">
-                  <img 
-                    src="https://via.placeholder.com/400x300/DC2626/FFFFFF?text=Valley+Tours" 
-                    alt="Exotic Valley Tours" 
-                    className="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end">
-                    <div className="p-4 text-white">
-                      <h3 className="font-bold text-lg mb-1">Valley Tours</h3>
-                      <p className="text-sm opacity-90">Chandanwari, Aru & Betab Valley</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="relative group overflow-hidden rounded-xl shadow-lg">
-                  <img 
-                    src="https://via.placeholder.com/400x300/059669/FFFFFF?text=Extended+Stay" 
-                    alt="Extended Accommodations" 
-                    className="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end">
-                    <div className="p-4 text-white">
-                      <h3 className="font-bold text-lg mb-1">Extended Stay</h3>
-                      <p className="text-sm opacity-90">5 hotels, 9 activities, 6 transfers</p>
-                    </div>
-                  </div>
-                </div>
-                <div className="relative group overflow-hidden rounded-xl shadow-lg">
-                  <img 
-                    src="https://via.placeholder.com/400x300/7C3AED/FFFFFF?text=Complete+Experience" 
-                    alt="Complete Kashmir Experience" 
-                    className="w-full h-56 object-cover transition-transform duration-300 group-hover:scale-110"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-transparent to-transparent flex items-end">
-                    <div className="p-4 text-white">
-                      <h3 className="font-bold text-lg mb-1">Complete Experience</h3>
-                      <p className="text-sm opacity-90">Comprehensive Kashmir exploration</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+       
 
             {/* Package Features */}
             <div className="bg-white rounded-lg shadow-md p-8">

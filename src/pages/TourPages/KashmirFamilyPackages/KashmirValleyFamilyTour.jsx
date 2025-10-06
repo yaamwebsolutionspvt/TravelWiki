@@ -2,6 +2,7 @@ import React from "react";
 import { useSEO } from "../../../hooks/useSEO";
 import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
+import ItineraryCard from "../../../components/ItineraryCard";
 const fm3 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514628/travelwiki/assets/Family/fm3.jpg";
 
 export default function KashmirValleyFamilyTour() {
@@ -118,74 +119,104 @@ export default function KashmirValleyFamilyTour() {
             <div className="bg-gradient-to-r from-emerald-50 to-teal-50 rounded-lg p-8 mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Comprehensive Valley Family Itinerary</h2>
               <div className="space-y-8">
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🏛️ Day 1: Grand Srinagar Family Welcome</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Premium family arrival at Srinagar Airport</li>
-                    <li>• Check-in to luxury family resort with connecting rooms</li>
-                    <li>• Welcome ceremony with traditional Kashmir hospitality</li>
-                    <li>• Family orientation about Kashmir valley destinations</li>
-                    <li>• Evening leisure time with family recreational facilities</li>
-                    <li>• Traditional family dinner with local cultural program</li>
-                    <li>• Overnight in premium family accommodations</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🚣‍♀️ Day 2: Extended Srinagar Family Exploration</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Comprehensive 01 Hour family Shikara ride on Dal Lake</li>
-                    <li>• Extended family tour of all major Mughal Gardens</li>
-                    <li>• Interactive family sessions at Shalimar and Nishat Bagh</li>
-                    <li>• Family-friendly visit to Shankaracharya Temple</li>
-                    <li>• Lunch at family restaurant with panoramic valley views</li>
-                    <li>• Afternoon family shopping at traditional Kashmir bazaars</li>
-                    <li>• Evening cultural family entertainment programs</li>
-                    <li>• Overnight with extended family comfort amenities</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🌲 Day 3-4: Extended Pahalgam Family Adventure</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Scenic family transfer to beautiful Pahalgam valley</li>
-                    <li>• Check-in to premium riverside family resort for 2 nights</li>
-                    <li>• Day 3: Comprehensive tour of Pahalgam Valley attractions</li>
-                    <li>• Extended family exploration of Betab Valley and Aru Valley</li>
-                    <li>• Family pony rides and nature walks along Lidder River</li>
-                    <li>• Day 4: Adventure day with family-friendly activities</li>
-                    <li>• Visit to Chandanwari with family glacier experience</li>
-                    <li>• Family camping experience under stars (weather permitting)</li>
-                    <li>• Traditional village visit with local family interactions</li>
-                    <li>• Extended family bonding time with recreational activities</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🚡 Day 5: Gulmarg Family Mountain Experience</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Family journey to magnificent Gulmarg meadows</li>
-                    <li>• Family-safe Gulmarg Gondola experience to Apharwat Peak</li>
-                    <li>• Extended family time at high-altitude mountain station</li>
-                    <li>• Family snow activities and mountain games (seasonal)</li>
-                    <li>• Premium family lunch at mountain restaurant</li>
-                    <li>• Family golf experience at world's highest golf course</li>
-                    <li>• Return to Srinagar for final family celebration</li>
-                    <li>• Farewell family dinner with valley specialties</li>
-                    <li>• Overnight in premium Srinagar family accommodation</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">✈️ Day 6: Family Farewell & Valley Memories</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Final family breakfast with comprehensive valley views</li>
-                    <li>• Last-minute family shopping for Kashmir valley souvenirs</li>
-                    <li>• Family photo session at iconic valley locations</li>
-                    <li>• Premium transfer to airport with family comfort</li>
-                    <li>• Departure with comprehensive valley family memories</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 1: Grand Srinagar Family Welcome"
+                  activities={[
+                    "Premium family arrival at Srinagar Airport",
+                    "Check-in to luxury family resort with connecting rooms",
+                    "Welcome ceremony with traditional Kashmir hospitality",
+                    "Family orientation about Kashmir valley destinations",
+                    "Evening leisure time with family recreational facilities",
+                    "Traditional family dinner with local cultural program",
+                    "Overnight in premium family accommodations"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/6366F1/FFFFFF?text=Srinagar+Family+Welcome"
+                  imageAlt="Grand Srinagar Family Welcome"
+                  imageTitle="Srinagar Family Welcome"
+                  imageSubtitle="Warm Hospitality"
+                  icon="🏛️"
+                  imageOnRight={false}
+                />
+
+                <ItineraryCard
+                  title="Day 2: Extended Srinagar Family Exploration"
+                  activities={[
+                    "Comprehensive 01 Hour family Shikara ride on Dal Lake",
+                    "Extended family tour of all major Mughal Gardens",
+                    "Interactive family sessions at Shalimar and Nishat Bagh",
+                    "Family-friendly visit to Shankaracharya Temple",
+                    "Lunch at family restaurant with panoramic valley views",
+                    "Afternoon family shopping at traditional Kashmir bazaars",
+                    "Evening cultural family entertainment programs",
+                    "Overnight with extended family comfort amenities"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/22C55E/FFFFFF?text=Srinagar+Family+Exploration"
+                  imageAlt="Extended Srinagar Family Exploration"
+                  imageTitle="Srinagar Family Exploration"
+                  imageSubtitle="Full-Day Discovery"
+                  icon="🚣‍♀️"
+                  imageOnRight={true}
+                />
+
+                <ItineraryCard
+                  title="Day 3-4: Extended Pahalgam Family Adventure"
+                  activities={[
+                    "Scenic family transfer to beautiful Pahalgam valley",
+                    "Check-in to premium riverside family resort for 2 nights",
+                    "Day 3: Comprehensive tour of Pahalgam Valley attractions",
+                    "Extended family exploration of Betab Valley and Aru Valley",
+                    "Family pony rides and nature walks along Lidder River",
+                    "Day 4: Adventure day with family-friendly activities",
+                    "Visit to Chandanwari with family glacier experience",
+                    "Family camping experience under stars (weather permitting)",
+                    "Traditional village visit with local family interactions",
+                    "Extended family bonding time with recreational activities"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/06B6D4/FFFFFF?text=Pahalgam+Family+Adventure"
+                  imageAlt="Pahalgam Family Adventure"
+                  imageTitle="Pahalgam Family Adventure"
+                  imageSubtitle="Two-Day Valley Fun"
+                  icon="🌲"
+                  imageOnRight={false}
+                />
+
+                <ItineraryCard
+                  title="Day 5: Gulmarg Family Mountain Experience"
+                  activities={[
+                    "Family journey to magnificent Gulmarg meadows",
+                    "Family-safe Gulmarg Gondola experience to Apharwat Peak",
+                    "Extended family time at high-altitude mountain station",
+                    "Family snow activities and mountain games (seasonal)",
+                    "Premium family lunch at mountain restaurant",
+                    "Family golf experience at world's highest golf course",
+                    "Return to Srinagar for final family celebration",
+                    "Farewell family dinner with valley specialties",
+                    "Overnight in premium Srinagar family accommodation"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Gulmarg+Family+Experience"
+                  imageAlt="Gulmarg Family Mountain Experience"
+                  imageTitle="Gulmarg Family Experience"
+                  imageSubtitle="High-Altitude Day"
+                  icon="🚡"
+                  imageOnRight={true}
+                />
+
+                <ItineraryCard
+                  title="Day 6: Family Farewell & Valley Memories"
+                  activities={[
+                    "Final family breakfast with comprehensive valley views",
+                    "Last-minute family shopping for Kashmir valley souvenirs",
+                    "Family photo session at iconic valley locations",
+                    "Premium transfer to airport with family comfort",
+                    "Departure with comprehensive valley family memories"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/F59E0B/FFFFFF?text=Family+Farewell"
+                  imageAlt="Family Farewell & Valley Memories"
+                  imageTitle="Family Farewell"
+                  imageSubtitle="Final Day"
+                  icon="✈️"
+                  imageOnRight={false}
+                />
               </div>
             </div>
 

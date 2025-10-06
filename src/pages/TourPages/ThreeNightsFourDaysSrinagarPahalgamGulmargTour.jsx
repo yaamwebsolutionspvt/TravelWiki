@@ -3,7 +3,7 @@ import { useSEO } from "../../hooks/useSEO";
 import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
 import ItineraryCard from "../../components/ItineraryCard";
-const baloonRideKashmir = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514587/travelwiki/assets/Bestseller/baloon-ride-kashmir.jpg";
+const baloonRideKashmir = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759485997/Kashmir_3_Dallake_qptcbd.webp";
 
 export default function ThreeNightsFourDaysSrinagarPahalgamGulmargTour() {
   const seoData = useSEO({
@@ -102,7 +102,7 @@ export default function ThreeNightsFourDaysSrinagarPahalgamGulmargTour() {
             </div>
 
             {/* Overview */}
-            <div className="bg-white rounded-lg shadow-md p-8 mb-12">
+            <div className=" -white rounded-lg shadow-md p-8 mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Package Overview</h2>
               <p className="text-gray-600 leading-relaxed mb-6">
                 If you are looking for a short but beautiful tour package then this is what you should consider. 
@@ -133,7 +133,7 @@ export default function ThreeNightsFourDaysSrinagarPahalgamGulmargTour() {
                     "Photography of mountain ranges and lotus flowers",
                     "Overnight stay at houseboat or hotel"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Srinagar+Arrival"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759485995/Kashmir_17_Srinagar_w6an3v.webp"
                   imageAlt="Srinagar Arrival"
                   imageTitle="Srinagar Arrival"
                   imageSubtitle="Capital Welcome"
@@ -149,7 +149,7 @@ export default function ThreeNightsFourDaysSrinagarPahalgamGulmargTour() {
                     "White River Rafting at Shutkari Bridge (optional)",
                     "Return to Srinagar for dinner and overnight stay"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/10B981/FFFFFF?text=Sonamarg"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759485995/Kashmir_1_Sonamarg_rl5pqu.webp"
                   imageAlt="Sonamarg Excursion"
                   imageTitle="Sonamarg"
                   imageSubtitle="Meadow of Gold"
@@ -165,7 +165,7 @@ export default function ThreeNightsFourDaysSrinagarPahalgamGulmargTour() {
                     "Skiing adventure (suitable for amateur and professional skiers)",
                     "Overnight stay in Gulmarg"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/8B5CF6/FFFFFF?text=Gulmarg+Gondola"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759485996/Kashmir_2_Gulmarg_jaletq.webp"
                   imageAlt="Gulmarg Gondola Experience"
                   imageTitle="Gulmarg Gondola"
                   imageSubtitle="Meadow of Flowers"
@@ -180,7 +180,7 @@ export default function ThreeNightsFourDaysSrinagarPahalgamGulmargTour() {
                     "Drop at Srinagar airport or railway station",
                     "Departure for onward journey"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/EF4444/FFFFFF?text=Departure"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759485996/Kashmir_18_Gulmarg_to_srinagar_iu3pij.webp"
                   imageAlt="Departure"
                   imageTitle="Departure"
                   imageSubtitle="Journey End"

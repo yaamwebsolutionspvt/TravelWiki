@@ -2,6 +2,7 @@ import React from "react";
 import { useSEO } from "../../../hooks/useSEO";
 import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
+import ItineraryCard from "../../../components/ItineraryCard";
 const fm4 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514630/travelwiki/assets/Family/fm4.png";
 
 export default function PremiumKashmirHolidayPackage() {
@@ -118,87 +119,123 @@ export default function PremiumKashmirHolidayPackage() {
             <div className="bg-gradient-to-r from-purple-50 to-indigo-50 rounded-lg p-8 mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Ultra-Premium Family Itinerary</h2>
               <div className="space-y-8">
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">👑 Day 1: Royal Srinagar Arrival</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• VIP airport reception with traditional Kashmir welcome</li>
-                    <li>• Private luxury transfer in premium vehicles</li>
-                    <li>• Check-in to exclusive 5-star family suites</li>
-                    <li>• Personal concierge introduction and tour briefing</li>
-                    <li>• Champagne welcome with premium Kashmir delicacies</li>
-                    <li>• Evening at leisure in private luxury surroundings</li>
-                    <li>• Gourmet dinner with personal chef service</li>
-                    <li>• Overnight in ultra-luxury family accommodations</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🚣‍♀️ Day 2: Exclusive Srinagar Premium Experience</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Private 01 Hour luxury Shikara ride with exclusive arrangements</li>
-                    <li>• VIP access to premium areas of Dal Lake</li>
-                    <li>• Exclusive private tour of Mughal Gardens with historian guide</li>
-                    <li>• Premium lunch at Kashmir's finest heritage restaurant</li>
-                    <li>• Private helicopter tour of Srinagar valley (optional)</li>
-                    <li>• Exclusive shopping experience at premium Kashmir boutiques</li>
-                    <li>• Evening premium cultural performance in private setting</li>
-                    <li>• Overnight in luxury with premium amenities</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🌲 Day 3-4: Premium Pahalgam Luxury Retreat</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Private luxury transfer to exclusive Pahalgam resort</li>
-                    <li>• Check-in to premium riverside luxury villa for 2 nights</li>
-                    <li>• Day 3: Private comprehensive tour of Pahalgam Valley</li>
-                    <li>• Exclusive access to Betab Valley with private arrangements</li>
-                    <li>• Premium family pony caravan to exclusive viewpoints</li>
-                    <li>• Day 4: Private adventure day with premium activities</li>
-                    <li>• Exclusive helicopter ride over Pahalgam valley</li>
-                    <li>• Private luxury camping experience under stars</li>
-                    <li>• Personal chef preparing gourmet meals in natural settings</li>
-                    <li>• Ultra-luxury spa treatments and family wellness sessions</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🚡 Day 5: Exclusive Gulmarg Premium Adventure</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Private transfer to exclusive Gulmarg luxury resort</li>
-                    <li>• VIP access to Gulmarg Gondola with private cabin</li>
-                    <li>• Exclusive lunch at high-altitude premium restaurant</li>
-                    <li>• Private skiing lessons with international instructors (seasonal)</li>
-                    <li>• Exclusive access to premium golf facilities</li>
-                    <li>• Private helicopter return to Srinagar premium houseboat</li>
-                    <li>• Check-in to Kashmir's most luxurious family houseboat</li>
-                    <li>• Overnight in ultra-premium floating luxury</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🏰 Day 6: Premium Houseboat & Cultural Immersion</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Exclusive morning activities on private houseboat deck</li>
-                    <li>• Private master class with Kashmir's finest artisans</li>
-                    <li>• Exclusive premium shopping with personal shopping assistant</li>
-                    <li>• Private sunset cruise with champagne service</li>
-                    <li>• Exclusive traditional Wazwan feast prepared by master chefs</li>
-                    <li>• Private cultural evening with Kashmir's finest performers</li>
-                    <li>• Luxury overnight on premium houseboat</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">✈️ Day 7: Royal Farewell & Departure</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Final luxury breakfast with premium service</li>
-                    <li>• Last-minute exclusive shopping with personal concierge</li>
-                    <li>• Professional family portrait session at iconic locations</li>
-                    <li>• VIP airport transfer with luxury vehicle fleet</li>
-                    <li>• Departure with lifetime premium memories of Kashmir</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 1: Royal Srinagar Arrival"
+                  activities={[
+                    "VIP airport reception with traditional Kashmir welcome",
+                    "Private luxury transfer in premium vehicles",
+                    "Check-in to exclusive 5-star family suites",
+                    "Personal concierge introduction and tour briefing",
+                    "Champagne welcome with premium Kashmir delicacies",
+                    "Evening at leisure in private luxury surroundings",
+                    "Gourmet dinner with personal chef service",
+                    "Overnight in ultra-luxury family accommodations"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/EC4899/FFFFFF?text=Royal+Arrival"
+                  imageAlt="Royal Srinagar Arrival"
+                  imageTitle="Royal Srinagar Arrival"
+                  imageSubtitle="VIP Welcome Experience"
+                  icon="👑"
+                  imageOnRight={false}
+                />
+
+                <ItineraryCard
+                  title="Day 2: Exclusive Srinagar Premium Experience"
+                  activities={[
+                    "Private 01 Hour luxury Shikara ride with exclusive arrangements",
+                    "VIP access to premium areas of Dal Lake",
+                    "Exclusive private tour of Mughal Gardens with historian guide",
+                    "Premium lunch at Kashmir's finest heritage restaurant",
+                    "Private helicopter tour of Srinagar valley (optional)",
+                    "Exclusive shopping experience at premium Kashmir boutiques",
+                    "Evening premium cultural performance in private setting",
+                    "Overnight in luxury with premium amenities"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/7C3AED/FFFFFF?text=Premium+Srinagar"
+                  imageAlt="Exclusive Srinagar Premium Experience"
+                  imageTitle="Premium Srinagar"
+                  imageSubtitle="Dal Lake Exclusive"
+                  icon="🚣‍♀️"
+                  imageOnRight={true}
+                />
+
+                <ItineraryCard
+                  title="Day 3-4: Premium Pahalgam Luxury Retreat"
+                  activities={[
+                    "Private luxury transfer to exclusive Pahalgam resort",
+                    "Check-in to premium riverside luxury villa for 2 nights",
+                    "Day 3: Private comprehensive tour of Pahalgam Valley",
+                    "Exclusive access to Betab Valley with private arrangements",
+                    "Premium family pony caravan to exclusive viewpoints",
+                    "Day 4: Private adventure day with premium activities",
+                    "Exclusive helicopter ride over Pahalgam valley",
+                    "Private luxury camping experience under stars",
+                    "Personal chef preparing gourmet meals in natural settings",
+                    "Ultra-luxury spa treatments and family wellness sessions"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/10B981/FFFFFF?text=Premium+Pahalgam"
+                  imageAlt="Premium Pahalgam Luxury Retreat"
+                  imageTitle="Premium Pahalgam"
+                  imageSubtitle="Valley Luxury Retreat"
+                  icon="🌲"
+                  imageOnRight={false}
+                />
+
+                <ItineraryCard
+                  title="Day 5: Exclusive Gulmarg Premium Adventure"
+                  activities={[
+                    "Private transfer to exclusive Gulmarg luxury resort",
+                    "VIP access to Gulmarg Gondola with private cabin",
+                    "Exclusive lunch at high-altitude premium restaurant",
+                    "Private skiing lessons with international instructors (seasonal)",
+                    "Exclusive access to premium golf facilities",
+                    "Private helicopter return to Srinagar premium houseboat",
+                    "Check-in to Kashmir's most luxurious family houseboat",
+                    "Overnight in ultra-premium floating luxury"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/0891B2/FFFFFF?text=Premium+Gulmarg"
+                  imageAlt="Exclusive Gulmarg Premium Adventure"
+                  imageTitle="Premium Gulmarg"
+                  imageSubtitle="High-Altitude Adventure"
+                  icon="🚡"
+                  imageOnRight={true}
+                />
+
+                <ItineraryCard
+                  title="Day 6: Premium Houseboat & Cultural Immersion"
+                  activities={[
+                    "Exclusive morning activities on private houseboat deck",
+                    "Private master class with Kashmir's finest artisans",
+                    "Exclusive premium shopping with personal shopping assistant",
+                    "Private sunset cruise with champagne service",
+                    "Exclusive traditional Wazwan feast prepared by master chefs",
+                    "Private cultural evening with Kashmir's finest performers",
+                    "Luxury overnight on premium houseboat"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/059669/FFFFFF?text=Premium+Houseboat"
+                  imageAlt="Premium Houseboat & Cultural Immersion"
+                  imageTitle="Premium Houseboat"
+                  imageSubtitle="Exclusive Cultural Night"
+                  icon="🏰"
+                  imageOnRight={false}
+                />
+
+                <ItineraryCard
+                  title="Day 7: Royal Farewell & Departure"
+                  activities={[
+                    "Final luxury breakfast with premium service",
+                    "Last-minute exclusive shopping with personal concierge",
+                    "Professional family portrait session at iconic locations",
+                    "VIP airport transfer with luxury vehicle fleet",
+                    "Departure with lifetime premium memories of Kashmir"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/F97316/FFFFFF?text=Royal+Farewell"
+                  imageAlt="Royal Farewell & Departure"
+                  imageTitle="Royal Farewell"
+                  imageSubtitle="Final Luxury Experience"
+                  icon="✈️"
+                  imageOnRight={true}
+                />
               </div>
             </div>
 

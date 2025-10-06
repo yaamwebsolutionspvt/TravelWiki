@@ -3,7 +3,7 @@ import { useSEO } from "../../hooks/useSEO";
 import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
 import ItineraryCard from "../../components/ItineraryCard";
-const gandolaRide = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514591/travelwiki/assets/Bestseller/gandola-ride-kashmir.jpg";
+const gandolaRide = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759486001/Kashmir_7_Houseboat_View_uutl0x.webp";
 
 export default function MagnificentKashmirValleyTour() {
   const seoData = useSEO({
@@ -136,7 +136,7 @@ export default function MagnificentKashmirValleyTour() {
                     "Traditional handicraft shopping in old bazaars",
                     "Cultural evening with traditional music and dance"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/7C3AED/FFFFFF?text=Srinagar+Shikara"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759485999/Kashmir_4_Pahalgam_v7yfwe.webp"
                   imageAlt="Srinagar Shikara Ride Experience"
                   imageTitle="Srinagar Shikara"
                   imageSubtitle="01 Hour Dal Lake Experience"
@@ -156,7 +156,7 @@ export default function MagnificentKashmirValleyTour() {
                     "Nature walks along Lidder River",
                     "Village visits and local cultural interactions"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/EA580C/FFFFFF?text=Pahalgam+Valley"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759486001/Kashmir_7_Houseboat_View_uutl0x.webp"
                   imageAlt="Pahalgam Valley Experience"
                   imageTitle="Pahalgam Valley"
                   imageSubtitle="2 Nights Valley Exploration"
@@ -175,7 +175,7 @@ export default function MagnificentKashmirValleyTour() {
                     "Visit St. Mary's Church and local attractions",
                     "Adventure sports and mountain biking"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/0891B2/FFFFFF?text=Gulmarg+Gondola"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759735020/Gulmarg_ch9vck.webp"
                   imageAlt="Gulmarg Gondola Experience"
                   imageTitle="Gulmarg Gondola"
                   imageSubtitle="1 Night Mountain Adventure"
@@ -193,7 +193,7 @@ export default function MagnificentKashmirValleyTour() {
                     "Final shopping and souvenir collection",
                     "Departure transfer to airport"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/059669/FFFFFF?text=Houseboat+Stay"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759735095/Luxuary_Houseboat_stay_e0gszo.webp"
                   imageAlt="Luxury Houseboat Experience"
                   imageTitle="Luxury Houseboat"
                   imageSubtitle="1 Night Floating Experience"

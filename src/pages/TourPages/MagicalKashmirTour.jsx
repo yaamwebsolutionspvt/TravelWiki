@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
 import ItineraryCard from "../../components/ItineraryCard";
-const kashmirTourism = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514594/travelwiki/assets/Bestseller/kashmir-tourism.jpg";
+const kashmirTourism = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759486005/Kashmir_19_Gulmarg_and_sightseen_ujzh0g.webp";
 
 export default function MagicalKashmirTour() {
 
@@ -174,7 +174,7 @@ export default function MagicalKashmirTour() {
                     "Shopping at local handicraft markets",
                     "Visit Jamia Masjid and old city exploration"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Srinagar+Houseboat"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759486006/Kashmir_8_Dallake_Houseboat_tlkuq6.webp"
                   imageAlt="Srinagar Houseboat Experience"
                   imageTitle="Srinagar Houseboat"
                   imageSubtitle="Traditional Stay Experience"
@@ -192,7 +192,7 @@ export default function MagicalKashmirTour() {
                     "Pony rides to scenic viewpoints",
                     "Local trout fishing experience"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/10B981/FFFFFF?text=Pahalgam+Valley"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759486007/Kashmir_16_Pahalgam_hkpvdw.webp"
                   imageAlt="Pahalgam Valley Experience"
                   imageTitle="Pahalgam Valley"
                   imageSubtitle="Nature & Adventure"
@@ -210,7 +210,7 @@ export default function MagicalKashmirTour() {
                     "Photography sessions in alpine meadows",
                     "Visit St. Mary's Church"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/8B5CF6/FFFFFF?text=Gulmarg+Gondola"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759486005/Kashmir_19_Gulmarg_and_sightseen_ujzh0g.webp"
                   imageAlt="Gulmarg Gondola Experience"
                   imageTitle="Gulmarg Gondola"
                   imageSubtitle="Meadow of Flowers"

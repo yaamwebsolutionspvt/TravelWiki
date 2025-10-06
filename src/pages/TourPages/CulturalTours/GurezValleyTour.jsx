@@ -2,6 +2,7 @@ import React from "react";
 import { useSEO } from "../../../hooks/useSEO";
 import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
+import ItineraryCard from "../../../components/ItineraryCard";
 const ct5 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514612/travelwiki/assets/CulturalTours/ct5.jpg";
 
 export default function GurezValleyTour() {
@@ -118,56 +119,80 @@ export default function GurezValleyTour() {
             <div className="bg-gradient-to-r from-green-50 to-blue-50 rounded-lg p-8 mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Cultural Itinerary</h2>
               <div className="space-y-8">
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🏛️ Day 1: Srinagar Cultural Foundation</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Arrival at Srinagar and check-in to heritage hotel</li>
-                    <li>• Traditional welcome ceremony with Kahwa tea</li>
-                    <li>• Cultural 01 Hour Shikara ride on Dal Lake</li>
-                    <li>• Visit to local handicraft workshops and artisans</li>
-                    <li>• Explore Srinagar's cultural sites and old city bazaars</li>
-                    <li>• Traditional Kashmiri dinner with cultural program</li>
-                    <li>• Overnight stay in Srinagar</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🚗 Day 2: Journey to Gurez Valley</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Early morning departure to Gurez Valley via Bandipora</li>
-                    <li>• Scenic drive through Razdan Pass and mountain landscapes</li>
-                    <li>• Stop at traditional villages en route for cultural interactions</li>
-                    <li>• Check-in to local guesthouse in Gurez Valley</li>
-                    <li>• Introduction to Dard culture and community leaders</li>
-                    <li>• Evening walk through traditional Gurez village</li>
-                    <li>• Traditional dinner with local family homestay experience</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🌄 Day 3: Deep Cultural Immersion</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Morning tour of Tuleil Valley with local guide</li>
-                    <li>• Visit to traditional Dard wooden houses and architecture</li>
-                    <li>• Participate in local handicraft making sessions</li>
-                    <li>• Learn about traditional farming and agricultural practices</li>
-                    <li>• Authentic lunch prepared by local community</li>
-                    <li>• Visit local school and interact with children</li>
-                    <li>• Evening cultural program with folk songs and dances</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">✈️ Day 4: Cultural Farewell & Return</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Final breakfast with host family</li>
-                    <li>• Farewell ceremony with local community</li>
-                    <li>• Purchase authentic handmade souvenirs</li>
-                    <li>• Scenic return journey to Srinagar</li>
-                    <li>• Cultural shopping at Srinagar's traditional markets</li>
-                    <li>• Departure transfer to airport with cultural memories</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 1: Srinagar Cultural Foundation"
+                  activities={[
+                    "Arrival at Srinagar and check-in to heritage hotel",
+                    "Traditional welcome ceremony with Kahwa tea",
+                    "Cultural 01 Hour Shikara ride on Dal Lake",
+                    "Visit to local handicraft workshops and artisans",
+                    "Explore Srinagar's cultural sites and old city bazaars",
+                    "Traditional Kashmiri dinner with cultural program",
+                    "Overnight stay in Srinagar"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/0891B2/FFFFFF?text=Srinagar+Cultural+Foundation"
+                  imageAlt="Srinagar Cultural Foundation"
+                  imageTitle="Srinagar Cultural Foundation"
+                  imageSubtitle="Traditional Welcome"
+                  icon="🏛️"
+                  imageOnRight={false}
+                />
+
+                <ItineraryCard
+                  title="Day 2: Journey to Gurez Valley"
+                  activities={[
+                    "Early morning departure to Gurez Valley via Bandipora",
+                    "Scenic drive through Razdan Pass and mountain landscapes",
+                    "Stop at traditional villages en route for cultural interactions",
+                    "Check-in to local guesthouse in Gurez Valley",
+                    "Introduction to Dard culture and community leaders",
+                    "Evening walk through traditional Gurez village",
+                    "Traditional dinner with local family homestay experience"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/10B981/FFFFFF?text=Journey+to+Gurez"
+                  imageAlt="Journey to Gurez Valley"
+                  imageTitle="Journey to Gurez"
+                  imageSubtitle="Mountain Drive"
+                  icon="🚗"
+                  imageOnRight={true}
+                />
+
+                <ItineraryCard
+                  title="Day 3: Deep Cultural Immersion"
+                  activities={[
+                    "Morning tour of Tuleil Valley with local guide",
+                    "Visit to traditional Dard wooden houses and architecture",
+                    "Participate in local handicraft making sessions",
+                    "Learn about traditional farming and agricultural practices",
+                    "Authentic lunch prepared by local community",
+                    "Visit local school and interact with children",
+                    "Evening cultural program with folk songs and dances"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/7C3AED/FFFFFF?text=Deep+Cultural+Immersion"
+                  imageAlt="Deep Cultural Immersion"
+                  imageTitle="Deep Cultural Immersion"
+                  imageSubtitle="Dard Culture"
+                  icon="🌄"
+                  imageOnRight={false}
+                />
+
+                <ItineraryCard
+                  title="Day 4: Cultural Farewell & Return"
+                  activities={[
+                    "Final breakfast with host family",
+                    "Farewell ceremony with local community",
+                    "Purchase authentic handmade souvenirs",
+                    "Scenic return journey to Srinagar",
+                    "Cultural shopping at Srinagar's traditional markets",
+                    "Departure transfer to airport with cultural memories"
+                  ]}
+                  imageUrl="https://via.placeholder.com/400x300/DC2626/FFFFFF?text=Cultural+Farewell"
+                  imageAlt="Cultural Farewell & Return"
+                  imageTitle="Cultural Farewell"
+                  imageSubtitle="Final Moments"
+                  icon="✈️"
+                  imageOnRight={true}
+                />
               </div>
             </div>
 
