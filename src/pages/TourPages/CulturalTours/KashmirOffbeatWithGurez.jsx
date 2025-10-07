@@ -3,7 +3,7 @@ import { useSEO } from "../../../hooks/useSEO";
 import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
 import ItineraryCard from "../../../components/ItineraryCard";
-const ct2 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514607/travelwiki/assets/CulturalTours/ct2.png";
+const kashmirOffbeatImaget = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514607/travelwiki/assets/CulturalTours/ct2.png";
 
 export default function KashmirOffbeatWithGurez() {
   const seoData = useSEO({
@@ -34,28 +34,49 @@ export default function KashmirOffbeatWithGurez() {
     <>
       <SEO {...seoData} />
       <TourPackageSchema data={packageData} />
-      
+
       <div className="min-h-screen mt-4">
-        {/* Hero Section */}
-        <div className="relative text-white h-[65vh] py-24 overflow-hidden bg-gradient-to-br from-lime-600 via-green-600 to-emerald-600">
-          <div className="relative container mx-auto px-4">
+        
+        {/* Hero Section - Kashmir Offbeat Cultural Discovery */}
+        <div
+          className="relative text-white h-[75vh] overflow-hidden"
+          style={{
+            backgroundImage: `url(${kashmirOffbeatImaget})`, // 👈 replace with your image import or URL
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        >
+          {/* Overlay for readability */}
+          <div className="absolute inset-0 bg-black opacity-50"></div>
+
+          <div className="relative container mx-auto px-4 py-8 sm:py-12 md:py-16 h-full flex items-center justify-center">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">
+              <h1
+                className="text-4xl md:text-5xl font-bold mb-6 mt-16 sm:mt-20 md:mt-8"
+                style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.7)' }}
+              >
                 Kashmir Offbeat Cultural Discovery
               </h1>
-              <p className="text-xl mb-8">
-                Discover Kashmir's hidden cultural treasures and explore the authentic traditions of remote valleys and offbeat destinations
+
+              <p
+                className="text-xl mb-8"
+                style={{ textShadow: '1px 1px 3px rgba(0,0,0,0.7)' }}
+              >
+                Discover Kashmir's hidden cultural treasures and explore the authentic
+                traditions of remote valleys and offbeat destinations
               </p>
+
               <div className="flex flex-col md:flex-row justify-center items-center gap-4">
                 <div className="bg-white bg-opacity-20 rounded-lg p-4">
                   <span className="text-3xl font-bold text-black">₹26,999</span>
-                  <span className="text-lg ml-2 text-gray-200">per person</span>
+                  <span className="text-lg ml-2 text-gray-600">per person</span>
                   <div className="text-sm text-gray-200">
-                    <span className="line-through text-gray-400">₹32,399</span> 
-                    <span className="text-green-300 ml-2">17% OFF</span>
+                    <span className="line-through text-gray-500">₹32,399</span>{' '}
+                    <span className="text-green-300">17% OFF</span>
                   </div>
                 </div>
-                <a 
+
+                <a
                   href="https://wa.me/918899971960?text=Hi%2C%20I%20am%20interested%20in%20the%20Kashmir%20Offbeat%20With%20Gurez%20tour%20from%20Travel%20Wiki."
                   target="_blank"
                   rel="noopener noreferrer"
@@ -67,6 +88,7 @@ export default function KashmirOffbeatWithGurez() {
             </div>
           </div>
         </div>
+
 
         {/* Package Details */}
         <div className="container mx-auto px-4 py-12">
@@ -99,18 +121,18 @@ export default function KashmirOffbeatWithGurez() {
             <div className="bg-white rounded-lg shadow-md p-8 mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Discover Kashmir's Hidden Cultural Gems</h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Embark on an extraordinary cultural expedition to Kashmir's most remote and offbeat destinations with 
-                our comprehensive 7-night, 8-day discovery tour. This unique journey takes you beyond the typical 
+                Embark on an extraordinary cultural expedition to Kashmir's most remote and offbeat destinations with
+                our comprehensive 7-night, 8-day discovery tour. This unique journey takes you beyond the typical
                 tourist trails to explore hidden cultural treasures, ancient traditions, and authentic tribal lifestyles.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                With an extended stay in Srinagar and two full nights in pristine Gurez Valley, this tour offers the 
-                most comprehensive cultural exploration available. Visit remote villages untouched by modernization, 
+                With an extended stay in Srinagar and two full nights in pristine Gurez Valley, this tour offers the
+                most comprehensive cultural exploration available. Visit remote villages untouched by modernization,
                 interact with indigenous communities, and discover cultural practices that have remained unchanged for centuries.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Perfect for serious cultural explorers, anthropology enthusiasts, and adventurous travelers seeking 
-                authentic, undiluted cultural experiences. This tour requires a spirit of adventure and openness to 
+                Perfect for serious cultural explorers, anthropology enthusiasts, and adventurous travelers seeking
+                authentic, undiluted cultural experiences. This tour requires a spirit of adventure and openness to
                 experiencing life in remote mountain communities.
               </p>
             </div>
@@ -136,7 +158,7 @@ export default function KashmirOffbeatWithGurez() {
                   icon="🏛️"
                   imageOnRight={false}
                 />
-                
+
                 <ItineraryCard
                   title="Day 2: Srinagar Offbeat Cultural Sites"
                   activities={[
@@ -155,7 +177,7 @@ export default function KashmirOffbeatWithGurez() {
                   icon="🚣‍♀️"
                   imageOnRight={true}
                 />
-                
+
                 <ItineraryCard
                   title="Day 3: Extended Srinagar Cultural Exploration"
                   activities={[
@@ -174,7 +196,7 @@ export default function KashmirOffbeatWithGurez() {
                   icon="🏘️"
                   imageOnRight={false}
                 />
-                
+
                 <ItineraryCard
                   title="Day 4: Journey to Remote Cultural Heart"
                   activities={[
@@ -193,7 +215,7 @@ export default function KashmirOffbeatWithGurez() {
                   icon="🌄"
                   imageOnRight={true}
                 />
-                
+
                 <ItineraryCard
                   title="Day 5: Deep Gurez Cultural Immersion"
                   activities={[
@@ -212,7 +234,7 @@ export default function KashmirOffbeatWithGurez() {
                   icon="🏔️"
                   imageOnRight={false}
                 />
-                
+
                 <ItineraryCard
                   title="Day 6: Advanced Cultural Discovery"
                   activities={[
@@ -231,7 +253,7 @@ export default function KashmirOffbeatWithGurez() {
                   icon="🎭"
                   imageOnRight={true}
                 />
-                
+
                 <ItineraryCard
                   title="Day 7: Cultural Integration & Return"
                   activities={[
@@ -249,7 +271,7 @@ export default function KashmirOffbeatWithGurez() {
                   icon="🏛️"
                   imageOnRight={false}
                 />
-                
+
                 <ItineraryCard
                   title="Day 8: Cultural Conclusion & Departure"
                   activities={[

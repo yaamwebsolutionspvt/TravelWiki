@@ -3,7 +3,7 @@ import { useSEO } from "../../../hooks/useSEO";
 import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
 import ItineraryCard from "../../../components/ItineraryCard";
-const ex4 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514619/travelwiki/assets/Excursion/ex4.png";
+const ex4 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759812843/Week_Long_Holiday_In_Kashmir_dykfgx.webp";
 
 export default function WeekLongHolidayInKashmir() {
   const seoData = useSEO({
@@ -137,7 +137,7 @@ export default function WeekLongHolidayInKashmir() {
                     "Welcome dinner with local specialties",
                     "Peaceful overnight stay in Srinagar"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Srinagar+Arrival"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812843/Day_1_Relaxed_Srinagar_Arrival_qhbtfj.webp"
                   imageAlt="Srinagar Arrival"
                   imageTitle="Srinagar Arrival"
                   imageSubtitle="Relaxed Welcome"
@@ -155,7 +155,7 @@ export default function WeekLongHolidayInKashmir() {
                     "Evening free time for personal exploration",
                     "Comfortable overnight stay"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/06B6D4/FFFFFF?text=Dal+Lake+Shikara"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812835/Peaceful_Pahalgam_Journey_lq89p2.webp"
                   imageAlt="Dal Lake Shikara Ride"
                   imageTitle="Dal Lake Shikara"
                   imageSubtitle="01 Hour Experience"
@@ -173,7 +173,7 @@ export default function WeekLongHolidayInKashmir() {
                     "Evening walk in Pahalgam's natural surroundings",
                     "Peaceful overnight stay with nature sounds"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/10B981/FFFFFF?text=Pahalgam+Valley"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812841/Complete_Pahalgam_Valley_Experience_z90y7f.webp"
                   imageAlt="Pahalgam Valley"
                   imageTitle="Pahalgam Valley"
                   imageSubtitle="Nature & Peace"
@@ -192,7 +192,7 @@ export default function WeekLongHolidayInKashmir() {
                     "Evening relaxation at hotel",
                     "Comfortable overnight stay"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/8B5CF6/FFFFFF?text=Betab+Valley"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812841/Gulmarg_Meadow_Experience_j5zsmc.webp"
                   imageAlt="Betab Valley Experience"
                   imageTitle="Betab Valley"
                   imageSubtitle="Bollywood Location"
@@ -211,7 +211,7 @@ export default function WeekLongHolidayInKashmir() {
                     "Evening leisure time in meadow surroundings",
                     "Peaceful overnight stay in mountain air"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/F59E0B/FFFFFF?text=Gulmarg+Gondola"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759486007/Kashmir_15_igkjmn.webp"
                   imageAlt="Gulmarg Gondola Experience"
                   imageTitle="Gulmarg Gondola"
                   imageSubtitle="Meadow of Flowers"
@@ -229,7 +229,7 @@ export default function WeekLongHolidayInKashmir() {
                     "Farewell dinner with traditional cuisine",
                     "Final comfortable night in Kashmir"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/EC4899/FFFFFF?text=Srinagar+Sunset"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812844/Srinagar_Highlights_Tour_aqw22q.webp"
                   imageAlt="Srinagar Sunset"
                   imageTitle="Srinagar Sunset"
                   imageSubtitle="Final Experiences"
@@ -244,7 +244,7 @@ export default function WeekLongHolidayInKashmir() {
                     "Comfortable transfer to Srinagar Airport",
                     "Departure with perfect holiday memories"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/EF4444/FFFFFF?text=Departure"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812842/Perfect_Holiday_Conclusion_vqxo7q.webp"
                   imageAlt="Departure"
                   imageTitle="Departure"
                   imageSubtitle="Perfect Holiday End"

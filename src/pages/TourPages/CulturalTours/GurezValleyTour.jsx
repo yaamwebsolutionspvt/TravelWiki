@@ -3,7 +3,7 @@ import { useSEO } from "../../../hooks/useSEO";
 import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
 import ItineraryCard from "../../../components/ItineraryCard";
-const ct5 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514612/travelwiki/assets/CulturalTours/ct5.jpg";
+const gurezValleyImage = "https://res.cloudinary.com/dw1sh368y/image/upload/v1758517666/6._Kashmir_Sharing_4_Nights_5_Days_Adventure_Tour_ee9wwg.webp";
 
 export default function GurezValleyTour() {
   const seoData = useSEO({
@@ -33,29 +33,46 @@ export default function GurezValleyTour() {
     <>
       <SEO {...seoData} />
       <TourPackageSchema data={packageData} />
-      
+
       <div className="min-h-screen mt-4">
-        {/* Hero Section */}
-        <div className="relative text-white h-[65vh] py-25 overflow-hidden bg-gradient-to-br from-cyan-600 via-blue-600 to-indigo-600">
-          <div className="absolute inset-0 bg-black opacity-60"></div>
-          <div className="relative container mx-auto px-4">
+        {/* Hero Section - Gurez Valley Cultural Tour */}
+        <div
+          className="relative text-white h-[75vh] overflow-hidden"
+          style={{
+            backgroundImage: `url(${gurezValleyImage})`, // 👈 replace with your Gurez Valley image variable or URL
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        >
+          {/* Dark overlay for readability */}
+          <div className="absolute inset-0 bg-black opacity-50"></div>
+
+          <div className="relative container mx-auto px-4 py-8 sm:py-12 md:py-16 h-full flex items-center justify-center">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">
+              <h1
+                className="text-4xl md:text-5xl font-bold mb-6 mt-16 sm:mt-20 md:mt-8"
+                style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.7)' }}
+              >
                 Gurez Valley Cultural Tour
               </h1>
-              <p className="text-xl mb-8">
-                Discover the pristine beauty and authentic Dard culture of Kashmir's hidden gem - Gurez Valley
+              <p
+                className="text-xl mb-8"
+                style={{ textShadow: '1px 1px 3px rgba(0,0,0,0.7)' }}
+              >
+                Discover the pristine beauty and authentic Dard culture of Kashmir's hidden gem — Gurez Valley
               </p>
+
               <div className="flex flex-col md:flex-row justify-center items-center gap-4">
                 <div className="bg-white bg-opacity-20 rounded-lg p-4">
                   <span className="text-3xl font-bold text-black">₹14,999</span>
-                  <span className="text-lg ml-2 text-gray-200">per person</span>
+                  <span className="text-lg ml-2 text-gray-600">per person</span>
                   <div className="text-sm text-gray-200">
-                    <span className="line-through text-gray-400">₹17,999</span> 
-                    <span className="text-green-300 ml-2">17% OFF</span>
+                    <span className="line-through text-gray-500">₹17,999</span>{' '}
+                    <span className="text-green-300">17% OFF</span>
                   </div>
                 </div>
-                <a 
+
+                <a
                   href="https://wa.me/918899971960?text=Hi%2C%20I%20am%20interested%20in%20the%20Gurez%20Valley%20Cultural%20Tour%20from%20Travel%20Wiki."
                   target="_blank"
                   rel="noopener noreferrer"
@@ -67,6 +84,7 @@ export default function GurezValleyTour() {
             </div>
           </div>
         </div>
+
 
         {/* Package Details */}
         <div className="container mx-auto px-4 py-12">
@@ -99,18 +117,18 @@ export default function GurezValleyTour() {
             <div className="bg-white rounded-lg shadow-md p-8 mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Discover Authentic Gurez Valley Culture</h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Embark on a cultural odyssey to the pristine Gurez Valley, one of Kashmir's most remote and 
-                culturally rich destinations. This 3-night, 4-day tour offers an authentic glimpse into the 
+                Embark on a cultural odyssey to the pristine Gurez Valley, one of Kashmir's most remote and
+                culturally rich destinations. This 3-night, 4-day tour offers an authentic glimpse into the
                 traditional lifestyle of the Dard community, set against breathtaking Himalayan landscapes.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Located near the Line of Control, Gurez Valley remains largely untouched by modernization, 
-                preserving its ancient customs, traditional architecture, and unique cultural practices. 
+                Located near the Line of Control, Gurez Valley remains largely untouched by modernization,
+                preserving its ancient customs, traditional architecture, and unique cultural practices.
                 Experience the warm hospitality of local communities and witness age-old traditions.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Perfect for cultural enthusiasts, photographers, and travelers seeking authentic experiences 
-                away from crowded tourist destinations. This tour combines cultural immersion with natural 
+                Perfect for cultural enthusiasts, photographers, and travelers seeking authentic experiences
+                away from crowded tourist destinations. This tour combines cultural immersion with natural
                 beauty exploration.
               </p>
             </div>
@@ -130,7 +148,7 @@ export default function GurezValleyTour() {
                     "Traditional Kashmiri dinner with cultural program",
                     "Overnight stay in Srinagar"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/0891B2/FFFFFF?text=Srinagar+Cultural+Foundation"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1758518337/10._Mystic_Mountains_4_Nights_Discovery_for_Families_lkxudl.webp"
                   imageAlt="Srinagar Cultural Foundation"
                   imageTitle="Srinagar Cultural Foundation"
                   imageSubtitle="Traditional Welcome"
@@ -149,7 +167,7 @@ export default function GurezValleyTour() {
                     "Evening walk through traditional Gurez village",
                     "Traditional dinner with local family homestay experience"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/10B981/FFFFFF?text=Journey+to+Gurez"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1758518337/10._Mystic_Mountains_4_Nights_Discovery_for_Families_lkxudl.webp"
                   imageAlt="Journey to Gurez Valley"
                   imageTitle="Journey to Gurez"
                   imageSubtitle="Mountain Drive"
@@ -168,7 +186,7 @@ export default function GurezValleyTour() {
                     "Visit local school and interact with children",
                     "Evening cultural program with folk songs and dances"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/7C3AED/FFFFFF?text=Deep+Cultural+Immersion"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1758518337/10._Mystic_Mountains_4_Nights_Discovery_for_Families_lkxudl.webp"
                   imageAlt="Deep Cultural Immersion"
                   imageTitle="Deep Cultural Immersion"
                   imageSubtitle="Dard Culture"
@@ -186,7 +204,7 @@ export default function GurezValleyTour() {
                     "Cultural shopping at Srinagar's traditional markets",
                     "Departure transfer to airport with cultural memories"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/DC2626/FFFFFF?text=Cultural+Farewell"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1758868866/Summer_Meadow_Walks_Golf_wqj3pd.webp"
                   imageAlt="Cultural Farewell & Return"
                   imageTitle="Cultural Farewell"
                   imageSubtitle="Final Moments"
