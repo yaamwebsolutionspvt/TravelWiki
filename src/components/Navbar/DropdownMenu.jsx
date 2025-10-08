@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef } from "react";
 import { Link } from "react-router-dom";
+const sonamargTourPackageImage = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759906649/Sonmarg_Cultural_Natural_Heritage_crdaj5.webp";
 
 // Custom scrollbar styles
 const scrollbarStyles = `

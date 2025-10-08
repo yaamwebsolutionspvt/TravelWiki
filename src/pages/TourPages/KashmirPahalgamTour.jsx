@@ -3,6 +3,7 @@ import { useSEO } from "../../hooks/useSEO";
 import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
 import ItineraryCard from "../../components/ItineraryCard";
+const pahalgamTourPackageImage = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759910384/Arrival_in_Srinagar_xgxvgp.webp";
 
 export default function KashmirPahalgamTour() {
   const seoData = useSEO({
@@ -34,8 +35,8 @@ export default function KashmirPahalgamTour() {
       <TourPackageSchema data={packageData} />
       
       <div className="min-h-screen  mt-4">
-        {/* Hero Section */}
-        <div className="relative bg-gradient-to-r from-green-600 to-emerald-700 text-white py-25">
+        {/* Hero Section */}    
+        <div className="relative min-h-[75vh] bg-gradient-to-r from-green-600 to-emerald-700 text-white py-25" style={{backgroundImage: `url(${pahalgamTourPackageImage})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
@@ -161,7 +162,7 @@ export default function KashmirPahalgamTour() {
                     "Visit Mughal Gardens",
                     "Overnight stay in Srinagar"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Srinagar+Arrival"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759910377/Srinagar_to_Pahalgam_yglqxh.webp"
                   imageAlt="Srinagar Arrival"
                   imageTitle="Srinagar Arrival"
                   imageSubtitle="Capital Welcome"
@@ -178,7 +179,7 @@ export default function KashmirPahalgamTour() {
                     "Walk along Lidder River",
                     "Evening leisure time"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/10B981/FFFFFF?text=Pahalgam+Drive"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759910377/Betaab_Valley_Aru_Valley_tys9zk.webp"
                   imageAlt="Drive to Pahalgam"
                   imageTitle="Drive to Pahalgam"
                   imageSubtitle="Valley of Shepherds"
@@ -196,7 +197,7 @@ export default function KashmirPahalgamTour() {
                     "Camping experience (optional)",
                     "Return to Pahalgam for overnight stay"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/06B6D4/FFFFFF?text=Betaab+Valley"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759910377/Betaab_Valley_Aru_Valley_tys9zk.webp"
                   imageAlt="Betaab Valley Experience"
                   imageTitle="Betaab Valley"
                   imageSubtitle="Bollywood Location"
@@ -213,7 +214,7 @@ export default function KashmirPahalgamTour() {
                     "Adventure activities and trekking",
                     "Return to Pahalgam"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/8B5CF6/FFFFFF?text=Chandanwari"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759910373/Chandanwari_Excursion_w5vtvd.webp"
                   imageAlt="Chandanwari Excursion"
                   imageTitle="Chandanwari"
                   imageSubtitle="Amarnath Yatra Start"
@@ -230,7 +231,7 @@ export default function KashmirPahalgamTour() {
                     "Local handicraft shopping",
                     "Cultural evening program"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/EF4444/FFFFFF?text=River+Rafting"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759910374/Adventure_Activities_ax6sog.webp"
                   imageAlt="River Rafting Adventure"
                   imageTitle="River Rafting"
                   imageSubtitle="Lidder River Adventure"
@@ -246,7 +247,7 @@ export default function KashmirPahalgamTour() {
                     "Last-minute shopping",
                     "Airport transfer and departure"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/F59E0B/FFFFFF?text=Departure"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759910374/Return_to_Srinagar_Departure_z5cvb2.webp"
                   imageAlt="Departure"
                   imageTitle="Departure"
                   imageSubtitle="Journey End"

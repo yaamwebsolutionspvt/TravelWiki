@@ -5,8 +5,10 @@ import TourPackageSchema from "../../../components/TourPackageSchema";
 import ItineraryCard from "../../../components/ItineraryCard";
 import { Link } from "react-router-dom";
 
+const srinagarTourPackageImage = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759907937/Arrival_Dal_Lake_Introduction_dt4jja.webp";
+
 export default function SrinagarTourPackage() {
-  
+
   const seoData = useSEO({
     title: "Srinagar Tour Package | 6 Nights Capital City Experience",
     description: "Comprehensive Srinagar city tour package covering Dal Lake, Mughal Gardens, houseboats, and local attractions. 6 nights in the summer capital of Kashmir. Explore the Venice of East.",
@@ -34,10 +36,10 @@ export default function SrinagarTourPackage() {
     <>
       <SEO {...seoData} />
       <TourPackageSchema data={packageData} />
-      
+
       <div className="min-h-screen  mt-4">
         {/* Hero Section */}
-        <div className="relative bg-gradient-to-r from-teal-600 to-cyan-700 text-white py-25">
+        <div className="relative bg-gradient-to-r from-teal-600 to-cyan-700 text-white py-30" style={{ backgroundImage: `url(${srinagarTourPackageImage})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
@@ -52,9 +54,9 @@ export default function SrinagarTourPackage() {
                   <span className="text-2xl font-bold text-black">Contact for Pricing</span>
                 </div>
                 <Link to='/contact' className="hoveer:cursor-pointer">
-                <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
-                  Enquire Now
-                </button>
+                  <button className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors">
+                    Enquire Now
+                  </button>
                 </Link>
               </div>
             </div>
@@ -92,20 +94,20 @@ export default function SrinagarTourPackage() {
             <div className="bg-white rounded-lg shadow-md p-8 mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Srinagar - The Venice of the East</h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Srinagar, the summer capital of Jammu and Kashmir, is renowned for its pristine lakes, magnificent 
-                Mughal gardens, and unique houseboat accommodations. Often referred to as the "Venice of the East," 
-                this beautiful city sits at an altitude of 1,585 meters in the Kashmir Valley, surrounded by the 
+                Srinagar, the summer capital of Jammu and Kashmir, is renowned for its pristine lakes, magnificent
+                Mughal gardens, and unique houseboat accommodations. Often referred to as the "Venice of the East,"
+                this beautiful city sits at an altitude of 1,585 meters in the Kashmir Valley, surrounded by the
                 stunning Himalayan ranges.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                The city is famous for its intricate network of canals, bridges, and waterways, with Dal Lake being 
-                its crown jewel. Srinagar showcases a perfect blend of natural beauty and rich cultural heritage, 
-                featuring magnificent Mughal architecture, traditional Kashmiri handicrafts, and warm hospitality 
+                The city is famous for its intricate network of canals, bridges, and waterways, with Dal Lake being
+                its crown jewel. Srinagar showcases a perfect blend of natural beauty and rich cultural heritage,
+                featuring magnificent Mughal architecture, traditional Kashmiri handicrafts, and warm hospitality
                 that has been welcoming visitors for centuries.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Our comprehensive Srinagar tour package is designed for travelers who want to deeply explore this 
-                magnificent city, its culture, traditions, and every iconic attraction it has to offer. From floating 
+                Our comprehensive Srinagar tour package is designed for travelers who want to deeply explore this
+                magnificent city, its culture, traditions, and every iconic attraction it has to offer. From floating
                 markets to ancient temples, from luxury houseboats to traditional markets, experience it all.
               </p>
             </div>
@@ -207,7 +209,7 @@ export default function SrinagarTourPackage() {
             {/* Detailed Itinerary */}
             <div className="bg-gradient-to-r from-teal-50 to-cyan-50 rounded-lg p-8 mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Comprehensive Srinagar Itinerary</h2>
-              
+
               <div className="space-y-8">
                 <ItineraryCard
                   title="Day 1: Arrival & Dal Lake Introduction"
@@ -218,7 +220,7 @@ export default function SrinagarTourPackage() {
                     "Evening Shikara ride on Dal Lake",
                     "Dinner on houseboat with local cuisine"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/14B8A6/FFFFFF?text=Dal+Lake+Introduction"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759907937/Arrival_Dal_Lake_Introduction_dt4jja.webp"
                   imageAlt="Dal Lake Introduction"
                   imageTitle="Dal Lake Introduction"
                   imageSubtitle="Traditional Welcome Experience"
@@ -235,7 +237,7 @@ export default function SrinagarTourPackage() {
                     "Local handicraft shopping and demonstrations",
                     "Evening leisure at Boulevard Road"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/0891B2/FFFFFF?text=Mughal+Gardens"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759907935/Mughal_Gardens_City_Tour_bonery.webp"
                   imageAlt="Mughal Gardens & City Tour"
                   imageTitle="Mughal Gardens"
                   imageSubtitle="Royal Garden Experience"
@@ -252,7 +254,7 @@ export default function SrinagarTourPackage() {
                     "Kashmiri handicraft workshops visit",
                     "Cultural program with traditional music"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Heritage+Culture"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759907927/Heritage_Culture_Day_yqpgfu.webp"
                   imageAlt="Heritage & Culture Day"
                   imageTitle="Heritage & Culture"
                   imageSubtitle="Traditional Experience"
@@ -269,7 +271,7 @@ export default function SrinagarTourPackage() {
                     "Traditional Wazwan lunch experience",
                     "Sunset photography session"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/10B981/FFFFFF?text=Nigeen+Lake"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759907927/Nigeen_Lake_Local_Experiences_pu4nzh.webp"
                   imageAlt="Nigeen Lake & Local Experiences"
                   imageTitle="Nigeen Lake"
                   imageSubtitle="Local Cultural Exchange"
@@ -286,7 +288,7 @@ export default function SrinagarTourPackage() {
                     "Botanical garden and nature walks",
                     "Traditional carpet weaving center visit"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/7C3AED/FFFFFF?text=Shankaracharya+Temple"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759907938/Shankaracharya_Surroundings_kbsuvp.webp"
                   imageAlt="Shankaracharya & Surroundings"
                   imageTitle="Shankaracharya Temple"
                   imageSubtitle="Panoramic City Views"
@@ -303,7 +305,7 @@ export default function SrinagarTourPackage() {
                     "Saffron cultivation and processing tour",
                     "Shopping for authentic souvenirs"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/DC2626/FFFFFF?text=Arts+Crafts"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759907928/Arts_Crafts_Deep_Dive_ci85bl.webp"
                   imageAlt="Arts & Crafts Deep Dive"
                   imageTitle="Arts & Crafts"
                   imageSubtitle="Traditional Workshops"
@@ -320,7 +322,7 @@ export default function SrinagarTourPackage() {
                     "Airport transfer with cultural send-off",
                     "Departure with authentic Kashmir memories"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/F97316/FFFFFF?text=Farewell+Departure"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759907929/Farewell_Departure_qyuqut.webp"
                   imageAlt="Farewell & Departure"
                   imageTitle="Farewell & Departure"
                   imageSubtitle="Final Memories"

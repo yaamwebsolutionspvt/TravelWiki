@@ -214,7 +214,7 @@ export default function TrueGemsOfKashmirValleyTour() {
                     "Short pony ride or leisure photography",
                     "Return to Srinagar for overnight stay",
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/0ea5e9/FFFFFF?text=Sonmarg+Valley"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759485995/Kashmir_1_Sonamarg_rl5pqu.webp"
                   imageAlt="Sonmarg Day Trip"
                   imageTitle="Sonmarg Excursion"
                   imageSubtitle="Mountain Beauty"
@@ -229,7 +229,7 @@ export default function TrueGemsOfKashmirValleyTour() {
                     "Explore cultural museum and carpet factory",
                     "Evening free for leisure",
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/16a34a/FFFFFF?text=Kashmir+Culture"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759485999/Kashmir_21_srinagar_and_sightseen_od99ya.webp"
                   imageAlt="Kashmiri Culture"
                   imageTitle="Local Crafts"
                   imageSubtitle="Culinary & Handicrafts"
@@ -244,7 +244,7 @@ export default function TrueGemsOfKashmirValleyTour() {
                     "Final souvenir shopping",
                     "Departure transfer with beautiful memories",
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/f97316/FFFFFF?text=Farewell+Kashmir"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812842/Perfect_Holiday_Conclusion_vqxo7q.webp"
                   imageAlt="Farewell Kashmir"
                   imageTitle="Departure"
                   imageSubtitle="Memories Forever"

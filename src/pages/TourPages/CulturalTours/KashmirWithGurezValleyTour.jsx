@@ -4,7 +4,7 @@ import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
 import ItineraryCard from "../../../components/ItineraryCard";
 
-const kashmirKargilImage = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514610/travelwiki/assets/CulturalTours/ct4.png";
+const kashmirKargilImage = "https://res.cloudinary.com/dw1sh368y/image/upload/v1758606385/Day_1_Floating_into_Kashmir_Srinagar_Welcome_ved3ol.webp";
 
 export default function KashmirWithKargilTour() {
   const seoData = useSEO({
@@ -185,7 +185,7 @@ export default function KashmirWithKargilTour() {
                     "Arrival and check-in at Kargil accommodation",
                     "Evening Balti cultural orientation with dinner"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759492001/Kargil_Route_Sonmarg_wqjsdy.webp"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1758345483/8-Day_Kashmir_Ladakh_Scenic_Expedition_hiarjd.webp"
                   imageAlt="Journey to Kargil"
                   imageTitle="Mountain Cultural Transition"
                   imageSubtitle="Srinagar to Kargil"

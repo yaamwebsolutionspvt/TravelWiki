@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import SEO from "../../components/SEO";
 import OptimizedImage from "../../components/OptimizedImage";
 import ItineraryCard from "../../components/ItineraryCard";
-const ld11 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1758523704/Desert_Mirage_Nubra_Valley_w5msem.png";
+const amazingLadakhTourWithNubraStayImage = "https://res.cloudinary.com/dw1sh368y/image/upload/v1758523704/Desert_Mirage_Nubra_Valley_w5msem.webp";
 
 const AmazingLadakhTourWithNubraStay = () => {
   return (
@@ -82,7 +82,7 @@ const AmazingLadakhTourWithNubraStay = () => {
         <div className="relative h-[500px] md:h-[600px] w-full overflow-hidden">
           {/* Background image */}
           <OptimizedImage
-            src={ld11}
+            src={ amazingLadakhTourWithNubraStayImage}
             alt="Amazing Ladakh Tour"
             width={1920}
             height={600}
@@ -175,7 +175,7 @@ const AmazingLadakhTourWithNubraStay = () => {
                       "Drink ample water and avoid strenuous activity",
                       "Enjoy overnight stay at hotel in Leh"
                     ]}
-                    imageUrl="https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Leh+Airport"
+                    imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759912425/Arrival_in_Leh_nlwhll.webp"
                     imageAlt="Leh Airport Arrival"
                     imageTitle="Leh Airport"
                     imageSubtitle="Arrival & Acclimatization"
@@ -193,7 +193,7 @@ const AmazingLadakhTourWithNubraStay = () => {
                       "End the day at Shanti Stupa with stunning views of Leh city",
                       "Return to hotel for overnight stay"
                     ]}
-                    imageUrl="https://via.placeholder.com/400x300/10B981/FFFFFF?text=Sham+Valley"
+                    imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759912426/Excursion_to_Sham_Valley_kpsnge.webp"
                     imageAlt="Sham Valley Excursion"
                     imageTitle="Sham Valley"
                     imageSubtitle="Scenic Beauty & Acclimatization"
@@ -212,7 +212,7 @@ const AmazingLadakhTourWithNubraStay = () => {
                       "Stroll along the sand dunes of Hunder village",
                       "Overnight stay at the camp"
                     ]}
-                    imageUrl="https://via.placeholder.com/400x300/8B5CF6/FFFFFF?text=Nubra+Valley"
+                    imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759912426/Excursion_to_Sham_Valley_kpsnge.webp"
                     imageAlt="Nubra Valley Experience"
                     imageTitle="Nubra Valley"
                     imageSubtitle="Desert & Mountains"
@@ -230,7 +230,7 @@ const AmazingLadakhTourWithNubraStay = () => {
                       "Reach Leh and check in to hotel",
                       "Overnight stay at Leh"
                     ]}
-                    imageUrl="https://via.placeholder.com/400x300/F59E0B/FFFFFF?text=Pangong+Lake"
+                    imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759912427/Excursion_to_Pangong_Lake_jqa3nj.webp"
                     imageAlt="Pangong Lake Experience"
                     imageTitle="Pangong Lake"
                     imageSubtitle="Highest Saltwater Lake"
@@ -245,7 +245,7 @@ const AmazingLadakhTourWithNubraStay = () => {
                       "Transfer to Leh Airport for onward flight",
                       "End of amazing 4N5D Ladakh tour"
                     ]}
-                    imageUrl="https://via.placeholder.com/400x300/EF4444/FFFFFF?text=Leh+Departure"
+                    imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759912429/Departure_from_Leh_ur1igi.webp"
                     imageAlt="Leh Departure"
                     imageTitle="Leh Departure"
                     imageSubtitle="End of Amazing Journey"

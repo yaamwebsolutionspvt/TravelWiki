@@ -4,7 +4,7 @@ import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
 import ItineraryCard from "../../../components/ItineraryCard";
 
-const kashmirKargilImage = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514610/travelwiki/assets/CulturalTours/ct4.png";
+const kashmirKargilImage = "https://res.cloudinary.com/dw1sh368y/image/upload/v1758606385/Day_1_Floating_into_Kashmir_Srinagar_Welcome_ved3ol.webp";
 
 export default function KashmirWithKargilTour() {
   const seoData = useSEO({
@@ -185,7 +185,7 @@ export default function KashmirWithKargilTour() {
                     "Arrival and check-in at Kargil accommodation",
                     "Evening Balti cultural orientation with dinner"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759492001/Kargil_Route_Sonmarg_wqjsdy.webp"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1758345483/8-Day_Kashmir_Ladakh_Scenic_Expedition_hiarjd.webp"
                   imageAlt="Journey to Kargil"
                   imageTitle="Mountain Cultural Transition"
                   imageSubtitle="Srinagar to Kargil"
@@ -202,7 +202,7 @@ export default function KashmirWithKargilTour() {
                     "Traditional Balti lunch and local folklore sessions",
                     "Evening folk performances and storytelling"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759493452/Balti_Village_Kargil_vlg8sh.webp"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759906540/Kargil_Balti_Cultural_Experience_t3zdes.webp"
                   imageAlt="Kargil Balti Cultural Experience"
                   imageTitle="Balti Heritage"
                   imageSubtitle="Cultural Fusion"
@@ -219,7 +219,7 @@ export default function KashmirWithKargilTour() {
                     "Cultural lunch with local pastoral communities",
                     "Evening leisure amidst Himalayan landscapes"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759494480/Sonmarg_Cultural_Valley_rqenfr.webp"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759906649/Sonmarg_Cultural_Natural_Heritage_crdaj5.webp"
                   imageAlt="Sonmarg Cultural Heritage"
                   imageTitle="Sonmarg Valley"
                   imageSubtitle="Cultural & Natural Harmony"
@@ -236,7 +236,7 @@ export default function KashmirWithKargilTour() {
                     "Enjoy optional cable car experience (Gondola Ride)",
                     "Evening cultural reflection and farewell dinner"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759495120/Gulmarg_Cultural_Snow_Experience_y6ujkr.webp"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759486003/Kashmir_9_Gulmarg_cu8jko.webp"
                   imageAlt="Gulmarg Cultural Experience"
                   imageTitle="Gulmarg Culture"
                   imageSubtitle="Adventure & Tradition"
@@ -252,7 +252,7 @@ export default function KashmirWithKargilTour() {
                     "Cultural summary session and photo documentation",
                     "Departure transfer with lifetime memories"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/10B981/FFFFFF?text=Farewell+from+Kashmir"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759906805/Cultural_Integration_Departure_pojiia.webp"
                   imageAlt="Cultural Integration & Departure"
                   imageTitle="Farewell"
                   imageSubtitle="Final Day"

@@ -5,7 +5,7 @@ import TourPackageSchema from "../../../components/TourPackageSchema";
 import ItineraryCard from "../../../components/ItineraryCard";
 
 const gulmargImage =
-  "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514610/travelwiki/assets/CulturalTours/gulmarg_hero.webp";
+  "https://res.cloudinary.com/dw1sh368y/image/upload/v1759909431/Srinagar_to_Gulmarg_hpxniv.webp";
 
 export default function KashmirGulmargTour() {
   const seoData = useSEO({
@@ -14,7 +14,7 @@ export default function KashmirGulmargTour() {
       "Experience the beauty of Gulmarg with our 3 nights 4 days Kashmir tour. Gondola rides, skiing, snow adventures, and breathtaking Himalayan views. Starting at ₹10,999.",
     keywords:
       "Kashmir Gulmarg tour, Gulmarg skiing, Gondola ride package, snow adventure Kashmir, Gulmarg holiday package",
-    canonical: "https://www.travelwiki.org.in/packages/kashmir-gulmarg-tour/",
+    canonical: "https://res.cloudinary.com/dw1sh368y/image/upload/v1759909443/Full_Day_Gulmarg_Snow_Adventure_s0bqdn.webp",
   });
 
   const packageData = {
@@ -171,7 +171,7 @@ export default function KashmirGulmargTour() {
                     "Try snow activities and enjoy mountain views",
                     "Evening at leisure and overnight stay in Gulmarg",
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759495120/Gulmarg_Cultural_Snow_Experience_y6ujkr.webp"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759909443/Full_Day_Gulmarg_Snow_Adventure_s0bqdn.webp"
                   imageAlt="Gulmarg Gondola Ride"
                   imageTitle="Gulmarg Adventure"
                   imageSubtitle="Scenic Journey"
@@ -188,7 +188,7 @@ export default function KashmirGulmargTour() {
                     "Photography and snow leisure activities",
                     "Return to hotel for dinner and overnight stay",
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759497124/Gulmarg_Snow_Adventure_mwnm9p.webp"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759909431/Srinagar_to_Gulmarg_hpxniv.webp"
                   imageAlt="Gulmarg Skiing"
                   imageTitle="Snow Adventure"
                   imageSubtitle="Apharwat Peak Experience"
@@ -205,7 +205,7 @@ export default function KashmirGulmargTour() {
                     "Transfer to airport for onward journey",
                     "Tour concludes with unforgettable memories",
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/2563EB/FFFFFF?text=Farewell+from+Gulmarg"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759909445/Gulmarg_to_Srinagar_Departure_ysf0sb.webp"
                   imageAlt="Farewell Gulmarg"
                   imageTitle="Departure"
                   imageSubtitle="Goodbye Kashmir"

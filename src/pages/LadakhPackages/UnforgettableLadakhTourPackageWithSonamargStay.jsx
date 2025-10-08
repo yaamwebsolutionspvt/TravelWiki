@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SEO from "../../components/SEO";
-const ld6 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514667/travelwiki/assets/Ladakh/ld6.jpg";
+const sonamargTourPackageImage = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759906649/Sonmarg_Cultural_Natural_Heritage_crdaj5.webp";
 
 const UnforgettableLadakhTourPackageWithSonamargStay = () => {
   return (
@@ -11,7 +11,7 @@ const UnforgettableLadakhTourPackageWithSonamargStay = () => {
         customTitle="Unforgettable Ladakh Tour Package with Sonamarg Stay - 11N/12D Starting ₹47,999"
         customDescription="Experience the ultimate Kashmir-Ladakh journey with our comprehensive 11 nights 12 days tour package. Includes Srinagar, Sonamarg, Kargil, Leh, Nubra Valley, Pangong Lake starting from ₹47,999 per person."
         customKeywords={["Kashmir Ladakh combo tour", "Sonamarg Ladakh package", "Srinagar to Manali tour", "comprehensive Himalayan tour", "Kashmir Ladakh holiday"]}
-        customImage={ld6}
+        customImage={sonamargTourPackageImage}
       >
         <script type="application/ld+json">
           {JSON.stringify({
@@ -19,7 +19,7 @@ const UnforgettableLadakhTourPackageWithSonamargStay = () => {
             "@type": "TouristTrip",
             "name": "Unforgettable Ladakh Tour Package with Sonamarg Stay",
             "description": "Experience the ultimate Kashmir-Ladakh journey with our comprehensive 11 nights 12 days tour package. Includes Srinagar, Sonamarg, Kargil, Leh, Nubra Valley, Pangong Lake.",
-            "image": ld6,
+            "image": sonamargTourPackageImage,
             "offers": {
               "@type": "Offer",
               "price": "47999",
@@ -42,17 +42,18 @@ const UnforgettableLadakhTourPackageWithSonamargStay = () => {
       
       <div className="min-h-screen  pt-24">
         {/* Hero Section */}
-        <div className="relative text-white h-[50vh] overflow-hidden bg-gradient-to-br from-slate-700 via-gray-700 to-zinc-700">
+        <div className="relative min-h-[75vh] bg-gradient-to-r from-green-600 to-emerald-700 text-white py-25" style={{backgroundImage: `url(${sonamargTourPackageImage})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
+        <div className="relative text-white h-[50vh] overflow-hidden">
           <div className="relative z-10 flex items-center justify-center h-full">
             <div className="text-center text-white">
-              <h1 className="text-3xl md:text-5xl font-bold mb-4" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.7)'}}>
+              <h1 className="text-3xl md:text-5xl font-bold mb-4" >
                 Unforgettable Ladakh Tour Package with Sonamarg Stay
               </h1>
               <p className="text-xl" style={{textShadow: '1px 1px 3px rgba(0,0,0,0.7)'}}>11 Nights / 12 Days</p>
             </div>
+            </div>
           </div>
         </div>
-
         {/* Package Details */}
         <div className="max-w-7xl mx-auto px-4 py-8">
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
