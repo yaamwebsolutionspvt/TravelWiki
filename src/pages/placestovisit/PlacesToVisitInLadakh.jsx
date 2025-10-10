@@ -70,6 +70,72 @@ const PlacesToVisitInLadakh = () => {
               <a href="#zoji-la" className="text-amber-600 hover:text-amber-800 font-semibold">10. Zoji La Pass</a>
             </div>
           </div>
+           {/* Image Gallery Section 1 - After Hero */}
+         <div className="container mx-auto px-4 py-12">
+          <div className="max-w-6xl mx-auto">
+            <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Ladakh Gallery</h2>
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+              <div className="relative group overflow-hidden rounded-lg shadow-lg">
+                <img 
+                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1758868872/Skiing_Snow_Adventures_pbm63b.webp" 
+                  alt="Exotic Kashmir Experience" 
+                  className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+                <div className="absolute inset-0  bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
+                  <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-semibold">Exotic Adventure</span>
+                </div>
+              </div>
+              <div className="relative group overflow-hidden rounded-lg shadow-lg">
+                <img 
+                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1758868872/Skiing_Snow_Adventures_pbm63b.webp" 
+                  alt="Exotic Kashmir Experience" 
+                  className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+                <div className="absolute inset-0  bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
+                  <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-semibold">Exotic Adventure</span>
+                </div>
+              </div><div className="relative group overflow-hidden rounded-lg shadow-lg">
+                <img 
+                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1758868872/Skiing_Snow_Adventures_pbm63b.webp" 
+                  alt="Exotic Kashmir Experience" 
+                  className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+                <div className="absolute inset-0  bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
+                  <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-semibold">Exotic Adventure</span>
+                </div>
+              </div><div className="relative group overflow-hidden rounded-lg shadow-lg">
+                <img 
+                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1758868872/Skiing_Snow_Adventures_pbm63b.webp" 
+                  alt="Exotic Kashmir Experience" 
+                  className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+                <div className="absolute inset-0  bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
+                  <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-semibold">Exotic Adventure</span>
+                </div>
+              </div>
+              <div className="relative group overflow-hidden rounded-lg shadow-lg">
+                <img 
+                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759485998/Kashmir_5_Pahalgam_t9jyon.webp" 
+                  alt="Comprehensive Kashmir Tour" 
+                  className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+                <div className="absolute inset-0  bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
+                  <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-semibold">Complete Tour</span>
+                </div>
+              </div>
+              <div className="relative group overflow-hidden rounded-lg shadow-lg">
+                <img 
+                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759219502/Stay_on_Heritage_Houseboats_vynbfb.webp" 
+                  alt="Kashmir Valley Exploration" 
+                  className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
+                />
+                <div className="absolute inset-0  bg-opacity-0 group-hover:bg-opacity-30 transition-all duration-300 flex items-center justify-center">
+                  <span className="text-white opacity-0 group-hover:opacity-100 transition-opacity duration-300 font-semibold">Valley Exploration</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
 
           {/* Place 1: Pangong Tso */}
           <section id="pangong-tso" className="mb-16">

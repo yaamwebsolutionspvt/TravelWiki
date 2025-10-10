@@ -2,6 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import SEO from '../../components/SEO';
 import { FaWater, FaMountain, FaPagelines, FaTree, FaCampground, FaLeaf } from 'react-icons/fa';
+const heroBg = 'https://res.cloudinary.com/dw1sh368y/image/upload/v1759910384/Arrival_in_Srinagar_xgxvgp.webp';
 
 const PlacesToVisitInKashmir = () => {
   return (
@@ -13,12 +14,12 @@ const PlacesToVisitInKashmir = () => {
         url="https://yourdomain.com/places-to-visit-in-kashmir"
       />
 
-      <div className="min-h-screen bg-gray-50">
+      <div className="min-h-screen bg-gray-50 ">
         {/* Hero Section */}
-        <div className="relative bg-gradient-to-r from-blue-900 to-purple-900 text-white py-25">
+        <div className="relative min-h-[70vh] sm:min-h-[80vh] md:min-h-[90vh] lg:min-h-[95vh] text-white py-25 text-center items-center " style={{backgroundImage: `url(${heroBg})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center">
+            <div className="text-center mt-16">
               <h1 className="text-4xl md:text-6xl font-bold mb-6">
                 Best Places to Visit in Kashmir
               </h1>
@@ -29,6 +30,7 @@ const PlacesToVisitInKashmir = () => {
             </div>
           </div>
         </div>
+
 
         {/* Introduction */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -60,9 +62,18 @@ const PlacesToVisitInKashmir = () => {
             </div>
           </div>
 
+           {/* Image Gallery Section 1 - After Hero */}
+        
+
           {/* Place 1: Srinagar */}
           <section id="srinagar" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759907937/Arrival_Dal_Lake_Introduction_dt4jja.webp"
+                alt="Dal Lake and houseboats in Srinagar"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">1. Srinagar - The Jewel of Kashmir</h2>
                 
@@ -124,6 +135,12 @@ const PlacesToVisitInKashmir = () => {
           {/* Place 2: Gulmarg */}
           <section id="gulmarg" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759909443/Full_Day_Gulmarg_Snow_Adventure_s0bqdn.webp"
+                alt="Snowy landscape and gondola in Gulmarg"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">2. Gulmarg - The Meadow of Flowers</h2>
                 
@@ -186,6 +203,12 @@ const PlacesToVisitInKashmir = () => {
           {/* Place 3: Pahalgam */}
           <section id="pahalgam" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1758273930/Pahalgam_Valley_of_Shepherds_xhlbfg.webp"
+                alt="Betaab Valley in Pahalgam"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">3. Pahalgam - The Valley of Shepherds</h2>
                 
@@ -246,6 +269,12 @@ const PlacesToVisitInKashmir = () => {
           {/* Place 4: Sonamarg */}
           <section id="sonamarg" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759910373/Chandanwari_Excursion_w5vtvd.webp"
+                alt="Thajiwas Glacier in Sonamarg"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">4. Sonamarg - The Meadow of Gold</h2>
                 
@@ -306,6 +335,12 @@ const PlacesToVisitInKashmir = () => {
           {/* Place 5: Gurez Valley */}
           <section id="gurez-valley" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1758868866/Summer_Meadow_Walks_Golf_wqj3pd.webp"
+                alt="Habba Khatoon Peak in Gurez Valley"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">5. Gurez Valley - The Hidden Paradise</h2>
                 
@@ -366,6 +401,12 @@ const PlacesToVisitInKashmir = () => {
           {/* Place 6: Yusmarg */}
           <section id="yusmarg" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759314589/Kashmir_With_Gurez_Valley_Cultural_Tour_wlx64s.webp"
+                alt="Meadows and river in Yusmarg"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">6. Yusmarg - The Meadow of Jesus</h2>
                 
