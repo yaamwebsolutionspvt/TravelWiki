@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1760071761/Best_Places_to_Visit_in_Ladakh_woorvv.webp";
 
 const PlacesToVisitInLadakh = () => {
   return (
@@ -16,7 +17,9 @@ const PlacesToVisitInLadakh = () => {
 
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
-        <div className="relative bg-gradient-to-r from-amber-900 to-orange-900 text-white py-25">
+        <div className="relative text-white py-30 bg-cover bg-center bg-no-repeat min-h-[75vh]"
+        style={{ backgroundImage: `url(${heroBg})` }}
+        >
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">
@@ -77,7 +80,7 @@ const PlacesToVisitInLadakh = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="relative group overflow-hidden rounded-lg shadow-lg">
                 <img 
-                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1758868872/Skiing_Snow_Adventures_pbm63b.webp" 
+                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1760071761/Best_Places_to_Visit_in_Ladakh_woorvv.webp" 
                   alt="Exotic Kashmir Experience" 
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
                 />
@@ -87,7 +90,7 @@ const PlacesToVisitInLadakh = () => {
               </div>
               <div className="relative group overflow-hidden rounded-lg shadow-lg">
                 <img 
-                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1758868872/Skiing_Snow_Adventures_pbm63b.webp" 
+                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759912427/Excursion_to_Pangong_Lake_jqa3nj.webp" 
                   alt="Exotic Kashmir Experience" 
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
                 />
@@ -96,7 +99,7 @@ const PlacesToVisitInLadakh = () => {
                 </div>
               </div><div className="relative group overflow-hidden rounded-lg shadow-lg">
                 <img 
-                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1758868872/Skiing_Snow_Adventures_pbm63b.webp" 
+                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759912429/Departure_from_Leh_ur1igi.webp" 
                   alt="Exotic Kashmir Experience" 
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
                 />
@@ -105,7 +108,7 @@ const PlacesToVisitInLadakh = () => {
                 </div>
               </div><div className="relative group overflow-hidden rounded-lg shadow-lg">
                 <img 
-                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1758868872/Skiing_Snow_Adventures_pbm63b.webp" 
+                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759912426/Excursion_to_Sham_Valley_kpsnge.webp" 
                   alt="Exotic Kashmir Experience" 
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
                 />
@@ -115,7 +118,7 @@ const PlacesToVisitInLadakh = () => {
               </div>
               <div className="relative group overflow-hidden rounded-lg shadow-lg">
                 <img 
-                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759485998/Kashmir_5_Pahalgam_t9jyon.webp" 
+                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759912426/Leh_to_Nubra_Valley_via_Khardung_La_Pass_n4gg1k.webp" 
                   alt="Comprehensive Kashmir Tour" 
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
                 />
@@ -125,7 +128,7 @@ const PlacesToVisitInLadakh = () => {
               </div>
               <div className="relative group overflow-hidden rounded-lg shadow-lg">
                 <img 
-                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759219502/Stay_on_Heritage_Houseboats_vynbfb.webp" 
+                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759911228/Unforgettable_Ladakh_Tour_Package_with_Sonamarg_Stay_pxpir9.webp" 
                   alt="Kashmir Valley Exploration" 
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
                 />

@@ -1,7 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import heroBg from '../../assets/dal_lake.webp';
-
+const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759486005/Kashmir_19_Gulmarg_and_sightseen_ujzh0g.webp"
 const PlacesToVisitInGulmarg = () => {
   return (
     <>
@@ -18,7 +17,7 @@ const PlacesToVisitInGulmarg = () => {
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
         <div
-          className="relative text-white py-25 bg-cover bg-center bg-no-repeat"
+          className="relative text-white py-30 bg-cover bg-center bg-no-repeat min-h-[75vh]"
           style={{ backgroundImage: `url(${heroBg})` }}
         >
           <div className="absolute inset-0 bg-black opacity-50"></div>
@@ -80,7 +79,7 @@ const PlacesToVisitInGulmarg = () => {
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div className="relative group overflow-hidden rounded-lg shadow-lg">
                 <img 
-                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1758868872/Skiing_Snow_Adventures_pbm63b.webp" 
+                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759486005/Kashmir_19_Gulmarg_and_sightseen_ujzh0g.webp" 
                   alt="Exotic Kashmir Experience" 
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
                 />
@@ -90,7 +89,7 @@ const PlacesToVisitInGulmarg = () => {
               </div>
               <div className="relative group overflow-hidden rounded-lg shadow-lg">
                 <img 
-                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1758868872/Skiing_Snow_Adventures_pbm63b.webp" 
+                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759486003/Kashmir_9_Gulmarg_cu8jko.webp" 
                   alt="Exotic Kashmir Experience" 
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
                 />
@@ -99,7 +98,7 @@ const PlacesToVisitInGulmarg = () => {
                 </div>
               </div><div className="relative group overflow-hidden rounded-lg shadow-lg">
                 <img 
-                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1758868872/Skiing_Snow_Adventures_pbm63b.webp" 
+                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759485996/Kashmir_18_Gulmarg_to_srinagar_iu3pij.webp" 
                   alt="Exotic Kashmir Experience" 
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
                 />
@@ -108,7 +107,7 @@ const PlacesToVisitInGulmarg = () => {
                 </div>
               </div><div className="relative group overflow-hidden rounded-lg shadow-lg">
                 <img 
-                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1758868872/Skiing_Snow_Adventures_pbm63b.webp" 
+                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1758868866/Summer_Meadow_Walks_Golf_wqj3pd.webp" 
                   alt="Exotic Kashmir Experience" 
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
                 />
@@ -118,7 +117,7 @@ const PlacesToVisitInGulmarg = () => {
               </div>
               <div className="relative group overflow-hidden rounded-lg shadow-lg">
                 <img 
-                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759485998/Kashmir_5_Pahalgam_t9jyon.webp" 
+                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759909431/Srinagar_to_Gulmarg_hpxniv.webp" 
                   alt="Comprehensive Kashmir Tour" 
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
                 />
@@ -128,7 +127,7 @@ const PlacesToVisitInGulmarg = () => {
               </div>
               <div className="relative group overflow-hidden rounded-lg shadow-lg">
                 <img 
-                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759219502/Stay_on_Heritage_Houseboats_vynbfb.webp" 
+                  src="https://res.cloudinary.com/dw1sh368y/image/upload/v1760163828/Gulmarg_11_oeudnw.webp" 
                   alt="Kashmir Valley Exploration" 
                   className="w-full h-64 object-cover transition-transform duration-300 group-hover:scale-105"
                 />
