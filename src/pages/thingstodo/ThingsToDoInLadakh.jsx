@@ -1,49 +1,46 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import HeroBanner from '../../components/ThingsToDO/HeroBanner';
+import ActivityCard from '../../components/ThingsToDO/ActivityCard';
+const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1760341724/Exploring_Gulmarg_Biosphere_Reserve_grdghv.png";
 
 const ThingsToDoInLadakh = () => {
   return (
     <>
       <Helmet>
         <title>35 Best Things to Do in Ladakh - Land of High Passes Adventure Guide 2025</title>
-        <meta 
-          name="description" 
-          content="Discover the top 35 unforgettable things to do in Ladakh including Pangong Lake, Khardung La, monasteries, trekking, river rafting, and unique high-altitude experiences." 
+        <meta
+          name="description"
+          content="Discover the top 35 unforgettable things to do in Ladakh including Pangong Lake, Khardung La, monasteries, trekking, river rafting, and unique high-altitude experiences."
         />
         <meta name="keywords" content="things to do in Ladakh, Leh Ladakh activities, Pangong Lake, Khardung La, monasteries, trekking Ladakh, river rafting, Nubra Valley, Ladakh tourism" />
-        
+
       </Helmet>
+
 
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
-        <div className="relative bg-gradient-to-r from-orange-900 to-red-900 text-white py-25">
-          <div className="absolute inset-0 bg-black opacity-50"></div>
-          <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div className="text-center">
-              <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                35 Best Things to Do in Ladakh
-              </h1>
-              <p className="text-xl md:text-2xl text-gray-200 max-w-3xl mx-auto">
-                Experience the Land of High Passes with breathtaking landscapes, ancient monasteries, 
-                and adventures at 3,000 meters above sea level
-              </p>
-            </div>
-          </div>
-        </div>
+        <HeroBanner
+          title="Best Things to Do in Ladakh"
+          subtitle="Experience the Land of High Passes with breathtaking landscapes, ancient monasteries, 
+                and adventures at 3,000 meters above sea level"
+          backgroundImage={heroBg}
+        />
+
 
         {/* Introduction */}
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
           <div className="prose max-w-none">
             <p className="text-lg text-gray-700 leading-relaxed mb-8">
-              What are the best things to do in Ladakh? Let's take you through this magical piece of land that 
-              sits at a lofty height of 3,000m above sea level. Ladakh is a destination where every experience 
+              What are the best things to do in Ladakh? Let's take you through this magical piece of land that
+              sits at a lofty height of 3,000m above sea level. Ladakh is a destination where every experience
               becomes a lifetime memory, from sunrise at Pangong Lake to the spiritual ambiance of ancient monasteries.
             </p>
-            
+
             <p className="text-lg text-gray-700 leading-relaxed mb-12">
-              The varied geography and unique culture make Ladakh perfect for all kinds of travelers - adventure 
-              enthusiasts, spiritual seekers, nature lovers, and those seeking tranquility in the lap of the 
-              Himalayas. Let's explore the chronological guide of how you should spend your days while touring 
+              The varied geography and unique culture make Ladakh perfect for all kinds of travelers - adventure
+              enthusiasts, spiritual seekers, nature lovers, and those seeking tranquility in the lap of the
+              Himalayas. Let's explore the chronological guide of how you should spend your days while touring
               around Leh-Ladakh and get Leh'ed!
             </p>
           </div>
@@ -72,162 +69,91 @@ const ThingsToDoInLadakh = () => {
           <div className="mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">Top 12 Must-Do Experiences</h2>
 
-            {/* Activity 1: Homestay */}
-            <section id="homestay" className="mb-12">
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div className="p-8">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">1. Stay Local to Be a Local in Ladakh</h3>
-                  
-                  <p className="text-gray-700 mb-6 leading-relaxed">
-                    If you want to explore the real colors of Ladakh, check into a local homestay or lodge. Staying 
-                    in local homestays allows you to spend time with local hosts and families, know about their culture 
-                    and traditions, interact with them, dine with them, and get acquainted with their lifestyle.
-                  </p>
+            <div className="space-y-12">
+              <ActivityCard
+                id="homestay"
+                title="1. Stay Local to Be a Local in Ladakh"
+                description="If you want to explore the real colors of Ladakh, check into a local homestay or lodge. Staying in local homestays allows you to spend time with local hosts and families, know about their culture and traditions, interact with them, dine with them, and get acquainted with their lifestyle."
+                image="https://example.com/homestay.jpg"
+                highlights={[
+                  "Experience authentic Ladakhi lifestyle and culture",
+                  "Great hospitality and utmost generosity from hosts",
+                  "Traditional meals prepared with local ingredients",
+                  "Learn about local customs and Buddhist traditions",
+                  "More affordable than luxury hotels",
+                ]}
+                themeColor="blue"
+              />
 
-                  <div className="bg-blue-50 p-6 rounded-lg">
-                    <h4 className="text-lg font-semibold text-blue-800 mb-3">Homestay Benefits</h4>
-                    <ul className="list-disc list-inside text-gray-700 space-y-2">
-                      <li>Experience authentic Ladakhi lifestyle and culture</li>
-                      <li>Great hospitality and utmost generosity from hosts</li>
-                      <li>Traditional meals prepared with local ingredients</li>
-                      <li>Learn about local customs and Buddhist traditions</li>
-                      <li>More affordable than luxury hotels</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </section>
+              <ActivityCard
+                id="pangong-sunrise"
+                title="2. Enchanting Sunrise Views at Pangong Lake"
+                description="What could be the best way to begin your day, but by catching the eternal flames of the rising sun? Seated gracefully at an elevation of 4,350m (14,270ft), Pangong Lake is one of the best places on earth to enjoy the virgin beauty of the rising sun."
+                image="https://example.com/pangong-sunrise.jpg"
+                highlights={[
+                  "Elevation: 4,350m (14,270ft)",
+                  "Azure blue water that changes colors",
+                  "Stretches across India-China border",
+                  "Perfect mirror reflection of mountains",
+                  "Golden rays creating magical ambiance",
+                ]}
+                themeColor="cyan"
+              />
 
-            {/* Activity 2: Pangong Lake Sunrise */}
-            <section id="pangong-sunrise" className="mb-12">
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div className="p-8">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">2. Enchanting Sunrise Views at Pangong Lake</h3>
-                  
-                  <p className="text-gray-700 mb-6 leading-relaxed">
-                    What could be the best way to begin your day, but by catching the eternal flames of the rising sun? 
-                    Seated gracefully at an elevation of 4,350m (14,270ft), Pangong Lake is one of the best places 
-                    on earth to enjoy the virgin beauty of the rising sun.
-                  </p>
+              <ActivityCard
+                id="thiksey-prayers"
+                title="3. Morning Prayers at Thiksey Monastery"
+                description="Peace, serenity, divinity, and solace of mind make wanderlusts get Leh'ed! Wake up to the prayer chants of Thiksey Monastery in Ladakh. This place can pacify your mornings and enlighten your day with spiritual blessings."
+                image="https://example.com/thiksey-monastery.jpg"
+                highlights={[
+                  "Unique sense of devotion and spirituality",
+                  "Melodious 'sutras' (prayers) chanted by monks",
+                  "Drum beats and mollifying tunes of bugles",
+                  "Positivity and calmness for mind and soul",
+                  "Authentic Buddhist monastery experience",
+                ]}
+                themeColor="amber"
+              />
 
-                  <div className="grid md:grid-cols-2 gap-8">
-                    <div>
-                      <h4 className="text-xl font-semibold text-cyan-800 mb-3">Lake Features</h4>
-                      <ul className="text-gray-700 space-y-2">
-                        <li>• Elevation: 4,350m (14,270ft)</li>
-                        <li>• Azure blue water that changes colors</li>
-                        <li>• Stretches across India-China border</li>
-                        <li>• Perfect mirror reflection of mountains</li>
-                      </ul>
-                    </div>
-                    
-                    <div>
-                      <h4 className="text-xl font-semibold text-cyan-800 mb-3">Sunrise Experience</h4>
-                      <ul className="text-gray-700 space-y-2">
-                        <li>• Sun rising from mighty peaks</li>
-                        <li>• Golden rays creating magical ambiance</li>
-                        <li>• Rays striking against azure water</li>
-                        <li>• Once-in-a-lifetime phenomenon</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
+              <ActivityCard
+                id="maitreya-buddha"
+                title="4. Seek Blessings from Maitreya Buddha"
+                description="Visit the golden statue of Maitreya Buddha at Thiksey Monastery. The largest statue of the future Lord Buddha is considered a devout source of blessings and sanctity. This divine form of the Lord helps usher spirituality and begin your Ladakh tour with purity and calmness."
+                image="https://example.com/maitreya-buddha.jpg"
+                highlights={[
+                  "Largest statue of future Lord Buddha",
+                  "Spiritual and serene ambiance",
+                  "Seek blessings for your spiritual journey",
+                  "Find inner peace in the presence of the statue",
+                ]}
+                themeColor="yellow"
+              />
 
-            {/* Activity 3: Thiksey Monastery */}
-            <section id="thiksey-prayers" className="mb-12">
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div className="p-8">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">3. Morning Prayers at Thiksey Monastery</h3>
-                  
-                  <p className="text-gray-700 mb-6 leading-relaxed">
-                    Peace, serenity, divinity, and solace of mind make wanderlusts get Leh'ed! Wake up to the prayer 
-                    chants of Thiksey Monastery in Ladakh. This place can pacify your mornings and enlighten your day 
-                    with spiritual blessings.
-                  </p>
+              <ActivityCard
+                id="shanti-stupa"
+                title="5. Visit Shanti Stupa - Contribute to World Peace"
+                description="The Shanti Stupa in Ladakh is a universal testimony that irrespective of who we are, we all crave love and peace. Positioned atop a scenic hill in Chanspa, this white-colored dome structure was built by Japanese Buddhist Organization to promote World Peace."
+                image="https://example.com/shanti-stupa.jpg"
+                
+                highlights={[
+                  "White-colored dome structure atop scenic hill",
+                  "Built by Japanese Buddhist Organization",
+                  "Commemorates 2 centuries of Buddhism",
+                  "Promotes World Peace message",
+                  "Stunning views of Leh valley",
+                ]}
+                themeColor="purple"
+               
+              />
 
-                  <div className="bg-amber-50 p-6 rounded-lg">
-                    <h4 className="text-lg font-semibold text-amber-800 mb-3">Spiritual Experience</h4>
-                    <ul className="list-disc list-inside text-gray-700 space-y-2">
-                      <li>Unique sense of devotion and spirituality</li>
-                      <li>Melodious 'sutras' (prayers) chanted by monks</li>
-                      <li>Drum beats and mollifying tunes of bugles</li>
-                      <li>Positivity and calmness for mind and soul</li>
-                      <li>Authentic Buddhist monastery experience</li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </section>
-
-            {/* Activity 4: Maitreya Buddha */}
-            <section id="maitreya-buddha" className="mb-12">
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div className="p-8">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">4. Seek Blessings from Maitreya Buddha</h3>
-                  
-                  <p className="text-gray-700 mb-6 leading-relaxed">
-                    Visit the golden statue of Maitreya Buddha at Thiksey Monastery. The largest statue of the future 
-                    Lord Buddha is considered a devout source of blessings and sanctity. This divine form of the Lord 
-                    helps usher spirituality and begin your Ladakh tour with purity and calmness.
-                  </p>
-
-                  <div className="bg-yellow-50 p-6 rounded-lg">
-                    <h4 className="text-lg font-semibold text-yellow-800 mb-3">Spiritual Significance</h4>
-                    <p className="text-gray-700">
-                      The largest statue of the future Lord Buddha represents hope and enlightenment. Visitors seek 
-                      blessings for their spiritual journey and find inner peace in the presence of this magnificent statue.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </section>
-
-            {/* Activity 5: Shanti Stupa */}
-            <section id="shanti-stupa" className="mb-12">
-              <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-                <div className="p-8">
-                  <h3 className="text-2xl font-bold text-gray-900 mb-4">5. Visit Shanti Stupa - Contribute to World Peace</h3>
-                  
-                  <p className="text-gray-700 mb-6 leading-relaxed">
-                    The Shanti Stupa in Ladakh is a universal testimony that irrespective of who we are, we all crave 
-                    love and peace. Positioned atop a scenic hill in Chanspa, this white-colored dome structure was 
-                    built by Japanese Buddhist Organization to promote World Peace.
-                  </p>
-
-                  <div className="grid md:grid-cols-2 gap-8">
-                    <div>
-                      <h4 className="text-xl font-semibold text-purple-800 mb-3">Structure Details</h4>
-                      <ul className="text-gray-700 space-y-2">
-                        <li>• White-colored dome structure</li>
-                        <li>• Located atop scenic hill in Chanspa</li>
-                        <li>• Built by Japanese Buddhist Organization</li>
-                        <li>• Commemorates 2 centuries of Buddhism</li>
-                      </ul>
-                    </div>
-                    
-                    <div>
-                      <h4 className="text-xl font-semibold text-purple-800 mb-3">Peace Mission</h4>
-                      <ul className="text-gray-700 space-y-2">
-                        <li>• Promotes World Peace message</li>
-                        <li>• Universal symbol of love and peace</li>
-                        <li>• Encourages contribution to better world</li>
-                        <li>• Stunning views of Leh valley</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-
-            {/* Continue with more featured activities... */}
+              {/* Continue adding ActivityCard components for 6–12 */}
+            </div>
           </div>
 
           {/* Additional Activities Grid */}
           <div className="mb-16">
             <h2 className="text-3xl font-bold text-gray-900 mb-8 text-center">More Adventures Await</h2>
-            
+
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
               {/* Quick cards for remaining activities */}
               <div className="bg-white rounded-lg shadow-md p-6">
@@ -307,7 +233,7 @@ const ThingsToDoInLadakh = () => {
           {/* Full Activity List */}
           <div className="bg-white rounded-lg shadow-lg p-8 mb-16">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Complete List of 35 Things to Do in Ladakh</h2>
-            
+
             <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 text-sm">
               <div className="space-y-2">
                 <div className="font-semibold text-emerald-600">Spiritual & Cultural (1-10)</div>
@@ -367,7 +293,7 @@ const ThingsToDoInLadakh = () => {
           {/* Best Time & Tips */}
           <div className="bg-gradient-to-r from-orange-50 to-red-50 rounded-lg p-8 mb-16">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Essential Ladakh Travel Information</h2>
-            
+
             <div className="grid md:grid-cols-2 gap-8">
               <div>
                 <h4 className="text-lg font-semibold text-orange-800 mb-3">Best Time to Visit</h4>
@@ -378,7 +304,7 @@ const ThingsToDoInLadakh = () => {
                   <li>• <strong>Festival Season (June-July):</strong> For cultural festivals and celebrations</li>
                 </ul>
               </div>
-              
+
               <div>
                 <h4 className="text-lg font-semibold text-red-800 mb-3">Important Tips</h4>
                 <ul className="text-gray-700 space-y-2">

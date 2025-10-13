@@ -1,37 +1,69 @@
 import React from "react";
-import OptimizedImage from "../OptimizedImage";
-import { IoLocationSharp, IoCalendar } from "react-icons/io5";
 
-const ActivityCard = ({ image, title, cost, location, season }) => {
+const ActivityCard = ({
+  id,
+  title,
+  description,
+  image,
+  highlights = [],
+  info = [],
+}) => {
   return (
-    <div className="rounded-xl overflow-hidden shadow-md bg-white">
-      <div className="relative">
-        <OptimizedImage 
-          src={image}
-          alt={title}
-          width={520}
-          height={312}
-          className="w-full h-52 object-cover"
-          sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
-          loading="lazy"
-          decoding="async"
-        />
-        <div className="absolute bottom-0 left-0 bg-cyan-500 text-white px-4 py-1 text-sm font-semibold rounded-tr-xl">
-          Avg. Cost: {cost}
+    <section id={id} className="mb-16">
+      <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+        <div className="grid md:grid-cols-2">
+          
+          {/* LEFT COLUMN - TEXT */}
+          <div className="p-8 flex flex-col justify-center">
+            <h2 className="text-3xl font-bold text-gray-900 mb-6">{title}</h2>
+
+            <p className="text-gray-700 mb-6 leading-relaxed">{description}</p>
+
+            <div className="grid sm:grid-cols-2 gap-8">
+              {/* Highlights */}
+              {highlights.length > 0 && (
+                <div>
+                  <h4 className="text-xl font-semibold text-emerald-800 mb-3">
+                    Experience Highlights
+                  </h4>
+                  <ul className="text-gray-700 space-y-2">
+                    {highlights.map((item, index) => (
+                      <li key={index}>• {item}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+
+              {/* Practical Info */}
+              {info.length > 0 && (
+                <div>
+                  <h4 className="text-xl font-semibold text-emerald-800 mb-3">
+                    Practical Information
+                  </h4>
+                  <ul className="text-gray-700 space-y-2">
+                    {info.map((item, index) => (
+                      <li key={index}>• {item}</li>
+                    ))}
+                  </ul>
+                </div>
+              )}
+            </div>
+          </div>
+
+          {/* RIGHT COLUMN - IMAGE (smaller, centered with shadow) */}
+          <div className="flex items-center justify-center bg-gray-50 p-8">
+            <div className="rounded-2xl overflow-hidden shadow-xl transform transition-transform duration-300 hover:scale-105">
+              <img
+                src={image}
+                alt={title}
+                loading="lazy"
+                className="w-120 h-90 object-cover rounded-2xl"
+              />
+            </div>
+          </div>
         </div>
       </div>
-      <div className="p-4">
-        <h3 className="text-lg font-semibold mb-2">{title}</h3>
-        <div className="text-gray-600 text-sm flex items-start gap-2 mb-1">
-          <IoLocationSharp size={16} className="mt-0.5" />
-          <span>{location}</span>
-        </div>
-        <div className="text-gray-600 text-sm flex items-start gap-2">
-          <IoCalendar size={16} className="mt-0.5" />
-          <span>{season}</span>
-        </div>
-      </div>
-    </div>
+    </section>
   );
 };
 
