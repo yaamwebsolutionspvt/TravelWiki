@@ -2,6 +2,7 @@ import React from "react";
 import { useSEO } from "../../hooks/useSEO";
 import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
+import ItineraryCard from "../../components/ItineraryCard";
 
 export default function KashmirWithVaishnoDevi() {
   const seoData = useSEO({
@@ -177,90 +178,137 @@ export default function KashmirWithVaishnoDevi() {
             </div>
 
             {/* Complete Itinerary */}
-            <div className="bg-white rounded-lg shadow-md p-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-8">Complete Tour Itinerary</h2>
-              
-              <div className="space-y-6">
-                <div className="border-l-4 border-red-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 1: Arrival in Katra</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Arrival at Jammu airport/railway station</li>
-                    <li>Transfer to Katra (48 km, 1.5 hours)</li>
-                    <li>Hotel check-in and preparation for darshan</li>
-                    <li>Evening rest and early sleep</li>
-                  </ul>
-                </div>
+            <div className="mb-12">
+              <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Complete Tour Itinerary</h2>
+              <div className="space-y-8">
+                <ItineraryCard
+                  title="Day 1: Arrival in Katra"
+                  activities={[
+                    "Arrival at Jammu airport/railway station",
+                    "Transfer to Katra (48 km, 1.5 hours)",
+                    "Hotel check-in and preparation for darshan",
+                    "Evening rest and early sleep"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Katra arrival"
+                  imageTitle="Katra Base Camp"
+                  imageSubtitle="Gateway to Vaishno Devi"
+                  icon="🕉️"
+                  imageOnRight={false}
+                />
 
-                <div className="border-l-4 border-orange-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 2: Vaishno Devi Darshan</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Early morning start for darshan (2-3 AM)</li>
-                    <li>Trek/helicopter to Vaishno Devi temple</li>
-                    <li>Darshan and prayers at holy shrine</li>
-                    <li>Return to Katra base camp</li>
-                    <li>Rest and recovery</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 2: Vaishno Devi Darshan"
+                  activities={[
+                    "Early morning start for darshan (2-3 AM)",
+                    "Trek/helicopter to Vaishno Devi temple",
+                    "Darshan and prayers at holy shrine",
+                    "Return to Katra base camp",
+                    "Rest and recovery"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Vaishno Devi temple"
+                  imageTitle="Vaishno Devi Temple"
+                  imageSubtitle="Sacred shrine darshan"
+                  icon="🕉️"
+                  imageOnRight={true}
+                />
 
-                <div className="border-l-4 border-blue-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 3: Katra to Srinagar</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Check-out from Katra hotel</li>
-                    <li>Drive to Srinagar (270 km, 6-7 hours)</li>
-                    <li>Scenic journey through mountains</li>
-                    <li>Arrival and check-in at Srinagar hotel</li>
-                    <li>Evening leisure at Dal Lake</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 3: Katra to Srinagar"
+                  activities={[
+                    "Check-out from Katra hotel",
+                    "Drive to Srinagar (270 km, 6-7 hours)",
+                    "Scenic journey through mountains",
+                    "Arrival and check-in at Srinagar hotel",
+                    "Evening leisure at Dal Lake"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Srinagar arrival"
+                  imageTitle="Srinagar Arrival"
+                  imageSubtitle="Gateway to Kashmir valley"
+                  icon="🏛️"
+                  imageOnRight={false}
+                />
 
-                <div className="border-l-4 border-green-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 4-5: Srinagar Exploration</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Dal Lake Shikara rides and houseboat experience</li>
-                    <li>Mughal Gardens tour (Shalimar, Nishat, Chashme Shahi)</li>
-                    <li>Local sightseeing and market visits</li>
-                    <li>Traditional Kashmiri cuisine experiences</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 4-5: Srinagar Exploration"
+                  activities={[
+                    "Dal Lake Shikara rides and houseboat experience",
+                    "Mughal Gardens tour (Shalimar, Nishat, Chashme Shahi)",
+                    "Local sightseeing and market visits",
+                    "Traditional Kashmiri cuisine experiences"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Srinagar sightseeing"
+                  imageTitle="Srinagar Sightseeing"
+                  imageSubtitle="Mughal Gardens and Dal Lake"
+                  icon="🌲"
+                  imageOnRight={true}
+                />
 
-                <div className="border-l-4 border-purple-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 6: Gulmarg Day Trip</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Full day excursion to Gulmarg</li>
-                    <li>Gondola rides and snow activities</li>
-                    <li>Explore meadows and take photographs</li>
-                    <li>Return to Srinagar in evening</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 6: Gulmarg Day Trip"
+                  activities={[
+                    "Full day excursion to Gulmarg",
+                    "Gondola rides and snow activities",
+                    "Explore meadows and take photographs",
+                    "Return to Srinagar in evening"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Gulmarg Gondola"
+                  imageTitle="Gulmarg Gondola"
+                  imageSubtitle="Experience to Apharwat Peak"
+                  icon="🚡"
+                  imageOnRight={false}
+                />
 
-                <div className="border-l-4 border-indigo-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 7: Pahalgam Excursion</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Day trip to Pahalgam valley</li>
-                    <li>Visit Betaab Valley and Aru Valley</li>
-                    <li>Nature walks and photography</li>
-                    <li>Return to Srinagar for overnight stay</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 7: Pahalgam Excursion"
+                  activities={[
+                    "Day trip to Pahalgam valley",
+                    "Visit Betaab Valley and Aru Valley",
+                    "Nature walks and photography",
+                    "Return to Srinagar for overnight stay"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Pahalgam valley"
+                  imageTitle="Pahalgam Valley"
+                  imageSubtitle="Valley of Shepherds"
+                  icon="🏔️"
+                  imageOnRight={true}
+                />
 
-                <div className="border-l-4 border-pink-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 8: Sonamarg Day Trip</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Excursion to Sonamarg (Meadow of Gold)</li>
-                    <li>Visit Thajiwas Glacier</li>
-                    <li>Pony rides and snow activities</li>
-                    <li>Return to Srinagar</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 8: Sonamarg Day Trip"
+                  activities={[
+                    "Excursion to Sonamarg (Meadow of Gold)",
+                    "Visit Thajiwas Glacier",
+                    "Pony rides and snow activities",
+                    "Return to Srinagar"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Sonamarg"
+                  imageTitle="Sonamarg"
+                  imageSubtitle="Meadow of Gold"
+                  icon="⛷️"
+                  imageOnRight={false}
+                />
 
-                <div className="border-l-4 border-gray-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 9: Departure</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Check-out and final shopping</li>
-                    <li>Transfer to Srinagar airport</li>
-                    <li>Departure with blessings and memories</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 9: Departure"
+                  activities={[
+                    "Check-out and final shopping",
+                    "Transfer to Srinagar airport",
+                    "Departure with blessings and memories"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Srinagar departure"
+                  imageTitle="Srinagar Airport"
+                  imageSubtitle="Departure with blessings"
+                  icon="✈️"
+                  imageOnRight={true}
+                />
               </div>
             </div>
           </div>

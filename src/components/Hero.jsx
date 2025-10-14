@@ -43,7 +43,7 @@ export default function Hero() {
   return (
     <SEOContent
       semantic="section"
-      className={`relative min-h-[70vh] sm:min-h-[80vh] md:min-h-[90vh] lg:min-h-[95vh] pt-6 overflow-hidden transition-all duration-1000 ${isLoaded ? "opacity-100" : "opacity-0"
+      className={`relative min-h-[65vh] sm:min-h-[75vh] md:min-h-[85vh] lg:min-h-[90vh] pt-6 overflow-hidden transition-all duration-1000  ${isLoaded ? "opacity-100" : "opacity-0"
         }`}
       role="banner"
       aria-label="Kashmir Tourism Hero Section"
@@ -77,14 +77,16 @@ export default function Hero() {
         sx={{
           position: "relative",
           zIndex: 10,
-          height: "100%",
+          minHeight: "100vh",          // ensures full-screen height
           display: "flex",
           flexDirection: "column",
-          justifyContent: "center",
+          justifyContent: "center",     // centers vertically
+          alignItems: "center",         // centers horizontally
           textAlign: "center",
           px: { xs: 3, sm: 4, md: 6 },
         }}
       >
+
         {/* Main Headings */}
         <SEOHeading
           level={1}
@@ -104,7 +106,7 @@ export default function Hero() {
               px: { xs: 2, sm: 3, md: 4 },
             }}
           >
-           Kashmir Tour & Holiday Packages starting from just ₹7,999
+            Kashmir Tour & Holiday Packages starting from just ₹7,999
           </Typography>
           <Typography
             component="span"
@@ -139,30 +141,29 @@ export default function Hero() {
             Discover Kashmir's breathtaking beauty with our exclusive tour packages. Experience Dal Lake's serenity, Gulmarg's snow-capped peaks, Pahalgam's meadows, and Sonamarg's glaciers. Perfect for honeymoons, family vacations, and adventure seekers.
           </Typography>
         </SEOParagraph>
-
         {/* Destinations */}
         <Stack
           direction={{ xs: "column", sm: "row" }}
-          spacing={{ xs: 2, sm: 3, md: 4 }}
+          spacing={{ xs: 1.5, sm: 2.5, md: 3 }}
           justifyContent="center"
           alignItems="center"
-          mb={6}
+          mb={5}
         >
           <Link to="/places-to-visit-in-srinagar">
             <Button
               variant="outlined"
               sx={{
-                color: "#fff",
-                borderColor: "rgba(255,255,255,0.3)",
-                backdropFilter: "blur(10px)",
-                px: { xs: 2, sm: 3, md: 4 },
-                py: { xs: 1, sm: 1.25, md: 1.5 },
+                color: "rgba(255,255,255,0.8)",
+                borderColor: "rgba(255,255,255,0.25)",
+                backdropFilter: "blur(8px)",
+                px: { xs: 1.5, sm: 2, md: 2.5 },
+                py: { xs: 0.6, sm: 0.8, md: 1 },
                 borderRadius: 2,
-                fontSize: { xs: "0.75rem", sm: "0.875rem", md: "1rem" },
+                fontSize: { xs: "0.7rem", sm: "0.8rem", md: "0.9rem" },
                 transition: "0.3s",
                 "&:hover": {
                   transform: "scale(1.05)",
-                  backgroundColor: "rgba(255,255,255,0.1)",
+                  backgroundColor: "rgba(255,255,255,0.12)",
                 },
               }}
               startIcon={<FontAwesomeIcon icon={faMountain} />}
@@ -175,17 +176,17 @@ export default function Hero() {
             <Button
               variant="outlined"
               sx={{
-                color: "#fff",
-                borderColor: "rgba(255,255,255,0.3)",
-                backdropFilter: "blur(10px)",
-                px: { xs: 2, sm: 3, md: 4 },
-                py: { xs: 1, sm: 1.25, md: 1.5 },
+                color: "rgba(255,255,255,0.8)",
+                borderColor: "rgba(255,255,255,0.25)",
+                backdropFilter: "blur(8px)",
+                px: { xs: 1.5, sm: 2, md: 2.5 },
+                py: { xs: 0.6, sm: 0.8, md: 1 },
                 borderRadius: 2,
-                fontSize: { xs: "0.75rem", sm: "0.875rem", md: "1rem" },
+                fontSize: { xs: "0.7rem", sm: "0.8rem", md: "0.9rem" },
                 transition: "0.3s",
                 "&:hover": {
                   transform: "scale(1.05)",
-                  backgroundColor: "rgba(255,255,255,0.1)",
+                  backgroundColor: "rgba(255,255,255,0.12)",
                 },
               }}
               startIcon={<FontAwesomeIcon icon={faSnowboarding} />}
@@ -198,17 +199,17 @@ export default function Hero() {
             <Button
               variant="outlined"
               sx={{
-                color: "#fff",
-                borderColor: "rgba(255,255,255,0.3)",
-                backdropFilter: "blur(10px)",
-                px: { xs: 2, sm: 3, md: 4 },
-                py: { xs: 1, sm: 1.25, md: 1.5 },
+                color: "rgba(255,255,255,0.8)",
+                borderColor: "rgba(255,255,255,0.25)",
+                backdropFilter: "blur(8px)",
+                px: { xs: 1.5, sm: 2, md: 2.5 },
+                py: { xs: 0.6, sm: 0.8, md: 1 },
                 borderRadius: 2,
-                fontSize: { xs: "0.75rem", sm: "0.875rem", md: "1rem" },
+                fontSize: { xs: "0.7rem", sm: "0.8rem", md: "0.9rem" },
                 transition: "0.3s",
                 "&:hover": {
                   transform: "scale(1.05)",
-                  backgroundColor: "rgba(255,255,255,0.1)",
+                  backgroundColor: "rgba(255,255,255,0.12)",
                 },
               }}
               startIcon={<RiFlowerFill />}
@@ -221,17 +222,17 @@ export default function Hero() {
             <Button
               variant="outlined"
               sx={{
-                color: "#fff",
-                borderColor: "rgba(255,255,255,0.3)",
-                backdropFilter: "blur(10px)",
-                px: { xs: 2, sm: 3, md: 4 },
-                py: { xs: 1, sm: 1.25, md: 1.5 },
+                color: "rgba(255,255,255,0.8)",
+                borderColor: "rgba(255,255,255,0.25)",
+                backdropFilter: "blur(8px)",
+                px: { xs: 1.5, sm: 2, md: 2.5 },
+                py: { xs: 0.6, sm: 0.8, md: 1 },
                 borderRadius: 2,
-                fontSize: { xs: "0.75rem", sm: "0.875rem", md: "1rem" },
+                fontSize: { xs: "0.7rem", sm: "0.8rem", md: "0.9rem" },
                 transition: "0.3s",
                 "&:hover": {
                   transform: "scale(1.05)",
-                  backgroundColor: "rgba(255,255,255,0.1)",
+                  backgroundColor: "rgba(255,255,255,0.12)",
                 },
               }}
               startIcon={<RiTentFill />}
@@ -242,32 +243,36 @@ export default function Hero() {
         </Stack>
 
         {/* CTA Buttons */}
-        <Stack direction={{ xs: "column", sm: "row" }} spacing={{ xs: 2, sm: 3 }} justifyContent="center" mb={{ xs: 4, sm: 6 }}>
+        <Stack
+          direction={{ xs: "column", sm: "row" }}
+          spacing={{ xs: 1.5, sm: 2 }}
+          justifyContent="center"
+          mb={{ xs: 3, sm: 5 }}
+        >
           {/* Explore Packages Button */}
           <Button
             onClick={scrollToPackages}
             sx={{
-              px: { xs: 3, sm: 5, md: 6 },
-              py: { xs: 1.25, sm: 1.5, md: 2 },
+              px: { xs: 2.5, sm: 3.5 },
+              py: { xs: 1, sm: 1.25 },
               borderRadius: 3,
-              fontSize: { xs: "0.875rem", sm: "1rem", md: "1.125rem", lg: "1.25rem" },
-              fontWeight: 700,
+              fontSize: { xs: "0.8rem", sm: "0.9rem" },
+              fontWeight: 600,
               color: "#fff",
               background: "linear-gradient(to right, #3b82f6, #2563eb)",
               textTransform: "none",
-              boxShadow: "0 8px 20px rgba(37,99,235,0.5)",
+              boxShadow: "0 6px 15px rgba(37,99,235,0.4)",
               transition: "all 0.3s ease",
               "&:hover": {
                 background: "linear-gradient(to right, #2563eb, #1d4ed8)",
-                transform: "translateY(-3px) scale(1.05)",
-                boxShadow: "0 12px 30px rgba(37,99,235,0.6)",
+                transform: "translateY(-2px) scale(1.03)",
+                boxShadow: "0 10px 25px rgba(37,99,235,0.5)",
               },
             }}
-            startIcon={<RiFocus2Fill size={20} />}
+            startIcon={<RiFocus2Fill size={18} />}
           >
             Explore Kashmir Packages
           </Button>
-
 
           {/* WhatsApp Booking Button */}
           <Button
@@ -276,58 +281,31 @@ export default function Hero() {
             target="_blank"
             rel="noopener noreferrer"
             sx={{
-              px: { xs: 3, sm: 5, md: 6 },
-              py: { xs: 1.25, sm: 1.5, md: 2 },
+              px: { xs: 2.5, sm: 3.5 },
+              py: { xs: 1, sm: 1.25 },
               borderRadius: 3,
-              fontSize: { xs: "0.875rem", sm: "1rem", md: "1.125rem", lg: "1.25rem" },
-              fontWeight: 700,
+              fontSize: { xs: "0.8rem", sm: "0.9rem" },
+              fontWeight: 600,
               color: "#fff",
               background: "linear-gradient(to right, #22c55e, #16a34a)",
               textTransform: "none",
-              boxShadow: "0 8px 20px rgba(22,163,74,0.5)",
+              boxShadow: "0 6px 15px rgba(22,163,74,0.4)",
               transition: "all 0.3s ease",
               "&:hover": {
                 background: "linear-gradient(to right, #16a34a, #15803d)",
-                transform: "translateY(-3px) scale(1.05)",
-                boxShadow: "0 12px 30px rgba(22,163,74,0.6)",
+                transform: "translateY(-2px) scale(1.03)",
+                boxShadow: "0 10px 25px rgba(22,163,74,0.5)",
               },
             }}
-            startIcon={<RiMessageFill size={20} />}
+            startIcon={<RiMessageFill size={18} />}
           >
             Book Now on WhatsApp
           </Button>
         </Stack>
 
 
-        {/* Trust indicators */}
-        <Grid container spacing={2} justifyContent="center" sx={{ mt: 4, display: { xs: "none", md: "flex" } }}>
-          {[
-            { icon: <RiCheckboxCircleFill />, label: "10+ Years Experience" },
-            { icon: <RiCheckboxCircleFill />, label: "5000+ Happy Customers" },
-            { icon: <RiCheckboxCircleFill />, label: "Best Price Guarantee" },
-            { icon: <RiTrophyLine />, label: "#1 Kashmir Tourism" },
-            { icon: <RiShieldCheckLine />, label: "Safe & Secure" },
-          ].map((item, idx) => (
-            <Grid key={idx} size={{ xs: 4, sm: 2 }}>
-              <Box
-                sx={{
-                  backdropFilter: "blur(10px)",
-                  backgroundColor: "rgba(255,255,255,0.1)",
-                  borderRadius: 2,
-                  border: "1px solid rgba(255,255,255,0.2)",
-                  p: 2,
-                  textAlign: "center",
-                  color: "#fff",
-                }}
-              >
-                <Typography variant="h6" sx={{ mb: 0.5 }}>
-                  {item.icon}
-                </Typography>
-                <Typography variant="caption">{item.label}</Typography>
-              </Box>
-            </Grid>
-          ))}
-        </Grid>
+
+
       </Box>
     </SEOContent>
   );

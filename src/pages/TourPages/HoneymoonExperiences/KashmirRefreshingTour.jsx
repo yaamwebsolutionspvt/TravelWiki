@@ -2,6 +2,8 @@ import React from "react";
 import { useSEO } from "../../../hooks/useSEO";
 import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
+import ItineraryCard from "../../../components/ItineraryCard";
+
 const travelPackages = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514641/travelwiki/assets/Honeymoon/kashmir-travel-packages.jpg";
 
 export default function KashmirRefreshingTour() {
@@ -109,58 +111,82 @@ export default function KashmirRefreshingTour() {
             </div>
 
             {/* Detailed Itinerary */}
-            <div className="bg-gradient-to-r from-cyan-50 to-blue-50 rounded-lg p-8 mb-12">
+            <div className="mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Refreshing Kashmir Itinerary</h2>
               <div className="space-y-8">
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🏛️ Day 1: Arrival & Houseboat Check-in</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Warm arrival at Srinagar Airport</li>
-                    <li>• Direct transfer to traditional houseboat on Dal Lake</li>
-                    <li>• Welcome ceremony with cake and fresh fruit basket</li>
-                    <li>• Romantic 01 Hour Shikara ride on Dal Lake</li>
-                    <li>• Evening leisure on houseboat deck</li>
-                    <li>• Candlelight dinner on houseboat with lake views</li>
-                    <li>• Overnight stay in houseboat</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🌲 Day 2: Journey to Pahalgam</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Morning breakfast on houseboat with lake views</li>
-                    <li>• Scenic drive to Pahalgam (Valley of Shepherds)</li>
-                    <li>• Check-in to comfortable hotel in Pahalgam</li>
-                    <li>• Visit to famous Betab Valley</li>
-                    <li>• Exploration of Aru Valley's natural beauty</li>
-                    <li>• Evening walks along Lidder River</li>
-                    <li>• Overnight stay in Pahalgam</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🏔️ Day 3: Pahalgam Adventures</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Morning breakfast with mountain views</li>
-                    <li>• Horse riding or pony trekking experience</li>
-                    <li>• Visit to Chandanwari (starting point of Amarnath Yatra)</li>
-                    <li>• Picnic lunch in scenic meadows</li>
-                    <li>• Nature photography session</li>
-                    <li>• Return to Srinagar for final night</li>
-                    <li>• Overnight stay in Srinagar hotel</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">✈️ Day 4: Refreshed Departure</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Refreshing morning breakfast</li>
-                    <li>• Quick visit to Mughal Gardens (time permitting)</li>
-                    <li>• Shopping for Kashmir souvenirs</li>
-                    <li>• Check-out and departure transfer to airport</li>
-                    <li>• Departure feeling refreshed and rejuvenated</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 1: Arrival & Houseboat Check-in"
+                  activities={[
+                    "Warm arrival at Srinagar Airport",
+                    "Direct transfer to traditional houseboat on Dal Lake",
+                    "Welcome ceremony with cake and fresh fruit basket",
+                    "Romantic 01 Hour Shikara ride on Dal Lake",
+                    "Evening leisure on houseboat deck",
+                    "Candlelight dinner on houseboat with lake views",
+                    "Overnight stay in houseboat"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Dal Lake houseboat"
+                  imageTitle="Dal Lake Houseboat"
+                  imageSubtitle="Traditional floating accommodation"
+                  icon="🏛️"
+                  imageOnRight={false}
+                />
+
+                <ItineraryCard
+                  title="Day 2: Journey to Pahalgam"
+                  activities={[
+                    "Morning breakfast on houseboat with lake views",
+                    "Scenic drive to Pahalgam (Valley of Shepherds)",
+                    "Check-in to comfortable hotel in Pahalgam",
+                    "Visit to famous Betab Valley",
+                    "Exploration of Aru Valley's natural beauty",
+                    "Evening walks along Lidder River",
+                    "Overnight stay in Pahalgam"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Pahalgam valley"
+                  imageTitle="Pahalgam Valley"
+                  imageSubtitle="Valley of Shepherds"
+                  icon="🌲"
+                  imageOnRight={true}
+                />
+
+                <ItineraryCard
+                  title="Day 3: Pahalgam Adventures"
+                  activities={[
+                    "Morning breakfast with mountain views",
+                    "Horse riding or pony trekking experience",
+                    "Visit to Chandanwari (starting point of Amarnath Yatra)",
+                    "Picnic lunch in scenic meadows",
+                    "Nature photography session",
+                    "Return to Srinagar for final night",
+                    "Overnight stay in Srinagar hotel"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Chandanwari"
+                  imageTitle="Chandanwari"
+                  imageSubtitle="Starting point of Amarnath Yatra"
+                  icon="🏔️"
+                  imageOnRight={false}
+                />
+
+                <ItineraryCard
+                  title="Day 4: Refreshed Departure"
+                  activities={[
+                    "Refreshing morning breakfast",
+                    "Quick visit to Mughal Gardens (time permitting)",
+                    "Shopping for Kashmir souvenirs",
+                    "Check-out and departure transfer to airport",
+                    "Departure feeling refreshed and rejuvenated"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Srinagar departure"
+                  imageTitle="Srinagar Airport"
+                  imageSubtitle="Departure with memories"
+                  icon="✈️"
+                  imageOnRight={true}
+                />
               </div>
             </div>
 

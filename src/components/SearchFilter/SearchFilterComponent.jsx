@@ -37,7 +37,7 @@ const allPackagesData = [
 ];
 
 const SearchFilterComponent = () => {
-  const [showFilters, setShowFilters] = useState(false);
+  const [showFilters, setShowFilters] = useState(true);
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredPackages, setFilteredPackages] = useState(allPackagesData);
   const [showResults, setShowResults] = useState(false);
@@ -163,9 +163,9 @@ const SearchFilterComponent = () => {
 
         {/* Search and Filter Bar */}
         <div className="bg-white rounded-2xl shadow-lg p-6 mb-8">
-          <div className="flex flex-col lg:flex-row gap-4 items-center">
+          <div className="flex flex-col lg:flex-row gap-4 items-center ">
             {/* Search Input */}
-            <div className="flex-1 relative">
+            <div className="flex-1 relative px-4">
               <FaSearch className="absolute left-4 top-1/2 transform -translate-y-1/2 text-gray-400" />
               <input
                 type="text"

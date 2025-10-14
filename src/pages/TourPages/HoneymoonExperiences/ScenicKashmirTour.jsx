@@ -2,6 +2,8 @@ import React from "react";
 import { useSEO } from "../../../hooks/useSEO";
 import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
+import ItineraryCard from "../../../components/ItineraryCard";
+
 const tourPackages = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514637/travelwiki/assets/Honeymoon/kashmir-tour-pacakges.jpg";
 
 export default function ScenicKashmirTour() {
@@ -110,95 +112,137 @@ export default function ScenicKashmirTour() {
             </div>
 
             {/* Detailed Itinerary */}
-            <div className="bg-gradient-to-r from-indigo-50 to-purple-50 rounded-lg p-8 mb-12">
+            <div className="mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Scenic Kashmir Itinerary</h2>
               <div className="space-y-8">
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🏛️ Day 1: Arrival in Srinagar</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• VIP arrival at Srinagar Airport</li>
-                    <li>• Check-in to luxury hotel in Srinagar</li>
-                    <li>• Welcome ceremony with cake and fruit basket</li>
-                    <li>• Evening leisure at Dal Lake Boulevard</li>
-                    <li>• Special candlelight dinner</li>
-                    <li>• Overnight stay in Srinagar hotel</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🚣‍♀️ Day 2: Srinagar to Houseboat</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Morning breakfast and sightseeing</li>
-                    <li>• Romantic 01 Hour Shikara ride on Dal Lake</li>
-                    <li>• Visit Mughal Gardens (Nishat, Shalimar, Chashme Shahi)</li>
-                    <li>• Check-in to premium houseboat</li>
-                    <li>• Sunset photography session</li>
-                    <li>• Traditional dinner on houseboat</li>
-                    <li>• Overnight stay in houseboat</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🌲 Day 3: Journey to Pahalgam</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Morning breakfast on houseboat</li>
-                    <li>• Scenic drive to Pahalgam with photo stops</li>
-                    <li>• Check-in to premium resort in Pahalgam</li>
-                    <li>• Visit Betab Valley and explore film locations</li>
-                    <li>• Evening walks along Lidder River</li>
-                    <li>• Overnight stay in Pahalgam</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🏔️ Day 4: Pahalgam Extended Exploration</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Early morning visit to Aru Valley</li>
-                    <li>• Extended exploration of Chandanwari</li>
-                    <li>• Horse riding or pony trekking to Baisaran</li>
-                    <li>• Picnic lunch in scenic meadows</li>
-                    <li>• Nature photography workshop</li>
-                    <li>• Evening cultural program</li>
-                    <li>• Overnight stay in Pahalgam</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🚡 Day 5: Gulmarg Adventure Day 1</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Morning drive to Gulmarg</li>
-                    <li>• Check-in to luxury hotel in Gulmarg</li>
-                    <li>• Gulmarg Gondola Phase 1 & 2 to Apharwat Peak</li>
-                    <li>• Snow activities and skiing (seasonal)</li>
-                    <li>• Visit the world's highest golf course</li>
-                    <li>• Adventure sports and mountain biking</li>
-                    <li>• Overnight stay in Gulmarg</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">⛷️ Day 6: Gulmarg Extended Experience</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Morning alpine trekking</li>
-                    <li>• Extended Gondola experience</li>
-                    <li>• Visit St. Mary's Church</li>
-                    <li>• Gulmarg Biosphere Reserve exploration</li>
-                    <li>• Professional photography session</li>
-                    <li>• Return to Srinagar for final night</li>
-                    <li>• Overnight stay in Srinagar</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">✈️ Day 7: Departure</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Leisurely breakfast at hotel</li>
-                    <li>• Final shopping at Lal Chowk</li>
-                    <li>• Souvenir collection</li>
-                    <li>• Departure transfer to airport</li>
-                    <li>• Farewell with scenic memories</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 1: Arrival in Srinagar"
+                  activities={[
+                    "VIP arrival at Srinagar Airport",
+                    "Check-in to luxury hotel in Srinagar",
+                    "Welcome ceremony with cake and fruit basket",
+                    "Evening leisure at Dal Lake Boulevard",
+                    "Special candlelight dinner",
+                    "Overnight stay in Srinagar hotel"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Srinagar arrival"
+                  imageTitle="Srinagar Arrival"
+                  imageSubtitle="Luxury hotel check-in"
+                  icon="🏛️"
+                  imageOnRight={false}
+                />
+
+                <ItineraryCard
+                  title="Day 2: Srinagar to Houseboat"
+                  activities={[
+                    "Morning breakfast and sightseeing",
+                    "Romantic 01 Hour Shikara ride on Dal Lake",
+                    "Visit Mughal Gardens (Nishat, Shalimar, Chashme Shahi)",
+                    "Check-in to premium houseboat",
+                    "Sunset photography session",
+                    "Traditional dinner on houseboat",
+                    "Overnight stay in houseboat"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Dal Lake houseboat"
+                  imageTitle="Dal Lake Houseboat"
+                  imageSubtitle="Premium floating accommodation"
+                  icon="🚣‍♀️"
+                  imageOnRight={true}
+                />
+
+                <ItineraryCard
+                  title="Day 3: Journey to Pahalgam"
+                  activities={[
+                    "Morning breakfast on houseboat",
+                    "Scenic drive to Pahalgam with photo stops",
+                    "Check-in to premium resort in Pahalgam",
+                    "Visit Betab Valley and explore film locations",
+                    "Evening walks along Lidder River",
+                    "Overnight stay in Pahalgam"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Pahalgam valley"
+                  imageTitle="Pahalgam Valley"
+                  imageSubtitle="Valley of Shepherds"
+                  icon="🌲"
+                  imageOnRight={false}
+                />
+
+                <ItineraryCard
+                  title="Day 4: Pahalgam Extended Exploration"
+                  activities={[
+                    "Early morning visit to Aru Valley",
+                    "Extended exploration of Chandanwari",
+                    "Horse riding or pony trekking to Baisaran",
+                    "Picnic lunch in scenic meadows",
+                    "Nature photography workshop",
+                    "Evening cultural program",
+                    "Overnight stay in Pahalgam"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Chandanwari"
+                  imageTitle="Chandanwari"
+                  imageSubtitle="Starting point of Amarnath Yatra"
+                  icon="🏔️"
+                  imageOnRight={true}
+                />
+
+                <ItineraryCard
+                  title="Day 5: Gulmarg Adventure Day 1"
+                  activities={[
+                    "Morning drive to Gulmarg",
+                    "Check-in to luxury hotel in Gulmarg",
+                    "Gulmarg Gondola Phase 1 & 2 to Apharwat Peak",
+                    "Snow activities and skiing (seasonal)",
+                    "Visit the world's highest golf course",
+                    "Adventure sports and mountain biking",
+                    "Overnight stay in Gulmarg"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Gulmarg Gondola"
+                  imageTitle="Gulmarg Gondola"
+                  imageSubtitle="Experience to Apharwat Peak"
+                  icon="🚡"
+                  imageOnRight={false}
+                />
+
+                <ItineraryCard
+                  title="Day 6: Gulmarg Extended Experience"
+                  activities={[
+                    "Morning alpine trekking",
+                    "Extended Gondola experience",
+                    "Visit St. Mary's Church",
+                    "Gulmarg Biosphere Reserve exploration",
+                    "Professional photography session",
+                    "Return to Srinagar for final night",
+                    "Overnight stay in Srinagar"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Gulmarg activities"
+                  imageTitle="Gulmarg Activities"
+                  imageSubtitle="Adventure and nature exploration"
+                  icon="⛷️"
+                  imageOnRight={true}
+                />
+
+                <ItineraryCard
+                  title="Day 7: Departure"
+                  activities={[
+                    "Leisurely breakfast at hotel",
+                    "Final shopping at Lal Chowk",
+                    "Souvenir collection",
+                    "Departure transfer to airport",
+                    "Farewell with scenic memories"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Srinagar departure"
+                  imageTitle="Srinagar Airport"
+                  imageSubtitle="Departure with memories"
+                  icon="✈️"
+                  imageOnRight={false}
+                />
               </div>
             </div>
 

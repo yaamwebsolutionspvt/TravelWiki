@@ -2,6 +2,8 @@ import React from "react";
 import { useSEO } from "../../../hooks/useSEO";
 import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
+import ItineraryCard from "../../../components/ItineraryCard";
+
 const tourPackage = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514639/travelwiki/assets/Honeymoon/kashmir-tour-package.jpg";
 
 export default function KashmirMarvelousTour() {
@@ -110,97 +112,139 @@ export default function KashmirMarvelousTour() {
             </div>
 
             {/* Detailed Itinerary */}
-            <div className="bg-gradient-to-r from-amber-50 to-orange-50 rounded-lg p-8 mb-12">
+            <div className="mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Marvelous Kashmir Itinerary</h2>
               <div className="space-y-8">
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🏛️ Day 1: Royal Arrival in Srinagar</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• VIP arrival with luxury car pickup</li>
-                    <li>• Check-in to 5-star luxury hotel in Srinagar</li>
-                    <li>• Presidential suite with valley views</li>
-                    <li>• Welcome ceremony with premium cake and exotic fruit basket</li>
-                    <li>• Personal butler service assignment</li>
-                    <li>• Multi-course candlelight dinner with live music</li>
-                    <li>• Overnight stay in luxury hotel</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🚣‍♀️ Day 2: Luxury Houseboat Experience</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Morning champagne breakfast</li>
-                    <li>• Private decorated Shikara ride (1 hour premium)</li>
-                    <li>• Exclusive access to Mughal Gardens with private guide</li>
-                    <li>• Check-in to luxury houseboat with royal interiors</li>
-                    <li>• Private sunset photography session</li>
-                    <li>• Traditional Wazwan dinner on houseboat</li>
-                    <li>• Overnight stay in luxury houseboat</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🌲 Day 3: Pahalgam Luxury Day 1</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Private luxury vehicle to Pahalgam</li>
-                    <li>• Check-in to premium resort with mountain views</li>
-                    <li>• Private guide for Betab Valley exploration</li>
-                    <li>• Exclusive helicopter ride over valleys (seasonal)</li>
-                    <li>• Luxury picnic lunch in pristine meadows</li>
-                    <li>• Spa treatment for couples</li>
-                    <li>• Overnight stay in luxury resort</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🏔️ Day 4: Pahalgam Adventure & Culture</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Private expedition to Aru Valley</li>
-                    <li>• Exclusive horse riding with professional guides</li>
-                    <li>• Visit to Chandanwari with luxury arrangements</li>
-                    <li>• Cultural evening with traditional Kashmiri performances</li>
-                    <li>• Professional photography and videography session</li>
-                    <li>• Private dining experience under the stars</li>
-                    <li>• Overnight stay in luxury resort</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🚡 Day 5: Gulmarg Premium Day 1</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Private transfer to Gulmarg in luxury vehicle</li>
-                    <li>• Check-in to premium mountain resort</li>
-                    <li>• VIP Gondola experience to Apharwat Peak</li>
-                    <li>• Exclusive snow activities with professional instructors</li>
-                    <li>• Private access to golf course</li>
-                    <li>• Luxury mountain dining experience</li>
-                    <li>• Overnight stay in luxury resort</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">⛷️ Day 6: Gulmarg Exclusive Experience</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Private alpine trekking with expert guides</li>
-                    <li>• Exclusive access to restricted scenic areas</li>
-                    <li>• Professional couple photoshoot in snow</li>
-                    <li>• Adventure sports with premium equipment</li>
-                    <li>• Cultural interaction with local artisans</li>
-                    <li>• Return to Srinagar in luxury vehicle</li>
-                    <li>• Final night in presidential suite</li>
-                  </ul>
-                </div>
-                
-                <div className="bg-white rounded-lg p-6 shadow-md">
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">✈️ Day 7: Marvelous Farewell</h3>
-                  <ul className="text-gray-600 space-y-2">
-                    <li>• Luxury breakfast with valley views</li>
-                    <li>• Exclusive shopping experience with personal shopper</li>
-                    <li>• Premium souvenir collection</li>
-                    <li>• VIP departure transfer to airport</li>
-                    <li>• Farewell with personalized photo album</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 1: Royal Arrival in Srinagar"
+                  activities={[
+                    "VIP arrival with luxury car pickup",
+                    "Check-in to 5-star luxury hotel in Srinagar",
+                    "Presidential suite with valley views",
+                    "Welcome ceremony with premium cake and exotic fruit basket",
+                    "Personal butler service assignment",
+                    "Multi-course candlelight dinner with live music",
+                    "Overnight stay in luxury hotel"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Srinagar luxury hotel"
+                  imageTitle="Luxury Srinagar Hotel"
+                  imageSubtitle="Presidential suite with valley views"
+                  icon="🏛️"
+                  imageOnRight={false}
+                />
+
+                <ItineraryCard
+                  title="Day 2: Luxury Houseboat Experience"
+                  activities={[
+                    "Morning champagne breakfast",
+                    "Private decorated Shikara ride (1 hour premium)",
+                    "Exclusive access to Mughal Gardens with private guide",
+                    "Check-in to luxury houseboat with royal interiors",
+                    "Private sunset photography session",
+                    "Traditional Wazwan dinner on houseboat",
+                    "Overnight stay in luxury houseboat"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Luxury houseboat"
+                  imageTitle="Luxury Houseboat"
+                  imageSubtitle="Royal interiors on Dal Lake"
+                  icon="🚣‍♀️"
+                  imageOnRight={true}
+                />
+
+                <ItineraryCard
+                  title="Day 3: Pahalgam Luxury Day 1"
+                  activities={[
+                    "Private luxury vehicle to Pahalgam",
+                    "Check-in to premium resort with mountain views",
+                    "Private guide for Betab Valley exploration",
+                    "Exclusive helicopter ride over valleys (seasonal)",
+                    "Luxury picnic lunch in pristine meadows",
+                    "Spa treatment for couples",
+                    "Overnight stay in luxury resort"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Pahalgam luxury resort"
+                  imageTitle="Pahalgam Luxury Resort"
+                  imageSubtitle="Premium mountain views"
+                  icon="🌲"
+                  imageOnRight={false}
+                />
+
+                <ItineraryCard
+                  title="Day 4: Pahalgam Adventure & Culture"
+                  activities={[
+                    "Private expedition to Aru Valley",
+                    "Exclusive horse riding with professional guides",
+                    "Visit to Chandanwari with luxury arrangements",
+                    "Cultural evening with traditional Kashmiri performances",
+                    "Professional photography and videography session",
+                    "Private dining experience under the stars",
+                    "Overnight stay in luxury resort"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Aru Valley"
+                  imageTitle="Aru Valley"
+                  imageSubtitle="Pristine mountain meadows"
+                  icon="🏔️"
+                  imageOnRight={true}
+                />
+
+                <ItineraryCard
+                  title="Day 5: Gulmarg Premium Day 1"
+                  activities={[
+                    "Private transfer to Gulmarg in luxury vehicle",
+                    "Check-in to premium mountain resort",
+                    "VIP Gondola experience to Apharwat Peak",
+                    "Exclusive snow activities with professional instructors",
+                    "Private access to golf course",
+                    "Luxury mountain dining experience",
+                    "Overnight stay in luxury resort"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Gulmarg Gondola"
+                  imageTitle="Gulmarg Gondola"
+                  imageSubtitle="VIP experience to Apharwat Peak"
+                  icon="🚡"
+                  imageOnRight={false}
+                />
+
+                <ItineraryCard
+                  title="Day 6: Gulmarg Exclusive Experience"
+                  activities={[
+                    "Private alpine trekking with expert guides",
+                    "Exclusive access to restricted scenic areas",
+                    "Professional couple photoshoot in snow",
+                    "Adventure sports with premium equipment",
+                    "Cultural interaction with local artisans",
+                    "Return to Srinagar in luxury vehicle",
+                    "Final night in presidential suite"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Gulmarg snow activities"
+                  imageTitle="Gulmarg Snow Activities"
+                  imageSubtitle="Premium adventure experiences"
+                  icon="⛷️"
+                  imageOnRight={true}
+                />
+
+                <ItineraryCard
+                  title="Day 7: Marvelous Farewell"
+                  activities={[
+                    "Luxury breakfast with valley views",
+                    "Exclusive shopping experience with personal shopper",
+                    "Premium souvenir collection",
+                    "VIP departure transfer to airport",
+                    "Farewell with personalized photo album"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Srinagar departure"
+                  imageTitle="VIP Departure"
+                  imageSubtitle="Luxury farewell experience"
+                  icon="✈️"
+                  imageOnRight={false}
+                />
               </div>
             </div>
 

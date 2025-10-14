@@ -2,6 +2,7 @@ import React from "react";
 import { useSEO } from "../../hooks/useSEO";
 import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
+import ItineraryCard from "../../components/ItineraryCard";
 
 export default function KashmirWithJammuTour() {
   const seoData = useSEO({
@@ -175,70 +176,105 @@ export default function KashmirWithJammuTour() {
             </div>
 
             {/* Tour Itinerary */}
-            <div className="bg-white rounded-lg shadow-md p-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-8">Tour Itinerary</h2>
-              
-              <div className="space-y-6">
-                <div className="border-l-4 border-orange-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 1: Arrival in Jammu</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Airport/Railway station pickup</li>
-                    <li>Hotel check-in and freshening up</li>
-                    <li>Visit Raghunath Temple complex</li>
-                    <li>Explore Bahu Fort and gardens</li>
-                    <li>Evening leisure and local market visit</li>
-                  </ul>
-                </div>
+            <div className="mb-12">
+              <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Tour Itinerary</h2>
+              <div className="space-y-8">
+                <ItineraryCard
+                  title="Day 1: Arrival in Jammu"
+                  activities={[
+                    "Airport/Railway station pickup",
+                    "Hotel check-in and freshening up",
+                    "Visit Raghunath Temple complex",
+                    "Explore Bahu Fort and gardens",
+                    "Evening leisure and local market visit"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Jammu arrival"
+                  imageTitle="Jammu Arrival"
+                  imageSubtitle="City of Temples"
+                  icon="🏛️"
+                  imageOnRight={false}
+                />
 
-                <div className="border-l-4 border-red-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 2: Jammu Sightseeing & Transfer</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Morning visit to Ranbireshwar Temple</li>
-                    <li>Amar Mahal Palace museum tour</li>
-                    <li>Departure for Srinagar (300 km, 7 hours)</li>
-                    <li>Scenic drive through mountains</li>
-                    <li>Arrival and hotel check-in in Srinagar</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 2: Jammu Sightseeing & Transfer"
+                  activities={[
+                    "Morning visit to Ranbireshwar Temple",
+                    "Amar Mahal Palace museum tour",
+                    "Departure for Srinagar (300 km, 7 hours)",
+                    "Scenic drive through mountains",
+                    "Arrival and hotel check-in in Srinagar"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Jammu sightseeing"
+                  imageTitle="Jammu Sightseeing"
+                  imageSubtitle="Cultural heritage exploration"
+                  icon="🏛️"
+                  imageOnRight={true}
+                />
 
-                <div className="border-l-4 border-blue-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 3-4: Srinagar Exploration</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Dal Lake Shikara rides and houseboat experience</li>
-                    <li>Mughal Gardens tour (Shalimar, Nishat, Chashme Shahi)</li>
-                    <li>Local sightseeing and handicraft shopping</li>
-                    <li>Cultural evening programs</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 3-4: Srinagar Exploration"
+                  activities={[
+                    "Dal Lake Shikara rides and houseboat experience",
+                    "Mughal Gardens tour (Shalimar, Nishat, Chashme Shahi)",
+                    "Local sightseeing and handicraft shopping",
+                    "Cultural evening programs"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Srinagar sightseeing"
+                  imageTitle="Srinagar Sightseeing"
+                  imageSubtitle="Mughal Gardens and Dal Lake"
+                  icon="🌲"
+                  imageOnRight={false}
+                />
 
-                <div className="border-l-4 border-green-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 5: Gulmarg Day Trip</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Early morning departure to Gulmarg</li>
-                    <li>Gondola ride and snow activities</li>
-                    <li>Explore Gulmarg meadows</li>
-                    <li>Return to Srinagar in evening</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 5: Gulmarg Day Trip"
+                  activities={[
+                    "Early morning departure to Gulmarg",
+                    "Gondola ride and snow activities",
+                    "Explore Gulmarg meadows",
+                    "Return to Srinagar in evening"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Gulmarg Gondola"
+                  imageTitle="Gulmarg Gondola"
+                  imageSubtitle="Experience to Apharwat Peak"
+                  icon="🚡"
+                  imageOnRight={true}
+                />
 
-                <div className="border-l-4 border-purple-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 6: Pahalgam Excursion</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Full day trip to Pahalgam</li>
-                    <li>Visit Betaab Valley and Aru Valley</li>
-                    <li>Nature walks and photography</li>
-                    <li>Return to Srinagar for overnight stay</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 6: Pahalgam Excursion"
+                  activities={[
+                    "Full day trip to Pahalgam",
+                    "Visit Betaab Valley and Aru Valley",
+                    "Nature walks and photography",
+                    "Return to Srinagar for overnight stay"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Pahalgam valley"
+                  imageTitle="Pahalgam Valley"
+                  imageSubtitle="Valley of Shepherds"
+                  icon="🏔️"
+                  imageOnRight={false}
+                />
 
-                <div className="border-l-4 border-indigo-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 7: Departure</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Check-out and last-minute shopping</li>
-                    <li>Transfer to Srinagar airport</li>
-                    <li>Departure with wonderful memories</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 7: Departure"
+                  activities={[
+                    "Check-out and last-minute shopping",
+                    "Transfer to Srinagar airport",
+                    "Departure with wonderful memories"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Srinagar departure"
+                  imageTitle="Srinagar Airport"
+                  imageSubtitle="Departure with memories"
+                  icon="✈️"
+                  imageOnRight={true}
+                />
               </div>
             </div>
           </div>

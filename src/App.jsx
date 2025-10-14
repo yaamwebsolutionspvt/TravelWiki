@@ -32,11 +32,13 @@ const MagnificentKashmirValleyTour = lazy(() => import('./pages/TourPages/Magnif
 const ThreeNightsFourDaysSrinagarPahalgamGulmargTour = lazy(() => import('./pages/TourPages/ThreeNightsFourDaysSrinagarPahalgamGulmargTour'));
 
 // Ladakh Packages
+const LehLadakhPage = lazy(() => import('./pages/LadakhPackages/LehLadakhPage'));
 const AmazingLadakhTourWithNubraStay = lazy(() => import('./pages/LadakhPackages/AmazingLadakhTourWithNubraStay'));
 const BreathtakingLadakhWithTurtukPangongExcursion = lazy(() => import('./pages/LadakhPackages/BreathtakingLadakhWithTurtukPangongExcursion'));
 const BudgetLadakhTourPackage = lazy(() => import('./pages/LadakhPackages/BudgetLadakhTourPackage'));
 const ClassicLehNubraPangongTsoMoririHanlePackage = lazy(() => import('./pages/LadakhPackages/ClassicLehNubraPangongTsoMoririHanlePackage'));
 const EnthrallingLadakhTourFromSrinagar = lazy(() => import('./pages/LadakhPackages/EnthrallingLadakhTourFromSrinagar'));
+const HighlightsOfLadakhPackage = lazy(() => import('./pages/LadakhPackages/HighlightsOfLadakhPackage'));
 const JeepSafariTourFromManaliLehLadakhManali = lazy(() => import('./pages/LadakhPackages/JeepSafariTourFromManaliLehLadakhManali'));
 const JeepSafariTourPackageFromManaliToLehLadakh = lazy(() => import('./pages/LadakhPackages/JeepSafariTourPackageFromManaliToLehLadakh'));
 const KashmirAndLadakhComboPackageWithKargilStay = lazy(() => import('./pages/LadakhPackages/KashmirAndLadakhComboPackageWithKargilStay'));
@@ -312,12 +314,13 @@ function App() {
             <Route path="/packages/:packageSlug" element={<KashmirExoticTour />} />
 
             {/* Ladakh Packages */}
-            <Route path="/leh-ladakh-packages" element={<AmazingLadakhTourWithNubraStay />} />
+            <Route path="/leh-ladakh-packages" element={<LehLadakhPage />} />
             <Route path="/leh-ladakh-packages/amazing-nubra" element={<AmazingLadakhTourWithNubraStay />} />
             <Route path="/leh-ladakh-packages/breathtaking-turtuk" element={<BreathtakingLadakhWithTurtukPangongExcursion />} />
             <Route path="/leh-ladakh-packages/budget" element={<BudgetLadakhTourPackage />} />
             <Route path="/leh-ladakh-packages/classic-leh-nubra" element={<ClassicLehNubraPangongTsoMoririHanlePackage />} />
             <Route path="/leh-ladakh-packages/from-srinagar" element={<EnthrallingLadakhTourFromSrinagar />} />
+            <Route path="/leh-ladakh-packages/highlights" element={<HighlightsOfLadakhPackage />} />
             <Route path="/leh-ladakh-packages/jeep-safari-manali" element={<JeepSafariTourFromManaliLehLadakhManali />} />
             <Route path="/leh-ladakh-packages/jeep-safari-manali-leh" element={<JeepSafariTourPackageFromManaliToLehLadakh />} />
             <Route path="/leh-ladakh-packages/kashmir-combo-kargil" element={<KashmirAndLadakhComboPackageWithKargilStay />} />

@@ -5,7 +5,7 @@ import OptimizedImage from "../../components/OptimizedImage";
 import ItineraryAccordion from "./ItineraryAccordion";
 import FaqSection from "./FaqSection";
 import WhyLadakhTourism from "./WhyLadakhTourism";
-import { ladakhPackages, ladakhContent } from "../../data/packages/ladakh";
+import { ladakhPackages, ladakhContent } from "../../data/packages/ladakh";``
 
 const bannerimage =
   "https://res.cloudinary.com/dw1sh368y/image/upload/v1759314589/Kashmir_With_Gurez_Valley_Cultural_Tour_wlx64s.png";

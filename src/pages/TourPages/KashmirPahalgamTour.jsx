@@ -167,7 +167,7 @@ export default function KashmirPahalgamTour() {
                   imageTitle="Srinagar Arrival"
                   imageSubtitle="Capital Welcome"
                   icon="🏛️"
-                  imageOnRight={false}
+                  imageOnRight={true}
                 />
 
                 <ItineraryCard
@@ -184,7 +184,7 @@ export default function KashmirPahalgamTour() {
                   imageTitle="Drive to Pahalgam"
                   imageSubtitle="Valley of Shepherds"
                   icon="🚗"
-                  imageOnRight={true}
+                  imageOnRight={false}
                 />
 
                 <ItineraryCard

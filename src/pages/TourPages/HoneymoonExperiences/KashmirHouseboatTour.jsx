@@ -2,6 +2,7 @@ import React from "react";
 import { useSEO } from "../../../hooks/useSEO";
 import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
+import ItineraryCard from "../../../components/ItineraryCard";
 
 export default function KashmirHouseboatTour() {
   const seoData = useSEO({
@@ -147,58 +148,81 @@ export default function KashmirHouseboatTour() {
             </div>
 
             {/* Tour Itinerary */}
-            <div className="bg-white rounded-lg shadow-md p-8">
-              <h2 className="text-3xl font-bold text-gray-800 mb-8">Houseboat Tour Itinerary</h2>
-              
-              <div className="space-y-6">
-                <div className="border-l-4 border-teal-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 1: Arrival & Houseboat Check-in</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Airport pickup and transfer to Dal Lake</li>
-                    <li>Shikara ride to houseboat</li>
-                    <li>Traditional welcome with Kahwa tea</li>
-                    <li>Houseboat orientation and room allocation</li>
-                    <li>Evening Shikara ride around Dal Lake</li>
-                    <li>Dinner on houseboat with Kashmiri cuisine</li>
-                  </ul>
-                </div>
+            <div className="mb-12">
+              <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Houseboat Tour Itinerary</h2>
+              <div className="space-y-8">
+                <ItineraryCard
+                  title="Day 1: Arrival & Houseboat Check-in"
+                  activities={[
+                    "Airport pickup and transfer to Dal Lake",
+                    "Shikara ride to houseboat",
+                    "Traditional welcome with Kahwa tea",
+                    "Houseboat orientation and room allocation",
+                    "Evening Shikara ride around Dal Lake",
+                    "Dinner on houseboat with Kashmiri cuisine"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Dal Lake houseboat"
+                  imageTitle="Dal Lake Houseboat"
+                  imageSubtitle="Traditional floating accommodation"
+                  icon="🏛️"
+                  imageOnRight={false}
+                />
 
-                <div className="border-l-4 border-blue-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 2: Dal Lake Exploration</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Morning breakfast on houseboat</li>
-                    <li>Visit floating vegetable market</li>
-                    <li>Explore Char Chinar Island</li>
-                    <li>Visit local handicraft shops on water</li>
-                    <li>Photography session around the lake</li>
-                    <li>Traditional lunch on houseboat</li>
-                    <li>Evening cultural program</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 2: Dal Lake Exploration"
+                  activities={[
+                    "Morning breakfast on houseboat",
+                    "Visit floating vegetable market",
+                    "Explore Char Chinar Island",
+                    "Visit local handicraft shops on water",
+                    "Photography session around the lake",
+                    "Traditional lunch on houseboat",
+                    "Evening cultural program"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Dal Lake exploration"
+                  imageTitle="Dal Lake Exploration"
+                  imageSubtitle="Floating markets and islands"
+                  icon="🚣‍♀️"
+                  imageOnRight={true}
+                />
 
-                <div className="border-l-4 border-green-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 3: Srinagar Sightseeing</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Early morning Shikara ride to shore</li>
-                    <li>Visit Mughal Gardens (Shalimar & Nishat)</li>
-                    <li>Explore Jamia Masjid and old city</li>
-                    <li>Shopping in local markets</li>
-                    <li>Return to houseboat for lunch</li>
-                    <li>Leisure time and relaxation</li>
-                    <li>Farewell dinner with special arrangements</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 3: Srinagar Sightseeing"
+                  activities={[
+                    "Early morning Shikara ride to shore",
+                    "Visit Mughal Gardens (Shalimar & Nishat)",
+                    "Explore Jamia Masjid and old city",
+                    "Shopping in local markets",
+                    "Return to houseboat for lunch",
+                    "Leisure time and relaxation",
+                    "Farewell dinner with special arrangements"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Mughal Gardens"
+                  imageTitle="Mughal Gardens"
+                  imageSubtitle="Shalimar and Nishat Gardens"
+                  icon="🌲"
+                  imageOnRight={false}
+                />
 
-                <div className="border-l-4 border-red-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 4: Departure</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Leisurely breakfast on houseboat</li>
-                    <li>Final Shikara ride and photography</li>
-                    <li>Check-out from houseboat</li>
-                    <li>Transfer to airport via Shikara and taxi</li>
-                    <li>Departure with unforgettable memories</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 4: Departure"
+                  activities={[
+                    "Leisurely breakfast on houseboat",
+                    "Final Shikara ride and photography",
+                    "Check-out from houseboat",
+                    "Transfer to airport via Shikara and taxi",
+                    "Departure with unforgettable memories"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Srinagar departure"
+                  imageTitle="Srinagar Airport"
+                  imageSubtitle="Departure with memories"
+                  icon="✈️"
+                  imageOnRight={true}
+                />
               </div>
             </div>
           </div>
