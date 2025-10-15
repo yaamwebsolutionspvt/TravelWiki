@@ -3,6 +3,8 @@ import { useSEO } from "../../hooks/useSEO";
 import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
 
+const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759812841/Gulmarg_Meadow_Experience_j5zsmc.webp";
+
 export default function KashmirPackageWithPatnitop() {
   const seoData = useSEO({
     title: "Kashmir Package with Patnitop | 8 Nights 9 Days Complete Tour",
@@ -34,7 +36,11 @@ export default function KashmirPackageWithPatnitop() {
       
       <div className="min-h-screen  mt-4">
         {/* Hero Section */}
-        <div className="relative bg-gradient-to-r from-green-700 to-brown-600 text-white py-25">
+        <div className="relative  text-white py-25 min-h-[75vh]" style={{
+            backgroundImage: `url(${heroBg})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}>
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">

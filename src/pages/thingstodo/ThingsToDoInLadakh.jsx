@@ -2,7 +2,7 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import HeroBanner from '../../components/ThingsToDO/HeroBanner';
 import ActivityCard from '../../components/ThingsToDO/ActivityCard';
-const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1760341724/Exploring_Gulmarg_Biosphere_Reserve_grdghv.png";
+const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1760356307/Morning_Prayers_at_Thiksey_Monastery_spbmhh.png";
 
 const ThingsToDoInLadakh = () => {
   return (
@@ -74,7 +74,7 @@ const ThingsToDoInLadakh = () => {
                 id="homestay"
                 title="1. Stay Local to Be a Local in Ladakh"
                 description="If you want to explore the real colors of Ladakh, check into a local homestay or lodge. Staying in local homestays allows you to spend time with local hosts and families, know about their culture and traditions, interact with them, dine with them, and get acquainted with their lifestyle."
-                image="https://example.com/homestay.jpg"
+                image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760356560/1_Stay_Local_to_Be_a_Local_in_Ladakh_nzqudj.webp"
                 highlights={[
                   "Experience authentic Ladakhi lifestyle and culture",
                   "Great hospitality and utmost generosity from hosts",
@@ -89,7 +89,7 @@ const ThingsToDoInLadakh = () => {
                 id="pangong-sunrise"
                 title="2. Enchanting Sunrise Views at Pangong Lake"
                 description="What could be the best way to begin your day, but by catching the eternal flames of the rising sun? Seated gracefully at an elevation of 4,350m (14,270ft), Pangong Lake is one of the best places on earth to enjoy the virgin beauty of the rising sun."
-                image="https://example.com/pangong-sunrise.jpg"
+                image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760356307/Enchanting_Sunrise_Views_at_Pangong_Lake_hj1vnp.webp"
                 highlights={[
                   "Elevation: 4,350m (14,270ft)",
                   "Azure blue water that changes colors",
@@ -104,7 +104,7 @@ const ThingsToDoInLadakh = () => {
                 id="thiksey-prayers"
                 title="3. Morning Prayers at Thiksey Monastery"
                 description="Peace, serenity, divinity, and solace of mind make wanderlusts get Leh'ed! Wake up to the prayer chants of Thiksey Monastery in Ladakh. This place can pacify your mornings and enlighten your day with spiritual blessings."
-                image="https://example.com/thiksey-monastery.jpg"
+                image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760356307/Morning_Prayers_at_Thiksey_Monastery_spbmhh.webp"
                 highlights={[
                   "Unique sense of devotion and spirituality",
                   "Melodious 'sutras' (prayers) chanted by monks",
@@ -119,7 +119,7 @@ const ThingsToDoInLadakh = () => {
                 id="maitreya-buddha"
                 title="4. Seek Blessings from Maitreya Buddha"
                 description="Visit the golden statue of Maitreya Buddha at Thiksey Monastery. The largest statue of the future Lord Buddha is considered a devout source of blessings and sanctity. This divine form of the Lord helps usher spirituality and begin your Ladakh tour with purity and calmness."
-                image="https://example.com/maitreya-buddha.jpg"
+                image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760356309/Seek_Blessings_from_Maitreya_Buddha_sz1kxn.webp"
                 highlights={[
                   "Largest statue of future Lord Buddha",
                   "Spiritual and serene ambiance",
@@ -133,7 +133,7 @@ const ThingsToDoInLadakh = () => {
                 id="shanti-stupa"
                 title="5. Visit Shanti Stupa - Contribute to World Peace"
                 description="The Shanti Stupa in Ladakh is a universal testimony that irrespective of who we are, we all crave love and peace. Positioned atop a scenic hill in Chanspa, this white-colored dome structure was built by Japanese Buddhist Organization to promote World Peace."
-                image="https://example.com/shanti-stupa.jpg"
+                image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760356308/Visit_Shanti_Stupa_-_Contribute_to_World_Peace_kxdzs6.webp"
                 
                 highlights={[
                   "White-colored dome structure atop scenic hill",

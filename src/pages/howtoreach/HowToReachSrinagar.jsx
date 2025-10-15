@@ -18,7 +18,7 @@ const HowToReachSrinagar = () => {
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
         <div
-          className="relative text-white py-24"
+          className="relative text-white py-24 min-h-[75vh]"
           style={{
             backgroundImage: `url(${heroBg})`,
             backgroundSize: 'cover',

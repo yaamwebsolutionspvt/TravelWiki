@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import SEO from "../../components/SEO";
 import OptimizedImage from "../../components/OptimizedImage";
 
-const bannerimage = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514644/travelwiki/assets/Ladakh/bannerimage.jpg";
+const bannerimage = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759912426/Leh_to_Nubra_Valley_via_Khardung_La_Pass_n4gg1k.webp";
 
 // All Ladakh package data with proper routing
 const ladakhPackagesData = [

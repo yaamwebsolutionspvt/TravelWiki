@@ -1,5 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import dalLake from '../../assets/dal_lake.webp';
 
 const KashmirInNovember = () => {
   return (
@@ -16,7 +17,14 @@ const KashmirInNovember = () => {
 
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
-        <div className="relative bg-gradient-to-r from-slate-900 to-amber-900 text-white py-24">
+        <div
+          className="relative text-white py-24 min-h-[75vh]"
+          style={{
+            backgroundImage: `url(${dalLake})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}
+        >
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">

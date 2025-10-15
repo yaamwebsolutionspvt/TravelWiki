@@ -4,6 +4,8 @@ import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
 import ItineraryCard from "../../../components/ItineraryCard";
 
+const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1760340197/Shikara_Ride_on_Dal_Lake_Srinagar_nbonsd.webp";
+
 export default function KashmirHouseboatTour() {
   const seoData = useSEO({
     title: "Kashmir Houseboat Tour Package | 3 Nights Dal Lake Experience",
@@ -35,7 +37,11 @@ export default function KashmirHouseboatTour() {
       
       <div className="min-h-screen  mt-4">
         {/* Hero Section */}
-        <div className="relative bg-gradient-to-r from-teal-600 to-blue-700 text-white py-25">
+        <div className="relative  text-white py-25 min-h-[75vh]" style={{
+            backgroundImage: `url(${heroBg})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}>
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
@@ -161,7 +167,7 @@ export default function KashmirHouseboatTour() {
                     "Evening Shikara ride around Dal Lake",
                     "Dinner on houseboat with Kashmiri cuisine"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1760340197/Shikara_Ride_on_Dal_Lake_Srinagar_nbonsd.webp"
                   imageAlt="Dal Lake houseboat"
                   imageTitle="Dal Lake Houseboat"
                   imageSubtitle="Traditional floating accommodation"
@@ -180,7 +186,7 @@ export default function KashmirHouseboatTour() {
                     "Traditional lunch on houseboat",
                     "Evening cultural program"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1760071761/Kashmir_in_February_fbhhib.webp"
                   imageAlt="Dal Lake exploration"
                   imageTitle="Dal Lake Exploration"
                   imageSubtitle="Floating markets and islands"
@@ -199,7 +205,7 @@ export default function KashmirHouseboatTour() {
                     "Leisure time and relaxation",
                     "Farewell dinner with special arrangements"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759907927/Nigeen_Lake_Local_Experiences_pu4nzh.webp"
                   imageAlt="Mughal Gardens"
                   imageTitle="Mughal Gardens"
                   imageSubtitle="Shalimar and Nishat Gardens"
@@ -216,7 +222,7 @@ export default function KashmirHouseboatTour() {
                     "Transfer to airport via Shikara and taxi",
                     "Departure with unforgettable memories"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759907927/Heritage_Culture_Day_yqpgfu.webp"
                   imageAlt="Srinagar departure"
                   imageTitle="Srinagar Airport"
                   imageSubtitle="Departure with memories"

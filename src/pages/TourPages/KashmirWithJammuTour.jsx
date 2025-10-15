@@ -4,6 +4,8 @@ import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
 import ItineraryCard from "../../components/ItineraryCard";
 
+const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759812841/Gulmarg_Meadow_Experience_j5zsmc.webp";
+
 export default function KashmirWithJammuTour() {
   const seoData = useSEO({
     title: "Kashmir with Jammu Tour Package | 6 Nights Cultural Heritage Tour",
@@ -35,7 +37,11 @@ export default function KashmirWithJammuTour() {
       
       <div className="min-h-screen  mt-4">
         {/* Hero Section */}
-        <div className="relative bg-gradient-to-r from-orange-600 to-red-700 text-white py-25">
+        <div className="relative  text-white py-25 min-h-[75vh]" style={{
+            backgroundImage: `url(${heroBg})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}>
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">

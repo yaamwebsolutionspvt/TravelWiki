@@ -16,7 +16,7 @@ const KashmirInApril = () => {
 
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
-        <div className="relative bg-gradient-to-r from-violet-900 to-purple-900 text-white py-24">
+        <div className="relative bg-gradient-to-r from-violet-900 to-purple-900 text-white py-24 min-h-[75vh]">
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">

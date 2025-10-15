@@ -2,6 +2,7 @@ import React from "react";
 import { useSEO } from "../../hooks/useSEO";
 import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
+import ItineraryCard from "../../components/ItineraryCard";
 
 export default function LoveInKashmirPackage() {
   const seoData = useSEO({
@@ -208,73 +209,108 @@ export default function LoveInKashmirPackage() {
             {/* Romantic Itinerary */}
             <div className="bg-white rounded-lg shadow-md p-8">
               <h2 className="text-3xl font-bold text-gray-800 mb-8">Romantic Itinerary</h2>
-              
-              <div className="space-y-6">
-                <div className="border-l-4 border-pink-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 1: Romantic Arrival</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>VIP airport pickup with flower garlands</li>
-                    <li>Transfer to luxury houseboat with welcome drinks</li>
-                    <li>Room decorated with rose petals and candles</li>
-                    <li>Evening private Shikara ride at sunset</li>
-                    <li>Romantic dinner on houseboat terrace</li>
-                  </ul>
-                </div>
+              <div className="space-y-8">
+                <ItineraryCard
+                  title="Day 1: Romantic Arrival"
+                  activities={[
+                    "VIP airport pickup with flower garlands",
+                    "Transfer to luxury houseboat with welcome drinks",
+                    "Room decorated with rose petals and candles",
+                    "Evening private Shikara ride at sunset",
+                    "Romantic dinner on houseboat terrace"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Romantic arrival in Srinagar"
+                  imageTitle="Srinagar Arrival"
+                  imageSubtitle="Luxury houseboat check-in"
+                  icon="💞"
+                  imageOnRight={false}
+                />
 
-                <div className="border-l-4 border-purple-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 2: Love in Srinagar</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Private sunrise breakfast on Dal Lake</li>
-                    <li>Exclusive visit to Mughal Gardens with picnic</li>
-                    <li>Couple photography session in gardens</li>
-                    <li>Shopping for romantic souvenirs</li>
-                    <li>Candlelight dinner with live classical music</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 2: Love in Srinagar"
+                  activities={[
+                    "Private sunrise breakfast on Dal Lake",
+                    "Exclusive visit to Mughal Gardens with picnic",
+                    "Couple photography session in gardens",
+                    "Shopping for romantic souvenirs",
+                    "Candlelight dinner with live classical music"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Srinagar romantic day"
+                  imageTitle="Srinagar Romance"
+                  imageSubtitle="Gardens and Dal Lake"
+                  icon="🌹"
+                  imageOnRight={true}
+                />
 
-                <div className="border-l-4 border-red-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 3: Gulmarg Romance</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Transfer to Gulmarg luxury resort</li>
-                    <li>Private Gondola ride for two</li>
-                    <li>Snow activities and romantic photoshoot</li>
-                    <li>Couple spa treatment and relaxation</li>
-                    <li>Private dinner with mountain views</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 3: Gulmarg Romance"
+                  activities={[
+                    "Transfer to Gulmarg luxury resort",
+                    "Private Gondola ride for two",
+                    "Snow activities and romantic photoshoot",
+                    "Couple spa treatment and relaxation",
+                    "Private dinner with mountain views"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Gulmarg romance"
+                  imageTitle="Gulmarg"
+                  imageSubtitle="Gondola and spa"
+                  icon="🎿"
+                  imageOnRight={false}
+                />
 
-                <div className="border-l-4 border-orange-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 4: Pahalgam Paradise</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Scenic drive to Pahalgam with stops</li>
-                    <li>Private cottage check-in</li>
-                    <li>Romantic walk in Betaab Valley</li>
-                    <li>Private picnic by the river</li>
-                    <li>Bonfire dinner under the stars</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 4: Pahalgam Paradise"
+                  activities={[
+                    "Scenic drive to Pahalgam with stops",
+                    "Private cottage check-in",
+                    "Romantic walk in Betaab Valley",
+                    "Private picnic by the river",
+                    "Bonfire dinner under the stars"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Pahalgam paradise"
+                  imageTitle="Pahalgam"
+                  imageSubtitle="Valleys and riversides"
+                  icon="🌄"
+                  imageOnRight={true}
+                />
 
-                <div className="border-l-4 border-green-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 5: Adventure & Romance</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Optional helicopter ride over valley</li>
-                    <li>Visit to Aru Valley with pony rides</li>
-                    <li>Professional couple photography</li>
-                    <li>Romantic sunset viewing</li>
-                    <li>Special anniversary/celebration dinner</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 5: Adventure & Romance"
+                  activities={[
+                    "Optional helicopter ride over valley",
+                    "Visit to Aru Valley with pony rides",
+                    "Professional couple photography",
+                    "Romantic sunset viewing",
+                    "Special anniversary/celebration dinner"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Adventure and romance"
+                  imageTitle="Aru Valley"
+                  imageSubtitle="Adventure day"
+                  icon="🚁"
+                  imageOnRight={false}
+                />
 
-                <div className="border-l-4 border-blue-500 pl-6">
-                  <h3 className="text-xl font-bold text-gray-800 mb-3">Day 6: Farewell Romance</h3>
-                  <ul className="list-disc list-inside text-gray-600 space-y-2">
-                    <li>Late romantic breakfast</li>
-                    <li>Final couple photoshoot</li>
-                    <li>Shopping for romantic keepsakes</li>
-                    <li>VIP airport transfer</li>
-                    <li>Departure with lifetime memories</li>
-                  </ul>
-                </div>
+                <ItineraryCard
+                  title="Day 6: Farewell Romance"
+                  activities={[
+                    "Late romantic breakfast",
+                    "Final couple photoshoot",
+                    "Shopping for romantic keepsakes",
+                    "VIP airport transfer",
+                    "Departure with lifetime memories"
+                  ]}
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageAlt="Farewell day"
+                  imageTitle="Farewell"
+                  imageSubtitle="Memories to cherish"
+                  icon="✈️"
+                  imageOnRight={true}
+                />
               </div>
             </div>
           </div>

@@ -1,6 +1,8 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
+const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759216445/Photography_Walks_opiowj.webp";
+
 const HowToReachGurezValley = () => {
   return (
     <>
@@ -16,7 +18,11 @@ const HowToReachGurezValley = () => {
 
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
-        <div className="relative bg-gradient-to-r from-emerald-900 to-green-900 text-white py-24">
+        <div className="relative  text-white py-24 min-h-[75vh]" style={{
+            backgroundImage: `url(${heroBg})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }}>
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div className="text-center">

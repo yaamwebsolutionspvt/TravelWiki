@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import heroBg from '../../assets/dal_lake.webp';
+const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1760352641/Skiing_in_the_Soft_Snow_fp1yon.webp";
 
 const BestTimeToVisitGulmarg = () => {
   return (
@@ -18,7 +18,7 @@ const BestTimeToVisitGulmarg = () => {
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
         <div
-          className="relative text-white py-24"
+          className="relative text-white py-24 min-h-[75vh]"
           style={{
             backgroundImage: `url(${heroBg})`,
             backgroundSize: 'cover',
