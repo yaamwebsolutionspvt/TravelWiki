@@ -142,6 +142,7 @@ export default function WeekLongHolidayInKashmir() {
                   imageTitle="Srinagar Arrival"
                   imageSubtitle="Relaxed Welcome"
                   icon="🌟"
+                  imageOnRight={false}
                 />
                 
                 <ItineraryCard
@@ -160,6 +161,7 @@ export default function WeekLongHolidayInKashmir() {
                   imageTitle="Dal Lake Shikara"
                   imageSubtitle="01 Hour Experience"
                   icon="🚣‍♀️"
+                  imageOnRight={true}
                 />
                 
                 <ItineraryCard
@@ -178,6 +180,7 @@ export default function WeekLongHolidayInKashmir() {
                   imageTitle="Pahalgam Valley"
                   imageSubtitle="Nature & Peace"
                   icon="🌲"
+                  imageOnRight={false}
                 />
                 
                 <ItineraryCard
@@ -197,6 +200,7 @@ export default function WeekLongHolidayInKashmir() {
                   imageTitle="Betab Valley"
                   imageSubtitle="Bollywood Location"
                   icon="🏔️"
+                  imageOnRight={true}
                 />
                 
                 <ItineraryCard
@@ -216,6 +220,7 @@ export default function WeekLongHolidayInKashmir() {
                   imageTitle="Gulmarg Gondola"
                   imageSubtitle="Meadow of Flowers"
                   icon="🎿"
+                  imageOnRight={false}
                 />
                 
                 <ItineraryCard
@@ -234,6 +239,7 @@ export default function WeekLongHolidayInKashmir() {
                   imageTitle="Srinagar Sunset"
                   imageSubtitle="Final Experiences"
                   icon="🌅"
+                  imageOnRight={true}
                 />
                 
                 <ItineraryCard
@@ -249,7 +255,8 @@ export default function WeekLongHolidayInKashmir() {
                   imageTitle="Departure"
                   imageSubtitle="Perfect Holiday End"
                   icon="✈️"
-                />
+                  imageOnRight={false}
+                  />
               </div>
             </div>
 

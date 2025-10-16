@@ -4,7 +4,7 @@ import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
 import ItineraryCard from "../../components/ItineraryCard";
 
-const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759812841/Gulmarg_Meadow_Experience_j5zsmc.webp";
+const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1758784519/Jammu_View_8_y3ypdh.webp";
 
 export default function KashmirWithJammuTour() {
   const seoData = useSEO({
@@ -184,7 +184,7 @@ export default function KashmirWithJammuTour() {
             {/* Tour Itinerary */}
             <div className="mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Tour Itinerary</h2>
-              <div className="space-y-8">
+              <div className="space-y-4">
                 <ItineraryCard
                   title="Day 1: Arrival in Jammu"
                   activities={[
@@ -194,7 +194,7 @@ export default function KashmirWithJammuTour() {
                     "Explore Bahu Fort and gardens",
                     "Evening leisure and local market visit"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1758784463/Jammu_View_1_wd8hbx.webp"
                   imageAlt="Jammu arrival"
                   imageTitle="Jammu Arrival"
                   imageSubtitle="City of Temples"
@@ -211,7 +211,7 @@ export default function KashmirWithJammuTour() {
                     "Scenic drive through mountains",
                     "Arrival and hotel check-in in Srinagar"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1758784503/Jammu_View_6_ej7m3n.webp"
                   imageAlt="Jammu sightseeing"
                   imageTitle="Jammu Sightseeing"
                   imageSubtitle="Cultural heritage exploration"
@@ -227,7 +227,7 @@ export default function KashmirWithJammuTour() {
                     "Local sightseeing and handicraft shopping",
                     "Cultural evening programs"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1760609150/Srinagar_Exploration_v5qjpi.webp"
                   imageAlt="Srinagar sightseeing"
                   imageTitle="Srinagar Sightseeing"
                   imageSubtitle="Mughal Gardens and Dal Lake"
@@ -243,7 +243,7 @@ export default function KashmirWithJammuTour() {
                     "Explore Gulmarg meadows",
                     "Return to Srinagar in evening"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1760609252/Gulmarg_Day_Trip_aaxflk.webp"
                   imageAlt="Gulmarg Gondola"
                   imageTitle="Gulmarg Gondola"
                   imageSubtitle="Experience to Apharwat Peak"
@@ -259,7 +259,7 @@ export default function KashmirWithJammuTour() {
                     "Nature walks and photography",
                     "Return to Srinagar for overnight stay"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1758889493/Pahalgam_7_lor18h.webp"
                   imageAlt="Pahalgam valley"
                   imageTitle="Pahalgam Valley"
                   imageSubtitle="Valley of Shepherds"
@@ -274,7 +274,7 @@ export default function KashmirWithJammuTour() {
                     "Transfer to Srinagar airport",
                     "Departure with wonderful memories"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1760609558/Departure_cwrpup.webp"
                   imageAlt="Srinagar departure"
                   imageTitle="Srinagar Airport"
                   imageSubtitle="Departure with memories"

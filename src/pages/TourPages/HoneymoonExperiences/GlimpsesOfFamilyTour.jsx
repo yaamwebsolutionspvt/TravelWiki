@@ -37,7 +37,7 @@ export default function GlimpsesOfFamilyTour() {
       <div className="min-h-screen mt-4">
         {/* Hero Section */}
         <div
-          className="relative text-white h-[65vh] py-25 overflow-hidden"
+          className="relative text-white min-h-[75vh] py-25 overflow-hidden"
           style={{
             backgroundImage: `url(${balloonRide})`,
             backgroundSize: 'cover',
@@ -69,6 +69,12 @@ export default function GlimpsesOfFamilyTour() {
                   className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
                 >
                   Book Now
+                </a>
+                <a
+                  href="/packages-listing"
+                  className="bg-white/20 hover:bg-white/30 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
+                >
+                  View All Kashmir Honeymoon Packages
                 </a>
               </div>
             </div>
@@ -131,7 +137,7 @@ export default function GlimpsesOfFamilyTour() {
                     "Special welcome cake and fresh fruit basket",
                     "Overnight stay in Srinagar"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Srinagar+Arrival"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812843/Day_1_Relaxed_Srinagar_Arrival_qhbtfj.webp"
                   imageAlt="Srinagar Arrival"
                   imageTitle="Srinagar Arrival"
                   imageSubtitle="Warm Welcome"
@@ -149,7 +155,7 @@ export default function GlimpsesOfFamilyTour() {
                     "Special candlelight dinner at hotel",
                     "Overnight stay in Srinagar"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/06B6D4/FFFFFF?text=Dal+Lake+Shikara"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812844/Srinagar_Highlights_Tour_aqw22q.webp"
                   imageAlt="Dal Lake Shikara Ride"
                   imageTitle="Dal Lake Shikara"
                   imageSubtitle="Romantic Experience"
@@ -167,7 +173,7 @@ export default function GlimpsesOfFamilyTour() {
                     "Check-in to new hotel for final night",
                     "Overnight stay in Srinagar"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/8B5CF6/FFFFFF?text=Srinagar+Sightseeing"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812844/Srinagar_Highlights_Tour_aqw22q.webp"
                   imageAlt="Srinagar Sightseeing"
                   imageTitle="Srinagar Sightseeing"
                   imageSubtitle="Local Exploration"
@@ -182,7 +188,7 @@ export default function GlimpsesOfFamilyTour() {
                     "Check-out and departure transfer to airport",
                     "Departure with beautiful memories of Kashmir"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/EF4444/FFFFFF?text=Departure"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812842/Perfect_Holiday_Conclusion_vqxo7q.webp"
                   imageAlt="Departure"
                   imageTitle="Departure"
                   imageSubtitle="Beautiful Memories"

@@ -141,6 +141,7 @@ export default function MagnificentKashmirValleyTour() {
                   imageTitle="Srinagar Shikara"
                   imageSubtitle="01 Hour Dal Lake Experience"
                   icon="🏛️"
+                  imageOnRight={false}
                 />
                 
                 <ItineraryCard
@@ -161,7 +162,9 @@ export default function MagnificentKashmirValleyTour() {
                   imageTitle="Pahalgam Valley"
                   imageSubtitle="2 Nights Valley Exploration"
                   icon="🌲"
-                />
+                        
+                        imageOnRight={true}
+                        />
                 
                 <ItineraryCard
                   title="Gulmarg (1 Night)"
@@ -180,7 +183,8 @@ export default function MagnificentKashmirValleyTour() {
                   imageTitle="Gulmarg Gondola"
                   imageSubtitle="1 Night Mountain Adventure"
                   icon="🚡"
-                />
+                  imageOnRight={false}
+                  />
                 
                 <ItineraryCard
                   title="Srinagar Houseboat (1 Night)"
@@ -198,7 +202,8 @@ export default function MagnificentKashmirValleyTour() {
                   imageTitle="Luxury Houseboat"
                   imageSubtitle="1 Night Floating Experience"
                   icon="🏠"
-                />
+                  imageOnRight={true}
+                      />
               </div>
             </div>
 

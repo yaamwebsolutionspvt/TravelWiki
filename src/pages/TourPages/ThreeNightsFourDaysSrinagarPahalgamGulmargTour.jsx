@@ -138,6 +138,7 @@ export default function ThreeNightsFourDaysSrinagarPahalgamGulmargTour() {
                   imageTitle="Srinagar Arrival"
                   imageSubtitle="Capital Welcome"
                   icon="🏛️"
+                  imageOnRight={false}
                 />
 
                 <ItineraryCard
@@ -154,6 +155,7 @@ export default function ThreeNightsFourDaysSrinagarPahalgamGulmargTour() {
                   imageTitle="Sonamarg"
                   imageSubtitle="Meadow of Gold"
                   icon="🏔️"
+                  imageOnRight={true}
                 />
 
                 <ItineraryCard
@@ -170,6 +172,7 @@ export default function ThreeNightsFourDaysSrinagarPahalgamGulmargTour() {
                   imageTitle="Gulmarg Gondola"
                   imageSubtitle="Meadow of Flowers"
                   icon="🚡"
+                  imageOnRight={false}
                 />
 
                 <ItineraryCard
@@ -185,7 +188,8 @@ export default function ThreeNightsFourDaysSrinagarPahalgamGulmargTour() {
                   imageTitle="Departure"
                   imageSubtitle="Journey End"
                   icon="✈️"
-                />
+                  imageOnRight={true}
+                    />
               </div>
             </div>
 

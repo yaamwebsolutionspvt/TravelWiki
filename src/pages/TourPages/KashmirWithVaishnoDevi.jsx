@@ -4,6 +4,8 @@ import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
 import ItineraryCard from "../../components/ItineraryCard";
 
+const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1758780039/Shri_Mata_Vaishno_Devi_pglisz.webp";
+
 export default function KashmirWithVaishnoDevi() {
   const seoData = useSEO({
     title: "Kashmir with Vaishno Devi Tour | 8 Nights Spiritual & Scenic Package",
@@ -35,8 +37,8 @@ export default function KashmirWithVaishnoDevi() {
       
       <div className="min-h-screen  mt-4">
         {/* Hero Section */}
-        <div className="relative bg-gradient-to-r from-red-600 to-orange-700 text-white py-25">
-          <div className="absolute inset-0 bg-black opacity-50"></div>
+        <div className="relative text-white py-25 min-h-[75vh]" style={{ backgroundImage: `url(${heroBg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+          <div className=""></div>
           <div className="relative container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
@@ -189,7 +191,7 @@ export default function KashmirWithVaishnoDevi() {
                     "Hotel check-in and preparation for darshan",
                     "Evening rest and early sleep"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1760626930/Arrival_in_Katra_jyyewg.webp"
                   imageAlt="Katra arrival"
                   imageTitle="Katra Base Camp"
                   imageSubtitle="Gateway to Vaishno Devi"
@@ -206,7 +208,7 @@ export default function KashmirWithVaishnoDevi() {
                     "Return to Katra base camp",
                     "Rest and recovery"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1760626931/Vaishno_Devi_Darshan_aqvqwf.webp"
                   imageAlt="Vaishno Devi temple"
                   imageTitle="Vaishno Devi Temple"
                   imageSubtitle="Sacred shrine darshan"
@@ -223,7 +225,7 @@ export default function KashmirWithVaishnoDevi() {
                     "Arrival and check-in at Srinagar hotel",
                     "Evening leisure at Dal Lake"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1760626932/Katra_to_Srinagar_ddv7on.webp"
                   imageAlt="Srinagar arrival"
                   imageTitle="Srinagar Arrival"
                   imageSubtitle="Gateway to Kashmir valley"
@@ -239,7 +241,7 @@ export default function KashmirWithVaishnoDevi() {
                     "Local sightseeing and market visits",
                     "Traditional Kashmiri cuisine experiences"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1760626938/Srinagar_Exploration1_fz0cc1.webp"
                   imageAlt="Srinagar sightseeing"
                   imageTitle="Srinagar Sightseeing"
                   imageSubtitle="Mughal Gardens and Dal Lake"
@@ -255,7 +257,7 @@ export default function KashmirWithVaishnoDevi() {
                     "Explore meadows and take photographs",
                     "Return to Srinagar in evening"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1760626940/Gulmarg_Day_Trip1_xsjjmb.webp"
                   imageAlt="Gulmarg Gondola"
                   imageTitle="Gulmarg Gondola"
                   imageSubtitle="Experience to Apharwat Peak"
@@ -271,7 +273,7 @@ export default function KashmirWithVaishnoDevi() {
                     "Nature walks and photography",
                     "Return to Srinagar for overnight stay"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1760610715/Pahalgam_Paradise_exlo88.webp"
                   imageAlt="Pahalgam valley"
                   imageTitle="Pahalgam Valley"
                   imageSubtitle="Valley of Shepherds"
@@ -287,11 +289,12 @@ export default function KashmirWithVaishnoDevi() {
                     "Pony rides and snow activities",
                     "Return to Srinagar"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1760610716/Adventure_and_Romance_kbwujf.webp"
                   imageAlt="Sonamarg"
                   imageTitle="Sonamarg"
                   imageSubtitle="Meadow of Gold"
                   icon="⛷️"
+                  
                   imageOnRight={false}
                 />
 
@@ -302,7 +305,7 @@ export default function KashmirWithVaishnoDevi() {
                     "Transfer to Srinagar airport",
                     "Departure with blessings and memories"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1760610717/Farewell_Romance_tvlp3d.png"
                   imageAlt="Srinagar departure"
                   imageTitle="Srinagar Airport"
                   imageSubtitle="Departure with blessings"

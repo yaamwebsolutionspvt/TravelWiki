@@ -4,6 +4,7 @@ import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
 import ItineraryCard from "../../components/ItineraryCard";
 
+const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1760610710/Private_Sunrise_Breakfast_on_dallake_fkgztm.webp";
 
 export default function KashmirHoneymoonTour() {
 
@@ -62,13 +63,14 @@ export default function KashmirHoneymoonTour() {
       
       <div className="min-h-screen  mt-4">
         {/* Hero Section */}
-        <div className="relative bg-gradient-to-r from-pink-600 to-red-700 text-white h-[100vh] sm:h-[100vh] md:h-[100vh] overflow-hidden">
-          <div className="relative container mx-auto px-4 py-8 sm:py-12 md:py-16 h-full flex items-center justify-center">
+        <div className="relative bg-gradient-to-r from-pink-600 to-red-700 text-white min-h-[75vh] py-25 overflow-hidden" style={{backgroundImage: `url(${heroBg})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
+          <div className="absolute inset-0 bg-black opacity-50"></div>
+          <div className="relative container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6 mt-16 sm:mt-20 md:mt-8" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.7)'}}>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6">
                 Kashmir Honeymoon Tour Package
               </h1>
-              <p className="text-xl mb-8" style={{textShadow: '1px 1px 3px rgba(0,0,0,0.7)'}}>
+              <p className="text-xl mb-8">
                 Begin your journey of love in the paradise on earth with our romantic Kashmir honeymoon package
               </p>
               <div className="flex flex-col md:flex-row justify-center items-center gap-4">
@@ -168,11 +170,12 @@ export default function KashmirHoneymoonTour() {
                     "Evening Shikara ride with sunset views",
                     "Candlelight dinner on houseboat"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/EC4899/FFFFFF?text=Romantic+Arrival"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1760610716/Adventure_and_Romance_kbwujf.webp"
                   imageAlt="Romantic Arrival"
                   imageTitle="Romantic Arrival"
                   imageSubtitle="Love Begins"
                   icon="💕"
+                  imageOnRight={false}
                 />
 
                 <ItineraryCard
@@ -184,11 +187,12 @@ export default function KashmirHoneymoonTour() {
                     "Traditional Kashmiri lunch",
                     "Romantic evening at houseboat"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/06B6D4/FFFFFF?text=Mughal+Gardens"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759907935/Mughal_Gardens_City_Tour_bonery.webp"
                   imageAlt="Mughal Gardens"
                   imageTitle="Mughal Gardens"
                   imageSubtitle="Romantic Exploration"
                   icon="🌹"
+                  imageOnRight={true}
                 />
 
                 <ItineraryCard
@@ -200,11 +204,12 @@ export default function KashmirHoneymoonTour() {
                     "Romantic lunch with mountain views",
                     "Evening return to Srinagar"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/8B5CF6/FFFFFF?text=Gulmarg+Gondola"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1760610708/Gulmarg_Romance_mnueeq.webp"
                   imageAlt="Gulmarg Gondola Experience"
                   imageTitle="Gulmarg Gondola"
                   imageSubtitle="Mountain Adventure"
                   icon="🚡"
+                  imageOnRight={false}
                 />
 
                 <ItineraryCard
@@ -215,11 +220,12 @@ export default function KashmirHoneymoonTour() {
                     "Airport transfer",
                     "Departure with beautiful memories"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/EF4444/FFFFFF?text=Departure"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1760610715/Pahalgam_Paradise_exlo88.webp"
                   imageAlt="Departure"
                   imageTitle="Departure"
                   imageSubtitle="Beautiful Memories"
                   icon="✈️"
+                  imageOnRight={true}
                 />
               </div>
             </div>

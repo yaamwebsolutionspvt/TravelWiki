@@ -179,6 +179,7 @@ export default function MagicalKashmirTour() {
                   imageTitle="Srinagar Houseboat"
                   imageSubtitle="Traditional Stay Experience"
                   icon="🏛️"
+                  imageOnRight={false}
                 />
                 
                 <ItineraryCard
@@ -197,6 +198,7 @@ export default function MagicalKashmirTour() {
                   imageTitle="Pahalgam Valley"
                   imageSubtitle="Nature & Adventure"
                   icon="🌲"
+                  imageOnRight={true}
                 />
                 
                 <ItineraryCard
@@ -215,7 +217,8 @@ export default function MagicalKashmirTour() {
                   imageTitle="Gulmarg Gondola"
                   imageSubtitle="Meadow of Flowers"
                   icon="🚡"
-                />
+                  imageOnRight={false}
+                  />
               </div>
             </div>
 

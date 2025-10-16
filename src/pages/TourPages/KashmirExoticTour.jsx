@@ -180,6 +180,7 @@ export default function KashmirExoticTour() {
                   imageTitle="Srinagar Houseboat"
                   imageSubtitle="2 Nights with 1 Night Houseboat"
                   icon="🏛️"
+                  imageOnRight={false}
                 />
                 
                 <ItineraryCard
@@ -200,6 +201,7 @@ export default function KashmirExoticTour() {
                   imageTitle="Pahalgam Extended"
                   imageSubtitle="2 Nights Valley Exploration"
                   icon="🌲"
+                  imageOnRight={true}
                 />
                 
                 <ItineraryCard
@@ -219,7 +221,8 @@ export default function KashmirExoticTour() {
                   imageTitle="Gulmarg Adventure"
                   imageSubtitle="1 Night Mountain Experience"
                   icon="🚡"
-                />
+                  imageOnRight={false}
+                  />
               </div>
             </div>
 

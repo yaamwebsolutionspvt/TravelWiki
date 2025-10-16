@@ -1,6 +1,6 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-import dalLake from '../../assets/dal_lake.webp';
+// Removed local image import; using month-specific Cloudinary hero image
 
 const KashmirWeatherInJune = () => {
   return (
@@ -24,7 +24,7 @@ const KashmirWeatherInJune = () => {
         <div
           className="relative text-white py-24 min-h-[75vh]"
           style={{
-            backgroundImage: `url(${dalLake})`,
+            backgroundImage: 'url(https://res.cloudinary.com/dw1sh368y/image/upload/v1760628223/Kashmir_in_June_2_ii7ftc.png)',
             backgroundSize: 'cover',
             backgroundPosition: 'center',
           }}

@@ -37,7 +37,7 @@ export default function KashmirRefreshingTour() {
       
       <div className="min-h-screen mt-4">
         {/* Hero Section */}
-        <div className="relative text-white h-[65vh] py-25 overflow-hidden bg-gradient-to-br from-green-600 via-emerald-600 to-teal-600">
+        <div className="relative text-white min-h-[75vh] py-25 overflow-hidden bg-gradient-to-br from-green-600 via-emerald-600 to-teal-600">
           <div className="absolute inset-0 bg-black opacity-60"></div>
           <div className="relative container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
@@ -63,6 +63,12 @@ export default function KashmirRefreshingTour() {
                   className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
                 >
                   Book Now
+                </a>
+                <a
+                  href="/packages-listing"
+                  className="bg-white/20 hover:bg-white/30 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
+                >
+                  View All Kashmir Honeymoon Packages
                 </a>
               </div>
             </div>
@@ -125,7 +131,7 @@ export default function KashmirRefreshingTour() {
                     "Candlelight dinner on houseboat with lake views",
                     "Overnight stay in houseboat"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812844/Srinagar_Highlights_Tour_aqw22q.webp"
                   imageAlt="Dal Lake houseboat"
                   imageTitle="Dal Lake Houseboat"
                   imageSubtitle="Traditional floating accommodation"
@@ -144,7 +150,7 @@ export default function KashmirRefreshingTour() {
                     "Evening walks along Lidder River",
                     "Overnight stay in Pahalgam"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812841/Complete_Pahalgam_Valley_Experience_z90y7f.webp"
                   imageAlt="Pahalgam valley"
                   imageTitle="Pahalgam Valley"
                   imageSubtitle="Valley of Shepherds"
@@ -163,7 +169,7 @@ export default function KashmirRefreshingTour() {
                     "Return to Srinagar for final night",
                     "Overnight stay in Srinagar hotel"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812841/Complete_Pahalgam_Valley_Experience_z90y7f.webp"
                   imageAlt="Chandanwari"
                   imageTitle="Chandanwari"
                   imageSubtitle="Starting point of Amarnath Yatra"
@@ -180,7 +186,7 @@ export default function KashmirRefreshingTour() {
                     "Check-out and departure transfer to airport",
                     "Departure feeling refreshed and rejuvenated"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812842/Perfect_Holiday_Conclusion_vqxo7q.webp"
                   imageAlt="Srinagar departure"
                   imageTitle="Srinagar Airport"
                   imageSubtitle="Departure with memories"

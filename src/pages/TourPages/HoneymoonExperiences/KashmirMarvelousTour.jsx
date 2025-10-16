@@ -37,7 +37,7 @@ export default function KashmirMarvelousTour() {
       
       <div className="min-h-screen mt-4">
         {/* Hero Section */}
-        <div className="relative text-white h-[65vh] py-25 overflow-hidden bg-gradient-to-br from-rose-600 via-pink-600 to-purple-600">
+        <div className="relative text-white min-h-[75vh] py-25 overflow-hidden bg-gradient-to-br from-rose-600 via-pink-600 to-purple-600">
           <div className="absolute inset-0 bg-black opacity-60"></div>
           <div className="relative container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
@@ -63,6 +63,12 @@ export default function KashmirMarvelousTour() {
                   className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
                 >
                   Book Now
+                </a>
+                <a
+                  href="/packages-listing"
+                  className="bg-white/20 hover:bg-white/30 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
+                >
+                  View All Kashmir Honeymoon Packages
                 </a>
               </div>
             </div>
@@ -126,7 +132,7 @@ export default function KashmirMarvelousTour() {
                     "Multi-course candlelight dinner with live music",
                     "Overnight stay in luxury hotel"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812843/Day_1_Relaxed_Srinagar_Arrival_qhbtfj.webp"
                   imageAlt="Srinagar luxury hotel"
                   imageTitle="Luxury Srinagar Hotel"
                   imageSubtitle="Presidential suite with valley views"
@@ -145,7 +151,7 @@ export default function KashmirMarvelousTour() {
                     "Traditional Wazwan dinner on houseboat",
                     "Overnight stay in luxury houseboat"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812844/Srinagar_Highlights_Tour_aqw22q.webp"
                   imageAlt="Luxury houseboat"
                   imageTitle="Luxury Houseboat"
                   imageSubtitle="Royal interiors on Dal Lake"
@@ -164,7 +170,7 @@ export default function KashmirMarvelousTour() {
                     "Spa treatment for couples",
                     "Overnight stay in luxury resort"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812841/Complete_Pahalgam_Valley_Experience_z90y7f.webp"
                   imageAlt="Pahalgam luxury resort"
                   imageTitle="Pahalgam Luxury Resort"
                   imageSubtitle="Premium mountain views"
@@ -183,7 +189,7 @@ export default function KashmirMarvelousTour() {
                     "Private dining experience under the stars",
                     "Overnight stay in luxury resort"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812841/Complete_Pahalgam_Valley_Experience_z90y7f.webp"
                   imageAlt="Aru Valley"
                   imageTitle="Aru Valley"
                   imageSubtitle="Pristine mountain meadows"
@@ -202,7 +208,7 @@ export default function KashmirMarvelousTour() {
                     "Luxury mountain dining experience",
                     "Overnight stay in luxury resort"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759486007/Kashmir_15_igkjmn.webp"
                   imageAlt="Gulmarg Gondola"
                   imageTitle="Gulmarg Gondola"
                   imageSubtitle="VIP experience to Apharwat Peak"
@@ -221,7 +227,7 @@ export default function KashmirMarvelousTour() {
                     "Return to Srinagar in luxury vehicle",
                     "Final night in presidential suite"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759486007/Kashmir_15_igkjmn.webp"
                   imageAlt="Gulmarg snow activities"
                   imageTitle="Gulmarg Snow Activities"
                   imageSubtitle="Premium adventure experiences"
@@ -238,7 +244,7 @@ export default function KashmirMarvelousTour() {
                     "VIP departure transfer to airport",
                     "Farewell with personalized photo album"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812842/Perfect_Holiday_Conclusion_vqxo7q.webp"
                   imageAlt="Srinagar departure"
                   imageTitle="VIP Departure"
                   imageSubtitle="Luxury farewell experience"

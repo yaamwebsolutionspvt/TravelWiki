@@ -38,7 +38,7 @@ export default function MagicalKashmirTour() {
 
       {/* Hero Section */}
       <div
-        className="relative text-white h-[65vh] py-25 overflow-hidden bg-gradient-to-br from-purple-600 via-violet-600 to-indigo-600"
+        className="relative text-white min-h-[75vh] py-25 overflow-hidden bg-gradient-to-br from-purple-600 via-violet-600 to-indigo-600"
         style={{
           backgroundImage: `url(${holidayPackages})`,
           backgroundSize: "cover",
@@ -69,6 +69,12 @@ export default function MagicalKashmirTour() {
                 className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
               >
                 Book Now
+              </a>
+              <a
+                href="/packages-listing"
+                className="bg-white/20 hover:bg-white/30 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
+              >
+                View All Kashmir Honeymoon Packages
               </a>
             </div>
           </div>
@@ -130,7 +136,7 @@ export default function MagicalKashmirTour() {
                   "Special candlelight dinner",
                   "Overnight stay in Srinagar hotel"
                 ]}
-                imageUrl="https://via.placeholder.com/400x300/8B5CF6/FFFFFF?text=Srinagar+Arrival"
+                imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812843/Day_1_Relaxed_Srinagar_Arrival_qhbtfj.webp"
                 imageAlt="Srinagar Arrival"
                 imageTitle="Arrival in Srinagar"
                 imageSubtitle="Warm Welcome & Leisure"
@@ -147,7 +153,7 @@ export default function MagicalKashmirTour() {
                   "Romantic evening on houseboat deck",
                   "Overnight stay in houseboat"
                 ]}
-                imageUrl="https://via.placeholder.com/400x300/06B6D4/FFFFFF?text=Houseboat+Experience"
+                imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812844/Srinagar_Highlights_Tour_aqw22q.webp"
                 imageAlt="Houseboat Experience"
                 imageTitle="Srinagar Houseboat"
                 imageSubtitle="Romantic Shikara & Gardens"
@@ -164,7 +170,7 @@ export default function MagicalKashmirTour() {
                   "Evening walks along Lidder River",
                   "Overnight stay in Pahalgam"
                 ]}
-                imageUrl="https://via.placeholder.com/400x300/22C55E/FFFFFF?text=Pahalgam+Valley"
+                imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812841/Complete_Pahalgam_Valley_Experience_z90y7f.webp"
                 imageAlt="Pahalgam Valley"
                 imageTitle="Pahalgam Trip"
                 imageSubtitle="Scenic Valleys & Adventures"
@@ -180,7 +186,7 @@ export default function MagicalKashmirTour() {
                   "Photography at scenic viewpoints",
                   "Return to Srinagar for overnight stay"
                 ]}
-                imageUrl="https://via.placeholder.com/400x300/F43F5E/FFFFFF?text=Gulmarg+Adventure"
+                imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759486007/Kashmir_15_igkjmn.webp"
                 imageAlt="Gulmarg Adventure"
                 imageTitle="Gulmarg Exploration"
                 imageSubtitle="Alpine Meadows & Adventure"
@@ -194,7 +200,7 @@ export default function MagicalKashmirTour() {
                   "Check-out and departure transfer to airport",
                   "Departure with magical memories of Kashmir"
                 ]}
-                imageUrl="https://via.placeholder.com/400x300/F59E0B/FFFFFF?text=Departure"
+                imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812842/Perfect_Holiday_Conclusion_vqxo7q.webp"
                 imageAlt="Departure"
                 imageTitle="Departure"
                 imageSubtitle="Farewell from Kashmir"

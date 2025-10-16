@@ -4,6 +4,8 @@ import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
 import ItineraryCard from "../../components/ItineraryCard";
 
+const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1760610710/Private_Sunrise_Breakfast_on_dallake_fkgztm.webp";
+
 export default function LoveInKashmirPackage() {
   const seoData = useSEO({
     title: "Love in Kashmir Package | 5 Nights Romantic Couple Getaway",
@@ -33,15 +35,16 @@ export default function LoveInKashmirPackage() {
       <SEO {...seoData} />
       <TourPackageSchema data={packageData} />
       
-      <div className="min-h-screen  mt-4">
+      <div className="min-h-screen mt-4">
         {/* Hero Section */}
-        <div className="relative bg-gradient-to-r from-pink-700 to-purple-800 text-white py-25">
+        <div
+          className="relative py-25 min-h-[85vh] text-white"
+          style={{ backgroundImage: `url(${heroBg})`, backgroundSize: "cover", backgroundPosition: "center" }}
+        >
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Love in Kashmir Package
-              </h1>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6">Love in Kashmir Package</h1>
               <p className="text-xl mb-8">
                 Experience the ultimate romantic getaway in paradise on earth with luxury, intimacy, and unforgettable moments
               </p>
@@ -94,116 +97,22 @@ export default function LoveInKashmirPackage() {
             <div className="bg-white rounded-lg shadow-md p-8 mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Ultimate Romantic Kashmir Experience</h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                The "Love in Kashmir" package is specially curated for couples seeking the most romantic and intimate 
-                experience in paradise on earth. This luxury package goes beyond ordinary tourism to create magical 
-                moments that couples will treasure forever. Every detail is designed to celebrate love and create 
+                The "Love in Kashmir" package is specially curated for couples seeking the most romantic and intimate
+                experience in paradise on earth. This luxury package goes beyond ordinary tourism to create magical
+                moments that couples will treasure forever. Every detail is designed to celebrate love and create
                 the perfect romantic atmosphere.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                From luxury houseboat accommodations with rose petal decorations to private candlelight dinners 
-                under the stars, this package ensures that every moment is filled with romance. The tour includes 
-                exclusive couple activities, professional photography sessions, and intimate experiences that are 
+                From luxury houseboat accommodations with rose petal decorations to private candlelight dinners
+                under the stars, this package ensures that every moment is filled with romance. The tour includes
+                exclusive couple activities, professional photography sessions, and intimate experiences that are
                 impossible to find in regular tour packages.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Whether you're celebrating an anniversary, honeymoon, or simply want to rekindle the romance, 
-                this package provides the perfect setting with Kashmir's breathtaking beauty as your backdrop. 
+                Whether you're celebrating an anniversary, honeymoon, or simply want to rekindle the romance,
+                this package provides the perfect setting with Kashmir's breathtaking beauty as your backdrop.
                 Experience luxury, privacy, and romance in the most beautiful destination on earth.
               </p>
-            </div>
-
-            {/* Romantic Experiences */}
-            <div className="bg-gradient-to-r from-pink-50 to-purple-50 rounded-lg p-8 mb-12">
-              <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Exclusive Romantic Experiences</h2>
-              <div className="grid md:grid-cols-3 gap-6">
-                <div className="text-center">
-                  <div className="text-4xl mb-4">🛥️</div>
-                  <h4 className="font-semibold text-gray-800 mb-2">Luxury Houseboat Suite</h4>
-                  <p className="text-gray-600">Premium houseboat with jacuzzi, private deck, and romantic decorations</p>
-                </div>
-                <div className="text-center">
-                  <div className="text-4xl mb-4">🕯️</div>
-                  <h4 className="font-semibold text-gray-800 mb-2">Candlelight Dinners</h4>
-                  <p className="text-gray-600">Private rooftop dinners with live music and personalized service</p>
-                </div>
-                <div className="text-center">
-                  <div className="text-4xl mb-4">🌅</div>
-                  <h4 className="font-semibold text-gray-800 mb-2">Sunrise Breakfast</h4>
-                  <p className="text-gray-600">Private breakfast on Dal Lake watching the sunrise together</p>
-                </div>
-                <div className="text-center">
-                  <div className="text-4xl mb-4">💆‍♀️</div>
-                  <h4 className="font-semibold text-gray-800 mb-2">Couple Spa</h4>
-                  <p className="text-gray-600">Relaxing couple massage and spa treatments</p>
-                </div>
-                <div className="text-center">
-                  <div className="text-4xl mb-4">🚁</div>
-                  <h4 className="font-semibold text-gray-800 mb-2">Helicopter Romance</h4>
-                  <p className="text-gray-600">Private helicopter ride over Kashmir valley</p>
-                </div>
-                <div className="text-center">
-                  <div className="text-4xl mb-4">📷</div>
-                  <h4 className="font-semibold text-gray-800 mb-2">Couple Photography</h4>
-                  <p className="text-gray-600">Professional photographer for intimate couple portraits</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Luxury Inclusions */}
-            <div className="bg-white rounded-lg shadow-md p-8 mb-12">
-              <h2 className="text-3xl font-bold text-gray-800 mb-8">Luxury Package Inclusions</h2>
-              <div className="grid md:grid-cols-2 gap-8">
-                <div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">🏩 Accommodation & Dining</h3>
-                  <ul className="space-y-3 text-gray-600">
-                    <li className="flex items-start">
-                      <span className="text-pink-500 mr-2 mt-1">❤️</span>
-                      Luxury houseboat suite with romantic decorations
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-pink-500 mr-2 mt-1">❤️</span>
-                      Premium hotels in Gulmarg and Pahalgam
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-pink-500 mr-2 mt-1">❤️</span>
-                      Private candlelight dinners with live music
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-pink-500 mr-2 mt-1">❤️</span>
-                      Romantic room service and champagne
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-pink-500 mr-2 mt-1">❤️</span>
-                      Flower decorations and special arrangements
-                    </li>
-                  </ul>
-                </div>
-                <div>
-                  <h3 className="text-xl font-bold text-gray-800 mb-4">💕 Romantic Activities</h3>
-                  <ul className="space-y-3 text-gray-600">
-                    <li className="flex items-start">
-                      <span className="text-pink-500 mr-2 mt-1">❤️</span>
-                      Private Shikara rides with flower decorations
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-pink-500 mr-2 mt-1">❤️</span>
-                      Exclusive couple photography sessions
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-pink-500 mr-2 mt-1">❤️</span>
-                      Sunset viewing from romantic locations
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-pink-500 mr-2 mt-1">❤️</span>
-                      Private gardens visits with picnic setup
-                    </li>
-                    <li className="flex items-start">
-                      <span className="text-pink-500 mr-2 mt-1">❤️</span>
-                      Couple spa and wellness treatments
-                    </li>
-                  </ul>
-                </div>
-              </div>
             </div>
 
             {/* Romantic Itinerary */}
@@ -212,6 +121,7 @@ export default function LoveInKashmirPackage() {
               <div className="space-y-8">
                 <ItineraryCard
                   title="Day 1: Romantic Arrival"
+                  description="Begin your romantic journey with a luxurious welcome in Srinagar. Your partner and you will be greeted with flowers and smiles before settling into your houseboat. Let the calm waters and candlelit dinner set the tone for a perfect romantic escape."
                   activities={[
                     "VIP airport pickup with flower garlands",
                     "Transfer to luxury houseboat with welcome drinks",
@@ -219,7 +129,7 @@ export default function LoveInKashmirPackage() {
                     "Evening private Shikara ride at sunset",
                     "Romantic dinner on houseboat terrace"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1760610705/Vip_Airport_Pickup_lalvht.webp"
                   imageAlt="Romantic arrival in Srinagar"
                   imageTitle="Srinagar Arrival"
                   imageSubtitle="Luxury houseboat check-in"
@@ -229,6 +139,7 @@ export default function LoveInKashmirPackage() {
 
                 <ItineraryCard
                   title="Day 2: Love in Srinagar"
+                  description="Wake up to the golden sunrise over Dal Lake as you share breakfast on the water. Explore Srinagar’s serene Mughal Gardens, capturing timeless moments with your partner. The day ends with music, laughter, and a candlelight dinner by the lake."
                   activities={[
                     "Private sunrise breakfast on Dal Lake",
                     "Exclusive visit to Mughal Gardens with picnic",
@@ -236,7 +147,7 @@ export default function LoveInKashmirPackage() {
                     "Shopping for romantic souvenirs",
                     "Candlelight dinner with live classical music"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1760610710/Private_Sunrise_Breakfast_on_dallake_fkgztm.webp"
                   imageAlt="Srinagar romantic day"
                   imageTitle="Srinagar Romance"
                   imageSubtitle="Gardens and Dal Lake"
@@ -246,6 +157,7 @@ export default function LoveInKashmirPackage() {
 
                 <ItineraryCard
                   title="Day 3: Gulmarg Romance"
+                  description="Escape to the snow-clad paradise of Gulmarg, where adventure meets love. Glide together on the famous Gondola, enjoy the crisp mountain air, and unwind with a relaxing spa experience. The evening ends with a private dinner overlooking the Himalayas."
                   activities={[
                     "Transfer to Gulmarg luxury resort",
                     "Private Gondola ride for two",
@@ -253,7 +165,7 @@ export default function LoveInKashmirPackage() {
                     "Couple spa treatment and relaxation",
                     "Private dinner with mountain views"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1760610708/Gulmarg_Romance_mnueeq.webp"
                   imageAlt="Gulmarg romance"
                   imageTitle="Gulmarg"
                   imageSubtitle="Gondola and spa"
@@ -263,6 +175,7 @@ export default function LoveInKashmirPackage() {
 
                 <ItineraryCard
                   title="Day 4: Pahalgam Paradise"
+                  description="Journey to the peaceful valleys of Pahalgam and feel the magic of nature’s beauty together. Walk hand in hand through meadows, enjoy a riverside picnic, and share stories under the starlit sky by a warm bonfire."
                   activities={[
                     "Scenic drive to Pahalgam with stops",
                     "Private cottage check-in",
@@ -270,7 +183,7 @@ export default function LoveInKashmirPackage() {
                     "Private picnic by the river",
                     "Bonfire dinner under the stars"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1760610715/Pahalgam_Paradise_exlo88.webp"
                   imageAlt="Pahalgam paradise"
                   imageTitle="Pahalgam"
                   imageSubtitle="Valleys and riversides"
@@ -280,6 +193,7 @@ export default function LoveInKashmirPackage() {
 
                 <ItineraryCard
                   title="Day 5: Adventure & Romance"
+                  description="Fuel your love with a sense of adventure as you explore the breathtaking Aru Valley. From scenic helicopter rides to golden sunsets, this day is about thrill, beauty, and cherishing each moment side by side."
                   activities={[
                     "Optional helicopter ride over valley",
                     "Visit to Aru Valley with pony rides",
@@ -287,7 +201,7 @@ export default function LoveInKashmirPackage() {
                     "Romantic sunset viewing",
                     "Special anniversary/celebration dinner"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1760610716/Adventure_and_Romance_kbwujf.webp"
                   imageAlt="Adventure and romance"
                   imageTitle="Aru Valley"
                   imageSubtitle="Adventure day"
@@ -297,6 +211,7 @@ export default function LoveInKashmirPackage() {
 
                 <ItineraryCard
                   title="Day 6: Farewell Romance"
+                  description="Savor your last morning in Kashmir with a cozy breakfast and one final photoshoot to capture the magic. As you depart, take with you memories of love, laughter, and unforgettable moments in paradise."
                   activities={[
                     "Late romantic breakfast",
                     "Final couple photoshoot",
@@ -304,7 +219,7 @@ export default function LoveInKashmirPackage() {
                     "VIP airport transfer",
                     "Departure with lifetime memories"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1760610717/Farewell_Romance_tvlp3d.webp"
                   imageAlt="Farewell day"
                   imageTitle="Farewell"
                   imageSubtitle="Memories to cherish"

@@ -37,7 +37,7 @@ export default function BestSellingKashmirTour() {
       <div className="min-h-screen mt-4">
         {/* Hero Section */}
         <div
-          className="relative text-white h-[65vh] py-25 overflow-hidden"
+          className="relative text-white min-h-[75vh] py-25 overflow-hidden"
           style={{
             backgroundImage: `url(${holiday})`,
             backgroundSize: 'cover',
@@ -69,6 +69,12 @@ export default function BestSellingKashmirTour() {
                   className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
                 >
                   Book Now
+                </a>
+                <a
+                  href="/packages-listing"
+                  className="bg-white/20 hover:bg-white/30 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
+                >
+                  View All Kashmir Honeymoon Packages
                 </a>
               </div>
             </div>
@@ -130,7 +136,7 @@ export default function BestSellingKashmirTour() {
                     "Special candlelight dinner",
                     "Overnight stay in Srinagar hotel"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Srinagar+Arrival"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812843/Day_1_Relaxed_Srinagar_Arrival_qhbtfj.webp"
                   imageAlt="Srinagar Arrival"
                   imageTitle="Srinagar Arrival"
                   imageSubtitle="VIP Welcome"
@@ -148,7 +154,7 @@ export default function BestSellingKashmirTour() {
                     "Shopping time at Boulevard Road",
                     "Overnight stay in Srinagar hotel"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/06B6D4/FFFFFF?text=Dal+Lake+Shikara"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812844/Srinagar_Highlights_Tour_aqw22q.webp"
                   imageAlt="Dal Lake Shikara Ride"
                   imageTitle="Dal Lake Shikara"
                   imageSubtitle="Romantic Experience"
@@ -166,7 +172,7 @@ export default function BestSellingKashmirTour() {
                     "Evening walks along Lidder River",
                     "Overnight stay in Pahalgam"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/10B981/FFFFFF?text=Pahalgam+Valley"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812841/Complete_Pahalgam_Valley_Experience_z90y7f.webp"
                   imageAlt="Pahalgam Valley Experience"
                   imageTitle="Pahalgam Valley"
                   imageSubtitle="Nature & Adventure"
@@ -184,7 +190,7 @@ export default function BestSellingKashmirTour() {
                     "Scenic photography at viewpoints",
                     "Overnight stay in Gulmarg"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/8B5CF6/FFFFFF?text=Gulmarg+Gondola"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759486007/Kashmir_15_igkjmn.webp"
                   imageAlt="Gulmarg Gondola Experience"
                   imageTitle="Gulmarg Gondola"
                   imageSubtitle="Meadow of Flowers"
@@ -202,7 +208,7 @@ export default function BestSellingKashmirTour() {
                     "Romantic evening under the stars",
                     "Overnight stay in houseboat"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/F59E0B/FFFFFF?text=Houseboat+Experience"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812844/Srinagar_Highlights_Tour_aqw22q.webp"
                   imageAlt="Houseboat Experience"
                   imageTitle="Houseboat Experience"
                   imageSubtitle="Traditional Stay"
@@ -217,7 +223,7 @@ export default function BestSellingKashmirTour() {
                     "Check-out and departure transfer to airport",
                     "Departure with wonderful memories"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/EF4444/FFFFFF?text=Departure"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812842/Perfect_Holiday_Conclusion_vqxo7q.webp"
                   imageAlt="Departure"
                   imageTitle="Departure"
                   imageSubtitle="Wonderful Memories"
