@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SEO from "../../components/SEO";
-const ld3 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514663/travelwiki/assets/Ladakh/ld3.jpg";
+const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1760701130/Ladakh_Getway_with_Nubra_Pangong_jkk36a.webp";
 
 const LadakhGetawayWithNubraPangongStay = () => {
   return (
@@ -11,7 +11,7 @@ const LadakhGetawayWithNubraPangongStay = () => {
         customTitle="Ladakh Getaway with Nubra & Pangong Stay - 4N/5D Starting ₹18,999"
         customDescription="Experience the ultimate Ladakh getaway with stays at Nubra Valley and Pangong Lake. Our 4 nights 5 days package covers Khardung La Pass starting from ₹18,999 per person."
         customKeywords={["Ladakh getaway", "Nubra Valley tour", "Pangong Lake stay", "Khardung La Pass", "Ladakh tour package"]}
-        customImage={ld3}
+        customImage={heroBg}
       >
         <script type="application/ld+json">
           {JSON.stringify({
@@ -19,7 +19,7 @@ const LadakhGetawayWithNubraPangongStay = () => {
             "@type": "TouristTrip",
             "name": "Ladakh Getaway with Nubra & Pangong Stay",
             "description": "Experience the ultimate Ladakh getaway with stays at Nubra Valley and Pangong Lake. Our 4 nights 5 days package covers Khardung La Pass starting from ₹18,999 per person.",
-            "image": ld3,
+            "image": heroBg,
             "offers": {
               "@type": "Offer",
               "price": "18999",
@@ -44,7 +44,7 @@ const LadakhGetawayWithNubraPangongStay = () => {
         {/* Hero Section */}
         <div 
           className="relative h-96 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${ld3})` }}
+          style={{ backgroundImage: `url(${heroBg})` }}
         >
           <div className="absolute inset-0 bg-black opacity-40"></div>
           <div className="relative z-10 flex items-center justify-center h-full">

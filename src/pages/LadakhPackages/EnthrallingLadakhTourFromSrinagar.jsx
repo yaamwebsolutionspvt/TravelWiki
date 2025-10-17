@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import SEO from "../../components/SEO";
 import ItineraryCard from "../../components/ItineraryCard";
-const ld9 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514672/travelwiki/assets/Ladakh/ld9.jpg";
+const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1760705864/Enthralling_Ladakh_Tour_from_Srinagar_btjgeq.webp";
 
 const EnthrallingLadakhTourFromSrinagar = () => {
   return (
@@ -12,7 +12,7 @@ const EnthrallingLadakhTourFromSrinagar = () => {
         customTitle="Enthralling Ladakh Tour from Srinagar - 7N/8D Starting ₹28,999"
         customDescription="Experience the ultimate Ladakh adventure starting from Srinagar. Visit Kargil, Leh, Nubra Valley, and Pangong Lake in this comprehensive 7 nights 8 days tour package."
         customKeywords={["Srinagar to Leh tour", "Ladakh tour from Srinagar", "Kargil Leh Nubra Pangong tour", "Kashmir Ladakh combo package"]}
-        customImage={ld9}
+        customImage={heroBg}
       >
         <script type="application/ld+json">
           {JSON.stringify({
@@ -20,7 +20,7 @@ const EnthrallingLadakhTourFromSrinagar = () => {
             "@type": "TouristTrip",
             "name": "Enthralling Ladakh Tour from Srinagar",
             "description": "Experience the ultimate Ladakh adventure starting from Srinagar. Visit Kargil, Leh, Nubra Valley, and Pangong Lake in this comprehensive 7 nights 8 days tour package.",
-            "image": ld9,
+            "image": heroBg,
             "offers": {
               "@type": "Offer",
               "price": "28999",
@@ -45,7 +45,7 @@ const EnthrallingLadakhTourFromSrinagar = () => {
         {/* Hero Section */}
         <div 
           className="relative h-96 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${ld9})` }}
+          style={{ backgroundImage: `url(${heroBg})` }}
         >
           <div className="absolute inset-0 bg-black opacity-40"></div>
           <div className="relative z-10 flex items-center justify-center h-full">

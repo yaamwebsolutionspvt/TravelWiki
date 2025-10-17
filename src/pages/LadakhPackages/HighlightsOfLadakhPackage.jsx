@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SEO from "../../components/SEO";
-const ld12 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514660/travelwiki/assets/Ladakh/ld12.jpg";
+const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1760705855/Highlights_of_Ladakh_Package_rsb7xy.webp";
 
 const HighlightsOfLadakhPackage = () => {
   return (
@@ -11,7 +11,7 @@ const HighlightsOfLadakhPackage = () => {
         customTitle="Highlights of Ladakh Package - 4N/5D Starting ₹14,999"
         customDescription="Experience Ladakh's major highlights in 4 nights. Visit Sham Valley, Khardung La Pass & Pangong Lake with comfortable Leh stays starting from ₹14,999 per person."
         customKeywords={["Ladakh highlights tour", "4 nights Ladakh package", "Sham Valley tour", "Khardung La Pangong Lake package", "best Ladakh highlights"]}
-        customImage={ld12}
+        customImage={heroBg}
       >
         <script type="application/ld+json">
           {JSON.stringify({
@@ -19,7 +19,7 @@ const HighlightsOfLadakhPackage = () => {
             "@type": "TouristTrip",
             "name": "Highlights of Ladakh Package",
             "description": "Experience Ladakh's major highlights in 4 nights. Visit Sham Valley, Khardung La Pass & Pangong Lake with comfortable Leh stays starting from ₹14,999 per person.",
-            "image": ld12,
+            "image": heroBg,
             "offers": {
               "@type": "Offer",
               "price": "14999",
@@ -44,7 +44,7 @@ const HighlightsOfLadakhPackage = () => {
         {/* Hero Section */}
         <div 
           className="relative h-96 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${ld12})` }}
+          style={{ backgroundImage: `url(${heroBg})` }}
         >
           <div className="absolute inset-0 bg-black opacity-40"></div>
           <div className="relative z-10 flex items-center justify-center h-full">

@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SEO from "../../components/SEO";
-const ld4 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514664/travelwiki/assets/Ladakh/ld4.jpg";
+const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1760701638/Breathtaking_ladakh_with_turtuk_tapabl.webp";
 
 const BreathtakingLadakhWithTurtukPangongExcursion = () => {
   return (
@@ -11,7 +11,7 @@ const BreathtakingLadakhWithTurtukPangongExcursion = () => {
         customTitle="Breathtaking Ladakh with Turtuk & Pangong Excursion - 5N/6D Starting ₹21,999"
         customDescription="Explore the hidden gem of Turtuk village and pristine Pangong Lake with our 5 nights 6 days Ladakh tour package. Includes Khardung La Pass and cultural experiences starting from ₹21,999 per person."
         customKeywords={["Turtuk village tour", "Pangong Lake excursion", "Ladakh cultural tour", "Khardung La Pass", "Nubra Valley tour"]}
-        customImage={ld4}
+        customImage={heroBg}
       >
         <script type="application/ld+json">
           {JSON.stringify({
@@ -19,7 +19,7 @@ const BreathtakingLadakhWithTurtukPangongExcursion = () => {
             "@type": "TouristTrip",
             "name": "Breathtaking Ladakh with Turtuk & Pangong Excursion",
             "description": "Explore the hidden gem of Turtuk village and pristine Pangong Lake with our 5 nights 6 days Ladakh tour package. Includes Khardung La Pass and cultural experiences.",
-            "image": ld4,
+            "image": heroBg,
             "offers": {
               "@type": "Offer",
               "price": "21999",
@@ -44,7 +44,7 @@ const BreathtakingLadakhWithTurtukPangongExcursion = () => {
         {/* Hero Section */}
         <div 
           className="relative h-96 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${ld4})` }}
+          style={{ backgroundImage: `url(${heroBg})` }}
         >
           <div className="absolute inset-0 bg-black opacity-40"></div>
           <div className="relative z-10 flex items-center justify-center h-full">

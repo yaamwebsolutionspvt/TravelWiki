@@ -143,104 +143,61 @@ export default function Hero() {
         </SEOParagraph>
         {/* Destinations */}
         <Stack
-          direction={{ xs: "column", sm: "row" }}
-          spacing={{ xs: 1.5, sm: 2.5, md: 3 }}
-          justifyContent="center"
-          alignItems="center"
-          mb={5}
-        >
-          <Link to="/places-to-visit-in-srinagar">
-            <Button
-              variant="outlined"
-              sx={{
-                color: "rgba(255,255,255,0.8)",
-                borderColor: "rgba(255,255,255,0.25)",
-                backdropFilter: "blur(8px)",
-                px: { xs: 1.5, sm: 2, md: 2.5 },
-                py: { xs: 0.6, sm: 0.8, md: 1 },
-                borderRadius: 2,
-                fontSize: { xs: "0.7rem", sm: "0.8rem", md: "0.9rem" },
-                transition: "0.3s",
-                "&:hover": {
-                  transform: "scale(1.05)",
-                  backgroundColor: "rgba(255,255,255,0.12)",
-                },
-              }}
-              startIcon={<FontAwesomeIcon icon={faMountain} />}
-            >
-              Srinagar & Dal Lake
-            </Button>
-          </Link>
+  direction={{ xs: "column", sm: "row" }}
+  spacing={{ xs: 1.5, sm: 2.5, md: 3 }}
+  justifyContent="center"
+  alignItems="center"
+  mb={5}
+>
+  {[
+    {
+      to: "/places-to-visit-in-srinagar",
+      icon: <FontAwesomeIcon icon={faMountain} />,
+      label: "Srinagar & Dal Lake",
+    },
+    {
+      to: "/packages/kashmir-gulmarg-tour",
+      icon: <FontAwesomeIcon icon={faSnowboarding} />,
+      label: "Gulmarg Skiing",
+    },
+    {
+      to: "/packages/kashmir-pahalgam-tour",
+      icon: <RiFlowerFill />,
+      label: "Pahalgam Valleys",
+    },
+    {
+      to: "/leh-ladakh-packages",
+      icon: <RiTentFill />,
+      label: "Ladakh Adventures",
+    },
+  ].map(({ to, icon, label }) => (
+    <Link key={to} to={to}>
+      <Button
+        variant="outlined"
+        sx={{
+          color: "rgba(255,255,255,0.6)",
+          borderColor: "rgba(255,255,255,0.15)",
+          backgroundColor: "rgba(255,255,255,0.05)",
+          backdropFilter: "blur(10px)",
+          px: { xs: 1.5, sm: 2, md: 2.5 },
+          py: { xs: 0.6, sm: 0.8, md: 1 },
+          borderRadius: 2,
+          fontSize: { xs: "0.7rem", sm: "0.8rem", md: "0.9rem" },
+          transition: "0.3s",
+          "&:hover": {
+            transform: "scale(1.05)",
+            backgroundColor: "rgba(255,255,255,0.12)",
+            borderColor: "rgba(255,255,255,0.25)",
+          },
+        }}
+        startIcon={icon}
+      >
+        {label}
+      </Button>
+    </Link>
+  ))}
+</Stack>
 
-          <Link to="/packages/kashmir-gulmarg-tour">
-            <Button
-              variant="outlined"
-              sx={{
-                color: "rgba(255,255,255,0.8)",
-                borderColor: "rgba(255,255,255,0.25)",
-                backdropFilter: "blur(8px)",
-                px: { xs: 1.5, sm: 2, md: 2.5 },
-                py: { xs: 0.6, sm: 0.8, md: 1 },
-                borderRadius: 2,
-                fontSize: { xs: "0.7rem", sm: "0.8rem", md: "0.9rem" },
-                transition: "0.3s",
-                "&:hover": {
-                  transform: "scale(1.05)",
-                  backgroundColor: "rgba(255,255,255,0.12)",
-                },
-              }}
-              startIcon={<FontAwesomeIcon icon={faSnowboarding} />}
-            >
-              Gulmarg Skiing
-            </Button>
-          </Link>
-
-          <Link to="/packages/kashmir-pahalgam-tour">
-            <Button
-              variant="outlined"
-              sx={{
-                color: "rgba(255,255,255,0.8)",
-                borderColor: "rgba(255,255,255,0.25)",
-                backdropFilter: "blur(8px)",
-                px: { xs: 1.5, sm: 2, md: 2.5 },
-                py: { xs: 0.6, sm: 0.8, md: 1 },
-                borderRadius: 2,
-                fontSize: { xs: "0.7rem", sm: "0.8rem", md: "0.9rem" },
-                transition: "0.3s",
-                "&:hover": {
-                  transform: "scale(1.05)",
-                  backgroundColor: "rgba(255,255,255,0.12)",
-                },
-              }}
-              startIcon={<RiFlowerFill />}
-            >
-              Pahalgam Valleys
-            </Button>
-          </Link>
-
-          <Link to="/leh-ladakh-packages">
-            <Button
-              variant="outlined"
-              sx={{
-                color: "rgba(255,255,255,0.8)",
-                borderColor: "rgba(255,255,255,0.25)",
-                backdropFilter: "blur(8px)",
-                px: { xs: 1.5, sm: 2, md: 2.5 },
-                py: { xs: 0.6, sm: 0.8, md: 1 },
-                borderRadius: 2,
-                fontSize: { xs: "0.7rem", sm: "0.8rem", md: "0.9rem" },
-                transition: "0.3s",
-                "&:hover": {
-                  transform: "scale(1.05)",
-                  backgroundColor: "rgba(255,255,255,0.12)",
-                },
-              }}
-              startIcon={<RiTentFill />}
-            >
-              Ladakh Adventures
-            </Button>
-          </Link>
-        </Stack>
 
         {/* CTA Buttons */}
         <Stack

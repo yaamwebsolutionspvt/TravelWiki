@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SEO from "../../components/SEO";
-const ld10 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514657/travelwiki/assets/Ladakh/ld10.jpg";
+const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1760705861/Jeep_Sarafi_Tour_Package_from_Manali_to_Leh_ghi93i.webp";
 
 const JeepSafariTourPackageFromManaliToLehLadakh = () => {
   return (
@@ -11,7 +11,7 @@ const JeepSafariTourPackageFromManaliToLehLadakh = () => {
         customTitle="Jeep Safari Tour Package From Manali To Leh Ladakh - 7N/8D Starting ₹28,999"
         customDescription="Experience the ultimate jeep safari adventure from Manali to Leh Ladakh with our 7 nights 8 days package. Cross high altitude passes, visit Nubra Valley and Pangong Lake. Book now!"
         customKeywords={["Manali to Leh jeep safari", "Ladakh road trip", "Manali Leh highway", "Sarchu Jispa tour", "Nubra Valley Pangong Lake package"]}
-        customImage={ld10}
+        customImage={heroBg}
       >
         <script type="application/ld+json">
           {JSON.stringify({
@@ -19,7 +19,7 @@ const JeepSafariTourPackageFromManaliToLehLadakh = () => {
             "@type": "TouristTrip",
             "name": "Jeep Safari Tour Package From Manali To Leh Ladakh",
             "description": "Experience the ultimate jeep safari adventure from Manali to Leh Ladakh with our 7 nights 8 days package. Cross high altitude passes, visit Nubra Valley and Pangong Lake.",
-            "image": ld10,
+            "image": heroBg,
             "offers": {
               "@type": "Offer",
               "price": "28999",
@@ -44,7 +44,7 @@ const JeepSafariTourPackageFromManaliToLehLadakh = () => {
         {/* Hero Section */}
         <div 
           className="relative h-96 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${ld10})` }}
+          style={{ backgroundImage: `url(${heroBg})` }}
         >
           <div className="absolute inset-0 bg-black opacity-40"></div>
           <div className="relative z-10 flex items-center justify-center h-full">

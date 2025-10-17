@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SEO from "../../components/SEO";
-const ladakhBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514654/travelwiki/assets/Ladakh/ladakhbg.png";
+const ladakhBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1760701119/experience_the_ultimate_ladakh_adventure_tea2qw.webp";
 
 const ClassicLehNubraPangongTsoMoririHanlePackage = () => {
   return (

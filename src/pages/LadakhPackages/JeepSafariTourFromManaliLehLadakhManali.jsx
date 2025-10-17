@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import SEO from "../../components/SEO";
-const ld5 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514666/travelwiki/assets/Ladakh/ld5.jpg";
+const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1760702352/Jeep_Safari_Tour_from_Manali_zzkltk.webp";
 
 const JeepSafariTourFromManaliLehLadakhManali = () => {
   return (
@@ -11,7 +11,7 @@ const JeepSafariTourFromManaliLehLadakhManali = () => {
         customTitle="Jeep Safari Tour From Manali-Leh Ladakh-Manali - 8N/9D Starting ₹46,999"
         customDescription="Experience the ultimate adventure with our 8 nights 9 days jeep safari tour from Manali to Leh Ladakh. Covers Khardung La Pass, Nubra Valley, Pangong Lake starting from ₹46,999 per person."
         customKeywords={["Manali Leh jeep safari", "Ladakh adventure tour", "Khardung La Pass", "Pangong Lake safari", "Nubra Valley expedition"]}
-        customImage={ld5}
+        customImage={heroBg}
       >
         <script type="application/ld+json">
           {JSON.stringify({
@@ -19,7 +19,7 @@ const JeepSafariTourFromManaliLehLadakhManali = () => {
             "@type": "TouristTrip",
             "name": "Jeep Safari Tour From Manali-Leh Ladakh-Manali",
             "description": "Experience the ultimate adventure with our 8 nights 9 days jeep safari tour from Manali to Leh Ladakh. Covers Khardung La Pass, Nubra Valley, Pangong Lake.",
-            "image": ld5,
+            "image": heroBg,
             "offers": {
               "@type": "Offer",
               "price": "46999",
@@ -44,7 +44,7 @@ const JeepSafariTourFromManaliLehLadakhManali = () => {
         {/* Hero Section */}
         <div 
           className="relative h-96 bg-cover bg-center bg-no-repeat"
-          style={{ backgroundImage: `url(${ld5})` }}
+          style={{ backgroundImage: `url(${heroBg})` }}
         >
           <div className="absolute inset-0 bg-black opacity-40"></div>
           <div className="relative z-10 flex items-center justify-center h-full">
