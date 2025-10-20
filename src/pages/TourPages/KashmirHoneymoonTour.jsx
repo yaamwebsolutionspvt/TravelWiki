@@ -63,7 +63,7 @@ export default function KashmirHoneymoonTour() {
       
       <div className="min-h-screen  mt-4">
         {/* Hero Section */}
-        <div className="relative bg-gradient-to-r from-pink-600 to-red-700 text-white min-h-[75vh] py-25 overflow-hidden" style={{backgroundImage: `url(${heroBg})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
+        <div className="relative bg-gradient-to-r from-pink-600 to-red-700 text-white min-h-[75vh] py-30 overflow-hidden" style={{backgroundImage: `url(${heroBg})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">

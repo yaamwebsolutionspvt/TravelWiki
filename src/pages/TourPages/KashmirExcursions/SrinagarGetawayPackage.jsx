@@ -37,7 +37,7 @@ export default function SrinagarGetawayPackage() {
       
       <div className="min-h-screen mt-4">
         {/* Hero Section */}
-        <div className="relative text-white h-[75vh] overflow-hidden bg-gradient-to-br from-sky-600 via-blue-600 to-indigo-600">
+        <div className="relative text-white min-h-[75vh] overflow-hidden bg-gradient-to-br from-sky-600 via-blue-600 to-indigo-600">
           <div className="absolute inset-0 bg-black opacity-60"></div>
           <div className="relative container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">

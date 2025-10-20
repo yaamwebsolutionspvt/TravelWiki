@@ -38,7 +38,7 @@ export default function MagicalKashmirTour() {
 
       {/* Hero Section */}
       <div
-        className="relative text-white min-h-[75vh] py-25 overflow-hidden bg-gradient-to-br from-purple-600 via-violet-600 to-indigo-600"
+        className="relative text-white min-h-[75vh] py-30 overflow-hidden bg-gradient-to-br from-purple-600 via-violet-600 to-indigo-600"
         style={{
           backgroundImage: `url(${holidayPackages})`,
           backgroundSize: "cover",

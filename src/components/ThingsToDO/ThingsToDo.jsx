@@ -33,17 +33,59 @@ const ThingsToDo = () => {
           </div>
         </header>
 
-        <div 
-          className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"
-          role="list"
-          aria-label="Kashmir activities and attractions"
-        >
-          {activities.map((item, i) => (
-            <div key={i} role="listitem">
-              <ActivityCard {...item} />
-            </div>
-          ))}
+        <section className="px-6 py-12 bg-gradient-to-b from-white to-blue-50">
+
+
+  {/* Activity Grid */}
+  <div
+    className="
+      grid 
+      gap-8 
+      sm:grid-cols-2 
+      lg:grid-cols-3 
+      xl:grid-cols-4 
+      max-w-6xl 
+      mx-auto
+    "
+    role="list"
+    aria-label="Kashmir activities and attractions"
+  >
+    {activities.map((item, i) => (
+      <div
+        key={i}
+        role="listitem"
+        className="
+          group 
+          bg-white 
+          rounded-3xl 
+          overflow-hidden 
+          shadow-md 
+          hover:shadow-2xl 
+          transition-all 
+          duration-300 
+          hover:-translate-y-2
+        "
+      >
+        <div className="relative h-56 w-full overflow-hidden">
+          <img
+            src={item.image}
+            alt={item.title}
+            className="h-full w-full object-cover group-hover:scale-105 transition-transform duration-500"
+          />
+          <div className="absolute inset-0 bg-black/20 group-hover:bg-black/10 transition-all" />
         </div>
+
+        <div className="p-5">
+          <h3 className="text-lg font-semibold text-gray-800 group-hover:text-blue-700 transition-colors">
+            {item.title}
+          </h3>
+          <p className="text-sm text-gray-500 mt-2">{item.description}</p>
+        </div>
+      </div>
+    ))}
+  </div>
+</section>
+
         
         {/* SEO-friendly additional content */}
         <div className="mt-12 bg-gradient-to-r from-blue-50 to-green-50 p-8 rounded-lg">

@@ -36,7 +36,7 @@ export default function KashmirMarvelousAdventureTour() {
       
       <div className="min-h-screen mt-4">
         {/* Hero Section */}
-        <div className="relative bg-gradient-to-r from-purple-700 to-pink-900 text-white py-25" style={{
+        <div className="relative bg-gradient-to-r from-purple-700 to-pink-900 text-white py-30" style={{
           backgroundImage: `url(${adv5})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',

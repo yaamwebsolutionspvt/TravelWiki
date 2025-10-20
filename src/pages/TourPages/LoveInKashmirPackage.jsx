@@ -38,7 +38,7 @@ export default function LoveInKashmirPackage() {
       <div className="min-h-screen mt-4">
         {/* Hero Section */}
         <div
-          className="relative py-25 min-h-[85vh] text-white"
+          className="relative py-30 min-h-[85vh] text-white"
           style={{ backgroundImage: `url(${heroBg})`, backgroundSize: "cover", backgroundPosition: "center" }}
         >
           <div className="absolute inset-0 bg-black opacity-50"></div>

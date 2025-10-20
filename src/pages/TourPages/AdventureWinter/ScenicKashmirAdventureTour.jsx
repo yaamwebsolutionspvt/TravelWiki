@@ -36,7 +36,7 @@ export default function ScenicKashmirAdventureTour() {
       
       <div className="min-h-screen mt-4">
         {/* Hero Section */}
-        <div className="relative text-white h-[75vh] overflow-hidden bg-gradient-to-br from-slate-600 via-gray-600 to-zinc-600">
+        <div className="relative text-white min-h-[75vh] overflow-hidden bg-gradient-to-br from-slate-600 via-gray-600 to-zinc-600">
           <div className="relative container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">

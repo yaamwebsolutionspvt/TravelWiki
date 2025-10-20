@@ -10,7 +10,7 @@ export default function PrivacyPolicy() {
         
         
       </Helmet>
-      <div className="max-w-4xl mx-auto px-4 py-25">
+      <div className="max-w-4xl mx-auto px-4 py-30">
         <h1 className="text-4xl font-bold text-green-700 mb-6">Privacy Policy</h1>
         <section className="mb-8">
           <p className="text-lg text-gray-700 mb-4">Your privacy is important to us. This policy explains how we collect, use, and protect your information at Travel Wiki. By using our website, you consent to the practices described below.</p>

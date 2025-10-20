@@ -37,7 +37,7 @@ export default function SrinagarGetawayPackageWithPremiumStay() {
       
       <div className="min-h-screen mt-4">
         {/* Hero Section */}
-        <div className="relative text-white h-[75vh] overflow-hidden bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-600">
+        <div className="relative text-white min-h-[75vh] overflow-hidden bg-gradient-to-br from-blue-600 via-indigo-600 to-purple-600">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
                 Srinagar Getaway Package With Premium Stay

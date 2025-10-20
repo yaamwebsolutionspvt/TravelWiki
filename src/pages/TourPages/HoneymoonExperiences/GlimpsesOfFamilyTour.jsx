@@ -37,7 +37,7 @@ export default function GlimpsesOfFamilyTour() {
       <div className="min-h-screen mt-4">
         {/* Hero Section */}
         <div
-          className="relative text-white min-h-[75vh] py-25 overflow-hidden"
+          className="relative text-white min-h-[75vh] py-30 overflow-hidden"
           style={{
             backgroundImage: `url(${balloonRide})`,
             backgroundSize: 'cover',
@@ -225,6 +225,7 @@ export default function GlimpsesOfFamilyTour() {
             </div>
           </div>
         </div>
+        <BestsellerKashmirTours/>
       </div>
     </>
   );

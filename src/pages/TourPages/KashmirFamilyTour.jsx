@@ -61,7 +61,7 @@ export default function KashmirFamilyTour() {
       <div className="min-h-screen  mt-4">
         {/* Hero Section */}
         <div
-          className="relative text-white py-25 bg-cover bg-center bg-no-repeat"
+          className="relative text-white py-30 bg-cover bg-center bg-no-repeat"
           style={{ backgroundImage: `url(${heroBg})` }}
         >
           <div className="absolute inset-0 bg-black opacity-50"></div>

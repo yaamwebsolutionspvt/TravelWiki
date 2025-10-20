@@ -44,7 +44,7 @@ export default function TrueGemsOfKashmirValleyTour() {
       <div className="min-h-screen mt-4">
         {/* 🏔️ Hero Section */}
         <div
-          className="relative text-white h-[75vh] overflow-hidden"
+          className="relative text-white min-h-[75vh] overflow-hidden"
           style={{
             backgroundImage: `url(${trueGemsImage})`,
             backgroundSize: "cover",

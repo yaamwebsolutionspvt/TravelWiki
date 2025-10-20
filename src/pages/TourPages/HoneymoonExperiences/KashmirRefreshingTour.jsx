@@ -4,7 +4,7 @@ import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
 import ItineraryCard from "../../../components/ItineraryCard";
 
-const travelPackages = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514641/travelwiki/assets/Honeymoon/kashmir-travel-packages.jpg";
+const travelPackages = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759812844/Srinagar_Highlights_Tour_aqw22q.webp";
 
 export default function KashmirRefreshingTour() {
   const seoData = useSEO({
@@ -37,7 +37,11 @@ export default function KashmirRefreshingTour() {
       
       <div className="min-h-screen mt-4">
         {/* Hero Section */}
-        <div className="relative text-white min-h-[75vh] py-25 overflow-hidden bg-gradient-to-br from-green-600 via-emerald-600 to-teal-600">
+        <div className="relative text-white min-h-[75vh] py-30 overflow-hidden bg-gradient-to-br from-green-600 via-emerald-600 to-teal-600" style={{
+            backgroundImage: `url(${travelPackages})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }} >
           <div className="absolute inset-0 bg-black opacity-60"></div>
           <div className="relative container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">

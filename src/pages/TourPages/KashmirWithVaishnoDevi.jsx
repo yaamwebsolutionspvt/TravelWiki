@@ -37,7 +37,7 @@ export default function KashmirWithVaishnoDevi() {
       
       <div className="min-h-screen  mt-4">
         {/* Hero Section */}
-        <div className="relative text-white py-25 min-h-[75vh]" style={{ backgroundImage: `url(${heroBg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
+        <div className="relative text-white py-30 min-h-[75vh]" style={{ backgroundImage: `url(${heroBg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
           <div className=""></div>
           <div className="relative container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">

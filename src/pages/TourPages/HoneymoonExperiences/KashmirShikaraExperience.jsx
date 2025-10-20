@@ -36,7 +36,7 @@ export default function KashmirShikaraExperience() {
       
       <div className="min-h-screen mt-4">
         {/* Hero Section */}
-        <div className="relative bg-gradient-to-r from-blue-600 to-teal-700 text-white py-25" style={{
+        <div className="relative bg-gradient-to-r from-blue-600 to-teal-700 text-white py-30" style={{
           backgroundImage: `url(${dalLakeKashmir})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',

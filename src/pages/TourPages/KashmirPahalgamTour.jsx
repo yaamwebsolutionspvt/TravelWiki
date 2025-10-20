@@ -36,7 +36,7 @@ export default function KashmirPahalgamTour() {
       
       <div className="min-h-screen  mt-4">
         {/* Hero Section */}    
-        <div className="relative min-h-[75vh] bg-gradient-to-r from-green-600 to-emerald-700 text-white py-25" style={{backgroundImage: `url(${pahalgamTourPackageImage})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
+        <div className="relative min-h-[75vh] bg-gradient-to-r from-green-600 to-emerald-700 text-white py-30" style={{backgroundImage: `url(${pahalgamTourPackageImage})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">

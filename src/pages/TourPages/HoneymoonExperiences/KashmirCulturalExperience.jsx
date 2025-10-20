@@ -37,7 +37,7 @@ export default function KashmirCulturalExperience() {
       <TourPackageSchema data={packageData} />
 
       {/* Hero Section */}
-      <div className="relative bg-gradient-to-r from-purple-600 to-indigo-700 text-white py-25" style={{
+      <div className="relative bg-gradient-to-r from-purple-600 to-indigo-700 text-white py-30" style={{
         backgroundImage: `url(${kashmirTourism})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',

@@ -36,7 +36,7 @@ export default function KashmirPackageWithPatnitop() {
       
       <div className="min-h-screen  mt-4">
         {/* Hero Section */}
-        <div className="relative  text-white py-25 min-h-[75vh]" style={{
+        <div className="relative  text-white py-30 min-h-[75vh]" style={{
             backgroundImage: `url(${heroBg})`,
             backgroundSize: 'cover',
             backgroundPosition: 'center',

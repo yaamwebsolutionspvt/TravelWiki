@@ -42,7 +42,7 @@ const UnforgettableLadakhTourPackageWithSonamargStay = () => {
       
       <div className="min-h-screen  pt-24">
         {/* Hero Section */}
-        <div className="relative min-h-[75vh]  text-white py-25" style={{backgroundImage: `url(${sonamargTourPackageImage})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
+        <div className="relative min-h-[75vh]  text-white py-30" style={{backgroundImage: `url(${sonamargTourPackageImage})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
         <div className="relative text-white h-[50vh] overflow-hidden">
           <div className="relative z-10 flex items-center justify-center h-full">
             <div className="text-center text-white">

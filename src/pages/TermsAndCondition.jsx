@@ -10,7 +10,7 @@ export default function TermsAndCondition() {
         
         
       </Helmet>
-      <div className="max-w-4xl mx-auto px-4 py-25">
+      <div className="max-w-4xl mx-auto px-4 py-30">
         <h1 className="text-4xl font-bold text-green-700 mb-6">Terms and Conditions</h1>
         <section className="mb-8">
           <p className="text-lg text-gray-700 mb-4">Welcome to Travel Wiki. By accessing or using our website and services, you agree to comply with and be bound by the following terms and conditions. Please read them carefully.</p>

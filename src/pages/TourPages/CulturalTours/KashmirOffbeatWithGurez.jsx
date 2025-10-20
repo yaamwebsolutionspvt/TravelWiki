@@ -39,7 +39,7 @@ export default function KashmirOffbeatWithGurez() {
         
         {/* Hero Section - Kashmir Offbeat Cultural Discovery */}
         <div
-          className="relative text-white h-[75vh] overflow-hidden"
+          className="relative text-white min-h-[75vh] overflow-hidden"
           style={{
             backgroundImage: `url(${kashmirOffbeatImaget})`, // 👈 replace with your image import or URL
             backgroundSize: 'cover',
