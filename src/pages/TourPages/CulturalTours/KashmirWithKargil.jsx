@@ -49,42 +49,57 @@ export default function KashmirWithKargilTour() {
           <div className="absolute inset-0 bg-black opacity-50"></div>
 
           <div className="relative container mx-auto px-4 py-12 h-full flex items-center justify-center">
-            <div className="max-w-4xl text-center">
-              <h1
-                className="text-4xl md:text-5xl font-bold mb-6"
-                style={{ textShadow: "2px 2px 4px rgba(0,0,0,0.7)" }}
-              >
-                Kashmir With Kargil Multi-Cultural Tour
-              </h1>
+            {/* Hero Section */}
+            <div
+              className="relative text-white h-[70vh] flex items-center justify-center overflow-hidden"
+              style={{
+                backgroundImage: `url(${kashmirKargilImage})`,
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+              }}
+            >
+              {/* Dark overlay */}
+              <div className="absolute inset-0 bg-black/50"></div>
 
-              <p
-                className="text-xl mb-8"
-                style={{ textShadow: "1px 1px 3px rgba(0,0,0,0.7)" }}
-              >
-                Discover the cultural harmony of Kashmir – from Srinagar’s traditions
-                to the Balti and Ladakhi heritage of Kargil
-              </p>
-
-              <div className="flex flex-col md:flex-row justify-center items-center gap-4">
-                <div className="bg-white bg-opacity-20 rounded-lg p-4">
-                  <span className="text-3xl font-bold text-black">₹22,999</span>
-                  <span className="text-lg ml-2 text-gray-600">per person</span>
-                  <div className="text-sm text-gray-200">
-                    <span className="line-through text-gray-400">₹27,599</span>{" "}
-                    <span className="text-green-300">17% OFF</span>
-                  </div>
-                </div>
-
-                <a
-                  href="https://wa.me/918899971960?text=Hi%2C%20I%20am%20interested%20in%20the%20Kashmir%20With%20Kargil%20Multi-Cultural%20Tour%20from%20Travel%20Wiki."
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold transition-colors"
+              {/* Centered Content */}
+              <div className="relative z-10 text-center px-6 max-w-3xl mx-auto">
+                <h1
+                  className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight"
+                  style={{ textShadow: "2px 2px 6px rgba(0,0,0,0.7)" }}
                 >
-                  Book Now
-                </a>
+                  Kashmir With Kargil Multi-Cultural Tour
+                </h1>
+
+                <p
+                  className="text-lg md:text-xl mb-10 text-gray-100"
+                  style={{ textShadow: "1px 1px 3px rgba(0,0,0,0.7)" }}
+                >
+                  Discover the cultural harmony of Kashmir – from Srinagar’s traditions
+                  to the Balti and Ladakhi heritage of Kargil
+                </p>
+
+                <div className="flex flex-col md:flex-row justify-center items-center gap-4">
+                  <div className="bg-white/20 backdrop-blur-md rounded-lg p-4 text-center">
+                    <span className="text-3xl font-bold text-white">₹22,999</span>
+                    <span className="text-lg ml-2 text-gray-200">per person</span>
+                    <div className="text-sm text-gray-200">
+                      <span className="line-through text-gray-400">₹27,599</span>{" "}
+                      <span className="text-green-300">17% OFF</span>
+                    </div>
+                  </div>
+
+                  <a
+                    href="https://wa.me/918899971960?text=Hi%2C%20I%20am%20interested%20in%20the%20Kashmir%20With%20Kargil%20Multi-Cultural%20Tour%20from%20Travel%20Wiki."
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-3 rounded-lg font-semibold transition-all"
+                  >
+                    Book Now
+                  </a>
+                </div>
               </div>
             </div>
+
           </div>
         </div>
 

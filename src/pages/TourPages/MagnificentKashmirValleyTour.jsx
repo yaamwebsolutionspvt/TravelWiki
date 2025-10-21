@@ -3,6 +3,12 @@ import { useSEO } from "../../hooks/useSEO";
 import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
 import ItineraryCard from "../../components/ItineraryCard";
+import BestsellerKashmirTours from "../../components/Packages/BestsellerKashmirTours";
+import HoneymoonSpecial from "../../components/Packages/HoneymoonSpecial";
+import KashmirFamilyPackages from "../../components/Packages/KashmirFamilyPackages";
+import KashmirExcursionsSpecial from "../../components/Packages/KashmirExcursionsSpecial";
+import KashmirAdventureWinter from "../../components/Packages/KashmirAdventureWinter";
+import KashmirCulturalToursAndPackages from "../../components/Packages/KashmirCulturalToursAndPackages";
 const gandolaRide = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759486001/Kashmir_7_Houseboat_View_uutl0x.webp";
 
 export default function MagnificentKashmirValleyTour() {
@@ -246,6 +252,14 @@ export default function MagnificentKashmirValleyTour() {
           </div>
         </div>
       </div>
+      
+      {/* Package Sections */}
+      <BestsellerKashmirTours />
+      <KashmirFamilyPackages />
+      <HoneymoonSpecial />
+      <KashmirExcursionsSpecial />
+      <KashmirAdventureWinter />
+      <KashmirCulturalToursAndPackages />
     </>
   );
 }

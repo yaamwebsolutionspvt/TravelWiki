@@ -3,6 +3,12 @@ import { useSEO } from "../../../hooks/useSEO";
 import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
 import ItineraryCard from "../../../components/ItineraryCard";
+import BestsellerKashmirTours from "../../../components/Packages/BestsellerKashmirTours";
+import HoneymoonSpecial from "../../../components/Packages/HoneymoonSpecial";
+import KashmirFamilyPackages from "../../../components/Packages/KashmirFamilyPackages";
+import KashmirExcursionsSpecial from "../../../components/Packages/KashmirExcursionsSpecial";
+import KashmirAdventureWinter from "../../../components/Packages/KashmirAdventureWinter";
+import KashmirCulturalToursAndPackages from "../../../components/Packages/KashmirCulturalToursAndPackages";
 const gurezValleyImage = "https://res.cloudinary.com/dw1sh368y/image/upload/v1758517666/6._Kashmir_Sharing_4_Nights_5_Days_Adventure_Tour_ee9wwg.webp";
 
 export default function GurezValleyTour() {
@@ -253,6 +259,14 @@ export default function GurezValleyTour() {
           </div>
         </div>
       </div>
+      
+      {/* Package Sections */}
+      <KashmirCulturalToursAndPackages />
+      <BestsellerKashmirTours />
+      <KashmirFamilyPackages />
+      <HoneymoonSpecial />
+      <KashmirExcursionsSpecial />
+      <KashmirAdventureWinter />
     </>
   );
 }

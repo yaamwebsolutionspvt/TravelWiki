@@ -40,14 +40,14 @@ export default function KashmirGulmargTour() {
       <SEO {...seoData} />
       <TourPackageSchema data={packageData} />
 
-      <div className="min-h-screen mt-4">
+      <div className="min-h-screen mt-4" >
         {/* Hero Section */}
         <div
           className="relative text-white min-h-[75vh] overflow-hidden"
           style={{
             backgroundImage: `url(${gulmargImage})`,
-            backgroundSize: "cover",
-            backgroundPosition: "center",
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
           }}
         >
           <div className="absolute inset-0 bg-black opacity-50"></div>
@@ -55,8 +55,7 @@ export default function KashmirGulmargTour() {
           <div className="relative container mx-auto px-4 py-12 h-full flex items-center justify-center">
             <div className="max-w-4xl text-center">
               <h1
-                className="text-4xl md:text-5xl font-bold mb-6"
-                style={{ textShadow: "2px 2px 4px rgba(0,0,0,0.7)" }}
+                className="text-4xl md:text-5xl font-bold mb-6 mt-16 sm:mt-20 md:mt-8" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.7)'}}
               >
                 Kashmir Gulmarg Tour Package
               </h1>

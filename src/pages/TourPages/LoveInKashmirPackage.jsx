@@ -3,6 +3,12 @@ import { useSEO } from "../../hooks/useSEO";
 import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
 import ItineraryCard from "../../components/ItineraryCard";
+import BestsellerKashmirTours from "../../components/Packages/BestsellerKashmirTours";
+import HoneymoonSpecial from "../../components/Packages/HoneymoonSpecial";
+import KashmirFamilyPackages from "../../components/Packages/KashmirFamilyPackages";
+import KashmirExcursionsSpecial from "../../components/Packages/KashmirExcursionsSpecial";
+import KashmirAdventureWinter from "../../components/Packages/KashmirAdventureWinter";
+import KashmirCulturalToursAndPackages from "../../components/Packages/KashmirCulturalToursAndPackages";
 
 const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1760610710/Private_Sunrise_Breakfast_on_dallake_fkgztm.webp";
 
@@ -231,6 +237,14 @@ export default function LoveInKashmirPackage() {
           </div>
         </div>
       </div>
+      
+      {/* Package Sections */}
+      <HoneymoonSpecial />
+      <KashmirFamilyPackages />
+      <BestsellerKashmirTours />
+      <KashmirExcursionsSpecial />
+      <KashmirAdventureWinter />
+      <KashmirCulturalToursAndPackages />
     </>
   );
 }

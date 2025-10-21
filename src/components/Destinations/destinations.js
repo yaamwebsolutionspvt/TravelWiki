@@ -1,10 +1,10 @@
 // Import destination images from assets
-const dalLake = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514591/travelwiki/assets/Bestseller/gandola-ride-kashmir.jpg";
-const gondolaRide = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514591/travelwiki/assets/Bestseller/gandola-ride-kashmir.jpg";
-const kashmirTourism = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514594/travelwiki/assets/Bestseller/kashmir-tourism.jpg";
-const kashmirPackage = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514592/travelwiki/assets/Bestseller/kashmir-package.jpg";
-const kashmirHoliday = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514636/travelwiki/assets/Honeymoon/kashmir-holiday.jpg";
-const kashmirTravelPackages = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514641/travelwiki/assets/Honeymoon/kashmir-travel-packages.jpg";
+const dalLake = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759485997/Kashmir_3_Dallake_qptcbd.webp";
+const gondolaRide = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759486005/Kashmir_19_Gulmarg_and_sightseen_ujzh0g.webp";
+const kashmirTourism = "https://res.cloudinary.com/dw1sh368y/image/upload/v1758889544/Pahalgam_4_iove80.webp";
+const kashmirPackage = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759485995/Kashmir_20_Sonmarg_and_sightseen_rn48lz.webp";
+const kashmirHoliday = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759489189/Journey_to_Gurez_Valley_dxjanc.webp";
+const kashmirTravelPackages = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759489188/Off_Beat_Kashmir_mnnuuy.webp";
 
 export const destinations = [
   {

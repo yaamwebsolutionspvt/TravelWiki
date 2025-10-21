@@ -3,6 +3,12 @@ import { Link } from "react-router-dom";
 import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
 import ItineraryCard from "../../components/ItineraryCard";
+import BestsellerKashmirTours from "../../components/Packages/BestsellerKashmirTours";
+import HoneymoonSpecial from "../../components/Packages/HoneymoonSpecial";
+import KashmirFamilyPackages from "../../components/Packages/KashmirFamilyPackages";
+import KashmirExcursionsSpecial from "../../components/Packages/KashmirExcursionsSpecial";
+import KashmirAdventureWinter from "../../components/Packages/KashmirAdventureWinter";
+import KashmirCulturalToursAndPackages from "../../components/Packages/KashmirCulturalToursAndPackages";
 const kashmirTourism = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759486005/Kashmir_19_Gulmarg_and_sightseen_ujzh0g.webp";
 
 export default function MagicalKashmirTour() {
@@ -261,6 +267,14 @@ export default function MagicalKashmirTour() {
           </div>
         </div>
       </div>
+      
+      {/* Package Sections */}
+      <BestsellerKashmirTours />
+      <KashmirFamilyPackages />
+      <HoneymoonSpecial />
+      <KashmirExcursionsSpecial />
+      <KashmirAdventureWinter />
+      <KashmirCulturalToursAndPackages />
     </>
   );
 }

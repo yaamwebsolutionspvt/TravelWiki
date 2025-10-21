@@ -3,6 +3,12 @@ import { useSEO } from "../../../hooks/useSEO";
 import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
 import ItineraryCard from "../../../components/ItineraryCard";
+import BestsellerKashmirTours from "../../../components/Packages/BestsellerKashmirTours";
+import HoneymoonSpecial from "../../../components/Packages/HoneymoonSpecial";
+import KashmirFamilyPackages from "../../../components/Packages/KashmirFamilyPackages";
+import KashmirExcursionsSpecial from "../../../components/Packages/KashmirExcursionsSpecial";
+import KashmirAdventureWinter from "../../../components/Packages/KashmirAdventureWinter";
+import KashmirCulturalToursAndPackages from "../../../components/Packages/KashmirCulturalToursAndPackages";
 const balloonRide = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514633/travelwiki/assets/Honeymoon/baloon-ride-kashmir.jpg";
 
 export default function GlimpsesOfFamilyTour() {
@@ -225,8 +231,15 @@ export default function GlimpsesOfFamilyTour() {
             </div>
           </div>
         </div>
-        <BestsellerKashmirTours/>
       </div>
+      
+      {/* Package Sections */}
+      <HoneymoonSpecial />
+      <KashmirFamilyPackages />
+      <BestsellerKashmirTours />
+      <KashmirExcursionsSpecial />
+      <KashmirAdventureWinter />
+      <KashmirCulturalToursAndPackages />
     </>
   );
 }

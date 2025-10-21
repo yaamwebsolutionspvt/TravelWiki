@@ -1,6 +1,12 @@
 import React from "react";
 import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
+import BestsellerKashmirTours from "../../components/Packages/BestsellerKashmirTours";
+import HoneymoonSpecial from "../../components/Packages/HoneymoonSpecial";
+import KashmirFamilyPackages from "../../components/Packages/KashmirFamilyPackages";
+import KashmirExcursionsSpecial from "../../components/Packages/KashmirExcursionsSpecial";
+import KashmirAdventureWinter from "../../components/Packages/KashmirAdventureWinter";
+import KashmirCulturalToursAndPackages from "../../components/Packages/KashmirCulturalToursAndPackages";
 const kashmirPackage = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759214293/Alpine_Meadows_Short_Treks_wsjbyv.webp";
 
 export default function KashmirValleyTour() {
@@ -271,6 +277,14 @@ export default function KashmirValleyTour() {
           </div>
         </div>
       </div>
+      
+      {/* Package Sections */}
+      <BestsellerKashmirTours />
+      <KashmirFamilyPackages />
+      <HoneymoonSpecial />
+      <KashmirExcursionsSpecial />
+      <KashmirAdventureWinter />
+      <KashmirCulturalToursAndPackages />
     </>
   );
 }

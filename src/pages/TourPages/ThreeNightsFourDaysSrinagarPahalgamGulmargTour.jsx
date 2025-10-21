@@ -3,6 +3,12 @@ import { useSEO } from "../../hooks/useSEO";
 import SEO from "../../components/SEO";
 import TourPackageSchema from "../../components/TourPackageSchema";
 import ItineraryCard from "../../components/ItineraryCard";
+import BestsellerKashmirTours from "../../components/Packages/BestsellerKashmirTours";
+import HoneymoonSpecial from "../../components/Packages/HoneymoonSpecial";
+import KashmirFamilyPackages from "../../components/Packages/KashmirFamilyPackages";
+import KashmirExcursionsSpecial from "../../components/Packages/KashmirExcursionsSpecial";
+import KashmirAdventureWinter from "../../components/Packages/KashmirAdventureWinter";
+import KashmirCulturalToursAndPackages from "../../components/Packages/KashmirCulturalToursAndPackages";
 const baloonRideKashmir = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759485997/Kashmir_3_Dallake_qptcbd.webp";
 
 export default function ThreeNightsFourDaysSrinagarPahalgamGulmargTour() {
@@ -309,6 +315,14 @@ export default function ThreeNightsFourDaysSrinagarPahalgamGulmargTour() {
           </div>
         </div>
       </div>
+      
+      {/* Package Sections */}
+      <BestsellerKashmirTours />
+      <KashmirFamilyPackages />
+      <HoneymoonSpecial />
+      <KashmirExcursionsSpecial />
+      <KashmirAdventureWinter />
+      <KashmirCulturalToursAndPackages />
     </>
   );
 }

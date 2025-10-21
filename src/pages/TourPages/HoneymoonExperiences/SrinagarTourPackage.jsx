@@ -4,6 +4,12 @@ import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
 import ItineraryCard from "../../../components/ItineraryCard";
 import { Link } from "react-router-dom";
+import BestsellerKashmirTours from "../../../components/Packages/BestsellerKashmirTours";
+import KashmirFamilyPackages from "../../../components/Packages/KashmirFamilyPackages";
+import HoneymoonSpecial from "../../../components/Packages/HoneymoonSpecial";
+import KashmirExcursionsSpecial from "../../../components/Packages/KashmirExcursionsSpecial";
+import KashmirAdventureWinter from "../../../components/Packages/KashmirAdventureWinter";
+import KashmirCulturalToursAndPackages from "../../../components/Packages/KashmirCulturalToursAndPackages";
 
 const srinagarTourPackageImage = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759907937/Arrival_Dal_Lake_Introduction_dt4jja.webp";
 
@@ -334,6 +340,12 @@ export default function SrinagarTourPackage() {
           </div>
         </div>
       </div>
+      <BestsellerKashmirTours />
+      <KashmirFamilyPackages />
+      <HoneymoonSpecial />
+      <KashmirExcursionsSpecial />
+      <KashmirAdventureWinter />
+      <KashmirCulturalToursAndPackages />
     </>
   );
 }

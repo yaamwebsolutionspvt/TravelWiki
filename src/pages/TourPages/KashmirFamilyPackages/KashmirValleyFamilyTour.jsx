@@ -3,7 +3,13 @@ import { useSEO } from "../../../hooks/useSEO";
 import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
 import ItineraryCard from "../../../components/ItineraryCard";
-const fm3 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514628/travelwiki/assets/Family/fm3.jpg";
+import BestsellerKashmirTours from "../../../components/Packages/BestsellerKashmirTours";
+import HoneymoonSpecial from "../../../components/Packages/HoneymoonSpecial";
+import KashmirFamilyPackages from "../../../components/Packages/KashmirFamilyPackages";
+import KashmirExcursionsSpecial from "../../../components/Packages/KashmirExcursionsSpecial";
+import KashmirAdventureWinter from "../../../components/Packages/KashmirAdventureWinter";
+import KashmirCulturalToursAndPackages from "../../../components/Packages/KashmirCulturalToursAndPackages";
+const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1760352641/Skiing_in_the_Soft_Snow_fp1yon.webp";
 
 export default function KashmirValleyFamilyTour() {
   const seoData = useSEO({
@@ -37,7 +43,12 @@ export default function KashmirValleyFamilyTour() {
       
       <div className="min-h-screen mt-4">
         {/* Hero Section */}
-        <div className="relative text-white min-h-[75vh] overflow-hidden bg-gradient-to-br from-purple-600 via-violet-600 to-indigo-600">
+        <div className="relative text-white min-h-[75vh] py-30 overflow-hidden"
+          style={{
+            backgroundImage: `url(${heroBg})`,
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+          }} >
           <div className="relative container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
@@ -130,7 +141,7 @@ export default function KashmirValleyFamilyTour() {
                     "Traditional family dinner with local cultural program",
                     "Overnight in premium family accommodations"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/6366F1/FFFFFF?text=Srinagar+Family+Welcome"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812843/Day_1_Relaxed_Srinagar_Arrival_qhbtfj.webp"
                   imageAlt="Grand Srinagar Family Welcome"
                   imageTitle="Srinagar Family Welcome"
                   imageSubtitle="Warm Hospitality"
@@ -150,7 +161,7 @@ export default function KashmirValleyFamilyTour() {
                     "Evening cultural family entertainment programs",
                     "Overnight with extended family comfort amenities"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/22C55E/FFFFFF?text=Srinagar+Family+Exploration"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812843/Week_Long_Holiday_In_Kashmir_dykfgx.webp"
                   imageAlt="Extended Srinagar Family Exploration"
                   imageTitle="Srinagar Family Exploration"
                   imageSubtitle="Full-Day Discovery"
@@ -172,7 +183,7 @@ export default function KashmirValleyFamilyTour() {
                     "Traditional village visit with local family interactions",
                     "Extended family bonding time with recreational activities"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/06B6D4/FFFFFF?text=Pahalgam+Family+Adventure"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759910373/Chandanwari_Excursion_w5vtvd.webp"
                   imageAlt="Pahalgam Family Adventure"
                   imageTitle="Pahalgam Family Adventure"
                   imageSubtitle="Two-Day Valley Fun"
@@ -193,7 +204,7 @@ export default function KashmirValleyFamilyTour() {
                     "Farewell family dinner with valley specialties",
                     "Overnight in premium Srinagar family accommodation"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/3B82F6/FFFFFF?text=Gulmarg+Family+Experience"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812841/Gulmarg_Meadow_Experience_j5zsmc.webp"
                   imageAlt="Gulmarg Family Mountain Experience"
                   imageTitle="Gulmarg Family Experience"
                   imageSubtitle="High-Altitude Day"
@@ -210,7 +221,7 @@ export default function KashmirValleyFamilyTour() {
                     "Premium transfer to airport with family comfort",
                     "Departure with comprehensive valley family memories"
                   ]}
-                  imageUrl="https://via.placeholder.com/400x300/F59E0B/FFFFFF?text=Family+Farewell"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759906805/Cultural_Integration_Departure_pojiia.webp"
                   imageAlt="Family Farewell & Valley Memories"
                   imageTitle="Family Farewell"
                   imageSubtitle="Final Day"
@@ -259,6 +270,14 @@ export default function KashmirValleyFamilyTour() {
           </div>
         </div>
       </div>
+      
+      {/* Package Sections */}
+      <KashmirFamilyPackages />
+      <BestsellerKashmirTours />
+      <HoneymoonSpecial />
+      <KashmirExcursionsSpecial />
+      <KashmirAdventureWinter />
+      <KashmirCulturalToursAndPackages />
     </>
   );
 }

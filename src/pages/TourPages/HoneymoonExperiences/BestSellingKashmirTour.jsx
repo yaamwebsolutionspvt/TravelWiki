@@ -3,6 +3,12 @@ import { useSEO } from "../../../hooks/useSEO";
 import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
 import ItineraryCard from "../../../components/ItineraryCard";
+import BestsellerKashmirTours from "../../../components/Packages/BestsellerKashmirTours";
+import HoneymoonSpecial from "../../../components/Packages/HoneymoonSpecial";
+import KashmirFamilyPackages from "../../../components/Packages/KashmirFamilyPackages";
+import KashmirExcursionsSpecial from "../../../components/Packages/KashmirExcursionsSpecial";
+import KashmirAdventureWinter from "../../../components/Packages/KashmirAdventureWinter";
+import KashmirCulturalToursAndPackages from "../../../components/Packages/KashmirCulturalToursAndPackages";
 const holiday = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514636/travelwiki/assets/Honeymoon/kashmir-holiday.jpg";
 
 export default function BestSellingKashmirTour() {
@@ -141,6 +147,7 @@ export default function BestSellingKashmirTour() {
                   imageTitle="Srinagar Arrival"
                   imageSubtitle="VIP Welcome"
                   icon="🏛️"
+                  imageOnRight={true}
                 />
                 
                 <ItineraryCard
@@ -159,6 +166,7 @@ export default function BestSellingKashmirTour() {
                   imageTitle="Dal Lake Shikara"
                   imageSubtitle="Romantic Experience"
                   icon="🚣‍♀️"
+                  imageOnRight={false}
                 />
                 
                 <ItineraryCard
@@ -177,6 +185,8 @@ export default function BestSellingKashmirTour() {
                   imageTitle="Pahalgam Valley"
                   imageSubtitle="Nature & Adventure"
                   icon="🌲"
+                  imageOnRight={true}
+
                 />
                 
                 <ItineraryCard
@@ -195,6 +205,7 @@ export default function BestSellingKashmirTour() {
                   imageTitle="Gulmarg Gondola"
                   imageSubtitle="Meadow of Flowers"
                   icon="🚡"
+                  imageOnRight={true}
                 />
                 
                 <ItineraryCard
@@ -213,6 +224,7 @@ export default function BestSellingKashmirTour() {
                   imageTitle="Houseboat Experience"
                   imageSubtitle="Traditional Stay"
                   icon="🏠"
+                  imageOnRight={false}
                 />
                 
                 <ItineraryCard
@@ -228,6 +240,7 @@ export default function BestSellingKashmirTour() {
                   imageTitle="Departure"
                   imageSubtitle="Wonderful Memories"
                   icon="✈️"
+                  imageOnRight={true}
                 />
               </div>
             </div>
@@ -256,6 +269,14 @@ export default function BestSellingKashmirTour() {
           </div>
         </div>
       </div>
+      
+      {/* Package Sections */}
+      <HoneymoonSpecial />
+      <KashmirFamilyPackages />
+      <BestsellerKashmirTours />
+      <KashmirExcursionsSpecial />
+      <KashmirAdventureWinter />
+      <KashmirCulturalToursAndPackages />
     </>
   );
 }

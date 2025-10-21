@@ -2,6 +2,12 @@ import React from "react";
 import { useSEO } from "../../../hooks/useSEO";
 import SEO from "../../../components/SEO";
 import TourPackageSchema from "../../../components/TourPackageSchema";
+import BestsellerKashmirTours from "../../../components/Packages/BestsellerKashmirTours";
+import HoneymoonSpecial from "../../../components/Packages/HoneymoonSpecial";
+import KashmirFamilyPackages from "../../../components/Packages/KashmirFamilyPackages";
+import KashmirExcursionsSpecial from "../../../components/Packages/KashmirExcursionsSpecial";
+import KashmirAdventureWinter from "../../../components/Packages/KashmirAdventureWinter";
+import KashmirCulturalToursAndPackages from "../../../components/Packages/KashmirCulturalToursAndPackages";
 const fm2 = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514626/travelwiki/assets/Family/fm2.jpg";
 
 export default function KashmirFamilyPackageLuxuriousStay() {
@@ -227,6 +233,14 @@ export default function KashmirFamilyPackageLuxuriousStay() {
           </div>
         </div>
       </div>
+      
+      {/* Package Sections */}
+      <KashmirFamilyPackages />
+      <BestsellerKashmirTours />
+      <HoneymoonSpecial />
+      <KashmirExcursionsSpecial />
+      <KashmirAdventureWinter />
+      <KashmirCulturalToursAndPackages />
     </>
   );
 }

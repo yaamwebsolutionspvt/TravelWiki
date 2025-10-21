@@ -5,7 +5,13 @@ import OptimizedImage from "../../components/OptimizedImage";
 import ItineraryAccordion from "./ItineraryAccordion";
 import FaqSection from "./FaqSection";
 import WhyLadakhTourism from "./WhyLadakhTourism";
-import { ladakhPackages, ladakhContent } from "../../data/packages/ladakh";``
+import { ladakhPackages, ladakhContent } from "../../data/packages/ladakh";
+import BestsellerKashmirTours from "../../components/Packages/BestsellerKashmirTours";
+import HoneymoonSpecial from "../../components/Packages/HoneymoonSpecial";
+import KashmirFamilyPackages from "../../components/Packages/KashmirFamilyPackages";
+import KashmirExcursionsSpecial from "../../components/Packages/KashmirExcursionsSpecial";
+import KashmirAdventureWinter from "../../components/Packages/KashmirAdventureWinter";
+import KashmirCulturalToursAndPackages from "../../components/Packages/KashmirCulturalToursAndPackages";``
 
 const bannerimage =
   "https://res.cloudinary.com/dw1sh368y/image/upload/v1759314589/Kashmir_With_Gurez_Valley_Cultural_Tour_wlx64s.png";
@@ -428,6 +434,14 @@ const LehLadakhPackages = () => {
       <ItineraryAccordion />
       <FaqSection />
       <WhyLadakhTourism />
+      
+      {/* Package Sections */}
+      <BestsellerKashmirTours />
+      <KashmirFamilyPackages />
+      <HoneymoonSpecial />
+      <KashmirExcursionsSpecial />
+      <KashmirAdventureWinter />
+      <KashmirCulturalToursAndPackages />
     </>
   );
 };
