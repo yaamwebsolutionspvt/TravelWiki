@@ -1,5 +1,13 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+// Package imports
+import KashmirTourPackages from '../../components/Packages/KashmirTourPackages'
+import BestsellerKashmirTours from '../../components/Packages/BestsellerKashmirTours'
+import HoneymoonSpecial from '../../components/Packages/HoneymoonSpecial'
+import KashmirAdventureWinter from '../../components/Packages/KashmirAdventureWinter'
+import KashmirCulturalToursAndPackages from '../../components/Packages/KashmirCulturalToursAndPackages'
+import KashmirExcursionsSpecial from '../../components/Packages/KashmirExcursionsSpecial'
+import KashmirFamilyPackages from '../../components/Packages/KashmirFamilyPackages'
 
 const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1760348117/Sledding_in_Chandanwari_bq8caq.webp";
 
@@ -289,9 +297,21 @@ const HowToReachPahalgam = () => {
             </div>
           </div>
         </div>
+         {/* Package Sections */}
+         <div >
+            <KashmirTourPackages />
+            <BestsellerKashmirTours />
+            <HoneymoonSpecial />
+            <KashmirAdventureWinter />
+            <KashmirCulturalToursAndPackages />
+            <KashmirExcursionsSpecial />
+            <KashmirFamilyPackages />
+          </div>
       </div>
     </>
   );
 };
+
+
 
 export default HowToReachPahalgam;

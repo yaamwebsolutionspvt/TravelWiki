@@ -54,8 +54,7 @@ export default function BestSellingKashmirTour() {
           <div className="relative container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Best Selling Kashmir Tour
-              </h1>
+                Kashmir Bestseller Tour – 5 Nights Classic Itinerary              </h1>
               <p className="text-xl mb-8">
                 Our most popular and comprehensive Kashmir honeymoon package with complete destination coverage
               </p>

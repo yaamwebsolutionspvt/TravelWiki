@@ -1,5 +1,13 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+// Package imports
+import KashmirTourPackages from '../../components/Packages/KashmirTourPackages'
+import BestsellerKashmirTours from '../../components/Packages/BestsellerKashmirTours'
+import HoneymoonSpecial from '../../components/Packages/HoneymoonSpecial'
+import KashmirAdventureWinter from '../../components/Packages/KashmirAdventureWinter'
+import KashmirCulturalToursAndPackages from '../../components/Packages/KashmirCulturalToursAndPackages'
+import KashmirExcursionsSpecial from '../../components/Packages/KashmirExcursionsSpecial'
+import KashmirFamilyPackages from '../../components/Packages/KashmirFamilyPackages'
 // Removed local image import; using month-specific Cloudinary hero image
 
 const KashmirInMay = () => {
@@ -51,7 +59,14 @@ const KashmirInMay = () => {
           </div>
 
           {/* Weather Section */}
-          <section className="bg-white rounded-lg shadow-lg p-8 mb-12">
+          <section className="bg-white rounded-lg shadow-lg overflow-hidden mb-12">
+            <img
+              src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759907935/Mughal_Gardens_City_Tour_bonery.webp"
+              alt="Perfect May weather in Kashmir"
+              className="w-full h-80 object-cover"
+              loading="lazy"
+            />
+            <div className="p-8">
             <div className="flex items-center mb-6">
               <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
                 <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -91,11 +106,12 @@ const KashmirInMay = () => {
                     <span className="mr-3">💧</span> Minimal rainfall
                   </li>
                 </ul>
+                </div>
               </div>
-            </div>
-          </section>
+              </div>
+            </section>
 
-          {/* Major Attractions */}
+            {/* Major Attractions */}
           <section className="bg-white rounded-lg shadow-lg p-8 mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-8">Major Attractions in Kashmir in May</h2>
             
@@ -306,9 +322,20 @@ const KashmirInMay = () => {
             </div>
           </section>
         </div>
+        {/* Package Sections */}
+        <div>
+          <KashmirTourPackages />
+          <BestsellerKashmirTours />
+          <HoneymoonSpecial />
+          <KashmirAdventureWinter />
+          <KashmirCulturalToursAndPackages />
+          <KashmirExcursionsSpecial />
+          <KashmirFamilyPackages />
+        </div>
       </div>
     </>
   );
 };
+
 
 export default KashmirInMay;

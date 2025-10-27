@@ -7,14 +7,15 @@ const ActivityCard = ({
   image,
   highlights = [],
   info = [],
+  imageOnRight = true, // Default to true (current behavior)
 }) => {
   return (
     <section id={id} className="mb-16">
       <div className="bg-white rounded-lg shadow-lg overflow-hidden">
         <div className="grid md:grid-cols-2">
           
-          {/* LEFT COLUMN - TEXT */}
-          <div className="p-8 flex flex-col justify-center">
+          {/* TEXT COLUMN - Position depends on imageOnRight prop */}
+          <div className={`p-8 flex flex-col justify-center ${imageOnRight ? 'order-1' : 'order-2'}`}>
             <h2 className="text-3xl font-bold text-gray-900 mb-6">{title}</h2>
 
             <p className="text-gray-700 mb-6 leading-relaxed">{description}</p>
@@ -50,8 +51,8 @@ const ActivityCard = ({
             </div>
           </div>
 
-          {/* RIGHT COLUMN - IMAGE (smaller, centered with shadow) */}
-          <div className="flex items-center justify-center bg-gray-50 p-8">
+          {/* IMAGE COLUMN - Position depends on imageOnRight prop */}
+          <div className={`flex items-center justify-center bg-gray-50 p-8 ${imageOnRight ? 'order-2' : 'order-1'}`}>
             <div className="rounded-2xl overflow-hidden shadow-xl transform transition-transform duration-300 hover:scale-105">
               <img
                 src={image}

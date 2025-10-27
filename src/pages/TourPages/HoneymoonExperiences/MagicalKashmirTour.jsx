@@ -14,14 +14,14 @@ const holidayPackages = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755
 
 export default function MagicalKashmirTour() {
   const seoData = useSEO({
-    title: "Magical Kashmir Tour | 4 Nights 5 Days Honeymoon Package",
+    title: "4N Kashmir Magic Tour – Lakes, Gardens & Meadows | 4 Nights 5 Days Honeymoon Package",
     description: "Experience the magic of Kashmir with our 4 nights 5 days romantic tour. Srinagar houseboat, Pahalgam, Gulmarg with candlelight dinners and special arrangements. Starting at ₹15,999.",
-    keywords: "magical Kashmir tour, 4 nights Kashmir honeymoon, Srinagar Pahalgam Gulmarg tour, Kashmir couple package, romantic Kashmir getaway",
+    keywords: "4N Kashmir Magic Tour – Lakes, Gardens & Meadows, 4 nights Kashmir honeymoon, Srinagar Pahalgam Gulmarg tour, Kashmir couple package, romantic Kashmir getaway",
     canonical: "https://www.travelwiki.org.in/packages/magical-kashmir-tour/"
   });
 
   const packageData = {
-    name: "Magical Kashmir Tour",
+    name: "4N Kashmir Magic Tour – Lakes, Gardens & Meadows",
     description: "A magical 4-night Kashmir honeymoon tour covering Srinagar houseboat stay, Pahalgam valleys, and Gulmarg meadows with romantic arrangements.",
     price: "15999",
     originalPrice: "19199",
@@ -55,7 +55,7 @@ export default function MagicalKashmirTour() {
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative container mx-auto px-4">
           <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Magical Kashmir Tour</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">4N Kashmir Magic Tour – Lakes, Gardens & Meadows</h1>
             <p className="text-xl mb-8">
               Experience the true magic of Kashmir with our comprehensive 4-night romantic journey through paradise
             </p>

@@ -1,6 +1,15 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
+// Package imports
+import KashmirTourPackages from '../../components/Packages/KashmirTourPackages'
+import BestsellerKashmirTours from '../../components/Packages/BestsellerKashmirTours'
+import HoneymoonSpecial from '../../components/Packages/HoneymoonSpecial'
+import KashmirAdventureWinter from '../../components/Packages/KashmirAdventureWinter'
+import KashmirCulturalToursAndPackages from '../../components/Packages/KashmirCulturalToursAndPackages'
+import KashmirExcursionsSpecial from '../../components/Packages/KashmirExcursionsSpecial'
+import KashmirFamilyPackages from '../../components/Packages/KashmirFamilyPackages'
+
 const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759912426/Leh_to_Nubra_Valley_via_Khardung_La_Pass_n4gg1k.webp";
 
 const HowToReachLadakh = () => {
@@ -324,8 +333,19 @@ const HowToReachLadakh = () => {
           </div>
         </div>
       </div>
+      <div>
+        <KashmirTourPackages />
+        <BestsellerKashmirTours />
+        <HoneymoonSpecial />
+        <KashmirAdventureWinter />
+        <KashmirCulturalToursAndPackages />
+        <KashmirExcursionsSpecial />
+        <KashmirFamilyPackages />
+      </div>
     </>
   );
 };
+
+
 
 export default HowToReachLadakh;

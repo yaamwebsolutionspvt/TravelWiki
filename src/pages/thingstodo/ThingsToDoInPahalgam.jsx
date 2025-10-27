@@ -2,6 +2,13 @@ import React from "react";
 import { Helmet } from "react-helmet-async";
 import HeroBanner from "../../components/ThingsToDO/HeroBanner";
 import ActivityCard from "../../components/ThingsToDO/ActivityCard";
+import KashmirTourPackages from '../../components/Packages/KashmirTourPackages'
+import BestsellerKashmirTours from '../../components/Packages/BestsellerKashmirTours'
+import HoneymoonSpecial from '../../components/Packages/HoneymoonSpecial'
+import KashmirAdventureWinter from '../../components/Packages/KashmirAdventureWinter'
+import KashmirCulturalToursAndPackages from '../../components/Packages/KashmirCulturalToursAndPackages'
+import KashmirExcursionsSpecial from '../../components/Packages/KashmirExcursionsSpecial'
+import KashmirFamilyPackages from '../../components/Packages/KashmirFamilyPackages'
 
 const heroBg =
   "https://res.cloudinary.com/dw1sh368y/image/upload/v1760347737/1_Sightseeing_the_Hidden_Treasures_b9oq8h.webp";
@@ -141,6 +148,7 @@ const ThingsToDoInPahalgam = () => {
                 "Ziplining and small cafes available",
               ]}
               image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760347737/Camping_in_Aru_Valley_rrrtmx.webp"
+              imageOnRight={false}
             />
 
             <ActivityCard
@@ -160,6 +168,7 @@ const ThingsToDoInPahalgam = () => {
                 "Eco-friendly stays available",
               ]}
               image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760347737/River_Rafting_in_the_Bubbly_Rivers_c4se0m.webp"
+              imageOnRight={true}
             />
 
             <ActivityCard
@@ -179,6 +188,7 @@ const ThingsToDoInPahalgam = () => {
                 "Photography options on-site",
               ]}
               image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760347738/Skiing_in_the_Scenic_Slopes_aiydfe.webp"
+              imageOnRight={false}
             />
 
             <ActivityCard
@@ -198,6 +208,7 @@ const ThingsToDoInPahalgam = () => {
                 "Best season: June to September",
               ]}
               image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760347738/Trek_to_Kolahoi_Glacier_h8qu52.webp"
+              imageOnRight={true}
             />
 
             <ActivityCard
@@ -217,6 +228,7 @@ const ThingsToDoInPahalgam = () => {
                 "Quick 2–3 hour visit",
               ]}
               image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760348117/Sledding_in_Chandanwari_bq8caq.webp"
+              imageOnRight={false}
             />
 
             <ActivityCard
@@ -255,6 +267,7 @@ const ThingsToDoInPahalgam = () => {
                 "Catch-and-release encouraged",
               ]}
               image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760352642/Go_for_Trout_Fishing_nrj097.webp"
+              imageOnRight={false}
             />
 
             <ActivityCard
@@ -274,6 +287,7 @@ const ThingsToDoInPahalgam = () => {
                 "Carry food and water",
               ]}
               image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760347738/Photography_at_Avantipur_Temple_jtzrey.webp"
+              imageOnRight={true}
             />
 
             <ActivityCard
@@ -293,7 +307,8 @@ const ThingsToDoInPahalgam = () => {
                 "Cash preferred over cards",
               ]}
               image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760347739/Experience_the_Fun_of_Zorbing_l4oey8.webp"
-            />
+              imageOnRight={false}
+                />
 
             <ActivityCard
               id="local-cuisine"
@@ -312,6 +327,7 @@ const ThingsToDoInPahalgam = () => {
                 "Perfect to end your day in Pahalgam",
               ]}
               image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760347743/Strolling_through_Baisaran_Hills_rzvoir.webp"
+              imageOnRight={true}
             />
           </div>
 
@@ -327,6 +343,17 @@ const ThingsToDoInPahalgam = () => {
             <button className="bg-white text-green-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
               View Pahalgam Packages
             </button>
+          </div>
+
+          {/* Package Sections */}
+          <div className="mt-16">
+            <KashmirTourPackages />
+            <BestsellerKashmirTours />
+            <HoneymoonSpecial />
+            <KashmirAdventureWinter />
+            <KashmirCulturalToursAndPackages />
+            <KashmirExcursionsSpecial />
+            <KashmirFamilyPackages />
           </div>
         </div>
       </div>

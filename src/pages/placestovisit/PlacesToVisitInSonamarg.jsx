@@ -1,5 +1,12 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import KashmirTourPackages from '../../components/Packages/KashmirTourPackages'
+import BestsellerKashmirTours from '../../components/Packages/BestsellerKashmirTours'
+import HoneymoonSpecial from '../../components/Packages/HoneymoonSpecial'
+import KashmirAdventureWinter from '../../components/Packages/KashmirAdventureWinter'
+import KashmirCulturalToursAndPackages from '../../components/Packages/KashmirCulturalToursAndPackages'
+import KashmirExcursionsSpecial from '../../components/Packages/KashmirExcursionsSpecial'
+import KashmirFamilyPackages from '../../components/Packages/KashmirFamilyPackages'
 const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759486006/Kashmir_13_pqwesm.webp";
 
 
@@ -20,7 +27,7 @@ const PlacesToVisitInSonamarg = () => {
       <div className="min-h-screen bg-gray-50">
         {/* Hero Section */}
         <div className="relative text-white py-30 bg-cover bg-center bg-no-repeat min-h-[75vh]"
-        style={{ backgroundImage: `url(${heroBg})` }}
+          style={{ backgroundImage: `url(${heroBg})` }}
         >
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -143,6 +150,12 @@ const PlacesToVisitInSonamarg = () => {
           {/* Place 1: Thajiwas Glacier */}
           <section id="thajiwas-glacier" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759486006/Kashmir_13_pqwesm.webp"
+                alt="Thajiwas Glacier crown jewel"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">1. Thajiwas Glacier - The Crown Jewel</h2>
 
@@ -205,6 +218,12 @@ const PlacesToVisitInSonamarg = () => {
           {/* Place 2: Zojila Pass */}
           <section id="zojila-pass" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759485995/Kashmir_20_Sonmarg_and_sightseen_rn48lz.webp"
+                alt="Zojila Pass gateway to Ladakh"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">2. Zojila Pass - Gateway to Ladakh</h2>
 
@@ -267,6 +286,12 @@ const PlacesToVisitInSonamarg = () => {
           {/* Place 3: Nilagrad River */}
           <section id="nilagrad-river" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759485995/Kashmir_1_Sonamarg_rl5pqu.webp"
+                alt="Nilagrad River healing waters"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">3. Nilagrad River - The Healing Waters</h2>
 
@@ -329,6 +354,12 @@ const PlacesToVisitInSonamarg = () => {
           {/* Place 4: Baltal Valley */}
           <section id="baltal-valley" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759217542/Doodhpathri_d7tvfa.webp"
+                alt="Baltal Valley base camp to sacred heights"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">4. Baltal Valley - Base Camp to Sacred Heights</h2>
 
@@ -391,6 +422,12 @@ const PlacesToVisitInSonamarg = () => {
           {/* Place 5: Vishansar Lake */}
           <section id="vishansar-lake" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759216439/Picnic_in_Pristine_Meadows_airk09.webp"
+                alt="Vishansar Lake lake of Vishnu"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">5. Vishansar Lake - Lake of Vishnu</h2>
 
@@ -453,6 +490,12 @@ const PlacesToVisitInSonamarg = () => {
           {/* Place 6: Gangabal Lake */}
           <section id="gangabal-lake" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759214299/Sind_River_Scenic_Drives_xnevb8.webp"
+                alt="Gangabal Lake jewel of Mount Harmukh"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">6. Gangabal Lake - Jewel of Mount Harmukh</h2>
 
@@ -515,6 +558,12 @@ const PlacesToVisitInSonamarg = () => {
           {/* Place 7: Krishnasar Lake */}
           <section id="krishnasar-lake" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759486006/Kashmir_13_pqwesm.webp"
+                alt="Krishnasar Lake mirror of the mountains"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">7. Krishnasar Lake - Mirror of the Mountains</h2>
 
@@ -577,6 +626,12 @@ const PlacesToVisitInSonamarg = () => {
           {/* Place 8: Alpine Meadows */}
           <section id="alpine-meadows" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759485995/Kashmir_20_Sonmarg_and_sightseen_rn48lz.webp"
+                alt="Alpine Meadows nature's golden carpet"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">8. Alpine Meadows - Nature's Golden Carpet</h2>
 
@@ -639,6 +694,12 @@ const PlacesToVisitInSonamarg = () => {
           {/* Place 9: Amarnath Base */}
           <section id="amarnath-base" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759485995/Kashmir_1_Sonamarg_rl5pqu.webp"
+                alt="Amarnath Yatra base sacred journey gateway"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">9. Amarnath Yatra Base - Sacred Journey Gateway</h2>
 
@@ -701,6 +762,12 @@ const PlacesToVisitInSonamarg = () => {
           {/* Place 10: Gold Meadows */}
           <section id="gold-meadows" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759217542/Doodhpathri_d7tvfa.webp"
+                alt="Gold Meadows the name bearer"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">10. Gold Meadows - The Name Bearer</h2>
 
@@ -804,7 +871,7 @@ const PlacesToVisitInSonamarg = () => {
           </section>
 
           {/* Conclusion */}
-          <section className="mb-16">
+          <section className="mb-8">
             <div className="bg-gradient-to-r from-yellow-600 to-orange-600 text-white rounded-lg p-8">
               <h2 className="text-3xl font-bold mb-6">Discover the Golden Magic of Sonamarg</h2>
               <p className="text-lg leading-relaxed mb-6">
@@ -823,8 +890,20 @@ const PlacesToVisitInSonamarg = () => {
               </p>
             </div>
           </section>
+
+
+        </div>
+        <div>
+          <KashmirTourPackages />
+          <BestsellerKashmirTours />
+          <HoneymoonSpecial />
+          <KashmirAdventureWinter />
+          <KashmirCulturalToursAndPackages />
+          <KashmirExcursionsSpecial />
+          <KashmirFamilyPackages />
         </div>
       </div>
+     
     </>
   );
 };

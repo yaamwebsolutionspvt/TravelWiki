@@ -14,7 +14,7 @@ const kashmirTourism = "https://res.cloudinary.com/dw1sh368y/image/upload/v17594
 export default function MagicalKashmirTour() {
 
   const packageData = {
-    name: "Magical Kashmir Tour Package",
+    name: "4N Kashmir Magic Tour – Lakes, Gardens & Meadows Package",
     description: "A magical journey through Kashmir's most beautiful destinations including Srinagar houseboats, Pahalgam valleys, and Gulmarg meadows in 4 nights 5 days.",
     price: "14999",
     originalPrice: "17999",
@@ -34,9 +34,9 @@ export default function MagicalKashmirTour() {
     <>
       <SEO 
         pageType="packages"
-        customTitle="Magical Kashmir Tour Package 2025 | 4 Nights 5 Days Srinagar Pahalgam Gulmarg Tour ₹14,999"
+        customTitle="4N Kashmir Magic Tour – Lakes, Gardens & Meadows Package 2025 | 4 Nights 5 Days Srinagar Pahalgam Gulmarg Tour ₹14,999"
         customDescription="Experience magical Kashmir with our 4N5D tour package covering Srinagar Dal Lake, Pahalgam valleys, Gulmarg skiing. Includes houseboat stay, shikara rides, Gondola ride. Best Kashmir tourism package at ₹14,999 with 17% discount."
-        customKeywords={["magical Kashmir tour", "4 nights Kashmir package", "Kashmir tour 4N5D", "Srinagar Pahalgam Gulmarg tour", "Kashmir vacation package", "Kashmir tourism", "Kashmir holiday package", "Dal Lake tour", "Kashmir houseboat stay", "Gulmarg Gondola", "Pahalgam Betaab Valley", "Kashmir shikara ride"]}
+        customKeywords={["4N Kashmir Magic Tour – Lakes, Gardens & Meadows", "4 nights Kashmir package", "Kashmir tour 4N5D", "Srinagar Pahalgam Gulmarg tour", "Kashmir vacation package", "Kashmir tourism", "Kashmir holiday package", "Dal Lake tour", "Kashmir houseboat stay", "Gulmarg Gondola", "Pahalgam Betaab Valley", "Kashmir shikara ride"]}
         customImage={kashmirTourism}
       >
         <script type="application/ld+json">
@@ -80,7 +80,7 @@ export default function MagicalKashmirTour() {
           <div className="relative container mx-auto px-4 py-16 sm:py-16 md:py-20 h-full flex items-center justify-center">
             <div className="max-w-4xl mx-auto text-center px-2">
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 leading-tight" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.7)'}}>
-                Magical Kashmir Tour Package 2025
+                4N Kashmir Magic Tour – Lakes, Gardens & Meadows Package 2025
                 <span className="block text-lg sm:text-2xl md:text-3xl font-medium mt-2 text-black">
                   4 Nights 5 Days | Srinagar • Pahalgam • Gulmarg
                 </span>

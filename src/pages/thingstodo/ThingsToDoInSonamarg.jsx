@@ -2,6 +2,13 @@ import React from "react";
 import { Helmet } from "react-helmet-async";
 import HeroBanner from "../../components/ThingsToDO/HeroBanner";
 import ActivityCard from "../../components/ThingsToDO/ActivityCard";
+import KashmirTourPackages from '../../components/Packages/KashmirTourPackages'
+import BestsellerKashmirTours from '../../components/Packages/BestsellerKashmirTours'
+import HoneymoonSpecial from '../../components/Packages/HoneymoonSpecial'
+import KashmirAdventureWinter from '../../components/Packages/KashmirAdventureWinter'
+import KashmirCulturalToursAndPackages from '../../components/Packages/KashmirCulturalToursAndPackages'
+import KashmirExcursionsSpecial from '../../components/Packages/KashmirExcursionsSpecial'
+import KashmirFamilyPackages from '../../components/Packages/KashmirFamilyPackages'
 
 const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1760347737/1_Sightseeing_the_Hidden_Treasures_b9oq8h.webp";
 
@@ -94,7 +101,8 @@ const ThingsToDoInSonamarg = () => {
                 "Local guides available for safe routes",
               ]}
               image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760352639/1_Trekking_in_Sonamarg_fvpf1j.webp"
-            />
+              imageOnRight={false}
+                />
 
             <ActivityCard
               id="river-rafting"
@@ -112,7 +120,8 @@ const ThingsToDoInSonamarg = () => {
                 "Avoid during heavy rains or winter",
               ]}
               image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760352639/White_River_Rafting_in_Glacial_Water_vsjcsr.webp"
-            />
+              imageOnRight={false}
+              />
 
             <ActivityCard
               id="skiing"
@@ -130,7 +139,8 @@ const ThingsToDoInSonamarg = () => {
                 "Combine with a visit to Thajiwas Glacier",
               ]}
               image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760352641/Skiing_in_the_Soft_Snow_fp1yon.webp"
-            />
+              imageOnRight={true}
+              />
 
             <ActivityCard
               id="camping"
@@ -148,7 +158,8 @@ const ThingsToDoInSonamarg = () => {
                 "Avoid monsoon season for safety",
               ]}
               image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760352641/Camping_in_the_Verdant_Meadows_d4bz5t.webp"
-            />
+              imageOnRight={false}
+              />
 
             <ActivityCard
               id="hiking"
@@ -166,7 +177,8 @@ const ThingsToDoInSonamarg = () => {
                 "Don’t miss golden sunset views",
               ]}
               image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760352641/Hiking_across_Countryside_hqx35h.webp"
-            />
+              imageOnRight={true}
+              />
 
             <ActivityCard
               id="fishing"
@@ -184,7 +196,8 @@ const ThingsToDoInSonamarg = () => {
                 "Best season: May to October",
               ]}
               image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760352642/Go_for_Trout_Fishing_nrj097.webp"
-            />
+              imageOnRight={false}
+              />
 
             <ActivityCard
               id="sledding"
@@ -202,7 +215,8 @@ const ThingsToDoInSonamarg = () => {
                 "Dress warmly with gloves and boots",
               ]}
               image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760352644/Sledding_in_Thajiwas_Glacier_i5vwry.webp"
-            />
+              imageOnRight={true}
+              />
 
             <ActivityCard
               id="zojila-pass"
@@ -220,7 +234,8 @@ const ThingsToDoInSonamarg = () => {
                 "Carry warm clothes even in summer",
               ]}
               image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760352645/A_Trip_to_Zojila_Pass_aigxbr.webp"
-            />
+              imageOnRight={false}
+              />
           </div>
 
           {/* CTA */}
@@ -232,6 +247,17 @@ const ThingsToDoInSonamarg = () => {
             <button className="bg-white text-green-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
               View Sonamarg Packages
             </button>
+          </div>
+
+          {/* Package Sections */}
+          <div className="mt-16">
+            <KashmirTourPackages />
+            <BestsellerKashmirTours />
+            <HoneymoonSpecial />
+            <KashmirAdventureWinter />
+            <KashmirCulturalToursAndPackages />
+            <KashmirExcursionsSpecial />
+            <KashmirFamilyPackages />
           </div>
         </div>
       </div>

@@ -54,8 +54,7 @@ export default function MagnificentKashmirValleyTour() {
           <div className="relative container mx-auto px-4 py-8 sm:py-12 md:py-16 h-full flex items-center justify-center">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6 mt-16 sm:mt-20 md:mt-8" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.7)'}}>
-                Magnificent Kashmir Valley Tour
-              </h1>
+                Kashmir Grand Discovery: 6 Nights Scenic Expedition              </h1>
               <p className="text-xl mb-8" style={{textShadow: '1px 1px 3px rgba(0,0,0,0.7)'}}>
                 Experience the magnificent grandeur of Kashmir valley with our most comprehensive 6 nights 7 days tour covering every beautiful corner of paradise
               </p>

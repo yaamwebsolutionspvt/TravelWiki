@@ -1,5 +1,12 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import KashmirTourPackages from '../../components/Packages/KashmirTourPackages'
+import BestsellerKashmirTours from '../../components/Packages/BestsellerKashmirTours'
+import HoneymoonSpecial from '../../components/Packages/HoneymoonSpecial'
+import KashmirAdventureWinter from '../../components/Packages/KashmirAdventureWinter'
+import KashmirCulturalToursAndPackages from '../../components/Packages/KashmirCulturalToursAndPackages'
+import KashmirExcursionsSpecial from '../../components/Packages/KashmirExcursionsSpecial'
+import KashmirFamilyPackages from '../../components/Packages/KashmirFamilyPackages'
 
 const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1760352641/Skiing_in_the_Soft_Snow_fp1yon.webp";
 
@@ -118,8 +125,15 @@ const HowToReachKashmir = () => {
           {/* Detailed Sections */}
           <div className="space-y-12">
             {/* By Air Section */}
-            <section className="bg-white rounded-lg shadow-lg p-8">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">How To Reach Kashmir Valley by Air</h2>
+            <section className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759907937/Arrival_Dal_Lake_Introduction_dt4jja.webp"
+                alt="Srinagar International Airport and Dal Lake"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
+              <div className="p-8">
+                <h2 className="text-3xl font-bold text-gray-900 mb-6">How To Reach Kashmir Valley by Air</h2>
               <div className="flex flex-col md:flex-row gap-8">
                 <div className="flex-1">
                   <p className="text-gray-700 leading-relaxed mb-6">
@@ -136,11 +150,19 @@ const HowToReachKashmir = () => {
                   </div>
                 </div>
               </div>
+              </div>
             </section>
 
             {/* By Rail Section */}
-            <section className="bg-white rounded-lg shadow-lg p-8">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">How To Reach Kashmir Valley by Rail</h2>
+            <section className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759486005/Kashmir_11_Dallake_ujqsuw.webp"
+                alt="Railway journey to Kashmir Valley"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
+              <div className="p-8">
+                <h2 className="text-3xl font-bold text-gray-900 mb-6">How To Reach Kashmir Valley by Rail</h2>
               <div className="flex flex-col md:flex-row gap-8">
                 <div className="flex-1">
                   <p className="text-gray-700 leading-relaxed mb-6">
@@ -157,11 +179,19 @@ const HowToReachKashmir = () => {
                   </div>
                 </div>
               </div>
+              </div>
             </section>
 
             {/* By Road Section */}
-            <section className="bg-white rounded-lg shadow-lg p-8">
-              <h2 className="text-3xl font-bold text-gray-900 mb-6">How To Reach Kashmir Valley by Road</h2>
+            <section className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759214299/Sind_River_Scenic_Drives_xnevb8.webp"
+                alt="Scenic road journey to Kashmir Valley"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
+              <div className="p-8">
+                <h2 className="text-3xl font-bold text-gray-900 mb-6">How To Reach Kashmir Valley by Road</h2>
               <div className="flex flex-col md:flex-row gap-8">
                 <div className="flex-1">
                   <p className="text-gray-700 leading-relaxed mb-6">
@@ -177,6 +207,7 @@ const HowToReachKashmir = () => {
                     </ul>
                   </div>
                 </div>
+              </div>
               </div>
             </section>
           </div>
@@ -203,7 +234,19 @@ const HowToReachKashmir = () => {
               </div>
             </div>
           </div>
+
+        
         </div>
+          {/* Package Sections */}
+          <div className="mt-16">
+            <KashmirTourPackages />
+            <BestsellerKashmirTours />
+            <HoneymoonSpecial />
+            <KashmirAdventureWinter />
+            <KashmirCulturalToursAndPackages />
+            <KashmirExcursionsSpecial />
+            <KashmirFamilyPackages />
+          </div>
       </div>
     </>
   );

@@ -52,8 +52,7 @@ export default function ScenicKashmirTour() {
           <div className="relative container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Scenic Kashmir Tour
-              </h1>
+                Beautiful Kashmir Tour – 6 Nights Valley Discovery              </h1>
               <p className="text-xl mb-8">
                 Immerse yourself in Kashmir's scenic beauty with extended stays and premium experiences at every destination
               </p>

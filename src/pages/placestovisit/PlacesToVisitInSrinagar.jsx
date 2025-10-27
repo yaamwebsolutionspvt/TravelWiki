@@ -1,5 +1,12 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import KashmirTourPackages from '../../components/Packages/KashmirTourPackages'
+import BestsellerKashmirTours from '../../components/Packages/BestsellerKashmirTours'
+import HoneymoonSpecial from '../../components/Packages/HoneymoonSpecial'
+import KashmirAdventureWinter from '../../components/Packages/KashmirAdventureWinter'
+import KashmirCulturalToursAndPackages from '../../components/Packages/KashmirCulturalToursAndPackages'
+import KashmirExcursionsSpecial from '../../components/Packages/KashmirExcursionsSpecial'
+import KashmirFamilyPackages from '../../components/Packages/KashmirFamilyPackages'
 const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759909445/Gulmarg_to_Srinagar_Departure_ysf0sb.webp";
 const PlacesToVisitInSrinagar = () => {
   return (
@@ -137,6 +144,12 @@ const PlacesToVisitInSrinagar = () => {
           {/* Place 1: Dal Lake */}
           <section id="dal-lake" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759907937/Arrival_Dal_Lake_Introduction_dt4jja.webp"
+                alt="Dal Lake jewel of Srinagar"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">1. Dal Lake - The Jewel of Srinagar</h2>
 
@@ -198,6 +211,12 @@ const PlacesToVisitInSrinagar = () => {
           {/* Place 2: Tulip Garden */}
           <section id="tulip-garden" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759907938/Shankaracharya_Surroundings_kbsuvp.webp"
+                alt="Indira Gandhi Memorial Tulip Garden"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">2. Indira Gandhi Memorial Tulip Garden</h2>
 
@@ -259,6 +278,12 @@ const PlacesToVisitInSrinagar = () => {
           {/* Place 3: Shalimar Bagh */}
           <section id="shalimar-bagh" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759907935/Mughal_Gardens_City_Tour_bonery.webp"
+                alt="Shalimar Bagh the abode of love"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">3. Shalimar Bagh - The Abode of Love</h2>
 
@@ -320,6 +345,12 @@ const PlacesToVisitInSrinagar = () => {
           {/* Place 4: Nishat Bagh */}
           <section id="nishat-bagh" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759486009/Kashmir_14_ndlkjn.webp"
+                alt="Nishat Bagh garden of bliss"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">4. Nishat Bagh - The Garden of Bliss</h2>
 
@@ -381,6 +412,12 @@ const PlacesToVisitInSrinagar = () => {
           {/* Place 5: Shankaracharya Temple */}
           <section id="shankaracharya-temple" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759907938/Shankaracharya_Surroundings_kbsuvp.webp"
+                alt="Shankaracharya Temple ancient spiritual heights"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">5. Shankaracharya Temple - Ancient Spiritual Heights</h2>
 
@@ -442,6 +479,12 @@ const PlacesToVisitInSrinagar = () => {
           {/* Place 6: Hazratbal Shrine */}
           <section id="hazratbal-shrine" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759486005/Kashmir_11_Dallake_ujqsuw.webp"
+                alt="Hazratbal Shrine the sacred relic"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">6. Hazratbal Shrine - The Sacred Relic</h2>
 
@@ -503,6 +546,12 @@ const PlacesToVisitInSrinagar = () => {
           {/* Place 7: Pari Mahal */}
           <section id="pari-mahal" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759219502/Stay_on_Heritage_Houseboats_vynbfb.webp"
+                alt="Pari Mahal palace of fairies"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">7. Pari Mahal - The Palace of Fairies</h2>
 
@@ -565,6 +614,12 @@ const PlacesToVisitInSrinagar = () => {
           {/* Place 8: Chashme Shahi */}
           <section id="chashme-shahi" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759907937/Arrival_Dal_Lake_Introduction_dt4jja.webp"
+                alt="Chashme Shahi the royal spring"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">8. Chashme Shahi - The Royal Spring</h2>
 
@@ -627,6 +682,12 @@ const PlacesToVisitInSrinagar = () => {
           {/* Place 9: Nigeen Lake */}
           <section id="nigeen-lake" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759907938/Shankaracharya_Surroundings_kbsuvp.webp"
+                alt="Nigeen Lake jewel in the ring"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">9. Nigeen Lake - The Jewel in the Ring</h2>
 
@@ -688,6 +749,12 @@ const PlacesToVisitInSrinagar = () => {
           {/* Place 10: Char Chinar */}
           <section id="char-chinar" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759907935/Mughal_Gardens_City_Tour_bonery.webp"
+                alt="Char Chinar four noble trees"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">10. Char Chinar - The Four Noble Trees</h2>
 
@@ -788,7 +855,7 @@ const PlacesToVisitInSrinagar = () => {
           </section>
 
           {/* Conclusion */}
-          <section className="mb-16">
+          <section className="mb-8">
             <div className="bg-gradient-to-r from-emerald-600 to-blue-600 text-white rounded-lg p-8">
               <h2 className="text-3xl font-bold mb-6">Experience the Magic of Srinagar</h2>
               <p className="text-lg leading-relaxed mb-6">
@@ -805,8 +872,22 @@ const PlacesToVisitInSrinagar = () => {
               </p>
             </div>
           </section>
+
+          {/* Package Sections */}
+
+        </div>
+
+        <div>
+          <KashmirTourPackages />
+          <BestsellerKashmirTours />
+          <HoneymoonSpecial />
+          <KashmirAdventureWinter />
+          <KashmirCulturalToursAndPackages />
+          <KashmirExcursionsSpecial />
+          <KashmirFamilyPackages />
         </div>
       </div>
+
     </>
   );
 };

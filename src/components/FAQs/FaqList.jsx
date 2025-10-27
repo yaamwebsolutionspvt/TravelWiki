@@ -55,7 +55,7 @@ Day 06: Gulmarg to Srinagar | Departure from Srinagar`,
   {
     question: "Q: What are the best Kashmir travel packages?",
     answer: `Kashmir travel packages are available for almost all celebrations and group size. Here is a list of our 10 best and hottest Kashmir holiday packages:
-a. Magical Kashmir Tour Package (4 Nights / 5 Days)
+a. 4N Kashmir Magic Tour – Lakes, Gardens & Meadows Package (4 Nights / 5 Days)
 b. Kashmir Unconnected Tour (5 Nights / 6 Days)
 c. Kashmir offbeat Tour (5 Nights / 6 Days)
 d. Kashmir Marvellous Tour (6 Nights / 7 Days)

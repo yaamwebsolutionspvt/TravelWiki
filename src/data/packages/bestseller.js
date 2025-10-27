@@ -21,7 +21,7 @@ export const bestsellerPackages = [
     link: "/packages/3-nights-4-days-srinagar-pahalgam-gulmarg-tour",
   },
   {
-    title: "Magical Kashmir Tour",
+    title: "4N Kashmir Magic Tour – Lakes, Gardens & Meadows",
     duration: "4N/5D",
     nights: "2N Srinagar (IN HB), 1N Pahalgam, 1N Gulmarg",
     flights: 0,

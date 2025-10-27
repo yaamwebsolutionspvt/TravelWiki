@@ -2,6 +2,13 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import ActivityCard from '../../components/ThingsToDO/ActivityCard';
 import HeroBanner from '../../components/ThingsToDO/HeroBanner';
+import KashmirTourPackages from '../../components/Packages/KashmirTourPackages'
+import BestsellerKashmirTours from '../../components/Packages/BestsellerKashmirTours'
+import HoneymoonSpecial from '../../components/Packages/HoneymoonSpecial'
+import KashmirAdventureWinter from '../../components/Packages/KashmirAdventureWinter'
+import KashmirCulturalToursAndPackages from '../../components/Packages/KashmirCulturalToursAndPackages'
+import KashmirExcursionsSpecial from '../../components/Packages/KashmirExcursionsSpecial'
+import KashmirFamilyPackages from '../../components/Packages/KashmirFamilyPackages'
 const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1760341473/Riding_a_Gulmarg_Gondola_etupys.webp";
 
 
@@ -77,6 +84,7 @@ const ThingsToDoInGulmarg = () => {
                 "Perfect learning environment",
               ]}
               image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760341472/Skiing_in_Apharwat_Peak_z8hzj4.webp"
+              imageOnRight={false}
             />
 
             <ActivityCard
@@ -96,6 +104,7 @@ const ThingsToDoInGulmarg = () => {
                 "Year-round operation",
               ]}
               image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760341473/Riding_a_Gulmarg_Gondola_etupys.webp"
+              imageOnRight={true}
             />
 
             <ActivityCard
@@ -115,6 +124,7 @@ const ThingsToDoInGulmarg = () => {
                 "No vehicle noise disturbance",
               ]}
               image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760341473/Golfing_on_Second_Highest_Golf_Course_ipu9qy.webp"
+              imageOnRight={false}
             />
 
             <ActivityCard
@@ -134,6 +144,7 @@ const ThingsToDoInGulmarg = () => {
                 "Perfect for relaxation after trek",
               ]}
               image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760341473/Trek_to_Alpather_Lake_ixvrix.webp"
+              imageOnRight={true}
             />
 
             <ActivityCard
@@ -153,6 +164,7 @@ const ThingsToDoInGulmarg = () => {
                 "Flora and fauna exploration",
               ]}
               image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760341724/Exploring_Gulmarg_Biosphere_Reserve_grdghv.webp"
+              imageOnRight={false}
             />
 
             <ActivityCard
@@ -172,6 +184,7 @@ const ThingsToDoInGulmarg = () => {
                 "Perfect for photography",
               ]}
               image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760342077/Riding_a_Pony_to_Khilanmarg_os9slv.webp"
+              imageOnRight={true}
             />
 
             <ActivityCard
@@ -191,6 +204,7 @@ const ThingsToDoInGulmarg = () => {
                 "Nature relaxation",
               ]}
               image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760342498/Instagram_Worthy_Pictures_in_Ningle_Nallah_aho2kd.webp"
+              imageOnRight={false}
             />
 
             <ActivityCard
@@ -210,7 +224,8 @@ const ThingsToDoInGulmarg = () => {
                 "Aids in digestion after a meal",
               ]}
               image="https://res.cloudinary.com/dw1sh368y/image/upload/v1760342619/Trying_Local_Cuisine_-_Wazwan_and_Kahwa_knuasm.webp"
-            />
+              imageOnRight={true}
+              />
           </div>
 
           {/* Call to Action */}
@@ -223,6 +238,18 @@ const ThingsToDoInGulmarg = () => {
               View Gulmarg Packages
             </button>
           </div>
+
+          {/* Package Sections */}
+        
+        </div>
+        <div>
+          <KashmirTourPackages />
+          <BestsellerKashmirTours />
+          <HoneymoonSpecial />
+          <KashmirAdventureWinter />
+          <KashmirCulturalToursAndPackages />
+          <KashmirExcursionsSpecial />
+          <KashmirFamilyPackages />
         </div>
       </div>
     </>

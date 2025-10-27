@@ -54,8 +54,7 @@ export default function KashmirExoticTour() {
           <div className="relative container mx-auto px-4 py-8 sm:py-12 md:py-16 h-full flex items-center justify-center">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6 mt-16 sm:mt-20 md:mt-8" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.7)'}}>
-                Kashmir Exotic Tour Package
-              </h1>
+                5 Nights Exotic Kashmir Holiday – Lakes & Meadows              </h1>
               <p className="text-xl mb-8" style={{textShadow: '1px 1px 3px rgba(0,0,0,0.7)'}}>
                 Indulge in an exotic Kashmir experience with extended stays in paradise. 5 nights of comprehensive exploration across Kashmir's most beautiful destinations
               </p>

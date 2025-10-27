@@ -1,5 +1,12 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import KashmirTourPackages from '../../components/Packages/KashmirTourPackages'
+import BestsellerKashmirTours from '../../components/Packages/BestsellerKashmirTours'
+import HoneymoonSpecial from '../../components/Packages/HoneymoonSpecial'
+import KashmirAdventureWinter from '../../components/Packages/KashmirAdventureWinter'
+import KashmirCulturalToursAndPackages from '../../components/Packages/KashmirCulturalToursAndPackages'
+import KashmirExcursionsSpecial from '../../components/Packages/KashmirExcursionsSpecial'
+import KashmirFamilyPackages from '../../components/Packages/KashmirFamilyPackages'
 const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759486005/Kashmir_19_Gulmarg_and_sightseen_ujzh0g.webp"
 const PlacesToVisitInGulmarg = () => {
   return (
@@ -142,6 +149,12 @@ const PlacesToVisitInGulmarg = () => {
           {/* Place 1: Gulmarg Gondola */}
           <section id="gulmarg-gondola" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759486005/Kashmir_19_Gulmarg_and_sightseen_ujzh0g.webp"
+                alt="Gulmarg Gondola cable car system"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">1. Gulmarg Gondola - World's Second Highest Cable Car</h2>
                 
@@ -205,6 +218,12 @@ const PlacesToVisitInGulmarg = () => {
           {/* Place 2: Apharwat Peak */}
           <section id="apharwat-peak" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759486003/Kashmir_9_Gulmarg_cu8jko.webp"
+                alt="Apharwat Peak skiing destination"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">2. Apharwat Peak - Summit of Adventure</h2>
                 
@@ -268,6 +287,12 @@ const PlacesToVisitInGulmarg = () => {
           {/* Place 3: Alpather Lake */}
           <section id="alpather-lake" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759485996/Kashmir_18_Gulmarg_to_srinagar_iu3pij.webp"
+                alt="Alpather Lake frozen beauty"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">3. Alpather Lake - The Frozen Beauty</h2>
                 
@@ -331,6 +356,12 @@ const PlacesToVisitInGulmarg = () => {
           {/* Place 4: Gulmarg Golf Course */}
           <section id="gulmarg-golf-course" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1758868866/Summer_Meadow_Walks_Golf_wqj3pd.webp"
+                alt="Gulmarg Golf Course world's highest green"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">4. Gulmarg Golf Course - World's Highest Green</h2>
                 
@@ -394,6 +425,12 @@ const PlacesToVisitInGulmarg = () => {
           {/* Place 5: Gulmarg Biosphere Reserve */}
           <section id="gulmarg-biosphere" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759909431/Srinagar_to_Gulmarg_hpxniv.webp"
+                alt="Gulmarg Biosphere Reserve wildlife paradise"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">5. Gulmarg Biosphere Reserve - Wildlife Paradise</h2>
                 
@@ -457,6 +494,12 @@ const PlacesToVisitInGulmarg = () => {
           {/* Place 6: Drung Waterfall */}
           <section id="drung-waterfall" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1760163828/Gulmarg_11_oeudnw.webp"
+                alt="Drung Waterfall frozen cascade"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">6. Drung Waterfall - The Frozen Cascade</h2>
                 
@@ -521,6 +564,12 @@ const PlacesToVisitInGulmarg = () => {
           {/* Place 7: Strawberry Valley */}
           <section id="strawberry-valley" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759486005/Kashmir_19_Gulmarg_and_sightseen_ujzh0g.webp"
+                alt="Strawberry Valley hidden gem"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">7. Strawberry Valley - Hidden Gem</h2>
                 
@@ -584,6 +633,12 @@ const PlacesToVisitInGulmarg = () => {
           {/* Place 8: St. Mary's Church */}
           <section id="st-mary-church" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759486003/Kashmir_9_Gulmarg_cu8jko.webp"
+                alt="St. Mary's Church Victorian heritage"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">8. St. Mary's Church - Victorian Heritage</h2>
                 
@@ -648,6 +703,12 @@ const PlacesToVisitInGulmarg = () => {
           {/* Place 9: Khilanmarg */}
           <section id="khilanmarg" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759485996/Kashmir_18_Gulmarg_to_srinagar_iu3pij.webp"
+                alt="Khilanmarg valley of flowers"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">9. Khilanmarg - Valley of Flowers</h2>
                 
@@ -712,6 +773,12 @@ const PlacesToVisitInGulmarg = () => {
           {/* Place 10: Maharani Temple */}
           <section id="maharani-temple" className="mb-16">
             <div className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1758868866/Summer_Meadow_Walks_Golf_wqj3pd.webp"
+                alt="Maharani Temple sacred summit"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
               <div className="p-8">
                 <h2 className="text-3xl font-bold text-gray-900 mb-6">10. Maharani Temple - Sacred Summit</h2>
                 
@@ -815,7 +882,7 @@ const PlacesToVisitInGulmarg = () => {
           </section>
 
           {/* Conclusion */}
-          <section className="mb-16">
+          <section className="mb-8">
             <div className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-lg p-8">
               <h2 className="text-3xl font-bold mb-6">Discover the Meadow of Flowers</h2>
               <p className="text-lg leading-relaxed mb-6">
@@ -834,8 +901,24 @@ const PlacesToVisitInGulmarg = () => {
               </p>
             </div>
           </section>
+
+          {/* Package Sections */}
+          
+           
+          
+        </div>
+        <div>
+          <KashmirTourPackages />
+          <BestsellerKashmirTours />
+          <HoneymoonSpecial />
+          <KashmirAdventureWinter />
+          <KashmirCulturalToursAndPackages />
+          <KashmirExcursionsSpecial />
+          <KashmirFamilyPackages />
         </div>
       </div>
+      
+       
     </>
   );
 };

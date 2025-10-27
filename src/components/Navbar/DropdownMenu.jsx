@@ -101,12 +101,12 @@ const DropdownMenu = ({ isMobile = false, onClose }) => {
   const getRouteForItem = (sectionTitle, itemName) => {
     const routeMap = {
       "Kashmir Best Sellers": {
-        "Glimpses of Kashmir Valley (3 Nights)": "/packages/3-nights-4-days-srinagar-pahalgam-gulmarg-tour",
-        "Magical Kashmir Tour (4 Nights)": "/packages/magical-kashmir-tour",
-        "Kashmir Exotic Tour (5 Nights)": "/packages/kashmir-exotic-tour",
-        "Magnificent Kashmir Valley Tour (6 Nights)": "/packages/magnificent-kashmir-valley-tour",
-        "Kashmir Marvellous Tour (7 Nights)": "/packages/week-long-holiday-kashmir",
-        "Kashmir Valley Tour (3 Nights)": "/packages/kashmir-valley-tour",
+        "Quick Kashmir Getaway: 3 Nights in the Valley": "/packages/3-nights-4-days-srinagar-pahalgam-gulmarg-tour",
+        "4N Kashmir Magic Tour – Lakes, Gardens & Meadows (4 Nights)": "/packages/magical-kashmir-tour",
+        "5 Nights Exotic Kashmir Holiday – Lakes & Meadows": "/packages/kashmir-exotic-tour",
+        "Kashmir Grand Discovery: 6 Nights Scenic Expedition": "/packages/magnificent-kashmir-valley-tour",
+        "Marvelous Kashmir: 7 Nights Grand Holiday": "/packages/week-long-holiday-kashmir",
+        "3 Nights Kashmir Valley Tour – Srinagar & Gulmarg": "/packages/kashmir-valley-tour",
         "Gurez Valley Tour (3 Nights)": "/packages/gurez-valley-tour",
         "Kashmir with Gurez Valley Tour (5 Nights)": "/packages/kashmir-with-gurez-valley-tour",
         "Kashmir Offbeat with Gurez (7 Nights)": "/packages/kashmir-offbeat-with-gurez",
@@ -128,11 +128,11 @@ const DropdownMenu = ({ isMobile = false, onClose }) => {
         "View All": "/packages-listing"
       },
       "Kashmir Honeymoon Packages": {
-        "Glimpses of Family Tour (3 Nights)": "/packages/glimpses-of-family-tour",
-        "Magical Kashmir Tour (4 Nights)": "/packages/honeymoon-magical-kashmir-tour",
-        "Best Selling Kashmir Tour (5 Nights)": "/packages/best-selling-kashmir-tour",
-        "Scenic Kashmir Tour (6 Nights)": "/packages/scenic-kashmir-tour",
-        "Kashmir Marvelous Tour (7 Nights)": "/packages/kashmir-marvelous-tour",
+        "3 Nights Kashmir Family Tour – Fun & Nature Escape": "/packages/glimpses-of-family-tour",
+        "4N Kashmir Magic Tour – Lakes, Gardens & Meadows (4 Nights)": "/packages/honeymoon-magical-kashmir-tour",
+        "Kashmir Bestseller Tour – 5 Nights Classic Itinerary": "/packages/best-selling-kashmir-tour",
+        "Beautiful Kashmir Tour – 6 Nights Valley Discovery": "/packages/scenic-kashmir-tour",
+        "Grand Kashmir Tour – 7 Nights Valley Experience": "/packages/kashmir-marvelous-tour",
         "Kashmir Refreshing Tour (3 Nights)": "/packages/kashmir-refreshing-tour",
         "View All Kashmir Honeymoon Packages": "/packages-listing"
       }
@@ -147,12 +147,12 @@ const DropdownMenu = ({ isMobile = false, onClose }) => {
     {
       title: "Kashmir Best Sellers",
       items: [
-        "Glimpses of Kashmir Valley (3 Nights)",
-        "Magical Kashmir Tour (4 Nights)",
-        "Kashmir Exotic Tour (5 Nights)",
-        "Magnificent Kashmir Valley Tour (6 Nights)",
-        "Kashmir Marvellous Tour (7 Nights)",
-        "Kashmir Valley Tour (3 Nights)",
+        "Quick Kashmir Getaway: 3 Nights in the Valley",
+        "4N Kashmir Magic Tour – Lakes, Gardens & Meadows (4 Nights)",
+        "5 Nights Exotic Kashmir Holiday – Lakes & Meadows",
+        "Kashmir Grand Discovery: 6 Nights Scenic Expedition",
+        "Marvelous Kashmir: 7 Nights Grand Holiday",
+        "3 Nights Kashmir Valley Tour – Srinagar & Gulmarg",
         "Gurez Valley Tour (3 Nights)",
         "Kashmir with Gurez Valley Tour (5 Nights)",
         "Kashmir Offbeat with Gurez (7 Nights)",
@@ -180,11 +180,11 @@ const DropdownMenu = ({ isMobile = false, onClose }) => {
     {
       title: "Kashmir Honeymoon Packages",
       items: [
-        "Glimpses of Family Tour (3 Nights)",
-        "Magical Kashmir Tour (4 Nights)",
-        "Best Selling Kashmir Tour (5 Nights)",
-        "Scenic Kashmir Tour (6 Nights)",
-        "Kashmir Marvelous Tour (7 Nights)",
+        "3 Nights Kashmir Family Tour – Fun & Nature Escape",
+        "4N Kashmir Magic Tour – Lakes, Gardens & Meadows (4 Nights)",
+        "Kashmir Bestseller Tour – 5 Nights Classic Itinerary",
+        "Beautiful Kashmir Tour – 6 Nights Valley Discovery",
+        "Grand Kashmir Tour – 7 Nights Valley Experience",
         "Kashmir Refreshing Tour (3 Nights)",
         "View All Kashmir Honeymoon Packages",
       ],

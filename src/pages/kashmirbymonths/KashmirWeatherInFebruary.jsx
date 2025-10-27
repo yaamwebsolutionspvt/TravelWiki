@@ -1,6 +1,13 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-// Removed local image import; using month-specific Cloudinary hero image
+// Package imports
+import KashmirTourPackages from '../../components/Packages/KashmirTourPackages'
+import BestsellerKashmirTours from '../../components/Packages/BestsellerKashmirTours'
+import HoneymoonSpecial from '../../components/Packages/HoneymoonSpecial'
+import KashmirAdventureWinter from '../../components/Packages/KashmirAdventureWinter'
+import KashmirCulturalToursAndPackages from '../../components/Packages/KashmirCulturalToursAndPackages'
+import KashmirExcursionsSpecial from '../../components/Packages/KashmirExcursionsSpecial'
+import KashmirFamilyPackages from '../../components/Packages/KashmirFamilyPackages'
 
 const KashmirWeatherInFebruary = () => {
   return (
@@ -170,8 +177,19 @@ const KashmirWeatherInFebruary = () => {
           </section>
         </div>
       </div>
+      {/* Package Sections */}
+      <div>
+        <KashmirTourPackages />
+        <BestsellerKashmirTours />
+        <HoneymoonSpecial />
+        <KashmirAdventureWinter />
+        <KashmirCulturalToursAndPackages />
+        <KashmirExcursionsSpecial />
+        <KashmirFamilyPackages />
+      </div>
     </>
   );
 };
+
 
 export default KashmirWeatherInFebruary;

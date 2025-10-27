@@ -1,5 +1,12 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import KashmirTourPackages from '../../components/Packages/KashmirTourPackages'
+import BestsellerKashmirTours from '../../components/Packages/BestsellerKashmirTours'
+import HoneymoonSpecial from '../../components/Packages/HoneymoonSpecial'
+import KashmirAdventureWinter from '../../components/Packages/KashmirAdventureWinter'
+import KashmirCulturalToursAndPackages from '../../components/Packages/KashmirCulturalToursAndPackages'
+import KashmirExcursionsSpecial from '../../components/Packages/KashmirExcursionsSpecial'
+import KashmirFamilyPackages from '../../components/Packages/KashmirFamilyPackages'
 import dalLake from '../../assets/dal_lake.webp';
 
 const BestTimeToVisitKashmir = () => {
@@ -109,7 +116,14 @@ const BestTimeToVisitKashmir = () => {
           <div className="space-y-12">
             
             {/* Winter Section */}
-            <section className="bg-white rounded-lg shadow-lg p-8">
+            <section className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1760352641/Skiing_in_the_Soft_Snow_fp1yon.webp"
+                alt="Winter wonderland in Kashmir with snow-covered landscapes"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
+              <div className="p-8">
               <div className="flex items-center mb-6">
                 <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
                   <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -167,10 +181,18 @@ const BestTimeToVisitKashmir = () => {
                   </div>
                 </div>
               </div>
+              </div>
             </section>
 
             {/* Summer Section */}
-            <section className="bg-white rounded-lg shadow-lg p-8">
+            <section className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759907935/Mughal_Gardens_City_Tour_bonery.webp"
+                alt="Summer in Kashmir with blooming Mughal Gardens"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
+              <div className="p-8">
               <div className="flex items-center mb-6">
                 <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
                   <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -228,10 +250,18 @@ const BestTimeToVisitKashmir = () => {
                   </div>
                 </div>
               </div>
+              </div>
             </section>
 
             {/* Monsoon Section */}
-            <section className="bg-white rounded-lg shadow-lg p-8">
+            <section className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759216439/Picnic_in_Pristine_Meadows_airk09.webp"
+                alt="Monsoon season in Kashmir with lush green valleys"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
+              <div className="p-8">
               <div className="flex items-center mb-6">
                 <div className="w-12 h-12 bg-gray-100 rounded-full flex items-center justify-center mr-4">
                   <svg className="w-6 h-6 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -289,10 +319,18 @@ const BestTimeToVisitKashmir = () => {
                   </div>
                 </div>
               </div>
+              </div>
             </section>
 
             {/* Autumn Section */}
-            <section className="bg-white rounded-lg shadow-lg p-8">
+            <section className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759486009/Kashmir_14_ndlkjn.webp"
+                alt="Autumn in Kashmir with golden Chinar trees"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
+              <div className="p-8">
               <div className="flex items-center mb-6">
                 <div className="w-12 h-12 bg-orange-100 rounded-full flex items-center justify-center mr-4">
                   <svg className="w-6 h-6 text-orange-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -350,6 +388,7 @@ const BestTimeToVisitKashmir = () => {
                   </div>
                 </div>
               </div>
+              </div>
             </section>
           </div>
 
@@ -397,6 +436,17 @@ const BestTimeToVisitKashmir = () => {
                 </ul>
               </div>
             </div>
+          </div>
+
+          {/* Package Sections */}
+          <div className="mt-16">
+            <KashmirTourPackages />
+            <BestsellerKashmirTours />
+            <HoneymoonSpecial />
+            <KashmirAdventureWinter />
+            <KashmirCulturalToursAndPackages />
+            <KashmirExcursionsSpecial />
+            <KashmirFamilyPackages />
           </div>
         </div>
       </div>

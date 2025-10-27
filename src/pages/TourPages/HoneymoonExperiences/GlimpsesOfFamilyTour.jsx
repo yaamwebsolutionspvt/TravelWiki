@@ -13,14 +13,14 @@ const balloonRide = "https://res.cloudinary.com/dw1sh368y/image/upload/v17555146
 
 export default function GlimpsesOfFamilyTour() {
   const seoData = useSEO({
-    title: "Glimpses Of Family Tour | 3 Nights 4 Days Kashmir Honeymoon Package",
+    title: "3 Nights Kashmir Family Tour – Fun & Nature Escape | 3 Nights 4 Days Kashmir Honeymoon Package",
     description: "Experience the perfect family tour with romantic touches in Kashmir. 3 nights in Srinagar with Shikara rides, candlelight dinner, and special honeymoon arrangements. Starting at ₹12,999.",
     keywords: "glimpses family tour Kashmir, 3 nights Kashmir honeymoon, Srinagar family package, Kashmir couple tour, romantic Kashmir getaway",
     canonical: "https://www.travelwiki.org.in/packages/glimpses-of-family-tour/"
   });
 
   const packageData = {
-    name: "Glimpses Of Family Tour",
+    name: "3 Nights Kashmir Family Tour – Fun & Nature Escape",
     description: "A perfect 3-night Kashmir tour designed for families and couples with romantic touches and special arrangements.",
     price: "12999",
     originalPrice: "15599",
@@ -54,7 +54,7 @@ export default function GlimpsesOfFamilyTour() {
           <div className="relative container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Glimpses Of Family Tour
+                3 Nights Kashmir Family Tour – Fun & Nature Escape
               </h1>
               <p className="text-xl mb-8">
                 Perfect family getaway with romantic touches in the beautiful valleys of Kashmir
@@ -118,7 +118,7 @@ export default function GlimpsesOfFamilyTour() {
             <div className="bg-white rounded-lg shadow-md p-8 mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Perfect Family Experience with Romantic Touches</h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Our "Glimpses Of Family Tour" is specially designed for families and couples who want to experience 
+                Our "3 Nights Kashmir Family Tour – Fun & Nature Escape" is specially designed for families and couples who want to experience 
                 the essential beauty of Kashmir in a comfortable 3-night stay. This package combines family-friendly 
                 activities with romantic elements, making it perfect for honeymoons or family celebrations.
               </p>

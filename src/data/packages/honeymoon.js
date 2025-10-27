@@ -7,7 +7,7 @@ const travelPackages = "https://res.cloudinary.com/dw1sh368y/image/upload/v17555
 
 export const honeymoonPackages = [
   {
-    title: "Glimpses Of Family Tour",
+    title: "3 Nights Kashmir Family Tour – Fun & Nature Escape",
     duration: "3N/4D",
     flights: 0,
     hotels: 3,
@@ -25,7 +25,7 @@ export const honeymoonPackages = [
     link: "/packages/glimpses-of-family-tour",
   },
   {
-    title: "Magical Kashmir Tour",
+    title: "4N Kashmir Magic Tour – Lakes, Gardens & Meadows",
     duration: "4N/5D",
     flights: 0,
     hotels: 4,

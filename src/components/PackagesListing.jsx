@@ -59,7 +59,7 @@ const PackagesListing = () => {
                   to="/packages/3-nights-4-days-srinagar-pahalgam-gulmarg-tour" 
                   className="text-blue-600 hover:text-blue-800 font-medium transition-colors"
                 >
-                  Glimpses of Kashmir Valley (3 Nights) →
+                  Quick Kashmir Getaway: 3 Nights in the Valley →
                 </Link>
               </div>
               
@@ -68,7 +68,7 @@ const PackagesListing = () => {
                   to="/packages/magical-kashmir-tour" 
                   className="text-blue-600 hover:text-blue-800 font-medium transition-colors"
                 >
-                  Magical Kashmir Tour (4 Nights) →
+                  4N Kashmir Magic Tour – Lakes, Gardens & Meadows (4 Nights) →
                 </Link>
               </div>
               
@@ -77,7 +77,7 @@ const PackagesListing = () => {
                   to="/packages/kashmir-exotic-tour" 
                   className="text-blue-600 hover:text-blue-800 font-medium transition-colors"
                 >
-                  Kashmir Exotic Tour (5 Nights) →
+                  5 Nights Exotic Kashmir Holiday – Lakes & Meadows →
                 </Link>
               </div>
               
@@ -86,7 +86,7 @@ const PackagesListing = () => {
                   to="/packages/magnificent-kashmir-valley-tour" 
                   className="text-blue-600 hover:text-blue-800 font-medium transition-colors"
                 >
-                  Magnificent Kashmir Valley Tour (6 Nights) →
+                  Kashmir Grand Discovery: 6 Nights Scenic Expedition →
                 </Link>
               </div>
               
@@ -95,7 +95,7 @@ const PackagesListing = () => {
                   to="/packages/week-long-holiday-kashmir" 
                   className="text-blue-600 hover:text-blue-800 font-medium transition-colors"
                 >
-                  Kashmir Marvellous Tour (7 Nights) →
+                  Marvelous Kashmir: 7 Nights Grand Holiday →
                 </Link>
               </div>
               
@@ -104,7 +104,8 @@ const PackagesListing = () => {
                   to="/packages/kashmir-valley-tour" 
                   className="text-blue-600 hover:text-blue-800 font-medium transition-colors"
                 >
-                  Kashmir Valley Tour (3 Nights) →
+                  3 Nights Kashmir Valley Tour – Srinagar & Gulmarg
+ →
                 </Link>
               </div>
               
@@ -172,7 +173,7 @@ const PackagesListing = () => {
                   to="/packages/glimpses-of-family-tour" 
                   className="text-pink-600 hover:text-pink-800 font-medium transition-colors"
                 >
-                  Glimpses of Family Tour (3 Nights) →
+                  3 Nights Kashmir Family Tour – Fun & Nature Escape →
                 </Link>
               </div>
               
@@ -181,7 +182,7 @@ const PackagesListing = () => {
                   to="/packages/honeymoon-magical-kashmir-tour" 
                   className="text-pink-600 hover:text-pink-800 font-medium transition-colors"
                 >
-                  Magical Kashmir Tour (4 Nights) →
+                  4N Kashmir Magic Tour – Lakes, Gardens & Meadows (4 Nights) →
                 </Link>
               </div>
               
@@ -190,7 +191,7 @@ const PackagesListing = () => {
                   to="/packages/best-selling-kashmir-tour" 
                   className="text-pink-600 hover:text-pink-800 font-medium transition-colors"
                 >
-                  Best Selling Kashmir Tour (5 Nights) →
+                  Kashmir Bestseller Tour – 5 Nights Classic Itinerary →
                 </Link>
               </div>
               
@@ -199,7 +200,7 @@ const PackagesListing = () => {
                   to="/packages/scenic-kashmir-tour" 
                   className="text-pink-600 hover:text-pink-800 font-medium transition-colors"
                 >
-                  Scenic Kashmir Tour (6 Nights) →
+                  Beautiful Kashmir Tour – 6 Nights Valley Discovery →
                 </Link>
               </div>
               
@@ -208,7 +209,7 @@ const PackagesListing = () => {
                   to="/packages/kashmir-marvelous-tour" 
                   className="text-pink-600 hover:text-pink-800 font-medium transition-colors"
                 >
-                  Kashmir Marvelous Tour (7 Nights) →
+                  Grand Kashmir Tour – 7 Nights Valley Experience →
                 </Link>
               </div>
               

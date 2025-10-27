@@ -1,6 +1,13 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
-// Removed local image import; using month-specific Cloudinary hero image
+// Package imports
+import KashmirTourPackages from '../../components/Packages/KashmirTourPackages'
+import BestsellerKashmirTours from '../../components/Packages/BestsellerKashmirTours'
+import HoneymoonSpecial from '../../components/Packages/HoneymoonSpecial'
+import KashmirAdventureWinter from '../../components/Packages/KashmirAdventureWinter'
+import KashmirCulturalToursAndPackages from '../../components/Packages/KashmirCulturalToursAndPackages'
+import KashmirExcursionsSpecial from '../../components/Packages/KashmirExcursionsSpecial'
+import KashmirFamilyPackages from '../../components/Packages/KashmirFamilyPackages'
 
 const KashmirWeatherInMay = () => {
   return (
@@ -36,7 +43,14 @@ const KashmirWeatherInMay = () => {
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <section className="bg-white rounded-lg shadow-lg p-8 mb-12">
+          <section className="bg-white rounded-lg shadow-lg overflow-hidden mb-12">
+            <img
+              src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759907935/Mughal_Gardens_City_Tour_bonery.webp"
+              alt="Perfect May weather in Kashmir"
+              className="w-full h-80 object-cover"
+              loading="lazy"
+            />
+            <div className="p-8">
             <h2 className="text-3xl font-bold text-green-900 mb-6">May Weather Overview</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
@@ -57,6 +71,7 @@ const KashmirWeatherInMay = () => {
                   <li className="flex items-center"><span className="mr-3">👥</span> Peak tourist season</li>
                 </ul>
               </div>
+            </div>
             </div>
           </section>
 
@@ -94,8 +109,19 @@ const KashmirWeatherInMay = () => {
           </section>
         </div>
       </div>
-    </>
+      {/* Package Sections */}
+      <div>
+        <KashmirTourPackages />
+        <BestsellerKashmirTours />
+        <HoneymoonSpecial />
+        <KashmirAdventureWinter />
+        <KashmirCulturalToursAndPackages />
+        <KashmirExcursionsSpecial />
+        <KashmirFamilyPackages />
+      </div>
+      </>
   );
 };
+
 
 export default KashmirWeatherInMay;

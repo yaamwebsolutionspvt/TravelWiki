@@ -1,5 +1,12 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+import KashmirTourPackages from '../../components/Packages/KashmirTourPackages'
+import BestsellerKashmirTours from '../../components/Packages/BestsellerKashmirTours'
+import HoneymoonSpecial from '../../components/Packages/HoneymoonSpecial'
+import KashmirAdventureWinter from '../../components/Packages/KashmirAdventureWinter'
+import KashmirCulturalToursAndPackages from '../../components/Packages/KashmirCulturalToursAndPackages'
+import KashmirExcursionsSpecial from '../../components/Packages/KashmirExcursionsSpecial'
+import KashmirFamilyPackages from '../../components/Packages/KashmirFamilyPackages'
 const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1760352641/Skiing_in_the_Soft_Snow_fp1yon.webp";
 
 const BestTimeToVisitGulmarg = () => {
@@ -102,7 +109,14 @@ const BestTimeToVisitGulmarg = () => {
           <div className="space-y-12">
             
             {/* Winter Section */}
-            <section className="bg-white rounded-lg shadow-lg p-8">
+            <section className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1760352641/Skiing_in_the_Soft_Snow_fp1yon.webp"
+                alt="Winter wonderland in Gulmarg with skiing"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
+              <div className="p-8">
               <div className="flex items-center mb-6">
                 <div className="w-12 h-12 bg-blue-100 rounded-full flex items-center justify-center mr-4">
                   <svg className="w-6 h-6 text-blue-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -161,10 +175,18 @@ const BestTimeToVisitGulmarg = () => {
                   </div>
                 </div>
               </div>
+              </div>
             </section>
 
             {/* Summer Section */}
-            <section className="bg-white rounded-lg shadow-lg p-8">
+            <section className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <img
+                src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759486005/Kashmir_19_Gulmarg_and_sightseen_ujzh0g.webp"
+                alt="Summer in Gulmarg with flower meadows"
+                className="w-full h-80 object-cover"
+                loading="lazy"
+              />
+              <div className="p-8">
               <div className="flex items-center mb-6">
                 <div className="w-12 h-12 bg-green-100 rounded-full flex items-center justify-center mr-4">
                   <svg className="w-6 h-6 text-green-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -222,6 +244,7 @@ const BestTimeToVisitGulmarg = () => {
                     </ul>
                   </div>
                 </div>
+              </div>
               </div>
             </section>
 
@@ -283,10 +306,10 @@ const BestTimeToVisitGulmarg = () => {
                       </li>
                     </ul>
                   </div>
+                  </div>
                 </div>
-              </div>
-            </section>
-          </div>
+              </section>
+            </div>
 
           {/* Gondola Information */}
           <div className="mt-12 bg-cyan-50 border-l-4 border-cyan-500 p-8">
@@ -408,6 +431,17 @@ const BestTimeToVisitGulmarg = () => {
                 </ul>
               </div>
             </div>
+          </div>
+
+          {/* Package Sections */}
+          <div className="mt-16">
+            <KashmirTourPackages />
+            <BestsellerKashmirTours />
+            <HoneymoonSpecial />
+            <KashmirAdventureWinter />
+            <KashmirCulturalToursAndPackages />
+            <KashmirExcursionsSpecial />
+            <KashmirFamilyPackages />
           </div>
         </div>
       </div>

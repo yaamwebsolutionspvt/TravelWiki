@@ -1,5 +1,13 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+// Package imports
+import KashmirTourPackages from '../../components/Packages/KashmirTourPackages'
+import BestsellerKashmirTours from '../../components/Packages/BestsellerKashmirTours'
+import HoneymoonSpecial from '../../components/Packages/HoneymoonSpecial'
+import KashmirAdventureWinter from '../../components/Packages/KashmirAdventureWinter'
+import KashmirCulturalToursAndPackages from '../../components/Packages/KashmirCulturalToursAndPackages'
+import KashmirExcursionsSpecial from '../../components/Packages/KashmirExcursionsSpecial'
+import KashmirFamilyPackages from '../../components/Packages/KashmirFamilyPackages'
 // Removed local image import; using month-specific Cloudinary hero image
 
 const KashmirWeatherInApril = () => {
@@ -36,7 +44,14 @@ const KashmirWeatherInApril = () => {
         </div>
 
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-          <section className="bg-white rounded-lg shadow-lg p-8 mb-12">
+          <section className="bg-white rounded-lg shadow-lg overflow-hidden mb-12">
+            <img
+              src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759907935/Mughal_Gardens_City_Tour_bonery.webp"
+              alt="April weather in Kashmir with perfect spring conditions"
+              className="w-full h-80 object-cover"
+              loading="lazy"
+            />
+            <div className="p-8">
             <h2 className="text-3xl font-bold text-yellow-900 mb-6">April Weather Overview</h2>
             <div className="grid md:grid-cols-2 gap-8">
               <div>
@@ -56,11 +71,19 @@ const KashmirWeatherInApril = () => {
                   <li className="flex items-center"><span className="mr-3">☀️</span> Sunny days: 18-22</li>
                   <li className="flex items-center"><span className="mr-3">🌺</span> Peak flowering season</li>
                 </ul>
+                </div>
               </div>
-            </div>
-          </section>
+              </div>
+            </section>
 
-          <section className="bg-white rounded-lg shadow-lg p-8 mb-12">
+            <section className="bg-white rounded-lg shadow-lg overflow-hidden mb-12">
+            <img
+              src="https://res.cloudinary.com/dw1sh368y/image/upload/v1759907937/Arrival_Dal_Lake_Introduction_dt4jja.webp"
+              alt="April weather conditions in Kashmir"
+              className="w-full h-80 object-cover"
+              loading="lazy"
+            />
+            <div className="p-8">
             <h2 className="text-3xl font-bold text-gray-900 mb-8">April Weather Conditions</h2>
             <div className="grid md:grid-cols-3 gap-8">
               <div className="bg-gradient-to-br from-yellow-50 to-orange-50 p-6 rounded-lg">
@@ -89,11 +112,12 @@ const KashmirWeatherInApril = () => {
                   <li>• Light rain: 3-5 days</li>
                   <li>• Excellent visibility</li>
                 </ul>
+                </div>
               </div>
-            </div>
-          </section>
+              </div>
+            </section>
 
-          <section className="bg-white rounded-lg shadow-lg p-8">
+            <section className="bg-white rounded-lg shadow-lg p-8">
             <h2 className="text-3xl font-bold text-gray-900 mb-8">April Weather FAQs</h2>
             <div className="space-y-6">
               <div className="border-b pb-6">
@@ -103,13 +127,25 @@ const KashmirWeatherInApril = () => {
               <div className="border-b pb-6">
                 <h3 className="text-lg font-semibold text-gray-900 mb-3">What should I pack for Kashmir in April?</h3>
                 <p className="text-gray-700">Pack light layers including cotton clothes for daytime, a light sweater for evenings, comfortable walking shoes, and a light jacket. The weather is very pleasant requiring minimal winter gear.</p>
-              </div>
+                  </div>
+                </div>
+              </section>
             </div>
-          </section>
         </div>
-      </div>
-    </>
-  );
-};
+        {/* Package Sections */}
+        <div>
+          <KashmirTourPackages />
+          <BestsellerKashmirTours />
+          <HoneymoonSpecial />
+          <KashmirAdventureWinter />
+          <KashmirCulturalToursAndPackages />
+          <KashmirExcursionsSpecial />
+          <KashmirFamilyPackages />
+        </div>
+      </>
+    );
+  };
+
+
 
 export default KashmirWeatherInApril;

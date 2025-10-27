@@ -4,6 +4,13 @@ import { Helmet } from 'react-helmet-async';
 import { FaWater, FaHome, FaTrain, FaPagelines, FaGolfBall, FaHorse, FaSeedling, FaShoppingBag, FaUtensils, FaSkiing, FaCampground, FaHiking, FaHotTub } from 'react-icons/fa';
 import ActivityCard from '../../components/ThingsToDO/ActivityCard';
 import HeroBanner from '../../components/ThingsToDO/HeroBanner';
+import KashmirTourPackages from '../../components/Packages/KashmirTourPackages'
+import BestsellerKashmirTours from '../../components/Packages/BestsellerKashmirTours'
+import HoneymoonSpecial from '../../components/Packages/HoneymoonSpecial'
+import KashmirAdventureWinter from '../../components/Packages/KashmirAdventureWinter'
+import KashmirCulturalToursAndPackages from '../../components/Packages/KashmirCulturalToursAndPackages'
+import KashmirExcursionsSpecial from '../../components/Packages/KashmirExcursionsSpecial'
+import KashmirFamilyPackages from '../../components/Packages/KashmirFamilyPackages'
 
 const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1760340197/Shikara_Ride_on_Dal_Lake_Srinagar_nbonsd.webp";
 
@@ -88,6 +95,8 @@ const ThingsToDoInKashmir = () => {
                 "Duration: 30 to 45 minutes",
                 "Best Time: Early morning or sunset",
               ]}
+              imageOnRight={false}
+              
             />
             <ActivityCard
               id="Houseboat Stay"
@@ -109,6 +118,7 @@ const ThingsToDoInKashmir = () => {
                 "Duration: 30 to 45 minutes",
                 "Best Time:Throughout the year",
               ]}
+              imageOnRight={true}
             />
             {/* Activity 3: Gondola Ride */}
             <ActivityCard
@@ -128,6 +138,7 @@ const ThingsToDoInKashmir = () => {
                 "Phase II Cost: INR 900",
                 "Chairlift Cost: INR 300",
               ]}
+              imageOnRight={false}
             />
             {/* Activity 4: Mughal Gardens */}
             <ActivityCard
@@ -149,6 +160,7 @@ const ThingsToDoInKashmir = () => {
                 "Perfect for photography and relaxation",
               ]}
               themeColor="indigo" // 👈 auto applies your color scheme
+              imageOnRight={true}
             />
 
             {/* Activity 5: Gulmarg Golf */}
@@ -178,6 +190,7 @@ const ThingsToDoInKashmir = () => {
                 "One of the best summer golfing destinations worldwide",
               ]}
               themeColor="green"
+              imageOnRight={false}
             />
 
 
@@ -206,6 +219,7 @@ const ThingsToDoInKashmir = () => {
                 "Make sure to return before dark",
               ]}
               themeColor="amber"
+              imageOnRight={true}
             />
 
             {/* Activity 7: Tulip Garden */}
@@ -230,6 +244,7 @@ const ThingsToDoInKashmir = () => {
                 "Wear comfortable shoes — large walking area",
               ]}
               themeColor="rose"
+              imageOnRight={false}
             />
 
             {/* Activity 10: Skiing */}
@@ -258,6 +273,7 @@ const ThingsToDoInKashmir = () => {
                 "Try beginner slopes if new to skiing",
               ]}
               themeColor="blue"
+              imageOnRight={true}
             />
           </div>
 
@@ -271,6 +287,17 @@ const ThingsToDoInKashmir = () => {
             <button className="bg-white text-emerald-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
               View Kashmir Packages
             </button>
+          </div>
+
+          {/* Package Sections */}
+          <div className="mt-16">
+            <KashmirTourPackages />
+            <BestsellerKashmirTours />
+            <HoneymoonSpecial />
+            <KashmirAdventureWinter />
+            <KashmirCulturalToursAndPackages />
+            <KashmirExcursionsSpecial />
+            <KashmirFamilyPackages />
           </div>
         </div>
       </div>

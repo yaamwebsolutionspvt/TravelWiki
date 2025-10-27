@@ -10,7 +10,7 @@ import KashmirExcursionsSpecial from "../../../components/Packages/KashmirExcurs
 import KashmirAdventureWinter from "../../../components/Packages/KashmirAdventureWinter";
 import KashmirCulturalToursAndPackages from "../../../components/Packages/KashmirCulturalToursAndPackages";
 
-const tourPackage = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759812844/Srinagar_Highlights_Tour_aqw22q.webpF";
+const tourPackage = "https://res.cloudinary.com/dw1sh368y/image/upload/v1759812844/Srinagar_Highlights_Tour_aqw22q.webp";
 
 export default function KashmirMarvelousTour() {
   const seoData = useSEO({
@@ -52,8 +52,7 @@ export default function KashmirMarvelousTour() {
           <div className="relative container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
               <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                Kashmir Marvelous Tour
-              </h1>
+                Grand Kashmir Tour – 7 Nights Valley Experience              </h1>
               <p className="text-xl mb-8">
                 Experience the most marvelous and luxurious Kashmir honeymoon with world-class amenities and exclusive experiences
               </p>
@@ -161,7 +160,7 @@ export default function KashmirMarvelousTour() {
                     "Traditional Wazwan dinner on houseboat",
                     "Overnight stay in luxury houseboat"
                   ]}
-                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1759812844/Srinagar_Highlights_Tour_aqw22q.webp"
+                  imageUrl="https://res.cloudinary.com/dw1sh368y/image/upload/v1760340197/Shikara_Ride_on_Dal_Lake_Srinagar_nbonsd.webp"
                   imageAlt="Luxury houseboat"
                   imageTitle="Luxury Houseboat"
                   imageSubtitle="Royal interiors on Dal Lake"

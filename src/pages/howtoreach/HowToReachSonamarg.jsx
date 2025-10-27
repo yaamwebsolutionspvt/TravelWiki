@@ -1,5 +1,13 @@
 import React from 'react';
 import { Helmet } from 'react-helmet-async';
+// Package imports
+import KashmirTourPackages from '../../components/Packages/KashmirTourPackages'
+import BestsellerKashmirTours from '../../components/Packages/BestsellerKashmirTours'
+import HoneymoonSpecial from '../../components/Packages/HoneymoonSpecial'
+import KashmirAdventureWinter from '../../components/Packages/KashmirAdventureWinter'
+import KashmirCulturalToursAndPackages from '../../components/Packages/KashmirCulturalToursAndPackages'
+import KashmirExcursionsSpecial from '../../components/Packages/KashmirExcursionsSpecial'
+import KashmirFamilyPackages from '../../components/Packages/KashmirFamilyPackages'
 
 const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1760352639/1_Trekking_in_Sonamarg_fvpf1j.webp";
 
@@ -271,9 +279,21 @@ const HowToReachSonamarg = () => {
             </div>
           </div>
         </div>
+         {/* Package Sections */}
+         <div className="mt-16">
+            <KashmirTourPackages />
+            <BestsellerKashmirTours />
+            <HoneymoonSpecial />
+            <KashmirAdventureWinter />
+            <KashmirCulturalToursAndPackages />
+            <KashmirExcursionsSpecial />
+            <KashmirFamilyPackages />
+          </div>
       </div>
     </>
   );
 };
+
+
 
 export default HowToReachSonamarg;

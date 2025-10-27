@@ -2,6 +2,13 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import HeroBanner from '../../components/ThingsToDO/HeroBanner';
 import ActivityCard from '../../components/ThingsToDO/ActivityCard';
+import KashmirTourPackages from '../../components/Packages/KashmirTourPackages'
+import BestsellerKashmirTours from '../../components/Packages/BestsellerKashmirTours'
+import HoneymoonSpecial from '../../components/Packages/HoneymoonSpecial'
+import KashmirAdventureWinter from '../../components/Packages/KashmirAdventureWinter'
+import KashmirCulturalToursAndPackages from '../../components/Packages/KashmirCulturalToursAndPackages'
+import KashmirExcursionsSpecial from '../../components/Packages/KashmirExcursionsSpecial'
+import KashmirFamilyPackages from '../../components/Packages/KashmirFamilyPackages'
 const heroBg = "https://res.cloudinary.com/dw1sh368y/image/upload/v1760356307/Morning_Prayers_at_Thiksey_Monastery_spbmhh.png";
 
 const ThingsToDoInLadakh = () => {
@@ -83,7 +90,8 @@ const ThingsToDoInLadakh = () => {
                   "More affordable than luxury hotels",
                 ]}
                 themeColor="blue"
-              />
+                imageOnRight={false}
+                />
 
               <ActivityCard
                 id="pangong-sunrise"
@@ -98,6 +106,7 @@ const ThingsToDoInLadakh = () => {
                   "Golden rays creating magical ambiance",
                 ]}
                 themeColor="cyan"
+                imageOnRight={true}
               />
 
               <ActivityCard
@@ -113,6 +122,7 @@ const ThingsToDoInLadakh = () => {
                   "Authentic Buddhist monastery experience",
                 ]}
                 themeColor="amber"
+                imageOnRight={false}
               />
 
               <ActivityCard
@@ -127,6 +137,7 @@ const ThingsToDoInLadakh = () => {
                   "Find inner peace in the presence of the statue",
                 ]}
                 themeColor="yellow"
+                imageOnRight={true}
               />
 
               <ActivityCard
@@ -143,7 +154,7 @@ const ThingsToDoInLadakh = () => {
                   "Stunning views of Leh valley",
                 ]}
                 themeColor="purple"
-               
+                imageOnRight={false}
               />
 
               {/* Continue adding ActivityCard components for 6–12 */}
@@ -327,6 +338,17 @@ const ThingsToDoInLadakh = () => {
             <button className="bg-white text-orange-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors">
               View Ladakh Packages
             </button>
+          </div>
+
+          {/* Package Sections */}
+          <div className="mt-16">
+            <KashmirTourPackages />
+            <BestsellerKashmirTours />
+            <HoneymoonSpecial />
+            <KashmirAdventureWinter />
+            <KashmirCulturalToursAndPackages />
+            <KashmirExcursionsSpecial />
+            <KashmirFamilyPackages />
           </div>
         </div>
       </div>
