@@ -41,7 +41,7 @@ export default function ScenicKashmirTour() {
       <SEO {...seoData} />
       <TourPackageSchema data={packageData} />
       
-      <div className="min-h-screen mt-4">
+      <div className="min-h-screen page-container">
         {/* Hero Section */}
         <div className="relative text-white min-h-[75vh] py-30 overflow-hidden bg-gradient-to-br from-pink-600 via-rose-600 to-red-600" style={{
             backgroundImage: `url(${tourPackages})`,

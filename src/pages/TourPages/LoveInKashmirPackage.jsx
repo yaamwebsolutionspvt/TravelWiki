@@ -41,7 +41,7 @@ export default function LoveInKashmirPackage() {
       <SEO {...seoData} />
       <TourPackageSchema data={packageData} />
       
-      <div className="min-h-screen mt-4">
+      <div className="min-h-screen page-container">
         {/* Hero Section */}
         <div
           className="relative py-30 min-h-[85vh] text-white"

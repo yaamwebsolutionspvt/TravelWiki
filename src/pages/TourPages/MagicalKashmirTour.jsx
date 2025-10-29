@@ -67,7 +67,7 @@ export default function MagicalKashmirTour() {
       </SEO>
       <TourPackageSchema data={packageData} />
       
-      <div className="min-h-screen mt-4">
+      <div className="min-h-screen page-container">
         {/* Hero Section */}
         <div
           className="relative text-white min-h-[60vh] sm:min-h-[70vh] md:min-h-[80vh] lg:min-h-[85vh] overflow-visible"

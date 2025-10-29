@@ -21,7 +21,7 @@ const PackagesListing = () => {
         <meta name="twitter:description" content="Best Kashmir holiday packages covering all major tourist destinations. Weather guides, seasonal tours & customized Kashmir travel experiences." />
       </Helmet>
       
-      <div className="min-h-screen bg-gray-50 py-30">
+      <div className="min-h-screen bg-gray-50 page-container py-8">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Header */}

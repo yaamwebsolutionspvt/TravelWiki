@@ -43,7 +43,7 @@ export default function Hero() {
   return (
     <SEOContent
       semantic="section"
-      className={`relative min-h-[65vh] sm:min-h-[75vh] md:min-h-[85vh] lg:min-h-[90vh] pt-6 overflow-hidden transition-all duration-1000  ${isLoaded ? "opacity-100" : "opacity-0"
+      className={`relative min-h-[65vh] sm:min-h-[75vh] md:min-h-[85vh] lg:min-h-[90vh] pt-16 md:pt-20 overflow-hidden transition-all duration-1000  ${isLoaded ? "opacity-100" : "opacity-0"
         }`}
       role="banner"
       aria-label="Kashmir Tourism Hero Section"

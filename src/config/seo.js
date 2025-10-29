@@ -25,7 +25,7 @@ export const siteConfig = {
 export const defaultSEO = {
   title: "Kashmir Tourism | Best Kashmir Tour Packages & Holiday Deals 2025",
   description:
-    "Discover Jammu & Kashmir with curated tour packages: honeymoons, family trips, and adventure tours. Book trusted guides and exclusive deals today.",
+    "Discover Jammu & Kashmir with curated tour packages including honeymoon specials, family trips, and adventure tours to Srinagar, Gulmarg, Pahalgam & Dal Lake. Book trusted local guides and exclusive Kashmir holiday deals today!",
   keywords:
     "Kashmir tourism, Kashmir tour packages, Kashmir honeymoon packages, Kashmir adventure tours, Kashmir family packages, Srinagar tours, Gulmarg skiing, Pahalgam valleys, Kashmir holiday packages, Dal Lake tours",
   type: "website",

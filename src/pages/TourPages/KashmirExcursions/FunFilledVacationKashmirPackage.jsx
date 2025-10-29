@@ -34,7 +34,7 @@ export default function FunFilledVacationKashmirPackage() {
       <SEO {...seoData} />
       <TourPackageSchema data={packageData} />
       
-      <div className="min-h-screen mt-4">
+      <div className="min-h-screen page-container">
         {/* Hero Section */}
         <div className="relative text-white min-h-[75vh] overflow-hidden bg-gradient-to-br from-yellow-600 via-orange-600 to-red-600">
           <div className="relative container mx-auto px-4">

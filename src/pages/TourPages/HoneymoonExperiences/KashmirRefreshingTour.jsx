@@ -35,7 +35,7 @@ export default function KashmirRefreshingTour() {
       <SEO {...seoData} />
       <TourPackageSchema data={packageData} />
       
-      <div className="min-h-screen mt-4">
+      <div className="min-h-screen page-container">
         {/* Hero Section */}
         <div className="relative text-white min-h-[75vh] py-30 overflow-hidden bg-gradient-to-br from-green-600 via-emerald-600 to-teal-600" style={{
             backgroundImage: `url(${travelPackages})`,

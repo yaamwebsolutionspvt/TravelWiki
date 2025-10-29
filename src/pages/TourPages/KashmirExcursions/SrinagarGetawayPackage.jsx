@@ -35,7 +35,7 @@ export default function SrinagarGetawayPackage() {
       <SEO {...seoData} />
       <TourPackageSchema data={packageData} />
       
-      <div className="min-h-screen mt-4">
+      <div className="min-h-screen page-container">
         {/* Hero Section */}
         <div className="relative text-white min-h-[75vh] overflow-hidden bg-gradient-to-br from-sky-600 via-blue-600 to-indigo-600">
           <div className="absolute inset-0 bg-black opacity-60"></div>

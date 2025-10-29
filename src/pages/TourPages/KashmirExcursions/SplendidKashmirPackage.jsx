@@ -41,7 +41,7 @@ export default function SplendidKashmirPackage() {
       <SEO {...seoData} />
       <TourPackageSchema data={packageData} />
       
-      <div className="min-h-screen mt-4">
+      <div className="min-h-screen page-container">
         {/* Hero Section */}
         <div className="relative text-white min-h-[75vh] overflow-hidden bg-gradient-to-br from-violet-600 via-purple-600 to-indigo-600">
           <div className="relative container mx-auto px-4 py-8 sm:py-12 md:py-16 h-full flex items-center justify-center">

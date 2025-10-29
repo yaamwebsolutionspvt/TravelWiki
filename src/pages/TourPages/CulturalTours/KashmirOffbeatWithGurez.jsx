@@ -35,7 +35,7 @@ export default function KashmirOffbeatWithGurez() {
       <SEO {...seoData} />
       <TourPackageSchema data={packageData} />
 
-      <div className="min-h-screen mt-4">
+      <div className="min-h-screen page-container">
         
         {/* Hero Section - Kashmir Offbeat Cultural Discovery */}
         <div

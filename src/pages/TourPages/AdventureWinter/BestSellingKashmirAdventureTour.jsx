@@ -40,7 +40,7 @@ export default function BestSellingKashmirAdventureTour() {
       <SEO {...seoData} />
       <TourPackageSchema data={packageData} />
       
-      <div className="min-h-screen mt-4">
+      <div className="min-h-screen page-container">
         {/* Hero Section */}
         <div className="relative text-white h-[100vh] sm:h-[100vh] md:h-[100vh] overflow-hidden" style={{
           backgroundImage: `url(${adv3})`,

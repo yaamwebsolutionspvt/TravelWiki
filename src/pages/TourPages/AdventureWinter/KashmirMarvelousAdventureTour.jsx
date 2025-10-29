@@ -40,7 +40,7 @@ export default function KashmirMarvelousAdventureTour() {
       <SEO {...seoData} />
       <TourPackageSchema data={packageData} />
       
-      <div className="min-h-screen mt-4">
+      <div className="min-h-screen page-container">
         {/* Hero Section */}
         <div className="relative bg-gradient-to-r from-purple-700 to-pink-900 text-white py-30" style={{
           backgroundImage: `url(${adv5})`,

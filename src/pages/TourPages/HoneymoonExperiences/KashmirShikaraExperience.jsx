@@ -34,7 +34,7 @@ export default function KashmirShikaraExperience() {
       <SEO {...seoData} />
       <TourPackageSchema data={packageData} />
       
-      <div className="min-h-screen mt-4">
+      <div className="min-h-screen page-container">
         {/* Hero Section */}
         <div className="relative bg-gradient-to-r from-blue-600 to-teal-700 text-white py-30" style={{
           backgroundImage: `url(${dalLakeKashmir})`,

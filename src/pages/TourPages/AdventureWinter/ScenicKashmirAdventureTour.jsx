@@ -34,7 +34,7 @@ export default function ScenicKashmirAdventureTour() {
       <SEO {...seoData} />
       <TourPackageSchema data={packageData} />
       
-      <div className="min-h-screen mt-4">
+      <div className="min-h-screen page-container">
         {/* Hero Section */}
         <div className="relative text-white min-h-[75vh] overflow-hidden bg-gradient-to-br from-slate-600 via-gray-600 to-zinc-600">
           <div className="relative container mx-auto px-4">

@@ -1,0 +1,13 @@
+# Redirect all www to non-www
+https://www.travelwiki.org.in/* https://travelwiki.org.in/:splat 301!
+http://www.travelwiki.org.in/* https://travelwiki.org.in/:splat 301!
+
+# Force HTTPS
+http://travelwiki.org.in/* https://travelwiki.org.in/:splat 301!
+
+# Remove trailing slashes
+/*/ /:splat 301!
+
+# 404 fallback for SPA
+/* /index.html 200
+

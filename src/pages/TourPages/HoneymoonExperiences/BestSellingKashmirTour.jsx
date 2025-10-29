@@ -40,7 +40,7 @@ export default function BestSellingKashmirTour() {
       <SEO {...seoData} />
       <TourPackageSchema data={packageData} />
       
-      <div className="min-h-screen mt-4">
+      <div className="min-h-screen page-container">
         {/* Hero Section */}
         <div
           className="relative text-white min-h-[75vh] py-30 overflow-hidden"

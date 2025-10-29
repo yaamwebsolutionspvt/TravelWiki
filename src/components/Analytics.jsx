@@ -4,9 +4,11 @@ import { Helmet } from 'react-helmet-async';
 /**
  * Analytics Component
  * Handles Google Analytics, Facebook Pixel, and other tracking scripts
+ * Using Google Analytics 4 (GA4) for better tracking and insights
  */
 const Analytics = () => {
-  const GA_MEASUREMENT_ID = import.meta.env.VITE_GA_MEASUREMENT_ID;
+  // Default GA4 ID for TravelWiki - can be overridden via environment variable
+  const GA_MEASUREMENT_ID = import.meta.env.VITE_GA_MEASUREMENT_ID || 'G-XXXXXXXXXX';
   const FB_PIXEL_ID = import.meta.env.VITE_FB_PIXEL_ID;
   const GTM_ID = import.meta.env.VITE_GTM_ID;
 
@@ -24,12 +26,18 @@ const Analytics = () => {
               s.async=true; s.src=src; document.head.appendChild(s);
             }
             function init(){
-              if (GA_ID) {
+              if (GA_ID && GA_ID !== 'G-XXXXXXXXXX') {
                 loadScript('https://www.googletagmanager.com/gtag/js?id='+GA_ID);
                 window.dataLayer = window.dataLayer || [];
                 function gtag(){dataLayer.push(arguments);} window.gtag = gtag;
                 gtag('js', new Date());
-                gtag('config', GA_ID, { anonymize_ip:true, allow_google_signals:false, allow_ad_personalization_signals:false });
+                gtag('config', GA_ID, { 
+                  anonymize_ip: true, 
+                  cookie_flags: 'SameSite=None;Secure',
+                  send_page_view: true,
+                  page_title: document.title,
+                  page_location: window.location.href
+                });
               }
               if (GTM_ID) {
                 (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':

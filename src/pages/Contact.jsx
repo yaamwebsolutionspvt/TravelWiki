@@ -70,7 +70,7 @@ const Contact = () => {
         keywords="contact Kashmir tourism, Kashmir tour booking, Ladakh tour booking, Kashmir travel agent, Kashmir packages contact, Kashmir tourism phone number, Kashmir tour inquiry, book Kashmir tour, Kashmir travel planning, Kashmir tour consultant, Kashmir holiday booking, Kashmir honeymoon booking, Kashmir family tour booking, Kashmir adventure tour booking, Kashmir cultural tour booking, Kashmir group tour booking, Kashmir customized tour booking"
       />
 
-      <div className="min-h-screen pt-20">
+      <div className="min-h-screen page-container">
         {/* Hero Section */}
         <div className="bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-16">
           <div className="max-w-7xl mx-auto px-4 text-center">
