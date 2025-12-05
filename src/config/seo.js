@@ -2,7 +2,7 @@
 export const siteConfig = {
   siteUrl: import.meta?.env?.VITE_SITE_URL || "https://travelwiki.org.in",
   siteName: "Kashmir Tourism - Travel Wiki",
-  defaultImage: "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png",
+  defaultImage: "https://res.cloudinary.com/dwlxh3G8y/travelwiki/image/upload/w_200,f_auto,q_auto/public/logo.png",
   twitterHandle: "@travel_wikiofficial",
   facebookHandle: "travelwikiofficiall",
   instagramHandle: "travel_wikiofficial",

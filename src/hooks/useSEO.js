@@ -17,7 +17,7 @@ export const useSEO = (seoData = {}) => {
     title: "Kashmir Tourism | Best Kashmir Tour Packages & Holiday Deals",
     description: "Discover Jammu & Kashmir with curated tour packages: honeymoons, family trips, and adventure tours. Book trusted guides and exclusive deals today.",
     keywords: "Kashmir tourism, Kashmir tour packages, Kashmir honeymoon, Kashmir adventure tours, Kashmir family packages, Srinagar tours, Kashmir holiday packages",
-    image: "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png",
+    image: "https://res.cloudinary.com/dwlxh3G8y/travelwiki/image/upload/w_200,f_auto,q_auto/public/logo.png",
     url: "https://yourdomain.com",
     type: "website"
   };
@@ -42,7 +42,7 @@ export const SEOConfigs = {
     keywords: "Kashmir tourism, Kashmir tour packages, Kashmir honeymoon packages, Kashmir adventure tours, Kashmir cultural tours, Kashmir family packages, Srinagar tours, Kashmir holiday packages, Gulmarg tours, Pahalgam tours",
     url: "https://yourdomain.com/"
   },
-  
+
   honeymoonPackages: {
     title: "Kashmir Honeymoon Packages | Romantic Tours for Couples",
     description: "Plan your perfect honeymoon in Kashmir with our romantic tour packages. Enjoy houseboat stays, Dal Lake shikaras, Gulmarg adventures, and intimate moments in paradise.",

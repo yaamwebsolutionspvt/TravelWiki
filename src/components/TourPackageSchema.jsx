@@ -14,7 +14,7 @@ const TourPackageSchema = ({ packages = [] }) => {
       description: "A perfect introduction to Kashmir's beauty covering Srinagar, Gulmarg, and Pahalgam with comfortable accommodations and professional guides.",
       duration: "P5D", // 5 days in ISO 8601 format
       price: "15000",
-      image: "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png",
+      image: "https://res.cloudinary.com/dwlxh3G8y/travelwiki/image/upload/w_200,f_auto,q_auto/public/logo.png",
       category: "Sightseeing",
       touristType: ["Tourist", "Family"]
     },
@@ -23,7 +23,7 @@ const TourPackageSchema = ({ packages = [] }) => {
       description: "Romantic honeymoon package featuring houseboat stays, shikara rides, and intimate experiences in Kashmir's most beautiful locations.",
       duration: "P7D", // 7 days
       price: "25000",
-      image: "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png",
+      image: "https://res.cloudinary.com/dwlxh3G8y/travelwiki/image/upload/w_200,f_auto,q_auto/public/logo.png",
       category: "Honeymoon",
       touristType: ["Couple"]
     },
@@ -32,7 +32,7 @@ const TourPackageSchema = ({ packages = [] }) => {
       description: "Thrilling winter adventure package including skiing in Gulmarg, snow activities, and mountain adventures in Kashmir's winter wonderland.",
       duration: "P6D", // 6 days
       price: "30000",
-      image: "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png",
+      image: "https://res.cloudinary.com/dwlxh3G8y/travelwiki/image/upload/w_200,f_auto,q_auto/public/logo.png",
       category: "Adventure",
       touristType: ["AdventureTourist", "SkiEnthusiast"]
     },
@@ -41,7 +41,7 @@ const TourPackageSchema = ({ packages = [] }) => {
       description: "Immersive cultural experience showcasing Kashmir's rich heritage, traditional crafts, historical sites, and authentic local interactions.",
       duration: "P8D", // 8 days
       price: "20000",
-      image: "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png",
+      image: "https://res.cloudinary.com/dwlxh3G8y/travelwiki/image/upload/w_200,f_auto,q_auto/public/logo.png",
       category: "Cultural",
       touristType: ["CulturalTourist", "HistoryEnthusiast"]
     },
@@ -50,7 +50,7 @@ const TourPackageSchema = ({ packages = [] }) => {
       description: "Family-friendly tour package with activities suitable for all ages, comfortable accommodations, and safe guided experiences.",
       duration: "P10D", // 10 days
       price: "18000",
-      image: "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png",
+      image: "https://res.cloudinary.com/dwlxh3G8y/travelwiki/image/upload/w_200,f_auto,q_auto/public/logo.png",
       category: "Family",
       touristType: ["Family", "Tourist"]
     }
@@ -207,7 +207,7 @@ const TourPackageSchema = ({ packages = [] }) => {
       <script type="application/ld+json">
         {JSON.stringify(itemListSchema)}
       </script>
-      
+
       {/* FAQ Schema */}
       <script type="application/ld+json">
         {JSON.stringify(faqSchema)}

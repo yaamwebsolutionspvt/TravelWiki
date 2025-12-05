@@ -155,7 +155,7 @@ const PackageCard = ({ package: pkg }) => (
         loading="lazy"
         decoding="async"
         onError={(e) => {
-          e.target.src = "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png";
+          e.target.src = "https://res.cloudinary.com/dwlxh3G8y/travelwiki/image/upload/w_200,f_auto,q_auto/public/logo.png";
         }}
       />
       <div className="absolute top-3 left-3">
@@ -307,9 +307,9 @@ const LehLadakhPage = () => {
             Explore Ladakh with Our Handpicked Packages
           </h2>
           <p className="text-xl text-gray-600 max-w-4xl mx-auto leading-relaxed">
-            From budget-friendly quick escapes to comprehensive adventures, our Leh Ladakh tour packages 
-            are designed to give you the best experience of this mystical land. Whether you want to explore 
-            the serene Pangong Lake, ride camels in Nubra Valley, or witness the beauty of Tso Moriri, 
+            From budget-friendly quick escapes to comprehensive adventures, our Leh Ladakh tour packages
+            are designed to give you the best experience of this mystical land. Whether you want to explore
+            the serene Pangong Lake, ride camels in Nubra Valley, or witness the beauty of Tso Moriri,
             we have the perfect package for you.
           </p>
         </div>

@@ -11,7 +11,7 @@ import HoneymoonSpecial from "../../components/Packages/HoneymoonSpecial";
 import KashmirFamilyPackages from "../../components/Packages/KashmirFamilyPackages";
 import KashmirExcursionsSpecial from "../../components/Packages/KashmirExcursionsSpecial";
 import KashmirAdventureWinter from "../../components/Packages/KashmirAdventureWinter";
-import KashmirCulturalToursAndPackages from "../../components/Packages/KashmirCulturalToursAndPackages";``
+import KashmirCulturalToursAndPackages from "../../components/Packages/KashmirCulturalToursAndPackages"; ``
 
 const bannerimage =
   "https://res.cloudinary.com/dw1sh368y/image/upload/v1759314589/Kashmir_With_Gurez_Valley_Cultural_Tour_wlx64s.png";
@@ -161,7 +161,7 @@ const PackageCard = ({ package: pkg }) => (
         decoding="async"
         onError={(e) => {
           e.target.src =
-            "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png";
+            "https://res.cloudinary.com/dwlxh3G8y/travelwiki/image/upload/w_200,f_auto,q_auto/public/logo.png";
         }}
       />
     </div>
@@ -434,7 +434,7 @@ const LehLadakhPackages = () => {
       <ItineraryAccordion />
       <FaqSection />
       <WhyLadakhTourism />
-      
+
       {/* Package Sections */}
       <BestsellerKashmirTours />
       <KashmirFamilyPackages />

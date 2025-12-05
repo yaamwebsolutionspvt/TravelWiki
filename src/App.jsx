@@ -1,23 +1,29 @@
 import React, { Suspense, lazy } from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import SEO from './components/SEO';
-import PerformanceOptimizer from './components/PerformanceOptimizer';
-import CriticalResourceLoader from './components/CriticalResourceLoader';
-import PerformanceMonitor from './components/PerformanceMonitor';
-// Defer Analytics to idle to reduce main-thread work during LCP
+
+// --- Utility & Layout Components (Lazy Loaded) ---
+const SEO = lazy(() => import('./components/SEO'));
+const PerformanceOptimizer = lazy(() => import('./components/PerformanceOptimizer'));
+const CriticalResourceLoader = lazy(() => import('./components/CriticalResourceLoader'));
+const PerformanceMonitor = lazy(() => import('./components/PerformanceMonitor'));
 const Analytics = lazy(() => import('./components/Analytics'));
-import Header from './components/Navbar/Header';
-import ScrollToTop from './components/ScrollToTop';
-import Footer from './components/Footer';
-import WhatsAppFloatingButton from './components/WhatsAppFloatingButton';
-import PageNotFound from './pages/PageNotFound';
-// Defer ConsultationPopup to idle/later
+const Header = lazy(() => import('./components/Navbar/Header'));
+const ScrollToTop = lazy(() => import('./components/ScrollToTop'));
+const Footer = lazy(() => import('./components/Footer'));
+const WhatsAppFloatingButton = lazy(() => import('./components/WhatsAppFloatingButton'));
 const ConsultationPopup = lazy(() => import('./components/ConsultationPopup'));
+const PackagesListing = lazy(() => import('./components/PackagesListing'));
 
-// Lazy load all page components for better performance
+// --- Core Pages ---
+const PageNotFound = lazy(() => import('./pages/PageNotFound'));
 const HomePage = lazy(() => import('./pages/HomePage'));
+const AboutUs = lazy(() => import('./pages/AboutUs'));
+const Contact = lazy(() => import('./pages/Contact'));
+const TermsAndCondition = lazy(() => import('./pages/TermsAndCondition'));
+const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy'));
+const RefundPolicy = lazy(() => import('./pages/RefundPolicy'));
 
-// Tour Pages
+// --- Tour Pages ---
 const KashmirExoticTour = lazy(() => import('./pages/TourPages/KashmirExoticTour'));
 const KashmirFamilyTour = lazy(() => import('./pages/TourPages/KashmirFamilyTour'));
 const KashmirHoneymoonTour = lazy(() => import('./pages/TourPages/KashmirHoneymoonTour'));
@@ -31,7 +37,7 @@ const MagicalKashmirGeneralTour = lazy(() => import('./pages/TourPages/MagicalKa
 const MagnificentKashmirValleyTour = lazy(() => import('./pages/TourPages/MagnificentKashmirValleyTour'));
 const ThreeNightsFourDaysSrinagarPahalgamGulmargTour = lazy(() => import('./pages/TourPages/ThreeNightsFourDaysSrinagarPahalgamGulmargTour'));
 
-// Ladakh Packages
+// --- Ladakh Packages ---
 const LehLadakhPage = lazy(() => import('./pages/LadakhPackages/LehLadakhPage'));
 const AmazingLadakhTourWithNubraStay = lazy(() => import('./pages/LadakhPackages/AmazingLadakhTourWithNubraStay'));
 const BreathtakingLadakhWithTurtukPangongExcursion = lazy(() => import('./pages/LadakhPackages/BreathtakingLadakhWithTurtukPangongExcursion'));
@@ -46,7 +52,7 @@ const LadakhGetawayWithNubraPangongStay = lazy(() => import('./pages/LadakhPacka
 const LadakhTourPackageWithKargilStay = lazy(() => import('./pages/LadakhPackages/LadakhTourPackageWithKargilStay'));
 const UnforgettableLadakhTourPackageWithSonamargStay = lazy(() => import('./pages/LadakhPackages/UnforgettableLadakhTourPackageWithSonamargStay'));
 
-// Adventure Winter Packages
+// --- Adventure Winter Packages ---
 const BestSellingKashmirAdventureTour = lazy(() => import('./pages/TourPages/AdventureWinter/BestSellingKashmirAdventureTour'));
 const GlimpsesOfFamilyAdventureTour = lazy(() => import('./pages/TourPages/AdventureWinter/GlimpsesOfFamilyAdventureTour'));
 const KashmirMarvelousAdventureTour = lazy(() => import('./pages/TourPages/AdventureWinter/KashmirMarvelousAdventureTour'));
@@ -54,14 +60,14 @@ const KashmirRefreshingAdventureTour = lazy(() => import('./pages/TourPages/Adve
 const MagicalKashmirAdventureTour = lazy(() => import('./pages/TourPages/AdventureWinter/MagicalKashmirAdventureTour'));
 const ScenicKashmirAdventureTour = lazy(() => import('./pages/TourPages/AdventureWinter/ScenicKashmirAdventureTour'));
 
-// Cultural Tours
+// --- Cultural Tours ---
 const GurezValleyTour = lazy(() => import('./pages/TourPages/CulturalTours/GurezValleyTour'));
 const KashmirOffbeatWithGurez = lazy(() => import('./pages/TourPages/CulturalTours/KashmirOffbeatWithGurez'));
 const KashmirWithGurezValleyTour = lazy(() => import('./pages/TourPages/CulturalTours/KashmirWithGurezValleyTour'));
 const KashmirWithKargil = lazy(() => import('./pages/TourPages/CulturalTours/KashmirWithKargil'));
 const TrueGemsOfKashmirValley = lazy(() => import('./pages/TourPages/CulturalTours/TrueGemsOfKashmirValley'));
 
-// Kashmir Excursions
+// --- Kashmir Excursions ---
 const FunFilledVacationKashmirPackage = lazy(() => import('./pages/TourPages/KashmirExcursions/FunFilledVacationKashmirPackage'));
 const MagnificentKashmirWithPahalgamAndGulmarg = lazy(() => import('./pages/TourPages/KashmirExcursions/MagnificentKashmirWithPahalgamAndGulmarg'));
 const SplendidKashmirPackage = lazy(() => import('./pages/TourPages/KashmirExcursions/SplendidKashmirPackage'));
@@ -69,14 +75,14 @@ const SrinagarGetawayPackage = lazy(() => import('./pages/TourPages/KashmirExcur
 const ThrillingKashmirHolidayPackage = lazy(() => import('./pages/TourPages/KashmirExcursions/ThrillingKashmirHolidayPackage'));
 const WeekLongHolidayInKashmir = lazy(() => import('./pages/TourPages/KashmirExcursions/WeekLongHolidayInKashmir'));
 
-// Kashmir Family Packages
+// --- Kashmir Family Packages ---
 const AmazingKashmirHolidayPackage = lazy(() => import('./pages/TourPages/KashmirFamilyPackages/AmazingKashmirHolidayPackage'));
 const KashmirFamilyPackageLuxuriousStay = lazy(() => import('./pages/TourPages/KashmirFamilyPackages/KashmirFamilyPackageLuxuriousStay'));
 const KashmirValleyFamilyTour = lazy(() => import('./pages/TourPages/KashmirFamilyPackages/KashmirValleyFamilyTour'));
 const PremiumKashmirHolidayPackage = lazy(() => import('./pages/TourPages/KashmirFamilyPackages/PremiumKashmirHolidayPackage'));
 const SrinagarGetawayPackageWithPremiumStay = lazy(() => import('./pages/TourPages/KashmirFamilyPackages/SrinagarGetawayPackageWithPremiumStay'));
 
-// Honeymoon Experiences
+// --- Honeymoon Experiences ---
 const BestSellingKashmirTour = lazy(() => import('./pages/TourPages/HoneymoonExperiences/BestSellingKashmirTour'));
 const GlimpsesOfFamilyTour = lazy(() => import('./pages/TourPages/HoneymoonExperiences/GlimpsesOfFamilyTour'));
 const KashmirCulturalExperience = lazy(() => import('./pages/TourPages/HoneymoonExperiences/KashmirCulturalExperience'));
@@ -90,8 +96,7 @@ const MagicalKashmirTour = lazy(() => import('./pages/TourPages/HoneymoonExperie
 const ScenicKashmirTour = lazy(() => import('./pages/TourPages/HoneymoonExperiences/ScenicKashmirTour'));
 const SrinagarTourPackage = lazy(() => import('./pages/TourPages/HoneymoonExperiences/SrinagarTourPackage'));
 
-// Other Pages
-const Contact = lazy(() => import('./pages/Contact'));
+// --- Places To Visit ---
 const PlacesToVisit = lazy(() => import('./pages/placestovisit/PlacesToVisitInKashmir'));
 const PlacesToVisitInKashmir = lazy(() => import('./pages/placestovisit/PlacesToVisitInKashmir'));
 const PlacesToVisitInSrinagar = lazy(() => import('./pages/placestovisit/PlacesToVisitInSrinagar'));
@@ -99,12 +104,16 @@ const PlacesToVisitInGulmarg = lazy(() => import('./pages/placestovisit/PlacesTo
 const PlacesToVisitInPahalgam = lazy(() => import('./pages/placestovisit/PlacesToVisitInPahalgam'));
 const PlacesToVisitInSonamarg = lazy(() => import('./pages/placestovisit/PlacesToVisitInSonamarg'));
 const PlacesToVisitInLadakh = lazy(() => import('./pages/placestovisit/PlacesToVisitInLadakh'));
+
+// --- Things To Do ---
 const ThingsToDo = lazy(() => import('./pages/thingstodo/ThingsToDoInKashmir'));
 const ThingsToDoInKashmir = lazy(() => import('./pages/thingstodo/ThingsToDoInKashmir'));
 const ThingsToDoInGulmarg = lazy(() => import('./pages/thingstodo/ThingsToDoInGulmarg'));
 const ThingsToDoInPahalgam = lazy(() => import('./pages/thingstodo/ThingsToDoInPahalgam'));
 const ThingsToDoInSonamarg = lazy(() => import('./pages/thingstodo/ThingsToDoInSonamarg'));
 const ThingsToDoInLadakh = lazy(() => import('./pages/thingstodo/ThingsToDoInLadakh'));
+
+// --- How To Reach ---
 const HowToReach = lazy(() => import('./pages/howtoreach/HowToReachKashmir'));
 const HowToReachKashmir = lazy(() => import('./pages/howtoreach/HowToReachKashmir'));
 const HowToReachSrinagar = lazy(() => import('./pages/howtoreach/HowToReachSrinagar'));
@@ -114,6 +123,7 @@ const HowToReachSonamarg = lazy(() => import('./pages/howtoreach/HowToReachSonam
 const HowToReachLadakh = lazy(() => import('./pages/howtoreach/HowToReachLadakh'));
 const HowToReachGurezValley = lazy(() => import('./pages/howtoreach/HowToReachGurezValley'));
 
+// --- Best Time To Visit ---
 const BestTimeToVisit = lazy(() => import('./pages/besttimetovisit/BestTimeToVisitKashmir'));
 const BestTimeToVisitKashmir = lazy(() => import('./pages/besttimetovisit/BestTimeToVisitKashmir'));
 const BestTimeToVisitSrinagar = lazy(() => import('./pages/besttimetovisit/BestTimeToVisitSrinagar'));
@@ -125,7 +135,8 @@ const BestTimeToVisitYusmarg = lazy(() => import('./pages/besttimetovisit/BestTi
 const BestTimeToVisitGurezValley = lazy(() => import('./pages/besttimetovisit/BestTimeToVisitGurezValley'));
 const BestTimeToVisitAruValley = lazy(() => import('./pages/besttimetovisit/BestTimeToVisitAruValley'));
 const BestTimeToVisitBetaabValley = lazy(() => import('./pages/besttimetovisit/BestTimeToVisitBetaabValley'));
-// Kashmir by Months
+
+// --- Kashmir by Months ---
 const KashmirInJanuary = lazy(() => import('./pages/kashmirbymonths/KashmirInJanuary'));
 const KashmirInFebruary = lazy(() => import('./pages/kashmirbymonths/KashmirInFebruary'));
 const KashmirInMarch = lazy(() => import('./pages/kashmirbymonths/KashmirInMarch'));
@@ -139,7 +150,7 @@ const KashmirInOctober = lazy(() => import('./pages/kashmirbymonths/KashmirInOct
 const KashmirInNovember = lazy(() => import('./pages/kashmirbymonths/KashmirInNovember'));
 const KashmirInDecember = lazy(() => import('./pages/kashmirbymonths/KashmirInDecember'));
 
-// Kashmir Weather by Months
+// --- Kashmir Weather by Months ---
 const KashmirWeatherInJanuary = lazy(() => import('./pages/kashmirbymonths/KashmirWeatherInJanuary'));
 const KashmirWeatherInFebruary = lazy(() => import('./pages/kashmirbymonths/KashmirWeatherInFebruary'));
 const KashmirWeatherInMarch = lazy(() => import('./pages/kashmirbymonths/KashmirWeatherInMarch'));
@@ -152,11 +163,6 @@ const KashmirWeatherInSeptember = lazy(() => import('./pages/kashmirbymonths/Kas
 const KashmirWeatherInOctober = lazy(() => import('./pages/kashmirbymonths/KashmirWeatherInOctober'));
 const KashmirWeatherInNovember = lazy(() => import('./pages/kashmirbymonths/KashmirWeatherInNovember'));
 const KashmirWeatherInDecember = lazy(() => import('./pages/kashmirbymonths/KashmirWeatherInDecember'));
-const AboutUs = lazy(() => import('./pages/AboutUs'));
-const TermsAndCondition = lazy(() => import('./pages/TermsAndCondition'));
-const PrivacyPolicy = lazy(() => import('./pages/PrivacyPolicy'));
-const RefundPolicy = lazy(() => import('./pages/RefundPolicy'));
-const PackagesListing = lazy(() => import('./components/PackagesListing'));
 
 // Loading spinner component
 const LoadingSpinner = () => (
@@ -169,21 +175,22 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        {/* Global SEO component with home page type */}
-        <SEO pageType="home" />
-
-        <PerformanceOptimizer />
-        <CriticalResourceLoader />
-        <PerformanceMonitor />
-        <Analytics />
-        <Header />
-        <ScrollToTop />
-        <ConsultationPopup />
         <Suspense fallback={<LoadingSpinner />}>
+          {/* Global Components */}
+          <SEO pageType="home" />
+          <PerformanceOptimizer />
+          <CriticalResourceLoader />
+          <PerformanceMonitor />
+          <Analytics />
+          <Header />
+          <ScrollToTop />
+          <ConsultationPopup />
+
+          {/* Routes */}
           <Routes>
             {/* Homepage */}
             <Route path="/" element={<HomePage />} />
-
+            <Route path="*" element={<PageNotFound />} />
 
             {/* Tour Pages - Adventure */}
             <Route path="/kashmir-adventure-winter" element={<KashmirMarvelousAdventureTour />} />
@@ -328,11 +335,16 @@ function App() {
             <Route path="/leh-ladakh-packages/with-kargil" element={<LadakhTourPackageWithKargilStay />} />
             <Route path="/leh-ladakh-packages/unforgettable-sonamarg" element={<UnforgettableLadakhTourPackageWithSonamargStay />} />
             <Route path="/leh-packages/unforgettable-ladakh-tour-package-with-sonamarg-stay" element={<UnforgettableLadakhTourPackageWithSonamargStay />} />
-            <Route path="/leh-packages/unforgettable-ladakh-tour-package-with-sonamarg-stay" element={<UnforgettableLadakhTourPackageWithSonamargStay />} />
 
             {/* Other Pages */}
             <Route path="/packages-listing" element={<PackagesListing />} />
             <Route path="/contact" element={<Contact />} />
+            <Route path="/about-us" element={<AboutUs />} />
+            <Route path="/terms-and-condition" element={<TermsAndCondition />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/refund-policy" element={<RefundPolicy />} />
+
+            {/* Places To Visit */}
             <Route path="/places-to-visit" element={<PlacesToVisit />} />
             <Route path="/places-to-visit-in-srinagar" element={<PlacesToVisitInSrinagar />} />
             <Route path="/places-to-visit-in-gulmarg" element={<PlacesToVisitInGulmarg />} />
@@ -344,8 +356,21 @@ function App() {
             <Route path="/places-to-visit/gulmarg" element={<PlacesToVisitInGulmarg />} />
             <Route path="/places-to-visit/pahalgam" element={<PlacesToVisitInPahalgam />} />
             <Route path="/places-to-visit/sonamarg" element={<PlacesToVisitInSonamarg />} />
+
+            {/* Things To Do */}
             <Route path="/things-to-do" element={<ThingsToDo />} />
+
+            {/* How To Reach */}
             <Route path="/how-to-reach" element={<HowToReach />} />
+            <Route path="/how-to-reach-kashmir" element={<HowToReachKashmir />} />
+            <Route path="/how-to-reach-srinagar" element={<HowToReachSrinagar />} />
+            <Route path="/how-to-reach-gulmarg" element={<HowToReachGulmarg />} />
+            <Route path="/how-to-reach-pahalgam" element={<HowToReachPahalgam />} />
+            <Route path="/how-to-reach-sonamarg" element={<HowToReachSonamarg />} />
+            <Route path="/how-to-reach-ladakh" element={<HowToReachLadakh />} />
+            <Route path="/how-to-reach-gurez-valley" element={<HowToReachGurezValley />} />
+
+            {/* Best Time To Visit */}
             <Route path="/best-time-to-visit" element={<BestTimeToVisit />} />
 
             {/* Kashmir by Months */}
@@ -377,47 +402,10 @@ function App() {
             <Route path="/kashmir-weather-in-october" element={<KashmirWeatherInOctober />} />
             <Route path="/kashmir-weather-in-november" element={<KashmirWeatherInNovember />} />
             <Route path="/kashmir-weather-in-december" element={<KashmirWeatherInDecember />} />
-
-            {/* How to Reach Routes */}
-            <Route path="/how-to-reach-kashmir" element={<HowToReachKashmir />} />
-            <Route path="/how-to-reach-srinagar" element={<HowToReachSrinagar />} />
-            <Route path="/how-to-reach-gulmarg" element={<HowToReachGulmarg />} />
-            <Route path="/how-to-reach-pahalgam" element={<HowToReachPahalgam />} />
-            <Route path="/how-to-reach-sonamarg" element={<HowToReachSonamarg />} />
-            <Route path="/how-to-reach-ladakh" element={<HowToReachLadakh />} />
-            <Route path="/how-to-reach-gurez-valley" element={<HowToReachGurezValley />} />
-
-            {/* Things to Do Routes */}
-            <Route path="/things-to-do-in-kashmir" element={<ThingsToDoInKashmir />} />
-            <Route path="/things-to-do-in-gulmarg" element={<ThingsToDoInGulmarg />} />
-            <Route path="/things-to-do-in-pahalgam" element={<ThingsToDoInPahalgam />} />
-            <Route path="/things-to-do-in-sonamarg" element={<ThingsToDoInSonamarg />} />
-            <Route path="/things-to-do-in-ladakh" element={<ThingsToDoInLadakh />} />
-
-            {/* Best Time to Visit Routes */}
-            <Route path="/best-time-to-visit-kashmir" element={<BestTimeToVisitKashmir />} />
-            <Route path="/best-time-to-visit-srinagar" element={<BestTimeToVisitSrinagar />} />
-            <Route path="/best-time-to-visit-gulmarg" element={<BestTimeToVisitGulmarg />} />
-            <Route path="/best-time-to-visit-pahalgam" element={<BestTimeToVisitPahalgam />} />
-            <Route path="/best-time-to-visit-sonamarg" element={<BestTimeToVisitSonamarg />} />
-            <Route path="/best-time-to-visit-ladakh" element={<BestTimeToVisitLadakh />} />
-            <Route path="/best-time-to-visit-yusmarg" element={<BestTimeToVisitYusmarg />} />
-            <Route path="/best-time-to-visit-gurez-valley" element={<BestTimeToVisitGurezValley />} />
-            <Route path="/best-time-to-visit-aru-valley" element={<BestTimeToVisitAruValley />} />
-            <Route path="/best-time-to-visit-betaab-valley" element={<BestTimeToVisitBetaabValley />} />
-
-            <Route path="/about-us" element={<AboutUs />} />
-            <Route path="/terms-and-condition" element={<TermsAndCondition />} />
-            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-            <Route path="/refund-policy" element={<RefundPolicy />} />
-
-            {/* Catch-all route for 404 Page Not Found */}
-            <Route path="*" element={<PageNotFound />} />
           </Routes>
+          <Footer />
+          <WhatsAppFloatingButton />
         </Suspense>
-
-        <WhatsAppFloatingButton phoneNumber="918899971960" />
-        <Footer />
       </BrowserRouter>
     </>
   );

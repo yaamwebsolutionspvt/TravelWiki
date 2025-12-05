@@ -1,161 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Kashmir Tourism | Best Kashmir Tour Packages & Holiday Deals</title>
-    <meta name="description" content="Discover Jammu & Kashmir with curated tour packages including honeymoon specials, family trips, and adventure tours to Srinagar, Gulmarg, Pahalgam & Dal Lake. Book trusted local guides and exclusive Kashmir holiday deals today!" />
-    <meta name="author" content="Kashmir Tourism - Travel Wiki" />
-    <meta name="theme-color" content="#059669" />
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <!-- Manifest (canonical set dynamically via SEO component) -->
-    <link rel="manifest" href="/site.webmanifest" />
+  <title>Kashmir Tourism | Best Kashmir Tour Packages & Holiday Deals</title>
+  <meta name="description"
+    content="Discover Jammu & Kashmir with curated tour packages including honeymoon specials, family trips, and adventure tours to Srinagar, Gulmarg, Pahalgam & Dal Lake. Book trusted local guides and exclusive Kashmir holiday deals today!" />
+  <meta name="author" content="Kashmir Tourism - Travel Wiki" />
+  <meta name="theme-color" content="#059669" />
 
-    <!-- Favicons in /public/logos and favicon -->
-    <link rel="icon" href="/favicon.ico" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png" />
-    <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png" />
+  <!-- Manifest (canonical set dynamically via SEO component) -->
+  <link rel="manifest" href="/site.webmanifest" />
 
-    <!-- Preconnect & DNS prefetch -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://res.cloudinary.com" />
-    <link rel="dns-prefetch" href="//res.cloudinary.com" />
-    <link rel="dns-prefetch" href="//www.google-analytics.com" />
-    <link rel="dns-prefetch" href="//www.googletagmanager.com" />
+  <!-- Favicons in /public/logos and favicon -->
+  <link rel="icon" href="/favicon.ico" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png" />
 
-    <!-- Preload critical resources with modern format hints -->
-    <link rel="preload" href="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png" as="image" type="image/png" fetchpriority="high" />
-    <link rel="preload" href="https://res.cloudinary.com/dw1sh368y/image/upload/f_auto,q_auto:eco,w_1920/v1758517180/3._Kashmir_Sharing_6_Days_5_Nights_Experience_jczrbk.webp" as="image" type="image/webp" fetchpriority="high" />
-    
-    <!-- Resource hints for better performance -->
-    <link rel="dns-prefetch" href="//fonts.googleapis.com" />
-    <link rel="dns-prefetch" href="//fonts.gstatic.com" />
-    
-    <!-- Preload critical fonts with font-display swap to prevent render blocking -->
-    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'" />
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" /></noscript>
-    
-    <!-- Canonical URL (will be updated by React Helmet for each page) -->
-    <link rel="canonical" href="https://travelwiki.org.in/" />
+  <!-- Preconnect & DNS prefetch -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="preconnect" href="https://res.cloudinary.com" />
+  <link rel="dns-prefetch" href="//res.cloudinary.com" />
+  <link rel="dns-prefetch" href="//www.google-analytics.com" />
+  <link rel="dns-prefetch" href="//www.googletagmanager.com" />
 
-    <!-- Open Graph / Social (use absolute URLs for images) -->
-    <meta property="og:locale" content="en_IN" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="Kashmir Tourism | Best Kashmir Tour Packages" />
-    <meta property="og:description" content="Explore Jammu and Kashmir's breathtaking beauty with our curated tour holiday packages. Kashmir honeymoon specials, adventure tours & more." />
-    <meta property="og:image" content="https://travelwiki.org.in/logo.png" />
-    <meta property="og:image:alt" content="Travel Wiki logo" />
-    <meta property="og:url" content="https://travelwiki.org.in/" />
-    <meta property="og:site_name" content="Travel Wiki" />
+  <!-- Preload critical resources with modern format hints -->
+  <link rel="preload"
+    href="https://res.cloudinary.com/dwlxh3G8y/travelwiki/image/upload/w_200,f_auto,q_auto/public/logo.png" as="image"
+    type="image/png" fetchpriority="high" />
+  <link rel="preload"
+    href="https://res.cloudinary.com/dw1sh368y/image/upload/f_auto,q_auto:eco,w_1920/v1758517180/3._Kashmir_Sharing_6_Days_5_Nights_Experience_jczrbk.webp"
+    as="image" type="image/webp" fetchpriority="high" />
 
-    <!-- Twitter -->
-    <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:site" content="@travel_wikiofficial" />
-    <meta name="twitter:title" content="Kashmir Tourism | Best Kashmir Tour Packages" />
-    <meta name="twitter:description" content="Discover Kashmir's paradise with our exclusive tour packages and holiday deals." />
-    <meta name="twitter:image" content="https://travelwiki.org.in/logo.png" />
+  <!-- Resource hints for better performance -->
+  <link rel="dns-prefetch" href="//fonts.googleapis.com" />
+  <link rel="dns-prefetch" href="//fonts.gstatic.com" />
 
-    <!-- Robots / indexing (single canonical directive) -->
-    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
-    <meta name="googlebot" content="index, follow" />
+  <!-- Preload critical fonts with font-display swap to prevent render blocking -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style"
+    onload="this.onload=null;this.rel='stylesheet'" />
+  <noscript>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" />
+  </noscript>
 
-    <!-- Performance / detection -->
-    <meta name="format-detection" content="telephone=no" />
+  <!-- Canonical URL (will be updated by React Helmet for each page) -->
+  <link rel="canonical" href="https://travelwiki.org.in/" />
 
-    <!-- Critical CSS inlined for faster rendering -->
-    <style>
-      /* Critical above-the-fold styles */
-      :root { box-sizing: border-box; }
-      *, *::before, *::after { box-sizing: inherit; }
-      body { margin: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
-      #root { min-height: 100vh; }
-      .loading { display:flex; justify-content:center; align-items:center; min-height:100vh; background:#fff; }
-      .spinner { width:50px; height:50px; border:3px solid #f3f4f6; border-top:3px solid #059669; border-radius:50%; animation:spin 1s linear infinite; }
-      @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
-      .skip-to-content { position:absolute; left:-9999px; top:auto; width:1px; height:1px; overflow:hidden; }
-      .skip-to-content:focus { position: static; width: auto; height: auto; left: 0; padding: 0.5rem; background:#000; color:#fff; z-index:1000; }
-      
-      /* Critical hero section styles */
-      .hero-section { text-white relative min-h-[70vh] sm:min-h-[80vh] md:min-h-[90vh] lg:min-h-[95vh] overflow-hidden transition-all duration-1000; }
-      .hero-bg { position: absolute; inset: 0; z-index: 0; }
-      .hero-content { position: relative; z-index: 10; padding: 3rem 1rem; text-align: center; height: 100%; display: flex; flex-direction: column; justify-content: center; }
-      .hero-title { font-size: 1.875rem; line-height: 2.25rem; font-weight: 700; margin-bottom: 1.5rem; }
-      .hero-subtitle { font-size: 1.125rem; line-height: 1.75rem; font-weight: 600; margin-top: 0.75rem; }
-      .hero-description { font-size: 1rem; line-height: 1.5rem; max-width: 80rem; margin: 0 auto 2rem; padding: 0 1rem; color: #f3f4f6; font-weight: 300; }
-      .hero-buttons { display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; margin-bottom: 2rem; }
-      .hero-cta { display: flex; flex-direction: column; gap: 1rem; justify-content: center; align-items: center; margin-bottom: 2rem; }
-      
-      /* Critical responsive styles */
-      @media (min-width: 640px) {
-        .hero-title { font-size: 1.875rem; line-height: 2.25rem; }
-        .hero-subtitle { font-size: 1.25rem; line-height: 1.75rem; }
-        .hero-description { font-size: 1.125rem; line-height: 1.75rem; }
-        .hero-buttons { gap: 1.25rem; margin-bottom: 2.5rem; }
-        .hero-cta { flex-direction: row; gap: 1.5rem; }
+  <!-- Open Graph / Social (use absolute URLs for images) -->
+  <meta property="og:locale" content="en_IN" />
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Kashmir Tourism | Best Kashmir Tour Packages" />
+  <meta property="og:description"
+    content="Explore Jammu and Kashmir's breathtaking beauty with our curated tour holiday packages. Kashmir honeymoon specials, adventure tours & more." />
+  <meta property="og:image" content="https://travelwiki.org.in/logo.png" />
+  <meta property="og:image:alt" content="Travel Wiki logo" />
+  <meta property="og:url" content="https://travelwiki.org.in/" />
+  <meta property="og:site_name" content="Travel Wiki" />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:site" content="@travel_wikiofficial" />
+  <meta name="twitter:title" content="Kashmir Tourism | Best Kashmir Tour Packages" />
+  <meta name="twitter:description"
+    content="Discover Kashmir's paradise with our exclusive tour packages and holiday deals." />
+  <meta name="twitter:image" content="https://travelwiki.org.in/logo.png" />
+
+  <!-- Robots / indexing (single canonical directive) -->
+  <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+  <meta name="googlebot" content="index, follow" />
+
+  <!-- Performance / detection -->
+  <meta name="format-detection" content="telephone=no" />
+
+  <!-- Critical CSS inlined for faster rendering -->
+  <style>
+    /* Critical above-the-fold styles */
+    :root {
+      box-sizing: border-box;
+    }
+
+    *,
+    *::before,
+    *::after {
+      box-sizing: inherit;
+    }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+
+    #root {
+      min-height: 100vh;
+    }
+
+    .loading {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: #fff;
+    }
+
+    .spinner {
+      width: 50px;
+      height: 50px;
+      border: 3px solid #f3f4f6;
+      border-top: 3px solid #059669;
+      border-radius: 50%;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
       }
-      @media (min-width: 768px) {
-        .hero-title { font-size: 2.25rem; line-height: 2.5rem; }
-        .hero-subtitle { font-size: 1.5rem; line-height: 2rem; }
-        .hero-description { font-size: 1.25rem; line-height: 1.75rem; }
-      }
-      @media (min-width: 1024px) {
-        .hero-title { font-size: 2.25rem; line-height: 2.5rem; }
-        .hero-subtitle { font-size: 1.875rem; line-height: 2.25rem; }
-        .hero-description { font-size: 1.5rem; line-height: 2rem; }
-        /* Desktop-specific optimizations */
-        .hero-buttons { gap: 1.5rem; }
-        .hero-cta { gap: 2rem; }
-      }
-      @media (min-width: 1280px) {
-        .hero-title { font-size: 3rem; line-height: 1; }
-        .hero-subtitle { font-size: 2.25rem; line-height: 2.5rem; }
-        .hero-description { font-size: 1.875rem; line-height: 2.25rem; }
-        /* Large desktop optimizations */
-        .hero-buttons { gap: 2rem; }
-        .hero-cta { gap: 2.5rem; }
-      }
-    </style>
 
-    <!-- JSON-LD structured data (minified to reduce HTML size) -->
-    <script type="application/ld+json">{"@context":"https://schema.org","@type":"TravelAgency","name":"Kashmir Tourism - Travel Wiki","description":"Premier Kashmir tourism company offering tour packages, honeymoon specials, adventure tours, and cultural experiences.","url":"https://travelwiki.org.in","logo":"https://travelwiki.org.in/logo.png","address":{"@type":"PostalAddress","streetAddress":"Near SumoStand, Near HDFC Bank","addressLocality":"Bijbihara","postalCode":"190001","addressRegion":"Jammu & Kashmir","addressCountry":"IN"},"contactPoint":{"@type":"ContactPoint","telephone":"+918899971960","email":"info@travelwiki.org.in","contactType":"customer service","availableLanguage":["English","Hindi","Urdu"]},"sameAs":["https://www.facebook.com/travelwikiofficial","https://www.instagram.com/travel_wikiofficial/"],"areaServed":{"@type":"Place","name":"Kashmir, India"},"priceRange":"$$"}</script>
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+
+    .skip-to-content {
+      position: absolute;
+      left: -9999px;
+      top: auto;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+    }
+
+    .skip-to-content:focus {
+      position: static;
+      width: auto;
+      height: auto;
+      left: 0;
+      padding: 0.5rem;
+      background: #000;
+      color: #fff;
+      z-index: 1000;
+    }
+
+    /* Critical hero section styles */
+    .hero-section {
+      text-white relative min-h-[70vh] sm: min-h-[80vh] md:min-h-[90vh] lg:min-h-[95vh] overflow-hidden transition-all duration-1000;
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 10;
+      padding: 3rem 1rem;
+      text-align: center;
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .hero-title {
+      font-size: 1.875rem;
+      line-height: 2.25rem;
+      font-weight: 700;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-subtitle {
+      font-size: 1.125rem;
+      line-height: 1.75rem;
+      font-weight: 600;
+      margin-top: 0.75rem;
+    }
+
+    .hero-description {
+      font-size: 1rem;
+      line-height: 1.5rem;
+      max-width: 80rem;
+      margin: 0 auto 2rem;
+      padding: 0 1rem;
+      color: #f3f4f6;
+      font-weight: 300;
+    }
+
+    .hero-buttons {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .hero-cta {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+
+    /* Critical responsive styles */
+    @media (min-width: 640px) {
+      .hero-title {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+      }
+
+      .hero-subtitle {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+      }
+
+      .hero-description {
+        font-size: 1.125rem;
+        line-height: 1.75rem;
+      }
+
+      .hero-buttons {
+        gap: 1.25rem;
+        margin-bottom: 2.5rem;
+      }
+
+      .hero-cta {
+        flex-direction: row;
+        gap: 1.5rem;
+      }
+    }
+
+    @media (min-width: 768px) {
+      .hero-title {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+      }
+
+      .hero-subtitle {
+        font-size: 1.5rem;
+        line-height: 2rem;
+      }
+
+      .hero-description {
+        font-size: 1.25rem;
+        line-height: 1.75rem;
+      }
+    }
+
+    @media (min-width: 1024px) {
+      .hero-title {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+      }
+
+      .hero-subtitle {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+      }
+
+      .hero-description {
+        font-size: 1.5rem;
+        line-height: 2rem;
+      }
+
+      /* Desktop-specific optimizations */
+      .hero-buttons {
+        gap: 1.5rem;
+      }
+
+      .hero-cta {
+        gap: 2rem;
+      }
+    }
+
+    @media (min-width: 1280px) {
+      .hero-title {
+        font-size: 3rem;
+        line-height: 1;
+      }
+
+      .hero-subtitle {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+      }
+
+      .hero-description {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+      }
+
+      /* Large desktop optimizations */
+      .hero-buttons {
+        gap: 2rem;
+      }
+
+      .hero-cta {
+        gap: 2.5rem;
+      }
+    }
+  </style>
+
+  <!-- JSON-LD structured data (minified to reduce HTML size) -->
+  <script
+    type="application/ld+json">{"@context":"https://schema.org","@type":"TravelAgency","name":"Kashmir Tourism - Travel Wiki","description":"Premier Kashmir tourism company offering tour packages, honeymoon specials, adventure tours, and cultural experiences.","url":"https://travelwiki.org.in","logo":"https://travelwiki.org.in/logo.png","address":{"@type":"PostalAddress","streetAddress":"Near SumoStand, Near HDFC Bank","addressLocality":"Bijbihara","postalCode":"190001","addressRegion":"Jammu & Kashmir","addressCountry":"IN"},"contactPoint":{"@type":"ContactPoint","telephone":"+918899971960","email":"info@travelwiki.org.in","contactType":"customer service","availableLanguage":["English","Hindi","Urdu"]},"sameAs":["https://www.facebook.com/travelwikiofficial","https://www.instagram.com/travel_wikiofficial/"],"areaServed":{"@type":"Place","name":"Kashmir, India"},"priceRange":"$$"}</script>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-34J1257DZK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-34J1257DZK"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-34J1257DZK');
-</script>
-  </head>
+    gtag('config', 'G-34J1257DZK');
+  </script>
+</head>
 
-  <body>
-    <!-- Accessibility: Skip link -->
-    <a class="skip-to-content" href="#main">Skip to content</a>
+<body>
+  <!-- Accessibility: Skip link -->
+  <a class="skip-to-content" href="#main">Skip to content</a>
 
-    <div id="root" role="main" aria-live="polite">
-      <!-- Loading fallback -->
-      <div class="loading" id="main">
-        <div class="spinner" role="status" aria-label="Loading"></div>
-      </div>
+  <div id="root" role="main" aria-live="polite">
+    <!-- Loading fallback -->
+    <div class="loading" id="main">
+      <div class="spinner" role="status" aria-label="Loading"></div>
     </div>
+  </div>
 
-    <!-- noscript fallback (important for SEO + users without JS) -->
-    <noscript>
-      <div style="padding:1rem; background:#fff; color:#000;">This site works best with JavaScript enabled. Please enable JavaScript to view content.</div>
-    </noscript>
+  <!-- noscript fallback (important for SEO + users without JS) -->
+  <noscript>
+    <div style="padding:1rem; background:#fff; color:#000;">This site works best with JavaScript enabled. Please enable
+      JavaScript to view content.</div>
+  </noscript>
 
-    <!-- Service Worker Registration moved to external file to reduce HTML size -->
-    <script type="module" src="/src/sw-register.js"></script>
+  <!-- Service Worker Registration moved to external file to reduce HTML size -->
+  <script type="module" src="/src/sw-register.js"></script>
 
-    <!-- App bootstrap (type=module defers by default) -->
-    <script type="module" src="/src/main.jsx"></script>
+  <!-- App bootstrap (type=module defers by default) -->
+  <script type="module" src="/src/main.jsx"></script>
 
-    <!-- Analytics is injected via React Helmet in Analytics.jsx and deferred -->
-  </body>
+  <!-- Analytics is injected via React Helmet in Analytics.jsx and deferred -->
+</body>
+
 </html>

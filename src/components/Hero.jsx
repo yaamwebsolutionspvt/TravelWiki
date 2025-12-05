@@ -6,21 +6,57 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faMountain, faSnowboarding } from "@fortawesome/free-solid-svg-icons";
 import { RiFlowerFill, RiTentFill, RiFocus2Fill, RiMessageFill, RiShieldCheckLine, RiTrophyLine, RiCheckboxCircleFill } from "react-icons/ri";
 
+// Import the new custom hook
+import useWindowWidth from "../hooks/useWindowWidth";
+
+// Define the core Cloudinary path without any transformations (w_XXX, q_auto, etc.)
+const CLOUDINARY_BASE_URL = "https://res.cloudinary.com/dw1sh368y/image/upload/v1758517180/3._Kashmir_Sharing_6_Days_5_Nights_Experience_jczrbk.webp";
+
+
+// Helper function to determine the best width to request from Cloudinary
+const getOptimalImageWidth = (currentWidth) => {
+  // Define breakpoints and corresponding Cloudinary widths (in pixels)
+  if (currentWidth < 640) return 640;
+  if (currentWidth < 1024) return 1024;
+  if (currentWidth < 1440) return 1440;
+  return 1920;
+};
+
+
 export default function Hero() {
   const [isLoaded, setIsLoaded] = useState(false);
+  const windowWidth = useWindowWidth(); // <-- GET DYNAMIC WIDTH
 
   const backgroundImageUrl = useMemo(
-    () =>
-      "https://res.cloudinary.com/dw1sh368y/image/upload/f_auto,q_auto:eco,w_1920/v1758517180/3._Kashmir_Sharing_6_Days_5_Nights_Experience_jczrbk.webp",
-    []
+    () => {
+      // 1. Get the width based on the current viewport
+      const optimalWidth = getOptimalImageWidth(windowWidth);
+
+      // 2. Define the transformation string: f_auto (format), q_auto:eco (quality), w_XXX (width)
+      const transformations = `f_auto,q_auto:eco,w_${optimalWidth}`;
+
+      // 3. Insert the transformations into the base URL path
+      const parts = CLOUDINARY_BASE_URL.split('/upload/');
+      
+      // The final optimized URL
+      return `${parts[0]}/upload/${transformations}/${parts[1]}`;
+    },
+    [windowWidth] // <-- DEPENDENCY: Re-run calculation when width changes
   );
 
-  // Preload the hero image
+  // Preload the hero image (using the responsive URL)
   useEffect(() => {
-    const img = new Image();
-    img.onload = () => setIsLoaded(true);
-    img.src = backgroundImageUrl;
+    // Only preload if the component is visible and we have the URL
+    if (backgroundImageUrl) {
+      const img = new Image();
+      // Set the priority fetch attribute on the underlying network request
+      // This is a browser hint, not guaranteed, but good practice.
+      img.setAttribute('fetchpriority', 'high'); 
+      img.onload = () => setIsLoaded(true);
+      img.src = backgroundImageUrl;
+    }
   }, [backgroundImageUrl]);
+
 
   const scrollToPackages = () => {
     let packagesSection =
@@ -43,7 +79,7 @@ export default function Hero() {
   return (
     <SEOContent
       semantic="section"
-      className={`relative min-h-[65vh] sm:min-h-[75vh] md:min-h-[85vh] lg:min-h-[90vh] pt-16 md:pt-20 overflow-hidden transition-all duration-1000  ${isLoaded ? "opacity-100" : "opacity-0"
+      className={`relative min-h-[65vh] sm:min-h-[75vh] md:min-h-[85vh] lg:min-h-[90vh] pt-16 md:pt-20 overflow-hidden transition-all duration-1000  ${isLoaded ? "opacity-100" : "opacity-0"
         }`}
       role="banner"
       aria-label="Kashmir Tourism Hero Section"
@@ -51,16 +87,17 @@ export default function Hero() {
       <Box sx={{ position: "absolute", inset: 0, width: "100%", height: "100%" }}>
         <Box
           component="img"
-          src={backgroundImageUrl}
+          src={backgroundImageUrl} // <-- NOW RESPONSIvE
           alt="Dal Lake, Srinagar at sunrise"
           fetchpriority="high"
           loading="eager"
+          // We removed the original transition opacity block to rely solely on the parent transition
           sx={{
             width: "100%",
             height: "100%",
             objectFit: "cover",
             transition: "opacity 0.3s ease",
-            opacity: isLoaded ? 1 : 0,
+            opacity: 1, // Always visible once the parent container is visible
           }}
         />
         {/* Light black overlay */}
@@ -74,21 +111,23 @@ export default function Hero() {
       </Box>
 
 
-      {/* Content */}
+      {/* Content remains the same... */}
+      {/* ... */}
+      
+      {/* Rest of the content (Headings, Buttons, etc.) */}
       <Box
         sx={{
           position: "relative",
           zIndex: 10,
-          minHeight: "100vh",          // ensures full-screen height
+          minHeight: "100vh",          
           display: "flex",
           flexDirection: "column",
-          justifyContent: "center",     // centers vertically
-          alignItems: "center",         // centers horizontally
+          justifyContent: "center",     
+          alignItems: "center",         
           textAlign: "center",
           px: { xs: 3, sm: 4, md: 6 },
         }}
       >
-
         {/* Main Headings */}
         <SEOHeading
           level={1}
@@ -143,6 +182,7 @@ export default function Hero() {
             Discover Kashmir's breathtaking beauty with our exclusive tour packages. Experience Dal Lake's serenity, Gulmarg's snow-capped peaks, Pahalgam's meadows, and Sonamarg's glaciers. Perfect for honeymoons, family vacations, and adventure seekers.
           </Typography>
         </SEOParagraph>
+        
         {/* Destinations */}
         <Stack
           direction={{ xs: "column", sm: "row" }}
@@ -261,10 +301,6 @@ export default function Hero() {
             Book Now on WhatsApp
           </Button>
         </Stack>
-
-
-
-
       </Box>
     </SEOContent>
   );

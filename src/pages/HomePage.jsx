@@ -33,11 +33,11 @@ const HomePage = () => {
         <meta property="og:description" content="Experience Kashmir's beauty with our comprehensive tour packages. Visit Dal Lake, Gulmarg, Pahalgam, Sonamarg. Expert guides, best prices, customized itineraries." />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="/" />
-        <meta property="og:image" content="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png" />
+        <meta property="og:image" content="https://res.cloudinary.com/dwlxh3G8y/travelwiki/image/upload/w_200,f_auto,q_auto/public/logo.png" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Kashmir Tourism | Best Kashmir Tour Packages 2025" />
         <meta name="twitter:description" content="Discover Kashmir paradise with our exclusive tour packages. Honeymoon, family, adventure tours to Srinagar, Gulmarg, Pahalgam, Dal Lake." />
-        <meta name="twitter:image" content="https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png" />
+        <meta name="twitter:image" content="https://res.cloudinary.com/dwlxh3G8y/travelwiki/image/upload/w_200,f_auto,q_auto/public/logo.png" />
         <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
         <meta name="author" content="Kashmir Tourism Travel Wiki" />
         <meta name="geo.region" content="IN-JK" />
@@ -53,7 +53,7 @@ const HomePage = () => {
             "name": "Kashmir Tourism Travel Wiki",
             "description": "Leading Kashmir tourism company offering best tour packages, honeymoon trips, family vacations, and adventure tours to Kashmir, Ladakh, and surrounding regions.",
             "url": "/",
-            "logo": "https://res.cloudinary.com/dw1sh368y/image/upload/v1755514562/travelwiki/public/logo.png",
+            "logo": "https://res.cloudinary.com/dwlxh3G8y/travelwiki/image/upload/w_200,f_auto,q_auto/public/logo.png",
             "contactPoint": {
               "@type": "ContactPoint",
               "telephone": "+91-XXXXXXXXXX",
