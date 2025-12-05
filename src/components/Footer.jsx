@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { SEOHeading, SEOContent, SEOImage, SEOParagraph, SEOList } from '../utils/seoUtils.jsx';
 import EmailObfuscated from './EmailObfuscated';
 
-const logo = "https://res.cloudinary.com/dw1sh368y/travelwiki/public/logo.png";
+const logo = "https://res.cloudinary.com/dw1sh368y/travelwiki/public/logo.webp";
 
 export default function Footer() {
   const [email, setEmail] = useState('');

@@ -190,7 +190,7 @@ const SEO = ({
           "name": "Travel Wiki",
           "description": "Best Kashmir Tourism Company offering exclusive tour packages",
           "url": "https://travelwiki.org.in",
-          "logo": "https://res.cloudinary.com/dw1sh368y/travelwiki/public/logo.png",
+          "logo": "https://res.cloudinary.com/dw1sh368y/travelwiki/public/logo.webp",
           "image": image,
           "telephone": "+91 8899971960",
           "email": "info@travelwiki.org.in",
