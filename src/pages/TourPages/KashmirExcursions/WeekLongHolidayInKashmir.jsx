@@ -10,7 +10,7 @@ export default function WeekLongHolidayInKashmir() {
     title: "Week Long Holiday In Kashmir | 6 Nights 7 Days Perfect Valley Tour",
     description: "Enjoy a perfect week-long holiday in Kashmir with 6 nights covering Srinagar, Pahalgam, and Gulmarg. Complete relaxation and sightseeing experience at ₹20,999.",
     keywords: "week long Kashmir holiday, 6 nights Kashmir tour, perfect Kashmir vacation, Srinagar Pahalgam Gulmarg tour, complete Kashmir experience",
-    canonical: "https://www.travelwiki.org.in/packages/week-long-holiday-kashmir/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/week-long-holiday-kashmir/"
   });
 
   const packageData = {

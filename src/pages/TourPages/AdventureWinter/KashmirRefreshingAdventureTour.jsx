@@ -9,7 +9,7 @@ export default function KashmirRefreshingAdventureTour() {
     title: "Kashmir Refreshing Adventure Tour | 3 Nights 4 Days Relaxing Winter Package",
     description: "Perfect refreshing winter adventure in Kashmir with relaxing activities, gentle snow sports, and peaceful mountain experiences. 3 nights package with houseboat stay. Starting at ₹13,999.",
     keywords: "Kashmir refreshing tour, relaxing winter adventure, 3 nights peaceful Kashmir, gentle winter activities, refreshing mountain tour, Kashmir wellness adventure",
-    canonical: "https://www.travelwiki.org.in/packages/kashmir-refreshing-adventure-tour/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/kashmir-refreshing-adventure-tour/"
   });
 
   const packageData = {

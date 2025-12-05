@@ -17,7 +17,7 @@ export default function LoveInKashmirPackage() {
     title: "Love in Kashmir Package | 5 Nights Romantic Couple Getaway",
     description: "Ultimate romantic Kashmir package for couples. 5 nights of love, romance, and intimacy in paradise. Houseboat stays, candlelight dinners, and couple activities. Starting at ₹15,999.",
     keywords: "Love in Kashmir package, romantic Kashmir tour, couple Kashmir package, romantic getaway Kashmir, Kashmir love package, couple tour Kashmir",
-    canonical: "https://www.travelwiki.org.in/packages/love-in-kashmir-package/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/love-in-kashmir-package/"
   });
 
   const packageData = {

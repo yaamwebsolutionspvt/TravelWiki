@@ -16,7 +16,7 @@ export default function KashmirPahalgamTour() {
     title: "Kashmir Pahalgam Tour Package | 5 Nights Valley of Shepherds",
     description: "Explore the beautiful Pahalgam valley with our 5 nights tour package. Visit Betaab Valley, Aru Valley, Chandanwari, and enjoy nature at its best. Starting at ₹11,999.",
     keywords: "Pahalgam tour package, Kashmir Pahalgam tour, Betaab Valley tour, Aru Valley Kashmir, Chandanwari tour, valley of shepherds",
-    canonical: "https://www.travelwiki.org.in/packages/kashmir-pahalgam-tour/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/kashmir-pahalgam-tour/"
   });
 
   const packageData = {

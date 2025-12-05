@@ -1,19 +1,19 @@
 export const packageTableLeft = [
-  { name: "Glimpse of Kashmir Tour", nights: "3 Nights", price: "Rs. 10999", link: "/packages/3-nights-4-days-srinagar-pahalgam-gulmarg-tour" },
-  { name: "Kashmir Family Tour", nights: "5 Nights", price: "Rs. 11999", link: "/packages/kashmir-family-tour" },
-  { name: "Kashmir Honeymoon Tour", nights: "3 Nights", price: "Rs. 13999", link: "/packages/kashmir-honeymoon-tour" },
-  { name: "Kashmir Gulmarg Tour", nights: "3 Nights", price: "Rs. 10999", link: "/packages/kashmir-gulmarg-tour" },
-  { name: "Kashmir Houseboat Tour", nights: "3 Nights", price: "Rs. 8999", link: "/packages/kashmir-houseboat-tour" },
-  { name: "Kashmir Package with Patnitop", nights: "8 Nights", price: "Rs. 21999", link: "/packages/kashmir-package-with-patnitop" },
+  { name: "Glimpse of Kashmir Tour", nights: "3 Nights", price: "Rs. 10999", link: "/kashmirtourpackages/3-nights-4-days-srinagar-pahalgam-gulmarg-tour" },
+  { name: "Kashmir Family Tour", nights: "5 Nights", price: "Rs. 11999", link: "/kashmirtourpackages/kashmir-family-tour" },
+  { name: "Kashmir Honeymoon Tour", nights: "3 Nights", price: "Rs. 13999", link: "/kashmirtourpackages/kashmir-honeymoon-tour" },
+  { name: "Kashmir Gulmarg Tour", nights: "3 Nights", price: "Rs. 10999", link: "/kashmirtourpackages/kashmir-gulmarg-tour" },
+  { name: "Kashmir Houseboat Tour", nights: "3 Nights", price: "Rs. 8999", link: "/kashmirtourpackages/kashmir-houseboat-tour" },
+  { name: "Kashmir Package with Patnitop", nights: "8 Nights", price: "Rs. 21999", link: "/kashmirtourpackages/kashmir-package-with-patnitop" },
 ];
 
 export const packageTableRight = [
-  { name: "Kashmir Pahalgam Tour", nights: "5 Nights", price: "Rs. 11999", link: "/packages/kashmir-pahalgam-tour" },
-  { name: "Kashmir Valley Tour", nights: "7 Nights", price: "Rs. 16999", link: "/packages/kashmir-valley-tour" },
-  { name: "Kashmir with Jammu Tour", nights: "6 Nights", price: "Rs. 14999", link: "/packages/kashmir-with-jammu-tour" },
-  { name: "Kashmir with Vaishno Devi Tour", nights: "8 Nights", price: "Rs. 20999", link: "/packages/kashmir-with-vaishno-devi" },
-  { name: "Love in Kashmir Package", nights: "5 Nights", price: "Rs. 15999", link: "/packages/love-in-kashmir-package" },
-  { name: "Srinagar Tour Package", nights: "6 Nights", price: "Contact Us", link: "/packages/srinagar-tour-package" },
+  { name: "Kashmir Pahalgam Tour", nights: "5 Nights", price: "Rs. 11999", link: "/kashmirtourpackages/kashmir-pahalgam-tour" },
+  { name: "Kashmir Valley Tour", nights: "7 Nights", price: "Rs. 16999", link: "/kashmirtourpackages/kashmir-valley-tour" },
+  { name: "Kashmir with Jammu Tour", nights: "6 Nights", price: "Rs. 14999", link: "/kashmirtourpackages/kashmir-with-jammu-tour" },
+  { name: "Kashmir with Vaishno Devi Tour", nights: "8 Nights", price: "Rs. 20999", link: "/kashmirtourpackages/kashmir-with-vaishno-devi" },
+  { name: "Love in Kashmir Package", nights: "5 Nights", price: "Rs. 15999", link: "/kashmirtourpackages/love-in-kashmir-package" },
+  { name: "Srinagar Tour Package", nights: "6 Nights", price: "Contact Us", link: "/kashmirtourpackages/srinagar-tour-package" },
 ];
 
 export const kashmirTourismContent = {

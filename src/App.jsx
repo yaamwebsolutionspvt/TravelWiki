@@ -247,71 +247,71 @@ function App() {
             <Route path="/magical-kashmir" element={<MagicalKashmirGeneralTour />} />
             <Route path="/magnificent-kashmir-valley" element={<MagnificentKashmirValleyTour />} />
             <Route path="/3-nights-4-days-srinagar-pahalgam-gulmarg" element={<ThreeNightsFourDaysSrinagarPahalgamGulmargTour />} />
-            <Route path="/packages/3-nights-4-days-srinagar-pahalgam-gulmarg-tour" element={<ThreeNightsFourDaysSrinagarPahalgamGulmargTour />} />
+            <Route path="/kashmirtourpackages/3-nights-4-days-srinagar-pahalgam-gulmarg-tour" element={<ThreeNightsFourDaysSrinagarPahalgamGulmargTour />} />
 
             {/* Package Routes - General */}
-            <Route path="/packages/kashmir-family-tour" element={<KashmirFamilyTour />} />
-            <Route path="/packages/kashmir-honeymoon-tour" element={<KashmirHoneymoonTour />} />
-            <Route path="/packages/kashmir-gulmarg-tour" element={<KashmirGulmargTour />} />
-            <Route path="/packages/kashmir-houseboat-tour" element={<KashmirHouseboatTour />} />
-            <Route path="/packages/kashmir-package-with-patnitop" element={<KashmirPackageWithPatnitop />} />
-            <Route path="/packages/kashmir-pahalgam-tour" element={<KashmirPahalgamTour />} />
-            <Route path="/packages/kashmir-valley-tour" element={<KashmirValleyTour />} />
-            <Route path="/packages/kashmir-with-jammu-tour" element={<KashmirWithJammuTour />} />
-            <Route path="/packages/kashmir-with-vaishno-devi" element={<KashmirWithVaishnoDevi />} />
-            <Route path="/packages/love-in-kashmir-package" element={<LoveInKashmirPackage />} />
-            <Route path="/packages/magical-kashmir-tour" element={<MagicalKashmirGeneralTour />} />
-            <Route path="/packages/magnificent-kashmir-valley-tour" element={<MagnificentKashmirValleyTour />} />
-            <Route path="/packages/kashmir-exotic-tour" element={<KashmirExoticTour />} />
+            <Route path="/kashmirtourpackages/kashmir-family-tour" element={<KashmirFamilyTour />} />
+            <Route path="/kashmirtourpackages/kashmir-honeymoon-tour" element={<KashmirHoneymoonTour />} />
+            <Route path="/kashmirtourpackages/kashmir-gulmarg-tour" element={<KashmirGulmargTour />} />
+            <Route path="/kashmirtourpackages/kashmir-houseboat-tour" element={<KashmirHouseboatTour />} />
+            <Route path="/kashmirtourpackages/kashmir-package-with-patnitop" element={<KashmirPackageWithPatnitop />} />
+            <Route path="/kashmirtourpackages/kashmir-pahalgam-tour" element={<KashmirPahalgamTour />} />
+            <Route path="/kashmirtourpackages/kashmir-valley-tour" element={<KashmirValleyTour />} />
+            <Route path="/kashmirtourpackages/kashmir-with-jammu-tour" element={<KashmirWithJammuTour />} />
+            <Route path="/kashmirtourpackages/kashmir-with-vaishno-devi" element={<KashmirWithVaishnoDevi />} />
+            <Route path="/kashmirtourpackages/love-in-kashmir-package" element={<LoveInKashmirPackage />} />
+            <Route path="/kashmirtourpackages/magical-kashmir-tour" element={<MagicalKashmirGeneralTour />} />
+            <Route path="/kashmirtourpackages/magnificent-kashmir-valley-tour" element={<MagnificentKashmirValleyTour />} />
+            <Route path="/kashmirtourpackages/kashmir-exotic-tour" element={<KashmirExoticTour />} />
 
             {/* Package Routes - Adventure */}
-            <Route path="/packages/glimpses-of-family-adventure-tour" element={<GlimpsesOfFamilyAdventureTour />} />
-            <Route path="/packages/magical-kashmir-adventure-tour" element={<MagicalKashmirAdventureTour />} />
-            <Route path="/packages/best-selling-kashmir-adventure-tour" element={<BestSellingKashmirAdventureTour />} />
-            <Route path="/packages/scenic-kashmir-adventure-tour" element={<ScenicKashmirAdventureTour />} />
-            <Route path="/packages/kashmir-marvelous-adventure-tour" element={<KashmirMarvelousAdventureTour />} />
-            <Route path="/packages/kashmir-refreshing-adventure-tour" element={<KashmirRefreshingAdventureTour />} />
+            <Route path="/kashmirtourpackages/glimpses-of-family-adventure-tour" element={<GlimpsesOfFamilyAdventureTour />} />
+            <Route path="/kashmirtourpackages/magical-kashmir-adventure-tour" element={<MagicalKashmirAdventureTour />} />
+            <Route path="/kashmirtourpackages/best-selling-kashmir-adventure-tour" element={<BestSellingKashmirAdventureTour />} />
+            <Route path="/kashmirtourpackages/scenic-kashmir-adventure-tour" element={<ScenicKashmirAdventureTour />} />
+            <Route path="/kashmirtourpackages/kashmir-marvelous-adventure-tour" element={<KashmirMarvelousAdventureTour />} />
+            <Route path="/kashmirtourpackages/kashmir-refreshing-adventure-tour" element={<KashmirRefreshingAdventureTour />} />
 
             {/* Package Routes - Cultural */}
-            <Route path="/packages/gurez-valley-tour" element={<GurezValleyTour />} />
-            <Route path="/packages/kashmir-with-gurez-valley-tour" element={<KashmirWithGurezValleyTour />} />
-            <Route path="/packages/kashmir-offbeat-with-gurez" element={<KashmirOffbeatWithGurez />} />
-            <Route path="/packages/true-gems-of-kashmir-valley" element={<TrueGemsOfKashmirValley />} />
-            <Route path="/packages/kashmir-with-kargil" element={<KashmirWithKargil />} />
+            <Route path="/kashmirtourpackages/gurez-valley-tour" element={<GurezValleyTour />} />
+            <Route path="/kashmirtourpackages/kashmir-with-gurez-valley-tour" element={<KashmirWithGurezValleyTour />} />
+            <Route path="/kashmirtourpackages/kashmir-offbeat-with-gurez" element={<KashmirOffbeatWithGurez />} />
+            <Route path="/kashmirtourpackages/true-gems-of-kashmir-valley" element={<TrueGemsOfKashmirValley />} />
+            <Route path="/kashmirtourpackages/kashmir-with-kargil" element={<KashmirWithKargil />} />
 
             {/* Package Routes - Excursions */}
-            <Route path="/packages/splendid-kashmir-package" element={<SplendidKashmirPackage />} />
-            <Route path="/packages/fun-filled-vacation-kashmir-package" element={<FunFilledVacationKashmirPackage />} />
-            <Route path="/packages/thrilling-kashmir-holiday-package" element={<ThrillingKashmirHolidayPackage />} />
-            <Route path="/packages/week-long-holiday-kashmir" element={<WeekLongHolidayInKashmir />} />
-            <Route path="/packages/magnificent-kashmir-pahalgam-gulmarg" element={<MagnificentKashmirWithPahalgamAndGulmarg />} />
-            <Route path="/packages/srinagar-getaway-package" element={<SrinagarGetawayPackage />} />
+            <Route path="/kashmirtourpackages/splendid-kashmir-package" element={<SplendidKashmirPackage />} />
+            <Route path="/kashmirtourpackages/fun-filled-vacation-kashmir-package" element={<FunFilledVacationKashmirPackage />} />
+            <Route path="/kashmirtourpackages/thrilling-kashmir-holiday-package" element={<ThrillingKashmirHolidayPackage />} />
+            <Route path="/kashmirtourpackages/week-long-holiday-kashmir" element={<WeekLongHolidayInKashmir />} />
+            <Route path="/kashmirtourpackages/magnificent-kashmir-pahalgam-gulmarg" element={<MagnificentKashmirWithPahalgamAndGulmarg />} />
+            <Route path="/kashmirtourpackages/srinagar-getaway-package" element={<SrinagarGetawayPackage />} />
 
             {/* Package Routes - Family */}
-            <Route path="/packages/kashmir-family-package-luxurious-stay" element={<KashmirFamilyPackageLuxuriousStay />} />
-            <Route path="/packages/kashmir-valley-family-tour" element={<KashmirValleyFamilyTour />} />
-            <Route path="/packages/premium-kashmir-holiday-package" element={<PremiumKashmirHolidayPackage />} />
-            <Route path="/packages/amazing-kashmir-holiday-package" element={<AmazingKashmirHolidayPackage />} />
-            <Route path="/packages/srinagar-getaway-package-premium-stay" element={<SrinagarGetawayPackageWithPremiumStay />} />
+            <Route path="/kashmirtourpackages/kashmir-family-package-luxurious-stay" element={<KashmirFamilyPackageLuxuriousStay />} />
+            <Route path="/kashmirtourpackages/kashmir-valley-family-tour" element={<KashmirValleyFamilyTour />} />
+            <Route path="/kashmirtourpackages/premium-kashmir-holiday-package" element={<PremiumKashmirHolidayPackage />} />
+            <Route path="/kashmirtourpackages/amazing-kashmir-holiday-package" element={<AmazingKashmirHolidayPackage />} />
+            <Route path="/kashmirtourpackages/srinagar-getaway-package-premium-stay" element={<SrinagarGetawayPackageWithPremiumStay />} />
 
             {/* Package Routes - Honeymoon */}
-            <Route path="/packages/glimpses-of-family-tour" element={<GlimpsesOfFamilyTour />} />
-            <Route path="/packages/honeymoon-magical-kashmir-tour" element={<MagicalKashmirTour />} />
-            <Route path="/packages/best-selling-kashmir-tour" element={<BestSellingKashmirTour />} />
-            <Route path="/packages/scenic-kashmir-tour" element={<ScenicKashmirTour />} />
-            <Route path="/packages/kashmir-marvelous-tour" element={<KashmirMarvelousTour />} />
-            <Route path="/packages/kashmir-refreshing-tour" element={<KashmirRefreshingTour />} />
-            <Route path="/packages/kashmir-shikara-experience" element={<KashmirShikaraExperience />} />
-            <Route path="/packages/kashmir-cultural-experience" element={<KashmirCulturalExperience />} />
-            <Route path="/packages/kashmir-shopping-guide" element={<KashmirShoppingGuide />} />
-            <Route path="/packages/srinagar-tour-package" element={<SrinagarTourPackage />} />
+            <Route path="/kashmirtourpackages/glimpses-of-family-tour" element={<GlimpsesOfFamilyTour />} />
+            <Route path="/kashmirtourpackages/honeymoon-magical-kashmir-tour" element={<MagicalKashmirTour />} />
+            <Route path="/kashmirtourpackages/best-selling-kashmir-tour" element={<BestSellingKashmirTour />} />
+            <Route path="/kashmirtourpackages/scenic-kashmir-tour" element={<ScenicKashmirTour />} />
+            <Route path="/kashmirtourpackages/kashmir-marvelous-tour" element={<KashmirMarvelousTour />} />
+            <Route path="/kashmirtourpackages/kashmir-refreshing-tour" element={<KashmirRefreshingTour />} />
+            <Route path="/kashmirtourpackages/kashmir-shikara-experience" element={<KashmirShikaraExperience />} />
+            <Route path="/kashmirtourpackages/kashmir-cultural-experience" element={<KashmirCulturalExperience />} />
+            <Route path="/kashmirtourpackages/kashmir-shopping-guide" element={<KashmirShoppingGuide />} />
+            <Route path="/kashmirtourpackages/srinagar-tour-package" element={<SrinagarTourPackage />} />
 
             {/* Package Category Routes */}
-            <Route path="/packages/honeymoon" element={<BestSellingKashmirTour />} />
-            <Route path="/packages/family" element={<KashmirFamilyTour />} />
+            <Route path="/kashmirtourpackages/honeymoon" element={<BestSellingKashmirTour />} />
+            <Route path="/kashmirtourpackages/family" element={<KashmirFamilyTour />} />
 
             {/* Catch-all for any other package routes */}
-            <Route path="/packages/:packageSlug" element={<KashmirExoticTour />} />
+            <Route path="/kashmirtourpackages/:packageSlug" element={<KashmirExoticTour />} />
 
             {/* Ladakh Packages */}
             <Route path="/leh-ladakh-packages" element={<LehLadakhPage />} />
@@ -327,7 +327,7 @@ function App() {
             <Route path="/leh-ladakh-packages/getaway-nubra-pangong" element={<LadakhGetawayWithNubraPangongStay />} />
             <Route path="/leh-ladakh-packages/with-kargil" element={<LadakhTourPackageWithKargilStay />} />
             <Route path="/leh-ladakh-packages/unforgettable-sonamarg" element={<UnforgettableLadakhTourPackageWithSonamargStay />} />
-            <Route path="/packages/unforgettable-ladakh-tour-package-with-sonamarg-stay" element={<UnforgettableLadakhTourPackageWithSonamargStay />} />
+            <Route path="/leh-packages/unforgettable-ladakh-tour-package-with-sonamarg-stay" element={<UnforgettableLadakhTourPackageWithSonamargStay />} />
             <Route path="/leh-packages/unforgettable-ladakh-tour-package-with-sonamarg-stay" element={<UnforgettableLadakhTourPackageWithSonamargStay />} />
 
             {/* Other Pages */}
@@ -411,8 +411,8 @@ function App() {
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/refund-policy" element={<RefundPolicy />} />
 
-               {/* Catch-all route for 404 Page Not Found */}
-        <Route path="*" element={<PageNotFound />} />
+            {/* Catch-all route for 404 Page Not Found */}
+            <Route path="*" element={<PageNotFound />} />
           </Routes>
         </Suspense>
 

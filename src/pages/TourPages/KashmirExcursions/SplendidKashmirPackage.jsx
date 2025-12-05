@@ -16,7 +16,7 @@ export default function SplendidKashmirPackage() {
     title: "Splendid Kashmir Package | 7 Nights 8 Days Complete Kashmir Excursion",
     description: "Experience the splendid beauty of Kashmir with our comprehensive 7-night excursion covering Srinagar, Pahalgam, Gulmarg, and Sonamarg. Complete valley exploration at ₹25,999.",
     keywords: "splendid Kashmir package, 7 nights Kashmir tour, complete Kashmir excursion, Pahalgam Gulmarg Sonamarg tour, comprehensive Kashmir holiday",
-    canonical: "https://www.travelwiki.org.in/packages/splendid-kashmir-package/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/splendid-kashmir-package/"
   });
 
   const packageData = {

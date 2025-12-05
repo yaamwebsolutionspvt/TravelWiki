@@ -9,7 +9,7 @@ export default function KashmirShoppingGuide() {
     title: "Kashmir Shopping Guide | Best Markets & Handicrafts Shopping Tour",
     description: "Explore the best shopping destinations in Kashmir with our guided shopping tour. Discover authentic Kashmiri handicrafts, saffron, dry fruits, shawls, and carpets. Perfect for couples and families. Starting at ₹1,499.",
     keywords: "Kashmir shopping guide, Kashmiri handicrafts shopping, saffron shopping Kashmir, Pashmina shawls Kashmir, Kashmir carpet shopping, traditional shopping Kashmir",
-    canonical: "https://www.travelwiki.org.in/packages/kashmir-shopping-guide/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/kashmir-shopping-guide/"
   });
 
   const packageData = {

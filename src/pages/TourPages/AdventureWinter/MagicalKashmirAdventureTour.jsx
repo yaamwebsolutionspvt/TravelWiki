@@ -9,7 +9,7 @@ export default function MagicalKashmirAdventureTour() {
     title: "Magical Kashmir Adventure Tour | 4 Nights 5 Days Winter Sports Package",
     description: "Experience magical Kashmir winter adventures with skiing in Gulmarg, snow sports, and winter activities. 4 nights package covering Srinagar, Pahalgam, and Gulmarg. Starting at ₹15,999.",
     keywords: "magical Kashmir winter tour, Kashmir adventure package, 4 nights Kashmir skiing, Gulmarg winter sports, Kashmir snow activities, winter adventure tour",
-    canonical: "https://www.travelwiki.org.in/packages/magical-kashmir-adventure-tour/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/magical-kashmir-adventure-tour/"
   });
 
   const packageData = {

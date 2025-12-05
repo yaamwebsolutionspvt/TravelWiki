@@ -15,7 +15,7 @@ export default function KashmirMarvelousAdventureTour() {
     title: "Kashmir Marvelous Adventure Tour | 7 Nights 8 Days Ultimate Luxury Adventure",
     description: "The most comprehensive Kashmir adventure experience with 7 nights luxury stays, extreme sports, helicopter rides, and exclusive winter activities. Ultimate adventure tour starting at ₹27,999.",
     keywords: "Kashmir marvelous adventure, 7 nights luxury adventure, ultimate Kashmir experience, extreme winter sports, luxury adventure tour, comprehensive Kashmir adventure",
-    canonical: "https://www.travelwiki.org.in/packages/kashmir-marvelous-adventure-tour/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/kashmir-marvelous-adventure-tour/"
   });
 
   const packageData = {

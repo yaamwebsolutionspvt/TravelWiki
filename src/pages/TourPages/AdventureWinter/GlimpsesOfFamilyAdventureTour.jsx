@@ -9,7 +9,7 @@ export default function GlimpsesOfFamilyAdventureTour() {
     title: "Glimpses Of Family Adventure Tour | 3 Nights 4 Days Kashmir Winter Package",
     description: "Perfect family adventure tour in Kashmir with winter activities. 3 nights Srinagar package with snow sports, Shikara rides, and family-friendly winter adventures. Starting at ₹12,999.",
     keywords: "Kashmir family adventure, winter family tour, 3 nights Kashmir adventure, family snow activities, Kashmir winter package, Srinagar family tour",
-    canonical: "https://www.travelwiki.org.in/packages/glimpses-of-family-adventure-tour/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/glimpses-of-family-adventure-tour/"
   });
 
   const packageData = {

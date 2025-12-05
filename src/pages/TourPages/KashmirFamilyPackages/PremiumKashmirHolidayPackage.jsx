@@ -10,7 +10,7 @@ export default function PremiumKashmirHolidayPackage() {
     title: "Premium Kashmir Holiday Package | 6 Nights 7 Days Ultra-Luxury Family Experience",
     description: "Ultimate premium Kashmir family holiday with 6 nights ultra-luxury stay. Exclusive houseboat, premium resorts across Srinagar, Pahalgam, Gulmarg at ₹89,999.",
     keywords: "premium Kashmir holiday package, ultra luxury Kashmir family tour, exclusive Kashmir family experience, premium houseboat family stay",
-    canonical: "https://www.travelwiki.org.in/packages/premium-kashmir-holiday-package/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/premium-kashmir-holiday-package/"
   });
 
   const packageData = {

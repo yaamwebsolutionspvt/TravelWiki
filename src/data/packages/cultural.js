@@ -14,7 +14,7 @@ export const culturalPackages = [
     transfers: 4,
     places: ["1N Srinagar", "2N Gurez"],
     highlights: [
-      "01 Hr Shikara Ride", 
+      "01 Hr Shikara Ride",
       "Tour of Tuleil Valley",
       "Authentic Dard culture experience"
     ],
@@ -22,7 +22,7 @@ export const culturalPackages = [
     originalPrice: 17999,
     updatedDate: "30 July 2025",
     image: ct5,
-    link: "/packages/gurez-valley-tour",
+    link: "/kashmirtourpackages/gurez-valley-tour",
   },
   {
     title: "Kashmir With Gurez Valley Tour",
@@ -33,7 +33,7 @@ export const culturalPackages = [
     transfers: 6,
     places: ["2N Srinagar", "2N Gurez", "1N Srinagar"],
     highlights: [
-      "01 Hr Shikara Ride", 
+      "01 Hr Shikara Ride",
       "Indian traditional lunch",
       "Heritage & Dard culture fusion"
     ],
@@ -41,7 +41,7 @@ export const culturalPackages = [
     originalPrice: 23999,
     updatedDate: "30 July 2025",
     image: ct1,
-    link: "/packages/kashmir-with-gurez-valley-tour",
+    link: "/kashmirtourpackages/kashmir-with-gurez-valley-tour",
   },
   {
     title: "Kashmir Offbeat With Gurez",
@@ -52,7 +52,7 @@ export const culturalPackages = [
     transfers: 8,
     places: ["4N Srinagar", "2N Gurez", "1N Srinagar"],
     highlights: [
-      "01 Hr Shikara Ride", 
+      "01 Hr Shikara Ride",
       "Indian traditional lunch",
       "Hidden cultural treasures exploration"
     ],
@@ -60,7 +60,7 @@ export const culturalPackages = [
     originalPrice: 32399,
     updatedDate: "30 July 2025",
     image: ct2,
-    link: "/packages/kashmir-offbeat-with-gurez",
+    link: "/kashmirtourpackages/kashmir-offbeat-with-gurez",
   },
   {
     title: "True Gems Of Kashmir Valley",
@@ -71,7 +71,7 @@ export const culturalPackages = [
     transfers: 9,
     places: ["4N Srinagar", "2N Gurez", "2N Srinagar"],
     highlights: [
-      "01 Hr Shikara Ride", 
+      "01 Hr Shikara Ride",
       "Indian traditional lunch",
       "Ultimate cultural gems experience"
     ],
@@ -79,7 +79,7 @@ export const culturalPackages = [
     originalPrice: 38399,
     updatedDate: "30 July 2025",
     image: ct3,
-    link: "/packages/true-gems-of-kashmir-valley",
+    link: "/kashmirtourpackages/true-gems-of-kashmir-valley",
   },
   {
     title: "Kashmir With Kargil",
@@ -96,7 +96,7 @@ export const culturalPackages = [
       "1N Srinagar",
     ],
     highlights: [
-      "01 Hr Shikara Ride", 
+      "01 Hr Shikara Ride",
       "Indian traditional lunch",
       "Multi-cultural diversity experience"
     ],
@@ -104,7 +104,7 @@ export const culturalPackages = [
     originalPrice: 27599,
     updatedDate: "30 July 2025",
     image: ct4,
-    link: "/packages/kashmir-with-kargil",
+    link: "/kashmirtourpackages/kashmir-with-kargil",
   },
 ];
 

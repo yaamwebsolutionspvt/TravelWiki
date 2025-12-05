@@ -11,7 +11,7 @@ export default function KashmirRefreshingTour() {
     title: "Kashmir Refreshing Tour | 3 Nights 4 Days Quick Honeymoon Getaway",
     description: "Refresh your bond with a quick Kashmir honeymoon. 3 nights covering Srinagar houseboat and Pahalgam with romantic arrangements. Perfect short getaway at ₹13,999.",
     keywords: "Kashmir refreshing tour, quick Kashmir honeymoon, 3 nights Kashmir tour, short Kashmir getaway, budget Kashmir honeymoon",
-    canonical: "https://www.travelwiki.org.in/packages/kashmir-refreshing-tour/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/kashmir-refreshing-tour/"
   });
 
   const packageData = {

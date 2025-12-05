@@ -17,7 +17,7 @@ export default function ScenicKashmirTour() {
     title: "Scenic Kashmir Tour | 6 Nights 7 Days Premium Honeymoon Package",
     description: "Experience scenic Kashmir with our premium 6 nights package. Extended stays in Srinagar houseboat, Pahalgam, Gulmarg with luxury arrangements. Starting at ₹23,999.",
     keywords: "scenic Kashmir tour, 6 nights Kashmir honeymoon, premium Kashmir package, extended Kashmir stay, luxury honeymoon Kashmir",
-    canonical: "https://www.travelwiki.org.in/packages/scenic-kashmir-tour/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/scenic-kashmir-tour/"
   });
 
   const packageData = {

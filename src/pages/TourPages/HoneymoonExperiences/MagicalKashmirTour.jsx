@@ -17,7 +17,7 @@ export default function MagicalKashmirTour() {
     title: "4N Kashmir Magic Tour – Lakes, Gardens & Meadows | 4 Nights 5 Days Honeymoon Package",
     description: "Experience the magic of Kashmir with our 4 nights 5 days romantic tour. Srinagar houseboat, Pahalgam, Gulmarg with candlelight dinners and special arrangements. Starting at ₹15,999.",
     keywords: "4N Kashmir Magic Tour – Lakes, Gardens & Meadows, 4 nights Kashmir honeymoon, Srinagar Pahalgam Gulmarg tour, Kashmir couple package, romantic Kashmir getaway",
-    canonical: "https://www.travelwiki.org.in/packages/magical-kashmir-tour/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/magical-kashmir-tour/"
   });
 
   const packageData = {

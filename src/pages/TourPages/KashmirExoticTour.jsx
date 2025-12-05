@@ -16,7 +16,7 @@ export default function KashmirExoticTour() {
     title: "Kashmir Exotic Tour Package | 5 Nights 6 Days Complete Kashmir Experience",
     description: "Comprehensive Kashmir exotic tour covering Srinagar, Pahalgam, and Gulmarg in 5 nights. Houseboat stays, valley tours, and adventure activities at ₹16,999.",
     keywords: "Kashmir exotic tour, 5 nights Kashmir package, Kashmir tour 5N6D, exotic Kashmir experience, comprehensive Kashmir tour",
-    canonical: "https://www.travelwiki.org.in/packages/kashmir-exotic-tour/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/kashmir-exotic-tour/"
   });
 
   const packageData = {

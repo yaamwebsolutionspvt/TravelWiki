@@ -18,7 +18,7 @@ export const bestsellerPackages = [
     originalPrice: 13899,
     updatedDate: "30 July 2025",
     image: balloonRideKashmir,
-    link: "/packages/3-nights-4-days-srinagar-pahalgam-gulmarg-tour",
+    link: "/kashmirtourpackages/3-nights-4-days-srinagar-pahalgam-gulmarg-tour",
   },
   {
     title: "4N Kashmir Magic Tour – Lakes, Gardens & Meadows",
@@ -33,7 +33,7 @@ export const bestsellerPackages = [
     originalPrice: 17999,
     updatedDate: "30 July 2025",
     image: kashmirTourism,
-    link: "/packages/magical-kashmir-tour",
+    link: "/kashmirtourpackages/magical-kashmir-tour",
   },
   {
     title: "Kashmir Exotic Tour",
@@ -48,7 +48,7 @@ export const bestsellerPackages = [
     originalPrice: 20399,
     updatedDate: "30 July 2025",
     image: dalLake,
-    link: "/packages/kashmir-exotic-tour",
+    link: "/kashmirtourpackages/kashmir-exotic-tour",
   },
   {
     title: "Magnificent Kashmir Valley Tour",
@@ -63,7 +63,7 @@ export const bestsellerPackages = [
     originalPrice: 23999,
     updatedDate: "30 July 2025",
     image: gandolaRide,
-    link: "/packages/magnificent-kashmir-valley-tour",
+    link: "/kashmirtourpackages/magnificent-kashmir-valley-tour",
   },
   {
     title: "Kashmir Valley Tour",
@@ -78,7 +78,7 @@ export const bestsellerPackages = [
     originalPrice: 14999,
     updatedDate: "30 July 2025",
     image: kashmirPackage,
-    link: "/packages/kashmir-valley-tour",
+    link: "/kashmirtourpackages/kashmir-valley-tour",
   },
 ];
 

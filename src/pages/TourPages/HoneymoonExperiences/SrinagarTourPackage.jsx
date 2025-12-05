@@ -19,7 +19,7 @@ export default function SrinagarTourPackage() {
     title: "Srinagar Tour Package | 6 Nights Capital City Experience",
     description: "Comprehensive Srinagar city tour package covering Dal Lake, Mughal Gardens, houseboats, and local attractions. 6 nights in the summer capital of Kashmir. Explore the Venice of East.",
     keywords: "Srinagar tour package, Dal Lake tour, Mughal Gardens Srinagar, houseboat stay Srinagar, Kashmir capital tour, Venice of East tour",
-    canonical: "https://www.travelwiki.org.in/packages/srinagar-tour-package/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/srinagar-tour-package/"
   });
 
   const packageData = {

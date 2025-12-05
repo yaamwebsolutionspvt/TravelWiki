@@ -2,16 +2,16 @@ import React from 'react';
 import { Helmet } from 'react-helmet-async';
 import { useLocation } from 'react-router-dom';
 import { siteConfig } from '../config/seo.js';
-import { 
-  generateTitle, 
-  generateMetaDescription, 
+import {
+  generateTitle,
+  generateMetaDescription,
   SEO_KEYWORDS,
-  validateSEOPage 
+  validateSEOPage
 } from '../utils/seoUtils.jsx';
 
 const inferPageTypeFromPath = (pathname) => {
   if (!pathname || pathname === '/') return 'home';
-  if (pathname.includes('/packages')) return 'packages';
+  if (pathname.includes('/kashmirtourpackages')) return 'packages';
   if (pathname.includes('honeymoon')) return 'honeymoon';
   if (pathname.includes('family')) return 'family';
   if (pathname.includes('adventure')) return 'adventure';
@@ -30,26 +30,26 @@ const buildCanonical = (baseUrl, pathname) => {
 };
 
 const SEO = ({
-  pageType = 'home', 
-  customTitle = '', 
-  customDescription = '', 
+  pageType = 'home',
+  customTitle = '',
+  customDescription = '',
   customKeywords = [],
   customImage = '',
   headingManager = null,
-  children 
+  children
 }) => {
   const location = useLocation();
   const inferredPageType = pageType || inferPageTypeFromPath(location?.pathname);
   // Get keywords for the page type
   const pageKeywords = SEO_KEYWORDS[inferredPageType] || SEO_KEYWORDS.home;
-  
+
   // Generate title and description
   const title = customTitle || generateTitle(inferredPageType, Object.values(pageKeywords));
   const description = customDescription || generateMetaDescription(inferredPageType, Object.values(pageKeywords));
-  
+
   // Combine custom keywords with page-specific keywords
   const allKeywords = [...Object.values(pageKeywords), ...customKeywords];
-  
+
   // Validate SEO structure if heading manager is provided
   if (headingManager) {
     const validation = validateSEOPage(headingManager, pageType);
@@ -60,7 +60,7 @@ const SEO = ({
 
   // Default image
   const image = customImage || siteConfig.defaultImage;
-  
+
   // Canonical URL (absolute, no query/hash)
   const baseUrl = siteConfig.siteUrl.replace(/\/$/, '');
   const canonicalUrl = buildCanonical(baseUrl, location?.pathname || '/');
@@ -71,7 +71,7 @@ const SEO = ({
       <title>{title}</title>
       <meta name="description" content={description} />
       <link rel="canonical" href={canonicalUrl} />
-      
+
       {/* Open Graph Meta Tags */}
       <meta property="og:title" content={title} />
       <meta property="og:description" content={description} />
@@ -87,12 +87,12 @@ const SEO = ({
       <meta name="twitter:description" content={description} />
       <meta name="twitter:image" content={image} />
       <meta name="twitter:site" content="@travel_wikiofficial" />
-      
+
       {/* Additional SEO Meta Tags */}
       <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
       <meta name="author" content="Travel Wiki" />
       <meta name="copyright" content="Travel Wiki 2025" />
-      
+
       {/* Location and Business Meta Tags */}
       <meta name="geo.region" content="IN-JK" />
       <meta name="geo.placename" content="Srinagar, Kashmir, India" />
@@ -103,7 +103,7 @@ const SEO = ({
       <meta name="business:contact:phone" content="+91 8899971960" />
       <meta name="business:contact:email" content="info@travelwiki.org.in" />
       <meta name="business:contact:address" content="Srinagar, Kashmir, India" />
-      
+
       {/* Page-specific meta tags based on page type */}
       {inferredPageType === 'home' && (
         <>
@@ -111,77 +111,77 @@ const SEO = ({
           <meta name="primary-keyword" content="Kashmir Tourism" />
         </>
       )}
-      
+
       {inferredPageType === 'packages' && (
         <>
           <meta name="page-type" content="tour-packages" />
           <meta name="primary-keyword" content="Kashmir Tour Packages" />
         </>
       )}
-      
+
       {inferredPageType === 'honeymoon' && (
         <>
           <meta name="page-type" content="honeymoon-packages" />
           <meta name="primary-keyword" content="Kashmir Honeymoon Packages" />
         </>
       )}
-      
+
       {inferredPageType === 'family' && (
         <>
           <meta name="page-type" content="family-packages" />
           <meta name="primary-keyword" content="Kashmir Family Packages" />
         </>
       )}
-      
+
       {inferredPageType === 'adventure' && (
         <>
           <meta name="page-type" content="adventure-tours" />
           <meta name="primary-keyword" content="Kashmir Adventure Tours" />
         </>
       )}
-      
+
       {inferredPageType === 'cultural' && (
         <>
           <meta name="page-type" content="cultural-tours" />
           <meta name="primary-keyword" content="Kashmir Cultural Tours" />
         </>
       )}
-      
+
       {inferredPageType === 'ladakh' && (
         <>
           <meta name="page-type" content="ladakh-packages" />
           <meta name="primary-keyword" content="Ladakh Tour Packages" />
         </>
       )}
-      
+
       {inferredPageType === 'srinagar' && (
         <>
           <meta name="page-type" content="destination-guide" />
           <meta name="primary-keyword" content="Srinagar Tourism" />
         </>
       )}
-      
+
       {inferredPageType === 'gulmarg' && (
         <>
           <meta name="page-type" content="destination-guide" />
           <meta name="primary-keyword" content="Gulmarg Tourism" />
         </>
       )}
-      
+
       {inferredPageType === 'pahalgam' && (
         <>
           <meta name="page-type" content="destination-guide" />
           <meta name="primary-keyword" content="Pahalgam Tourism" />
         </>
       )}
-      
+
       {inferredPageType === 'sonamarg' && (
         <>
           <meta name="page-type" content="destination-guide" />
           <meta name="primary-keyword" content="Sonamarg Tourism" />
         </>
       )}
-      
+
       {/* Structured Data for Rich Snippets */}
       <script type="application/ld+json">
         {JSON.stringify({
@@ -212,7 +212,7 @@ const SEO = ({
           "areaServed": ["Kashmir", "Ladakh", "India"],
           "serviceType": [
             "Kashmir Tour Packages",
-            "Ladakh Tour Packages", 
+            "Ladakh Tour Packages",
             "Honeymoon Packages",
             "Family Tours",
             "Adventure Tours",
@@ -224,7 +224,7 @@ const SEO = ({
           ]
         })}
       </script>
-      
+
       {/* Additional structured data for current page */}
       {inferredPageType === 'home' && (
         <script type="application/ld+json">
@@ -242,7 +242,7 @@ const SEO = ({
           })}
         </script>
       )}
-      
+
       {inferredPageType === 'packages' && (
         <script type="application/ld+json">
           {JSON.stringify({
@@ -259,13 +259,13 @@ const SEO = ({
                 "description": "Romantic Kashmir honeymoon package with houseboat stays"
               },
               {
-                "@type": "TouristTrip", 
+                "@type": "TouristTrip",
                 "name": "Kashmir Family Package",
                 "description": "Family-friendly Kashmir tour package with activities for all ages"
               },
               {
                 "@type": "TouristTrip",
-                "name": "Kashmir Adventure Package", 
+                "name": "Kashmir Adventure Package",
                 "description": "Thrilling Kashmir adventure package with outdoor activities"
               }
             ]
@@ -309,7 +309,7 @@ const SEO = ({
           })}
         </script>
       )}
-      
+
       {children}
     </Helmet>
   );

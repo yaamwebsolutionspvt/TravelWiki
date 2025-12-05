@@ -11,7 +11,7 @@ export default function KashmirWithKargilTour() {
     title: "Kashmir With Kargil | 6 Nights 7 Days Multi-Cultural Heritage Tour",
     description: "Explore Kashmir's diverse cultural landscape from Srinagar to Kargil, covering Sonmarg and Gulmarg. Experience Kashmiri, Balti, and Ladakhi cultures in one tour. Starting at ₹22,999.",
     keywords: "Kashmir Kargil cultural tour, 6 nights multi-cultural experience, Balti culture Kashmir, Ladakhi heritage tour, diverse Kashmir cultures, Sonmarg Gulmarg cultural tour",
-    canonical: "https://www.travelwiki.org.in/packages/kashmir-with-kargil/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/kashmir-with-kargil/"
   });
 
   const packageData = {

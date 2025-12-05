@@ -16,7 +16,7 @@ export default function ThreeNightsFourDaysSrinagarPahalgamGulmargTour() {
     title: "3 Nights 4 Days Kashmir Package | Srinagar Pahalgam Gulmarg Tour",
     description: "Experience the best of Kashmir with our 3 nights 4 days tour package covering Srinagar, Pahalgam, and Gulmarg. Includes Shikara rides, Sonamarg excursion, Gulmarg Gondola, and more. Starting at ₹10,999.",
     keywords: "Kashmir tour package, 3 nights 4 days Kashmir, Srinagar Pahalgam Gulmarg tour, Kashmir itinerary, Sonamarg excursion, Gulmarg Gondola, Kashmir tourism",
-    canonical: "https://www.travelwiki.org.in/packages/3-nights-4-days-srinagar-pahalgam-gulmarg-tour/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/3-nights-4-days-srinagar-pahalgam-gulmarg-tour/"
   });
 
   const packageData = {
@@ -40,7 +40,7 @@ export default function ThreeNightsFourDaysSrinagarPahalgamGulmargTour() {
     <>
       <SEO {...seoData} />
       <TourPackageSchema data={packageData} />
-      
+
       <div className="min-h-screen page-container" >
         {/* Hero Section */}
         <div
@@ -53,9 +53,9 @@ export default function ThreeNightsFourDaysSrinagarPahalgamGulmargTour() {
         >
           <div className="relative container mx-auto px-4 py-8 sm:py-12 md:py-16 h-full flex items-center justify-center">
             <div className="max-w-4xl mx-auto text-center">
-              <h1 className="text-4xl md:text-5xl font-bold mb-6 mt-16 sm:mt-20 md:mt-8" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.7)'}}>
+              <h1 className="text-4xl md:text-5xl font-bold mb-6 mt-16 sm:mt-20 md:mt-8" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.7)' }}>
                 Quick Kashmir Getaway              </h1>
-              <p className="text-xl mb-8" style={{textShadow: '1px 1px 3px rgba(0,0,0,0.7)'}}>
+              <p className="text-xl mb-8" style={{ textShadow: '1px 1px 3px rgba(0,0,0,0.7)' }}>
                 Experience the magical beauty of Kashmir with our carefully crafted tour covering Srinagar, Sonamarg, and Gulmarg
               </p>
               <div className="flex flex-col md:flex-row justify-center items-center gap-4">
@@ -110,18 +110,18 @@ export default function ThreeNightsFourDaysSrinagarPahalgamGulmargTour() {
             <div className=" -white rounded-lg shadow-md p-8 mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Package Overview</h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                If you are looking for a short but beautiful tour package then this is what you should consider. 
-                The Glimpse of Kashmir tour package covers cities like Srinagar and Gulmarg. You will also be able 
+                If you are looking for a short but beautiful tour package then this is what you should consider.
+                The Glimpse of Kashmir tour package covers cities like Srinagar and Gulmarg. You will also be able
                 to visit Sonamarg on one of the days.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Srinagar is the capital city of Kashmir. It boasts twinkling lakes, magnificent Mughal architecture 
-                and beautiful gardens. It is also famous for its cashews, saffron and Kashmiri Handicrafts. 
+                Srinagar is the capital city of Kashmir. It boasts twinkling lakes, magnificent Mughal architecture
+                and beautiful gardens. It is also famous for its cashews, saffron and Kashmiri Handicrafts.
                 Don't forget the shikara rides and the beautiful roads lined up with Chinnar trees.
               </p>
               <p className="text-gray-600 leading-relaxed">
-                Gulmarg is known for its beauty that will make you fall in love with the valley. The Western 
-                Himalayas surround this town. To add to its scenic view are the colourful meadows, deep valleys 
+                Gulmarg is known for its beauty that will make you fall in love with the valley. The Western
+                Himalayas surround this town. To add to its scenic view are the colourful meadows, deep valleys
                 and pine-covered slopes.
               </p>
             </div>
@@ -194,7 +194,7 @@ export default function ThreeNightsFourDaysSrinagarPahalgamGulmargTour() {
                   imageSubtitle="Journey End"
                   icon="✈️"
                   imageOnRight={true}
-                    />
+                />
               </div>
             </div>
 
@@ -314,7 +314,7 @@ export default function ThreeNightsFourDaysSrinagarPahalgamGulmargTour() {
           </div>
         </div>
       </div>
-      
+
       {/* Package Sections */}
       <BestsellerKashmirTours />
       <KashmirFamilyPackages />

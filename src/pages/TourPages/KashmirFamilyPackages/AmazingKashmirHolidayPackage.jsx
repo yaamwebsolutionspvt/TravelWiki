@@ -10,7 +10,7 @@ export default function AmazingKashmirHolidayPackage() {
     title: "Amazing Kashmir Holiday Package | 4 Nights 5 Days Luxury Family Experience",
     description: "Amazing Kashmir family holiday with 4 nights luxury stay. Premium Srinagar and Gulmarg experience with houseboat stay for families at ₹59,999.",
     keywords: "amazing Kashmir holiday package, 4 nights luxury Kashmir family tour, Srinagar Gulmarg family package, luxury houseboat family stay",
-    canonical: "https://www.travelwiki.org.in/packages/amazing-kashmir-holiday-package/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/amazing-kashmir-holiday-package/"
   });
 
   const packageData = {

@@ -11,7 +11,7 @@ export default function KashmirHouseboatTour() {
     title: "Kashmir Houseboat Tour Package | 3 Nights Dal Lake Experience",
     description: "Experience the unique charm of staying in traditional Kashmir houseboats on Dal Lake. 3 nights package with Shikara rides, local sightseeing, and authentic experiences. Starting at ₹8,999.",
     keywords: "Kashmir houseboat tour, Dal Lake houseboat, houseboat stay Kashmir, floating hotel Kashmir, Kashmir water stay",
-    canonical: "https://www.travelwiki.org.in/packages/kashmir-houseboat-tour/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/kashmir-houseboat-tour/"
   });
 
   const packageData = {

@@ -16,7 +16,7 @@ export default function KashmirValleyFamilyTour() {
     title: "Kashmir Valley Family Tour | 5 Nights 6 Days Premium Family Experience",
     description: "Comprehensive Kashmir Valley family tour with 5 nights premium stay. Explore Srinagar, Pahalgam, Gulmarg with luxury family accommodations and activities at ₹69,999.",
     keywords: "Kashmir valley family tour, 5 nights Kashmir family package, premium family vacation Kashmir, comprehensive Kashmir family experience",
-    canonical: "https://www.travelwiki.org.in/packages/kashmir-valley-family-tour/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/kashmir-valley-family-tour/"
   });
 
   const packageData = {

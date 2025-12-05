@@ -9,7 +9,7 @@ export default function KashmirShikaraExperience() {
     title: "Kashmir Shikara Experience | Romantic Dal Lake Boat Rides",
     description: "Experience the enchanting Shikara rides on Dal Lake in Kashmir. Private boat rides for couples with flower decorations, sunset views, and traditional Kashmiri hospitality. Starting at ₹1,999.",
     keywords: "Kashmir Shikara ride, Dal Lake boat ride, Kashmir romantic experience, Srinagar Shikara, Kashmir water sports, Dal Lake tourism",
-    canonical: "https://www.travelwiki.org.in/packages/kashmir-shikara-experience/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/kashmir-shikara-experience/"
   });
 
   const packageData = {

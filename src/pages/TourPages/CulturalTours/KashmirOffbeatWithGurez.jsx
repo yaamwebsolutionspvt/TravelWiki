@@ -10,7 +10,7 @@ export default function KashmirOffbeatWithGurez() {
     title: "Kashmir Offbeat With Gurez | 7 Nights 8 Days Cultural Discovery Tour",
     description: "Explore Kashmir's hidden cultural treasures with extensive Gurez Valley experience. Discover offbeat destinations, authentic Dard traditions, and remote cultural sites. Starting at ₹26,999.",
     keywords: "Kashmir offbeat cultural tour, 7 nights Gurez tour, hidden Kashmir culture, offbeat Kashmir destinations, authentic cultural experience, remote Kashmir tours",
-    canonical: "https://www.travelwiki.org.in/packages/kashmir-offbeat-with-gurez/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/kashmir-offbeat-with-gurez/"
   });
 
   const packageData = {

@@ -16,7 +16,7 @@ export default function GlimpsesOfFamilyTour() {
     title: "3 Nights Kashmir Family Tour – Fun & Nature Escape | 3 Nights 4 Days Kashmir Honeymoon Package",
     description: "Experience the perfect family tour with romantic touches in Kashmir. 3 nights in Srinagar with Shikara rides, candlelight dinner, and special honeymoon arrangements. Starting at ₹12,999.",
     keywords: "glimpses family tour Kashmir, 3 nights Kashmir honeymoon, Srinagar family package, Kashmir couple tour, romantic Kashmir getaway",
-    canonical: "https://www.travelwiki.org.in/packages/glimpses-of-family-tour/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/glimpses-of-family-tour/"
   });
 
   const packageData = {

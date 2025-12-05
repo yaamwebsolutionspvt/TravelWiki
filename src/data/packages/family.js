@@ -22,7 +22,7 @@ export const familyPackages = [
     originalPrice: 71999,
     updatedDate: "30 July 2025",
     image: fm2,
-    link: "/packages/kashmir-family-package-luxurious-stay",
+    link: "/kashmirtourpackages/kashmir-family-package-luxurious-stay",
   },
   {
     title: "Kashmir Valley Family Tour",
@@ -41,7 +41,7 @@ export const familyPackages = [
     originalPrice: 83999,
     updatedDate: "30 July 2025",
     image: fm3,
-    link: "/packages/kashmir-valley-family-tour",
+    link: "/kashmirtourpackages/kashmir-valley-family-tour",
   },
   {
     title: "Premium Kashmir Holiday Package",
@@ -60,7 +60,7 @@ export const familyPackages = [
     originalPrice: 107999,
     updatedDate: "30 July 2025",
     image: fm4,
-    link: "/packages/premium-kashmir-holiday-package",
+    link: "/kashmirtourpackages/premium-kashmir-holiday-package",
   },
   {
     title: "Amazing Kashmir Holiday Package",
@@ -79,7 +79,7 @@ export const familyPackages = [
     originalPrice: 71999,
     updatedDate: "30 July 2025",
     image: fm5,
-    link: "/packages/amazing-kashmir-holiday-package",
+    link: "/kashmirtourpackages/amazing-kashmir-holiday-package",
   },
   {
     title: "Srinagar Getaway Package With Premium Stay",
@@ -98,7 +98,7 @@ export const familyPackages = [
     originalPrice: 59999,
     updatedDate: "30 July 2025",
     image: fm1,
-    link: "/packages/srinagar-getaway-package-premium-stay",
+    link: "/kashmirtourpackages/srinagar-getaway-package-premium-stay",
   }
 ];
 

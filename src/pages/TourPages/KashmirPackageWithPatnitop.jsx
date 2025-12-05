@@ -10,7 +10,7 @@ export default function KashmirPackageWithPatnitop() {
     title: "Kashmir Package with Patnitop | 8 Nights 9 Days Complete Tour",
     description: "Comprehensive Kashmir tour package including Patnitop hill station. 8 nights covering Srinagar, Gulmarg, Pahalgam, and Patnitop. Complete mountain experience at ₹21,999.",
     keywords: "Kashmir Patnitop tour, Kashmir with Patnitop package, 8 nights Kashmir tour, Patnitop hill station tour, complete Kashmir tour",
-    canonical: "https://www.travelwiki.org.in/packages/kashmir-package-with-patnitop/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/kashmir-package-with-patnitop/"
   });
 
   const packageData = {

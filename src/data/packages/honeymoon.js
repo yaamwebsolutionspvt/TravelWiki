@@ -22,7 +22,7 @@ export const honeymoonPackages = [
     originalPrice: 15599,
     updatedDate: "30 July 2025",
     image: balloonRide,
-    link: "/packages/glimpses-of-family-tour",
+    link: "/kashmirtourpackages/glimpses-of-family-tour",
   },
   {
     title: "4N Kashmir Magic Tour – Lakes, Gardens & Meadows",
@@ -40,7 +40,7 @@ export const honeymoonPackages = [
     originalPrice: 19199,
     updatedDate: "30 July 2025",
     image: holidayPackages,
-    link: "/packages/honeymoon-magical-kashmir-tour",
+    link: "/kashmirtourpackages/honeymoon-magical-kashmir-tour",
   },
   {
     title: "Best Selling Kashmir Tour",
@@ -58,7 +58,7 @@ export const honeymoonPackages = [
     originalPrice: 23999,
     updatedDate: "30 July 2025",
     image: holiday,
-    link: "/packages/best-selling-kashmir-tour",
+    link: "/kashmirtourpackages/best-selling-kashmir-tour",
   },
   {
     title: "Scenic Kashmir Tour",
@@ -76,7 +76,7 @@ export const honeymoonPackages = [
     originalPrice: 28799,
     updatedDate: "30 July 2025",
     image: tourPackages,
-    link: "/packages/scenic-kashmir-tour",
+    link: "/kashmirtourpackages/scenic-kashmir-tour",
   },
   {
     title: "Kashmir Marvelous Tour",
@@ -94,7 +94,7 @@ export const honeymoonPackages = [
     originalPrice: 33799,
     updatedDate: "30 July 2025",
     image: tourPackage,
-    link: "/packages/kashmir-marvelous-tour",
+    link: "/kashmirtourpackages/kashmir-marvelous-tour",
   },
   {
     title: "Kashmir Refreshing Tour",
@@ -112,7 +112,7 @@ export const honeymoonPackages = [
     originalPrice: 16799,
     updatedDate: "30 July 2025",
     image: travelPackages,
-    link: "/packages/kashmir-refreshing-tour",
+    link: "/kashmirtourpackages/kashmir-refreshing-tour",
   },
 ];
 

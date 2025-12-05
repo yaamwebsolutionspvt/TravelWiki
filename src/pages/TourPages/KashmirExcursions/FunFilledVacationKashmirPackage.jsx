@@ -9,7 +9,7 @@ export default function FunFilledVacationKashmirPackage() {
     title: "Fun-Filled Vacation Kashmir Package | 5 Nights 6 Days Srinagar Getaway",
     description: "Enjoy a fun-filled Kashmir vacation with 5 nights in Srinagar. Experience Dal Lake, Mughal Gardens, local culture, and exciting activities. Perfect family getaway at ₹17,999.",
     keywords: "fun-filled Kashmir vacation, 5 nights Srinagar package, Kashmir family holiday, Dal Lake excursion, Srinagar getaway package",
-    canonical: "https://www.travelwiki.org.in/packages/fun-filled-vacation-kashmir-package/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/fun-filled-vacation-kashmir-package/"
   });
 
   const packageData = {

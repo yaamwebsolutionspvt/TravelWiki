@@ -9,7 +9,7 @@ export default function ThrillingKashmirHolidayPackage() {
     title: "Thrilling Kashmir Holiday Package | 7 Nights 8 Days Adventure Excursion",
     description: "Experience a thrilling Kashmir holiday with 7 nights covering Srinagar, Pahalgam, and Gulmarg. Adventure activities, scenic beauty, and exciting experiences at ₹23,999.",
     keywords: "thrilling Kashmir holiday, 7 nights adventure package, Kashmir thrill excursion, Pahalgam Gulmarg adventure, exciting Kashmir tour",
-    canonical: "https://www.travelwiki.org.in/packages/thrilling-kashmir-holiday-package/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/thrilling-kashmir-holiday-package/"
   });
 
   const packageData = {

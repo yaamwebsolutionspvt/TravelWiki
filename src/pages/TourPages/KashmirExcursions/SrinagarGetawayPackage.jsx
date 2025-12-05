@@ -10,7 +10,7 @@ export default function SrinagarGetawayPackage() {
     title: "Srinagar Getaway Package | 3 Nights 4 Days Perfect Short Escape",
     description: "Perfect short Kashmir getaway with 3 nights in beautiful Srinagar. Experience Dal Lake, Mughal Gardens, and local culture. Ideal budget-friendly escape at ₹10,999.",
     keywords: "Srinagar getaway package, 3 nights Kashmir tour, short Kashmir trip, Dal Lake package, budget Kashmir holiday, Srinagar short break",
-    canonical: "https://www.travelwiki.org.in/packages/srinagar-getaway-package/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/srinagar-getaway-package/"
   });
 
   const packageData = {

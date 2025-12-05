@@ -17,7 +17,7 @@ export default function KashmirWithJammuTour() {
     title: "Kashmir with Jammu Tour Package | 6 Nights Cultural Heritage Tour",
     description: "Explore Kashmir valley and Jammu heritage in one comprehensive tour. 6 nights covering Srinagar, Gulmarg, Pahalgam, and historic Jammu. Cultural and natural experiences at ₹14,999.",
     keywords: "Kashmir Jammu tour, Kashmir with Jammu package, cultural heritage tour, 6 nights Kashmir Jammu, complete J&K tour",
-    canonical: "https://www.travelwiki.org.in/packages/kashmir-with-jammu-tour/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/kashmir-with-jammu-tour/"
   });
 
   const packageData = {

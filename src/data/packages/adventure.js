@@ -23,7 +23,7 @@ export const adventurePackages = [
     originalPrice: 15599,
     updatedDate: "30 July 2025",
     image: adv1,
-    link: "/packages/glimpses-of-family-adventure-tour",
+    link: "/kashmirtourpackages/glimpses-of-family-adventure-tour",
   },
   {
     title: "Magical Kashmir Adventure Tour",
@@ -42,7 +42,7 @@ export const adventurePackages = [
     originalPrice: 19199,
     updatedDate: "30 July 2025",
     image: adv2,
-    link: "/packages/magical-kashmir-adventure-tour",
+    link: "/kashmirtourpackages/magical-kashmir-adventure-tour",
   },
   {
     title: "Best Selling Kashmir Adventure Tour",
@@ -61,7 +61,7 @@ export const adventurePackages = [
     originalPrice: 23999,
     updatedDate: "30 July 2025",
     image: adv3,
-    link: "/packages/best-selling-kashmir-adventure-tour",
+    link: "/kashmirtourpackages/best-selling-kashmir-adventure-tour",
   },
   {
     title: "Scenic Kashmir Adventure Tour",
@@ -80,7 +80,7 @@ export const adventurePackages = [
     originalPrice: 28799,
     updatedDate: "30 July 2025",
     image: adv5,
-    link: "/packages/scenic-kashmir-adventure-tour",
+    link: "/kashmirtourpackages/scenic-kashmir-adventure-tour",
   },
   {
     title: "Kashmir Marvelous Adventure Tour",
@@ -99,7 +99,7 @@ export const adventurePackages = [
     originalPrice: 33599,
     updatedDate: "30 July 2025",
     image: adv5,
-    link: "/packages/kashmir-marvelous-adventure-tour",
+    link: "/kashmirtourpackages/kashmir-marvelous-adventure-tour",
   },
   {
     title: "Kashmir Refreshing Adventure Tour",
@@ -118,7 +118,7 @@ export const adventurePackages = [
     originalPrice: 16799,
     updatedDate: "30 July 2025",
     image: adv6,
-    link: "/packages/kashmir-refreshing-adventure-tour",
+    link: "/kashmirtourpackages/kashmir-refreshing-adventure-tour",
   },
 ];
 

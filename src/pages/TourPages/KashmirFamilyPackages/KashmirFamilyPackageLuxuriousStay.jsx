@@ -15,7 +15,7 @@ export default function KashmirFamilyPackageLuxuriousStay() {
     title: "Kashmir Family Package Luxurious Stay | 4 Nights 5 Days Premium Family Tour",
     description: "Experience luxurious family vacation in Kashmir with premium 4-night package. Luxury accommodations, houseboat stay, family activities across Srinagar, Pahalgam, Gulmarg at ₹59,999.",
     keywords: "Kashmir family package luxurious stay, premium Kashmir family tour, luxury family vacation Kashmir, houseboat family experience, Kashmir family holiday",
-    canonical: "https://www.travelwiki.org.in/packages/kashmir-family-package-luxurious-stay/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/kashmir-family-package-luxurious-stay/"
   });
 
   const packageData = {

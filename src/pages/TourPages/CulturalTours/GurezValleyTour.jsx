@@ -16,7 +16,7 @@ export default function GurezValleyTour() {
     title: "Gurez Valley Tour | 3 Nights 4 Days Cultural Kashmir Experience",
     description: "Discover the pristine beauty and rich culture of Gurez Valley with our 3-night cultural tour. Experience traditional Dard culture, scenic landscapes, and authentic valley life. Starting at ₹14,999.",
     keywords: "Gurez Valley tour, 3 nights Kashmir culture, Dard culture experience, Kashmir cultural tour, Gurez Valley package, traditional Kashmir life",
-    canonical: "https://www.travelwiki.org.in/packages/gurez-valley-tour/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/gurez-valley-tour/"
   });
 
   const packageData = {

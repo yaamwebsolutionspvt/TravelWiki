@@ -5,35 +5,35 @@ import { FaSearch, FaFilter, FaTimes, FaMapMarkerAlt, FaCalendarAlt, FaRupeeSign
 // Comprehensive packages data for filtering
 const allPackagesData = [
   // Kashmir Tour Packages
-  { id: 1, name: "Glimpse of Kashmir Tour", nights: 3, days: 4, category: "Kashmir Tour", price: 10999, locations: ["Srinagar", "Pahalgam", "Gulmarg"], activities: ["Sightseeing", "Shikara Ride"], link: "/packages/3-nights-4-days-srinagar-pahalgam-gulmarg-tour", rating: 4.5, bestFor: "Couples", season: "All Season" },
-  { id: 2, name: "Kashmir Family Tour", nights: 5, days: 6, category: "Family", price: 11999, locations: ["Srinagar", "Pahalgam", "Gulmarg"], activities: ["Family Activities", "Sightseeing"], link: "/packages/kashmir-family-tour", rating: 4.7, bestFor: "Families", season: "Summer" },
-  { id: 3, name: "Kashmir Honeymoon Tour", nights: 3, days: 4, category: "Honeymoon", price: 13999, locations: ["Srinagar", "Pahalgam"], activities: ["Romantic Dinner", "Shikara Ride"], link: "/packages/kashmir-honeymoon-tour", rating: 4.8, bestFor: "Couples", season: "All Season" },
-  { id: 4, name: "Kashmir Gulmarg Tour", nights: 3, days: 4, category: "Adventure", price: 10999, locations: ["Gulmarg", "Srinagar"], activities: ["Skiing", "Gondola Ride"], link: "/packages/kashmir-gulmarg-tour", rating: 4.6, bestFor: "Adventure Seekers", season: "Winter" },
-  { id: 5, name: "Kashmir Houseboat Tour", nights: 3, days: 4, category: "Luxury", price: 8999, locations: ["Srinagar"], activities: ["Houseboat Stay", "Dal Lake"], link: "/packages/kashmir-houseboat-tour", rating: 4.4, bestFor: "Couples", season: "Summer" },
-  { id: 6, name: "Kashmir Package with Patnitop", nights: 8, days: 9, category: "Extended", price: 21999, locations: ["Srinagar", "Pahalgam", "Gulmarg", "Patnitop"], activities: ["Hill Station", "Sightseeing"], link: "/packages/kashmir-package-with-patnitop", rating: 4.5, bestFor: "Families", season: "Summer" },
-  { id: 7, name: "Kashmir Pahalgam Tour", nights: 5, days: 6, category: "Kashmir Tour", price: 11999, locations: ["Pahalgam", "Srinagar"], activities: ["Valley Tour", "River Rafting"], link: "/packages/kashmir-pahalgam-tour", rating: 4.6, bestFor: "Nature Lovers", season: "Summer" },
-  { id: 8, name: "Kashmir Valley Tour", nights: 7, days: 8, category: "Extended", price: 16999, locations: ["Srinagar", "Pahalgam", "Gulmarg", "Sonamarg"], activities: ["Complete Valley", "Adventure"], link: "/packages/kashmir-valley-tour", rating: 4.7, bestFor: "All", season: "Summer" },
-  { id: 9, name: "Kashmir with Jammu Tour", nights: 6, days: 7, category: "Cultural", price: 14999, locations: ["Jammu", "Srinagar", "Pahalgam"], activities: ["Cultural Sites", "Temples"], link: "/packages/kashmir-with-jammu-tour", rating: 4.5, bestFor: "Pilgrims", season: "All Season" },
-  { id: 10, name: "Kashmir with Vaishno Devi Tour", nights: 8, days: 9, category: "Pilgrimage", price: 20999, locations: ["Jammu", "Vaishno Devi", "Srinagar"], activities: ["Pilgrimage", "Sightseeing"], link: "/packages/kashmir-with-vaishno-devi", rating: 4.8, bestFor: "Pilgrims", season: "All Season" },
-  
+  { id: 1, name: "Glimpse of Kashmir Tour", nights: 3, days: 4, category: "Kashmir Tour", price: 10999, locations: ["Srinagar", "Pahalgam", "Gulmarg"], activities: ["Sightseeing", "Shikara Ride"], link: "/kashmirtourpackages/3-nights-4-days-srinagar-pahalgam-gulmarg-tour", rating: 4.5, bestFor: "Couples", season: "All Season" },
+  { id: 2, name: "Kashmir Family Tour", nights: 5, days: 6, category: "Family", price: 11999, locations: ["Srinagar", "Pahalgam", "Gulmarg"], activities: ["Family Activities", "Sightseeing"], link: "/kashmirtourpackages/kashmir-family-tour", rating: 4.7, bestFor: "Families", season: "Summer" },
+  { id: 3, name: "Kashmir Honeymoon Tour", nights: 3, days: 4, category: "Honeymoon", price: 13999, locations: ["Srinagar", "Pahalgam"], activities: ["Romantic Dinner", "Shikara Ride"], link: "/kashmirtourpackages/kashmir-honeymoon-tour", rating: 4.8, bestFor: "Couples", season: "All Season" },
+  { id: 4, name: "Kashmir Gulmarg Tour", nights: 3, days: 4, category: "Adventure", price: 10999, locations: ["Gulmarg", "Srinagar"], activities: ["Skiing", "Gondola Ride"], link: "/kashmirtourpackages/kashmir-gulmarg-tour", rating: 4.6, bestFor: "Adventure Seekers", season: "Winter" },
+  { id: 5, name: "Kashmir Houseboat Tour", nights: 3, days: 4, category: "Luxury", price: 8999, locations: ["Srinagar"], activities: ["Houseboat Stay", "Dal Lake"], link: "/kashmirtourpackages/kashmir-houseboat-tour", rating: 4.4, bestFor: "Couples", season: "Summer" },
+  { id: 6, name: "Kashmir Package with Patnitop", nights: 8, days: 9, category: "Extended", price: 21999, locations: ["Srinagar", "Pahalgam", "Gulmarg", "Patnitop"], activities: ["Hill Station", "Sightseeing"], link: "/kashmirtourpackages/kashmir-package-with-patnitop", rating: 4.5, bestFor: "Families", season: "Summer" },
+  { id: 7, name: "Kashmir Pahalgam Tour", nights: 5, days: 6, category: "Kashmir Tour", price: 11999, locations: ["Pahalgam", "Srinagar"], activities: ["Valley Tour", "River Rafting"], link: "/kashmirtourpackages/kashmir-pahalgam-tour", rating: 4.6, bestFor: "Nature Lovers", season: "Summer" },
+  { id: 8, name: "Kashmir Valley Tour", nights: 7, days: 8, category: "Extended", price: 16999, locations: ["Srinagar", "Pahalgam", "Gulmarg", "Sonamarg"], activities: ["Complete Valley", "Adventure"], link: "/kashmirtourpackages/kashmir-valley-tour", rating: 4.7, bestFor: "All", season: "Summer" },
+  { id: 9, name: "Kashmir with Jammu Tour", nights: 6, days: 7, category: "Cultural", price: 14999, locations: ["Jammu", "Srinagar", "Pahalgam"], activities: ["Cultural Sites", "Temples"], link: "/kashmirtourpackages/kashmir-with-jammu-tour", rating: 4.5, bestFor: "Pilgrims", season: "All Season" },
+  { id: 10, name: "Kashmir with Vaishno Devi Tour", nights: 8, days: 9, category: "Pilgrimage", price: 20999, locations: ["Jammu", "Vaishno Devi", "Srinagar"], activities: ["Pilgrimage", "Sightseeing"], link: "/kashmirtourpackages/kashmir-with-vaishno-devi", rating: 4.8, bestFor: "Pilgrims", season: "All Season" },
+
   // Honeymoon Special Packages
-  { id: 11, name: "3 Nights Kashmir Family Tour – Fun & Nature Escape", nights: 3, days: 4, category: "Honeymoon", price: 12999, locations: ["Srinagar"], activities: ["Romantic", "Shikara Ride"], link: "/packages/glimpses-of-family-tour", rating: 4.7, bestFor: "Couples", season: "All Season" },
-  { id: 12, name: "4N Kashmir Magic Tour – Lakes, Gardens & Meadows", nights: 4, days: 5, category: "Honeymoon", price: 15999, locations: ["Srinagar", "Pahalgam", "Gulmarg"], activities: ["Romantic Dinner", "Houseboat"], link: "/packages/honeymoon-magical-kashmir-tour", rating: 4.8, bestFor: "Couples", season: "Summer" },
-  { id: 13, name: "Best Selling Kashmir Tour", nights: 5, days: 6, category: "Bestseller", price: 19999, locations: ["Srinagar", "Pahalgam", "Gulmarg"], activities: ["Complete Package", "Adventure"], link: "/packages/best-selling-kashmir-tour", rating: 4.9, bestFor: "All", season: "Summer" },
-  { id: 14, name: "Scenic Kashmir Tour", nights: 6, days: 7, category: "Honeymoon", price: 23999, locations: ["Srinagar", "Pahalgam", "Gulmarg"], activities: ["Scenic Views", "Photography"], link: "/packages/scenic-kashmir-tour", rating: 4.7, bestFor: "Couples", season: "Summer" },
-  { id: 15, name: "Kashmir Marvelous Tour", nights: 6, days: 7, category: "Luxury", price: 27999, locations: ["Srinagar", "Pahalgam", "Gulmarg"], activities: ["Luxury Stay", "Premium Services"], link: "/packages/kashmir-marvelous-tour", rating: 4.8, bestFor: "Luxury Travelers", season: "Summer" },
-  
+  { id: 11, name: "3 Nights Kashmir Family Tour – Fun & Nature Escape", nights: 3, days: 4, category: "Honeymoon", price: 12999, locations: ["Srinagar"], activities: ["Romantic", "Shikara Ride"], link: "/kashmirtourpackages/glimpses-of-family-tour", rating: 4.7, bestFor: "Couples", season: "All Season" },
+  { id: 12, name: "4N Kashmir Magic Tour – Lakes, Gardens & Meadows", nights: 4, days: 5, category: "Honeymoon", price: 15999, locations: ["Srinagar", "Pahalgam", "Gulmarg"], activities: ["Romantic Dinner", "Houseboat"], link: "/kashmirtourpackages/honeymoon-magical-kashmir-tour", rating: 4.8, bestFor: "Couples", season: "Summer" },
+  { id: 13, name: "Best Selling Kashmir Tour", nights: 5, days: 6, category: "Bestseller", price: 19999, locations: ["Srinagar", "Pahalgam", "Gulmarg"], activities: ["Complete Package", "Adventure"], link: "/kashmirtourpackages/best-selling-kashmir-tour", rating: 4.9, bestFor: "All", season: "Summer" },
+  { id: 14, name: "Scenic Kashmir Tour", nights: 6, days: 7, category: "Honeymoon", price: 23999, locations: ["Srinagar", "Pahalgam", "Gulmarg"], activities: ["Scenic Views", "Photography"], link: "/kashmirtourpackages/scenic-kashmir-tour", rating: 4.7, bestFor: "Couples", season: "Summer" },
+  { id: 15, name: "Kashmir Marvelous Tour", nights: 6, days: 7, category: "Luxury", price: 27999, locations: ["Srinagar", "Pahalgam", "Gulmarg"], activities: ["Luxury Stay", "Premium Services"], link: "/kashmirtourpackages/kashmir-marvelous-tour", rating: 4.8, bestFor: "Luxury Travelers", season: "Summer" },
+
   // Adventure Winter Packages
-  { id: 16, name: "Gulmarg Skiing Package", nights: 4, days: 5, category: "Adventure", price: 18999, locations: ["Gulmarg", "Srinagar"], activities: ["Skiing", "Snow Activities"], link: "/packages/gulmarg-skiing-package", rating: 4.6, bestFor: "Adventure Seekers", season: "Winter" },
-  { id: 17, name: "Winter Wonderland Kashmir", nights: 5, days: 6, category: "Adventure", price: 22999, locations: ["Gulmarg", "Pahalgam", "Srinagar"], activities: ["Snow Sports", "Winter Trekking"], link: "/packages/winter-wonderland-kashmir", rating: 4.5, bestFor: "Adventure Seekers", season: "Winter" },
-  
+  { id: 16, name: "Gulmarg Skiing Package", nights: 4, days: 5, category: "Adventure", price: 18999, locations: ["Gulmarg", "Srinagar"], activities: ["Skiing", "Snow Activities"], link: "/kashmirtourpackages/gulmarg-skiing-package", rating: 4.6, bestFor: "Adventure Seekers", season: "Winter" },
+  { id: 17, name: "Winter Wonderland Kashmir", nights: 5, days: 6, category: "Adventure", price: 22999, locations: ["Gulmarg", "Pahalgam", "Srinagar"], activities: ["Snow Sports", "Winter Trekking"], link: "/kashmirtourpackages/winter-wonderland-kashmir", rating: 4.5, bestFor: "Adventure Seekers", season: "Winter" },
+
   // Cultural Tours
-  { id: 18, name: "Gurez Valley Tour", nights: 4, days: 5, category: "Cultural", price: 16999, locations: ["Gurez Valley", "Srinagar"], activities: ["Cultural Experience", "Local Life"], link: "/packages/gurez-valley-tour", rating: 4.4, bestFor: "Culture Enthusiasts", season: "Summer" },
-  { id: 19, name: "Kashmir Cultural Experience", nights: 6, days: 7, category: "Cultural", price: 19999, locations: ["Srinagar", "Pahalgam", "Local Villages"], activities: ["Cultural Tours", "Local Crafts"], link: "/packages/kashmir-cultural-experience", rating: 4.6, bestFor: "Culture Enthusiasts", season: "All Season" },
-  
+  { id: 18, name: "Gurez Valley Tour", nights: 4, days: 5, category: "Cultural", price: 16999, locations: ["Gurez Valley", "Srinagar"], activities: ["Cultural Experience", "Local Life"], link: "/kashmirtourpackages/gurez-valley-tour", rating: 4.4, bestFor: "Culture Enthusiasts", season: "Summer" },
+  { id: 19, name: "Kashmir Cultural Experience", nights: 6, days: 7, category: "Cultural", price: 19999, locations: ["Srinagar", "Pahalgam", "Local Villages"], activities: ["Cultural Tours", "Local Crafts"], link: "/kashmirtourpackages/kashmir-cultural-experience", rating: 4.6, bestFor: "Culture Enthusiasts", season: "All Season" },
+
   // Family Packages
-  { id: 20, name: "Kashmir Family Delight", nights: 5, days: 6, category: "Family", price: 24999, locations: ["Srinagar", "Pahalgam", "Gulmarg"], activities: ["Family Activities", "Kid-Friendly"], link: "/packages/kashmir-family-delight", rating: 4.7, bestFor: "Families", season: "Summer" },
-  { id: 21, name: "Premium Family Package", nights: 7, days: 8, category: "Family", price: 32999, locations: ["Srinagar", "Pahalgam", "Gulmarg", "Sonamarg"], activities: ["Luxury Family Stay", "All Activities"], link: "/packages/premium-family-package", rating: 4.8, bestFor: "Families", season: "Summer" }
+  { id: 20, name: "Kashmir Family Delight", nights: 5, days: 6, category: "Family", price: 24999, locations: ["Srinagar", "Pahalgam", "Gulmarg"], activities: ["Family Activities", "Kid-Friendly"], link: "/kashmirtourpackages/kashmir-family-delight", rating: 4.7, bestFor: "Families", season: "Summer" },
+  { id: 21, name: "Premium Family Package", nights: 7, days: 8, category: "Family", price: 32999, locations: ["Srinagar", "Pahalgam", "Gulmarg", "Sonamarg"], activities: ["Luxury Family Stay", "All Activities"], link: "/kashmirtourpackages/premium-family-package", rating: 4.8, bestFor: "Families", season: "Summer" }
 ];
 
 const SearchFilterComponent = () => {
@@ -41,7 +41,7 @@ const SearchFilterComponent = () => {
   const [searchTerm, setSearchTerm] = useState('');
   const [filteredPackages, setFilteredPackages] = useState(allPackagesData);
   const [showResults, setShowResults] = useState(false);
-  
+
   // Filter states
   const [filters, setFilters] = useState({
     duration: '',
@@ -70,7 +70,7 @@ const SearchFilterComponent = () => {
 
     // Search term filter
     if (searchTerm) {
-      filtered = filtered.filter(pkg => 
+      filtered = filtered.filter(pkg =>
         pkg.name.toLowerCase().includes(searchTerm.toLowerCase()) ||
         pkg.locations.some(loc => loc.toLowerCase().includes(searchTerm.toLowerCase())) ||
         pkg.category.toLowerCase().includes(searchTerm.toLowerCase())
@@ -179,11 +179,10 @@ const SearchFilterComponent = () => {
             {/* Filter Toggle Button */}
             <button
               onClick={() => setShowFilters(!showFilters)}
-              className={`flex items-center gap-2 px-6 py-3 rounded-lg font-medium transition-all duration-200 ${
-                showFilters || activeFiltersCount > 0
+              className={`flex items-center gap-2 px-6 py-3 rounded-lg font-medium transition-all duration-200 ${showFilters || activeFiltersCount > 0
                   ? 'bg-blue-600 text-white'
                   : 'bg-gray-100 text-gray-700 hover:bg-gray-200'
-              }`}
+                }`}
             >
               <FaFilter />
               Filters
@@ -354,29 +353,29 @@ const SearchFilterComponent = () => {
                         <span className="text-sm text-gray-600">{pkg.rating}</span>
                       </div>
                     </div>
-                    
+
                     <div className="space-y-3 mb-4">
                       <div className="flex items-center gap-2 text-sm text-gray-600">
                         <FaCalendarAlt className="text-blue-500" />
                         <span>{pkg.nights} Nights / {pkg.days} Days</span>
                       </div>
-                      
+
                       <div className="flex items-center gap-2 text-sm text-gray-600">
                         <FaMapMarkerAlt className="text-green-500" />
                         <span>{pkg.locations.join(', ')}</span>
                       </div>
-                      
+
                       <div className="flex items-center gap-2 text-sm text-gray-600">
                         <FaUsers className="text-purple-500" />
                         <span>Best for: {pkg.bestFor}</span>
                       </div>
-                      
+
                       <div className="flex items-center gap-2">
                         <FaRupeeSign className="text-green-600" />
                         <span className="font-bold text-lg text-green-600">₹{pkg.price.toLocaleString()}</span>
                       </div>
                     </div>
-                    
+
                     <div className="mb-4">
                       <span className="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full">
                         {pkg.category}
@@ -385,7 +384,7 @@ const SearchFilterComponent = () => {
                         {pkg.season}
                       </span>
                     </div>
-                    
+
                     <Link
                       to={pkg.link}
                       className="w-full bg-gradient-to-r from-blue-600 to-purple-600 text-white py-2 px-4 rounded-lg text-center font-medium hover:from-blue-700 hover:to-purple-700 transition-all duration-200 block"

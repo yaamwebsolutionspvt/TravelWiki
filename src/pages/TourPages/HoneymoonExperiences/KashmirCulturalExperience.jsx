@@ -11,7 +11,7 @@ export default function KashmirCulturalExperience() {
     title: "Kashmir Cultural Experience | Traditional Performances & Heritage Tours",
     description: "Immerse yourself in the rich cultural heritage of Kashmir with traditional dance performances, folk music, local crafts workshops, and authentic Kashmiri cuisine experiences. Starting at ₹2,999.",
     keywords: "Kashmir cultural tour, traditional Kashmir dance, Kashmiri folk music, Kashmir heritage, cultural performances Kashmir, Kashmiri handicrafts workshop",
-    canonical: "https://www.travelwiki.org.in/packages/kashmir-cultural-experience/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/kashmir-cultural-experience/"
   });
 
   const packageData = {

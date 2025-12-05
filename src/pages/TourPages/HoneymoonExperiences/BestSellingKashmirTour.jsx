@@ -16,7 +16,7 @@ export default function BestSellingKashmirTour() {
     title: "Best Selling Kashmir Tour | 5 Nights 6 Days Honeymoon Package",
     description: "Our best-selling Kashmir honeymoon package with 5 nights coverage of Srinagar, Pahalgam, Gulmarg and houseboat stay. Perfect romantic getaway with special arrangements. Starting at ₹19,999.",
     keywords: "best selling Kashmir tour, 5 nights Kashmir honeymoon, complete Kashmir package, Srinagar Pahalgam Gulmarg houseboat, popular Kashmir tour",
-    canonical: "https://www.travelwiki.org.in/packages/best-selling-kashmir-tour/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/best-selling-kashmir-tour/"
   });
 
   const packageData = {

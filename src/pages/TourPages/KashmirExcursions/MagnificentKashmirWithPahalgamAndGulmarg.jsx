@@ -9,7 +9,7 @@ export default function MagnificentKashmirWithPahalgamAndGulmarg() {
     title: "Magnificent Kashmir With Pahalgam And Gulmarg | 6 Nights 7 Days Premium Tour",
     description: "Experience magnificent Kashmir beauty with premium 6-night tour covering Pahalgam, Gulmarg, and Srinagar. Ultimate valley experience with luxury accommodations at ₹22,999.",
     keywords: "magnificent Kashmir tour, Pahalgam Gulmarg premium package, 6 nights Kashmir luxury, premium Kashmir experience, magnificent valley tour",
-    canonical: "https://www.travelwiki.org.in/packages/magnificent-kashmir-pahalgam-gulmarg/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/magnificent-kashmir-pahalgam-gulmarg/"
   });
 
   const packageData = {

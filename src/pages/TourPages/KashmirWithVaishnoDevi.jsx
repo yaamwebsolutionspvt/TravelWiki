@@ -11,7 +11,7 @@ export default function KashmirWithVaishnoDevi() {
     title: "Kashmir with Vaishno Devi Tour | 8 Nights Spiritual & Scenic Package",
     description: "Combine spiritual journey to Vaishno Devi with Kashmir valley beauty. 8 nights package covering darshan, Srinagar, Gulmarg, and Pahalgam. Complete pilgrimage tour at ₹20,999.",
     keywords: "Kashmir Vaishno Devi tour, spiritual Kashmir package, Mata Vaishno Devi darshan, Kashmir pilgrimage tour, 8 nights spiritual tour",
-    canonical: "https://www.travelwiki.org.in/packages/kashmir-with-vaishno-devi/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/kashmir-with-vaishno-devi/"
   });
 
   const packageData = {

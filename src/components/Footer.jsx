@@ -70,7 +70,7 @@ export default function Footer() {
         aria-label="Email address for newsletter"
         required
       />
-      <button 
+      <button
         type="submit"
         disabled={isSubmitting}
         className={`bg-gradient-to-r from-green-600 to-green-700 text-white px-5 py-3 rounded-lg hover:from-green-700 hover:to-green-800 transition-all duration-300 font-semibold text-base shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 whitespace-nowrap disabled:opacity-50 disabled:cursor-not-allowed ${isSubmitting ? 'animate-pulse' : ''}`}
@@ -109,13 +109,13 @@ export default function Footer() {
             >
               Kashmir Tourism 2025
             </SEOHeading>
-            <SEOParagraph 
+            <SEOParagraph
               keyword="Kashmir Tourism"
               className="text-yellow-600 font-semibold text-base lg:text-lg"
             >
               Your Gateway to Paradise on Earth
             </SEOParagraph>
-            <SEOParagraph 
+            <SEOParagraph
               keyword="Kashmir Tour Packages"
               className="text-gray-600 text-sm lg:text-base mt-3 leading-relaxed"
             >
@@ -126,7 +126,7 @@ export default function Footer() {
             {/* SEO-friendly keywords */}
             <div className="mt-4 text-xs text-gray-500">
               <p>
-                <strong>Services:</strong> <Link to="/packages-listing" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">Kashmir tour packages</Link>, <Link to="/packages/kashmir-honeymoon-tour" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">honeymoon tours</Link>, <Link to="/packages/kashmir-family-tour" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">family packages</Link>,
+                <strong>Services:</strong> <Link to="/packages-listing" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">Kashmir tour packages</Link>, <Link to="/kashmirtourpackages/kashmir-honeymoon-tour" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">honeymoon tours</Link>, <Link to="/kashmirtourpackages/kashmir-family-tour" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">family packages</Link>,
                 adventure tours, cultural tours, <Link to="/leh-ladakh-packages" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">Ladakh trips</Link>, <Link to="/places-to-visit-in-srinagar" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">houseboat stays</Link>, <Link to="/places-to-visit-in-gulmarg" className="text-blue-600 hover:text-blue-800 transition-colors duration-200">skiing tours</Link>
               </p>
             </div>
@@ -142,7 +142,7 @@ export default function Footer() {
           >
             Stay Connected
           </SEOHeading>
-          <SEOParagraph 
+          <SEOParagraph
             keyword="Kashmir Tour Packages"
             className="mb-6 text-sm lg:text-base text-gray-700 leading-relaxed"
           >
@@ -172,8 +172,8 @@ export default function Footer() {
               items={[
                 <Link to="/packages-listing" className="hover:text-green-600 transition-colors duration-200">Kashmir Tour Packages</Link>,
                 <Link to="/leh-ladakh-packages" className="hover:text-green-600 transition-colors duration-200">Ladakh Tour Packages</Link>,
-                <Link to="/packages/honeymoon" className="hover:text-green-600 transition-colors duration-200">Kashmir Honeymoon Packages</Link>,
-                <Link to="/packages/family" className="hover:text-green-600 transition-colors duration-200">Kashmir Family Packages</Link>
+                <Link to="/kashmirtourpackages/honeymoon" className="hover:text-green-600 transition-colors duration-200">Kashmir Honeymoon Packages</Link>,
+                <Link to="/kashmirtourpackages/family" className="hover:text-green-600 transition-colors duration-200">Kashmir Family Packages</Link>
               ]}
               className="space-y-1 text-sm"
             />
@@ -298,13 +298,13 @@ export default function Footer() {
               <Link to="/refund-policy" className="text-gray-600 hover:text-green-600 transition-colors duration-200">Refund</Link>
             </div>
             <a
-            href="https://yaamwebsolutions.com"
-            className="text-gray-400 hover:text-[#4169E1] text-sm transition-colors duration-300 block"
-            target="_blank"
-            rel="noopener"
-          >
-            Crafted with ❤️ by <span className="font-semibold">Yaam Web Solutions</span> – Your Partner in Digital Excellence
-          </a>
+              href="https://yaamwebsolutions.com"
+              className="text-gray-400 hover:text-[#4169E1] text-sm transition-colors duration-300 block"
+              target="_blank"
+              rel="noopener"
+            >
+              Crafted with ❤️ by <span className="font-semibold">Yaam Web Solutions</span> – Your Partner in Digital Excellence
+            </a>
           </div>
         </div>
       </div>

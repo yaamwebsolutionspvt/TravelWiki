@@ -15,7 +15,7 @@ export default function TrueGemsOfKashmirValleyTour() {
       "Discover the true essence of Kashmir with our 6N/7D cultural and scenic journey. Visit Mughal Gardens, Gulmarg, Pahalgam, and experience authentic Kashmiri traditions. Starting at ₹22,499.",
     keywords:
       "Kashmir Valley tour, Kashmir cultural tour, Kashmir scenic package, Gulmarg Pahalgam Srinagar tour, heritage Kashmir trip",
-    canonical: "https://www.travelwiki.org.in/packages/true-gems-of-kashmir-valley/",
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/true-gems-of-kashmir-valley/",
   });
 
   const packageData = {

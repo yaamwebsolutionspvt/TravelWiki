@@ -32,7 +32,7 @@ export default function MagicalKashmirTour() {
 
   return (
     <>
-      <SEO 
+      <SEO
         pageType="packages"
         customTitle="4N Kashmir Magic Tour – Lakes, Gardens & Meadows Package 2025 | 4 Nights 5 Days Srinagar Pahalgam Gulmarg Tour ₹14,999"
         customDescription="Experience magical Kashmir with our 4N5D tour package covering Srinagar Dal Lake, Pahalgam valleys, Gulmarg skiing. Includes houseboat stay, shikara rides, Gondola ride. Best Kashmir tourism package at ₹14,999 with 17% discount."
@@ -66,7 +66,7 @@ export default function MagicalKashmirTour() {
         </script>
       </SEO>
       <TourPackageSchema data={packageData} />
-      
+
       <div className="min-h-screen page-container">
         {/* Hero Section */}
         <div
@@ -79,17 +79,17 @@ export default function MagicalKashmirTour() {
         >
           <div className="relative container mx-auto px-4 py-16 sm:py-16 md:py-20 h-full flex items-center justify-center">
             <div className="max-w-4xl mx-auto text-center px-2">
-              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 leading-tight" style={{textShadow: '2px 2px 4px rgba(0,0,0,0.7)'}}>
+              <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4 sm:mb-6 leading-tight" style={{ textShadow: '2px 2px 4px rgba(0,0,0,0.7)' }}>
                 4N Kashmir Magic Tour – Lakes, Gardens & Meadows Package 2025
                 <span className="block text-lg sm:text-2xl md:text-3xl font-medium mt-2 text-black">
                   4 Nights 5 Days | Srinagar • Pahalgam • Gulmarg
                 </span>
               </h1>
-              <p className="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 leading-relaxed px-1" style={{textShadow: '1px 1px 3px rgba(0,0,0,0.7)'}}>
-                Experience the enchanting beauty of Kashmir with our magical 4N5D tour package. Enjoy <Link to="/places-to-visit-in-srinagar" className="text-yellow-300 hover:text-yellow-200 underline">Dal Lake houseboat stays</Link>, 
-                <Link to="/places-to-visit-in-pahalgam" className="text-yellow-300 hover:text-yellow-200 underline">Pahalgam's Betaab Valley</Link>, <Link to="/places-to-visit-in-gulmarg" className="text-yellow-300 hover:text-yellow-200 underline">Gulmarg Gondola rides</Link>, and authentic Kashmir experiences. Perfect for <Link to="/packages/kashmir-honeymoon-tour" className="text-yellow-300 hover:text-yellow-200 underline">couples</Link>, <Link to="/packages/kashmir-family-tour" className="text-yellow-300 hover:text-yellow-200 underline">families</Link>, and adventure seekers.
+              <p className="text-base sm:text-lg md:text-xl mb-6 sm:mb-8 leading-relaxed px-1" style={{ textShadow: '1px 1px 3px rgba(0,0,0,0.7)' }}>
+                Experience the enchanting beauty of Kashmir with our magical 4N5D tour package. Enjoy <Link to="/places-to-visit-in-srinagar" className="text-yellow-300 hover:text-yellow-200 underline">Dal Lake houseboat stays</Link>,
+                <Link to="/places-to-visit-in-pahalgam" className="text-yellow-300 hover:text-yellow-200 underline">Pahalgam's Betaab Valley</Link>, <Link to="/places-to-visit-in-gulmarg" className="text-yellow-300 hover:text-yellow-200 underline">Gulmarg Gondola rides</Link>, and authentic Kashmir experiences. Perfect for <Link to="/kashmirtourpackages/kashmir-honeymoon-tour" className="text-yellow-300 hover:text-yellow-200 underline">couples</Link>, <Link to="/kashmirtourpackages/kashmir-family-tour" className="text-yellow-300 hover:text-yellow-200 underline">families</Link>, and adventure seekers.
               </p>
-              
+
               {/* Key highlights */}
               <div className="flex flex-wrap justify-center gap-3 mb-8 text-sm">
                 <span className="bg-blue-600 bg-opacity-80 px-3 py-2 rounded-full">🏞️ Dal Lake Houseboat</span>
@@ -149,18 +149,18 @@ export default function MagicalKashmirTour() {
             <div className="bg-white rounded-lg shadow-md p-8 mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-6">Magical Kashmir Experience</h2>
               <p className="text-gray-600 leading-relaxed mb-6">
-                Discover the magical beauty of Kashmir with our carefully crafted 4 nights 5 days tour package. 
-                This enchanting journey takes you through Kashmir's most picturesque destinations, offering a 
+                Discover the magical beauty of Kashmir with our carefully crafted 4 nights 5 days tour package.
+                This enchanting journey takes you through Kashmir's most picturesque destinations, offering a
                 perfect blend of natural beauty, cultural heritage, and adventure activities.
               </p>
               <p className="text-gray-600 leading-relaxed mb-6">
-                From the serene houseboat experience in Srinagar to the adventure-filled slopes of Gulmarg, 
-                and the pristine valleys of Pahalgam, this tour ensures you witness the true magic that makes 
+                From the serene houseboat experience in Srinagar to the adventure-filled slopes of Gulmarg,
+                and the pristine valleys of Pahalgam, this tour ensures you witness the true magic that makes
                 Kashmir the "Paradise on Earth".
               </p>
               <p className="text-gray-600 leading-relaxed">
-                The package includes comfortable accommodations, delicious meals, experienced guides, and 
-                all major sightseeing activities, making it an ideal choice for families, couples, and solo travelers 
+                The package includes comfortable accommodations, delicious meals, experienced guides, and
+                all major sightseeing activities, making it an ideal choice for families, couples, and solo travelers
                 seeking an authentic Kashmir experience.
               </p>
             </div>
@@ -187,7 +187,7 @@ export default function MagicalKashmirTour() {
                   icon="🏛️"
                   imageOnRight={false}
                 />
-                
+
                 <ItineraryCard
                   title="Pahalgam (1 Night)"
                   activities={[
@@ -206,7 +206,7 @@ export default function MagicalKashmirTour() {
                   icon="🌲"
                   imageOnRight={true}
                 />
-                
+
                 <ItineraryCard
                   title="Gulmarg (1 Night)"
                   activities={[
@@ -224,7 +224,7 @@ export default function MagicalKashmirTour() {
                   imageSubtitle="Meadow of Flowers"
                   icon="🚡"
                   imageOnRight={false}
-                  />
+                />
               </div>
             </div>
 
@@ -267,7 +267,7 @@ export default function MagicalKashmirTour() {
           </div>
         </div>
       </div>
-      
+
       {/* Package Sections */}
       <BestsellerKashmirTours />
       <KashmirFamilyPackages />

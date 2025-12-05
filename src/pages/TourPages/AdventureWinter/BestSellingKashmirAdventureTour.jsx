@@ -15,7 +15,7 @@ export default function BestSellingKashmirAdventureTour() {
     title: "Best Selling Kashmir Adventure Tour | 5 Nights 6 Days Ultimate Winter Sports",
     description: "Our most popular Kashmir winter adventure package with premium skiing, snowboarding, and extreme snow sports. 5 nights complete adventure covering Srinagar, Pahalgam, and Gulmarg. Starting at ₹19,999.",
     keywords: "best Kashmir adventure tour, 5 nights winter sports, premium Kashmir skiing, popular adventure package, Kashmir extreme sports, winter adventure tour",
-    canonical: "https://www.travelwiki.org.in/packages/best-selling-kashmir-adventure-tour/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/best-selling-kashmir-adventure-tour/"
   });
 
   const packageData = {

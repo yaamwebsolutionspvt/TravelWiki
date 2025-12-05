@@ -12,13 +12,13 @@ const KashmirTourPackages = () => {
     : kashmirTourPackagesContent.sections.slice(0, previewCount);
 
   return (
-    <section 
+    <section
       className="max-w-5xl mx-auto px-2 py-16 text-center text-gray-800"
       id="kashmir-tour-packages"
       aria-labelledby="kashmir-packages-heading"
     >
       <header className="mb-8">
-        <h2 
+        <h2
           id="kashmir-packages-heading"
           className="text-3xl md:text-4xl font-bold mb-5 text-gray-900"
         >
@@ -39,8 +39,8 @@ const KashmirTourPackages = () => {
         {isExpanded && (
           <p className="text-lg leading-relaxed text-gray-700">
             {kashmirTourPackagesContent.footer}{" "}
-            <Link 
-              to="/contact" 
+            <Link
+              to="/contact"
               className="text-blue-600 underline hover:text-blue-800 font-semibold"
               aria-label="Contact us for customized Kashmir tour packages"
             >
@@ -67,17 +67,17 @@ const KashmirTourPackages = () => {
 
       {/* SEO-friendly keywords section */}
       {isExpanded && (
-      <div id="kashmir-packages-more" className="mb-8 text-sm text-gray-600">
-        <p className="italic">
-          Popular searches: <Link to="/packages-listing" className="text-blue-600 hover:text-blue-800">Kashmir tour packages</Link>, <Link to="/packages-listing" className="text-blue-600 hover:text-blue-800">Kashmir holiday packages</Link>, <Link to="/about-us" className="text-blue-600 hover:text-blue-800">Kashmir tourism</Link>, 
-          <Link to="/places-to-visit-in-srinagar" className="text-blue-600 hover:text-blue-800">Srinagar tours</Link>, <Link to="/places-to-visit-in-gulmarg" className="text-blue-600 hover:text-blue-800">Gulmarg packages</Link>, <Link to="/places-to-visit-in-pahalgam" className="text-blue-600 hover:text-blue-800">Pahalgam tours</Link>, <Link to="/packages/kashmir-honeymoon-tour" className="text-blue-600 hover:text-blue-800">Kashmir honeymoon packages</Link>, 
-          <Link to="/packages/kashmir-family-tour" className="text-blue-600 hover:text-blue-800">Kashmir family tours</Link>, <Link to="/places-to-visit-in-srinagar" className="text-blue-600 hover:text-blue-800">Dal Lake tours</Link>, Kashmir adventure tours
-        </p>
-      </div>
+        <div id="kashmir-packages-more" className="mb-8 text-sm text-gray-600">
+          <p className="italic">
+            Popular searches: <Link to="/packages-listing" className="text-blue-600 hover:text-blue-800">Kashmir tour packages</Link>, <Link to="/packages-listing" className="text-blue-600 hover:text-blue-800">Kashmir holiday packages</Link>, <Link to="/about-us" className="text-blue-600 hover:text-blue-800">Kashmir tourism</Link>,
+            <Link to="/places-to-visit-in-srinagar" className="text-blue-600 hover:text-blue-800">Srinagar tours</Link>, <Link to="/places-to-visit-in-gulmarg" className="text-blue-600 hover:text-blue-800">Gulmarg packages</Link>, <Link to="/places-to-visit-in-pahalgam" className="text-blue-600 hover:text-blue-800">Pahalgam tours</Link>, <Link to="/kashmirtourpackages/kashmir-honeymoon-tour" className="text-blue-600 hover:text-blue-800">Kashmir honeymoon packages</Link>,
+            <Link to="/kashmirtourpackages/kashmir-family-tour" className="text-blue-600 hover:text-blue-800">Kashmir family tours</Link>, <Link to="/places-to-visit-in-srinagar" className="text-blue-600 hover:text-blue-800">Dal Lake tours</Link>, Kashmir adventure tours
+          </p>
+        </div>
       )}
-      
+
       <div role="region" aria-label="Kashmir Tour Packages Table">
-        <KashmirTourPackagesTable/>
+        <KashmirTourPackagesTable />
       </div>
     </section>
   );

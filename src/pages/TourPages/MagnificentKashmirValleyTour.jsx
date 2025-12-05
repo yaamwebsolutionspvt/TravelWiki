@@ -16,7 +16,7 @@ export default function MagnificentKashmirValleyTour() {
     title: "Magnificent Kashmir Valley Tour | 6 Nights 7 Days Ultimate Kashmir Experience",
     description: "Experience the magnificent beauty of Kashmir valley with our 6 nights 7 days comprehensive tour. Visit Srinagar, Pahalgam, Gulmarg with houseboat stays at ₹19,999.",
     keywords: "magnificent Kashmir tour, 6 nights Kashmir package, Kashmir valley tour 6N7D, ultimate Kashmir experience, comprehensive Kashmir package",
-    canonical: "https://www.travelwiki.org.in/packages/magnificent-kashmir-valley-tour/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/magnificent-kashmir-valley-tour/"
   });
 
   const packageData = {

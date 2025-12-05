@@ -10,7 +10,7 @@ export default function SrinagarGetawayPackageWithPremiumStay() {
     title: "Srinagar Getaway Package With Premium Stay | 3 Nights 4 Days Luxury Family Tour",
     description: "Premium Srinagar family getaway with 3 nights luxury stay. Experience Dal Lake, Mughal Gardens, and premium family accommodations at ₹49,999.",
     keywords: "Srinagar premium getaway package, luxury Kashmir family short trip, premium Srinagar family tour, luxury Dal Lake family experience",
-    canonical: "https://www.travelwiki.org.in/packages/srinagar-getaway-package-premium-stay/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/srinagar-getaway-package-premium-stay/"
   });
 
   const packageData = {

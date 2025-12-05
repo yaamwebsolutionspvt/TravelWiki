@@ -32,7 +32,7 @@ export default function KashmirHoneymoonTour() {
 
   return (
     <>
-      <SEO 
+      <SEO
         pageType="honeymoon"
         customTitle="Kashmir Honeymoon Tour Package | 3 Nights 4 Days Romantic Getaway"
         customDescription="Perfect Kashmir honeymoon package for couples with romantic experiences in Srinagar and Gulmarg. Houseboat stay, Shikara rides, and intimate moments in paradise. Starting at ₹13,999."
@@ -66,10 +66,10 @@ export default function KashmirHoneymoonTour() {
         </script>
       </SEO>
       <TourPackageSchema data={packageData} />
-      
+
       <div className="min-h-screen  mt-4">
         {/* Hero Section */}
-        <div className="relative bg-gradient-to-r from-pink-600 to-red-700 text-white min-h-[75vh] py-30 overflow-hidden" style={{backgroundImage: `url(${heroBg})`, backgroundSize: 'cover', backgroundPosition: 'center'}}>
+        <div className="relative bg-gradient-to-r from-pink-600 to-red-700 text-white min-h-[75vh] py-30 overflow-hidden" style={{ backgroundImage: `url(${heroBg})`, backgroundSize: 'cover', backgroundPosition: 'center' }}>
           <div className="absolute inset-0 bg-black opacity-50"></div>
           <div className="relative container mx-auto px-4">
             <div className="max-w-4xl mx-auto text-center">
@@ -129,32 +129,32 @@ export default function KashmirHoneymoonTour() {
             <div className="bg-gradient-to-r from-pink-50 to-red-50 rounded-lg p-8 mb-12">
               <h2 className="text-3xl font-bold text-gray-800 mb-8 text-center">Romantic Experiences</h2>
               <div className="grid md:grid-cols-3 gap-6">
-                <Link to="/packages/kashmir-houseboat-tour" className="text-center bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow cursor-pointer transform hover:scale-105 transition-transform">
+                <Link to="/kashmirtourpackages/kashmir-houseboat-tour" className="text-center bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow cursor-pointer transform hover:scale-105 transition-transform">
                   <div className="text-4xl mb-4">🛥️</div>
                   <h4 className="font-semibold text-gray-800 mb-2">Houseboat Romance</h4>
                   <p className="text-gray-600">Stay in a romantic houseboat on Dal Lake with privacy and luxury</p>
                 </Link>
-                <Link to="/packages/kashmir-shikara-experience" className="text-center bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow cursor-pointer transform hover:scale-105 transition-transform">
+                <Link to="/kashmirtourpackages/kashmir-shikara-experience" className="text-center bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow cursor-pointer transform hover:scale-105 transition-transform">
                   <div className="text-4xl mb-4">🚣‍♀️</div>
                   <h4 className="font-semibold text-gray-800 mb-2">Private Shikara</h4>
                   <p className="text-gray-600">Exclusive Shikara rides with flower decorations for couples</p>
                 </Link>
-                <Link to="/packages/kashmir-gulmarg-tour" className="text-center bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow cursor-pointer transform hover:scale-105 transition-transform">
+                <Link to="/kashmirtourpackages/kashmir-gulmarg-tour" className="text-center bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow cursor-pointer transform hover:scale-105 transition-transform">
                   <div className="text-4xl mb-4">🌅</div>
                   <h4 className="font-semibold text-gray-800 mb-2">Sunrise Views</h4>
                   <p className="text-gray-600">Watch beautiful sunrises together over the Himalayas</p>
                 </Link>
-                <Link to="/packages/srinagar-tour-package" className="text-center bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow cursor-pointer transform hover:scale-105 transition-transform">
+                <Link to="/kashmirtourpackages/srinagar-tour-package" className="text-center bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow cursor-pointer transform hover:scale-105 transition-transform">
                   <div className="text-4xl mb-4">🌹</div>
                   <h4 className="font-semibold text-gray-800 mb-2">Garden Strolls</h4>
                   <p className="text-gray-600">Romantic walks through beautiful Mughal gardens</p>
                 </Link>
-                <Link to="/packages/kashmir-cultural-experience" className="text-center bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow cursor-pointer transform hover:scale-105 transition-transform">
+                <Link to="/kashmirtourpackages/kashmir-cultural-experience" className="text-center bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow cursor-pointer transform hover:scale-105 transition-transform">
                   <div className="text-4xl mb-4">🎭</div>
                   <h4 className="font-semibold text-gray-800 mb-2">Cultural Evening</h4>
                   <p className="text-gray-600">Enjoy traditional Kashmiri performances together</p>
                 </Link>
-                <Link to="/packages/kashmir-shopping-guide" className="text-center bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow cursor-pointer transform hover:scale-105 transition-transform">
+                <Link to="/kashmirtourpackages/kashmir-shopping-guide" className="text-center bg-white rounded-lg p-6 shadow-md hover:shadow-lg transition-shadow cursor-pointer transform hover:scale-105 transition-transform">
                   <div className="text-4xl mb-4">🛍️</div>
                   <h4 className="font-semibold text-gray-800 mb-2">Shopping Together</h4>
                   <p className="text-gray-600">Shop for handicrafts and souvenirs in local markets</p>
@@ -165,7 +165,7 @@ export default function KashmirHoneymoonTour() {
             {/* Honeymoon Itinerary */}
             <div className="bg-white rounded-lg shadow-md p-8">
               <h2 className="text-3xl font-bold text-gray-800 mb-8">Romantic Itinerary</h2>
-              
+
               <div className="space-y-6">
                 <ItineraryCard
                   title="Day 1: Arrival & Romance Begins"
@@ -238,7 +238,7 @@ export default function KashmirHoneymoonTour() {
           </div>
         </div>
       </div>
-      
+
       {/* Package Sections */}
       <HoneymoonSpecial />
       <KashmirFamilyPackages />

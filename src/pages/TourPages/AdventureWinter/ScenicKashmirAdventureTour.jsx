@@ -9,7 +9,7 @@ export default function ScenicKashmirAdventureTour() {
     title: "Scenic Kashmir Adventure Tour | 6 Nights 7 Days Premium Winter Experience",
     description: "Premium scenic Kashmir adventure tour with extended mountain stays, helicopter rides, and exclusive winter activities. 6 nights luxury adventure covering all major destinations. Starting at ₹23,999.",
     keywords: "scenic Kashmir adventure, 6 nights winter tour, premium Kashmir adventure, helicopter rides Kashmir, luxury winter package, extended adventure tour",
-    canonical: "https://www.travelwiki.org.in/packages/scenic-kashmir-adventure-tour/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/scenic-kashmir-adventure-tour/"
   });
 
   const packageData = {

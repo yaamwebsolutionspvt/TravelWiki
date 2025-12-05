@@ -12,7 +12,7 @@ export const packagesData = [
     discount: 21,
     locations: ["Srinagar", "Pahalgam", "Gulmarg"],
     activities: ["Sightseeing", "Shikara Ride", "Garden Visits"],
-    link: "/packages/3-nights-4-days-srinagar-pahalgam-gulmarg-tour",
+    link: "/kashmirtourpackages/3-nights-4-days-srinagar-pahalgam-gulmarg-tour",
     rating: 4.5,
     reviews: 234,
     bestFor: "Couples",
@@ -36,7 +36,7 @@ export const packagesData = [
     discount: 25,
     locations: ["Srinagar", "Pahalgam", "Gulmarg"],
     activities: ["Family Activities", "Sightseeing", "Pony Rides"],
-    link: "/packages/kashmir-family-tour",
+    link: "/kashmirtourpackages/kashmir-family-tour",
     rating: 4.7,
     reviews: 189,
     bestFor: "Families",
@@ -60,7 +60,7 @@ export const packagesData = [
     discount: 22,
     locations: ["Srinagar", "Pahalgam"],
     activities: ["Romantic Dinner", "Shikara Ride", "Garden Walks"],
-    link: "/packages/kashmir-honeymoon-tour",
+    link: "/kashmirtourpackages/kashmir-honeymoon-tour",
     rating: 4.8,
     reviews: 312,
     bestFor: "Couples",
@@ -84,7 +84,7 @@ export const packagesData = [
     discount: 21,
     locations: ["Gulmarg", "Srinagar"],
     activities: ["Skiing", "Gondola Ride", "Snow Activities"],
-    link: "/packages/kashmir-gulmarg-tour",
+    link: "/kashmirtourpackages/kashmir-gulmarg-tour",
     rating: 4.6,
     reviews: 156,
     bestFor: "Adventure Seekers",
@@ -108,7 +108,7 @@ export const packagesData = [
     discount: 25,
     locations: ["Srinagar"],
     activities: ["Houseboat Stay", "Dal Lake", "Floating Gardens"],
-    link: "/packages/kashmir-houseboat-tour",
+    link: "/kashmirtourpackages/kashmir-houseboat-tour",
     rating: 4.4,
     reviews: 98,
     bestFor: "Couples",
@@ -132,7 +132,7 @@ export const packagesData = [
     discount: 27,
     locations: ["Srinagar", "Pahalgam", "Gulmarg", "Patnitop"],
     activities: ["Hill Station", "Sightseeing", "Nature Walks"],
-    link: "/packages/kashmir-package-with-patnitop",
+    link: "/kashmirtourpackages/kashmir-package-with-patnitop",
     rating: 4.5,
     reviews: 87,
     bestFor: "Families",
@@ -158,7 +158,7 @@ export const packagesData = [
     discount: 20,
     locations: ["Srinagar", "Pahalgam", "Gulmarg"],
     activities: ["Romantic Experiences", "Houseboat", "Candlelight Dinner"],
-    link: "/packages/honeymoon-magical-kashmir-tour",
+    link: "/kashmirtourpackages/honeymoon-magical-kashmir-tour",
     rating: 4.8,
     reviews: 256,
     bestFor: "Couples",
@@ -182,7 +182,7 @@ export const packagesData = [
     discount: 20,
     locations: ["Srinagar", "Pahalgam", "Gulmarg"],
     activities: ["Complete Package", "Adventure", "Cultural Experience"],
-    link: "/packages/best-selling-kashmir-tour",
+    link: "/kashmirtourpackages/best-selling-kashmir-tour",
     rating: 4.9,
     reviews: 445,
     bestFor: "All",
@@ -206,7 +206,7 @@ export const packagesData = [
     discount: 20,
     locations: ["Srinagar", "Pahalgam", "Gulmarg", "Sonamarg"],
     activities: ["Photography", "Scenic Views", "Sunrise Tours"],
-    link: "/packages/scenic-kashmir-tour",
+    link: "/kashmirtourpackages/scenic-kashmir-tour",
     rating: 4.7,
     reviews: 178,
     bestFor: "Photographers",
@@ -232,7 +232,7 @@ export const packagesData = [
     discount: 24,
     locations: ["Gulmarg", "Srinagar"],
     activities: ["Skiing", "Snowboarding", "Snow Trekking"],
-    link: "/packages/gulmarg-skiing-adventure",
+    link: "/kashmirtourpackages/gulmarg-skiing-adventure",
     rating: 4.6,
     reviews: 134,
     bestFor: "Adventure Seekers",
@@ -256,7 +256,7 @@ export const packagesData = [
     discount: 23,
     locations: ["Gulmarg", "Pahalgam", "Srinagar"],
     activities: ["Snow Sports", "Winter Trekking", "Ice Activities"],
-    link: "/packages/winter-wonderland-kashmir",
+    link: "/kashmirtourpackages/winter-wonderland-kashmir",
     rating: 4.5,
     reviews: 89,
     bestFor: "Adventure Seekers",
@@ -282,7 +282,7 @@ export const packagesData = [
     discount: 23,
     locations: ["Gurez Valley", "Srinagar"],
     activities: ["Cultural Experience", "Local Life", "Traditional Crafts"],
-    link: "/packages/gurez-valley-cultural-tour",
+    link: "/kashmirtourpackages/gurez-valley-cultural-tour",
     rating: 4.4,
     reviews: 67,
     bestFor: "Culture Enthusiasts",
@@ -306,7 +306,7 @@ export const packagesData = [
     discount: 22,
     locations: ["Jammu", "Vaishno Devi", "Srinagar", "Pahalgam"],
     activities: ["Pilgrimage", "Temple Visit", "Spiritual Journey"],
-    link: "/packages/kashmir-with-vaishno-devi",
+    link: "/kashmirtourpackages/kashmir-with-vaishno-devi",
     rating: 4.8,
     reviews: 298,
     bestFor: "Pilgrims",
@@ -332,7 +332,7 @@ export const packagesData = [
     discount: 22,
     locations: ["Srinagar", "Pahalgam", "Gulmarg"],
     activities: ["Luxury Experiences", "Private Tours", "Premium Services"],
-    link: "/packages/luxury-kashmir-experience",
+    link: "/kashmirtourpackages/luxury-kashmir-experience",
     rating: 4.9,
     reviews: 123,
     bestFor: "Luxury Travelers",
@@ -356,7 +356,7 @@ export const packagesData = [
     discount: 22,
     locations: ["Srinagar", "Pahalgam", "Gulmarg", "Sonamarg"],
     activities: ["Family Activities", "Adventure Sports", "Educational Tours"],
-    link: "/packages/kashmir-family-adventure",
+    link: "/kashmirtourpackages/kashmir-family-adventure",
     rating: 4.7,
     reviews: 156,
     bestFor: "Families",
@@ -382,7 +382,7 @@ export const packagesData = [
     discount: 24,
     locations: ["Pahalgam", "Sonamarg", "Base Camps"],
     activities: ["Trekking", "Camping", "Nature Photography"],
-    link: "/packages/kashmir-trekking-expedition",
+    link: "/kashmirtourpackages/kashmir-trekking-expedition",
     rating: 4.6,
     reviews: 87,
     bestFor: "Trekkers",
@@ -408,7 +408,7 @@ export const packagesData = [
     discount: 20,
     locations: ["Srinagar"],
     activities: ["Quick Sightseeing", "Shikara Ride", "Garden Visit"],
-    link: "/packages/weekend-kashmir-getaway",
+    link: "/kashmirtourpackages/weekend-kashmir-getaway",
     rating: 4.3,
     reviews: 167,
     bestFor: "Working Professionals",
@@ -432,7 +432,7 @@ export const packagesData = [
     discount: 23,
     locations: ["Srinagar", "Pahalgam", "Gulmarg", "Sonamarg", "Yusmarg", "Doodhpathri"],
     activities: ["Complete Valley Tour", "Off-beat Destinations", "Cultural Immersion"],
-    link: "/packages/extended-kashmir-valley-tour",
+    link: "/kashmirtourpackages/extended-kashmir-valley-tour",
     rating: 4.8,
     reviews: 78,
     bestFor: "Travel Enthusiasts",
@@ -455,17 +455,17 @@ export const getUniqueValues = (key) => {
     }
     return pkg[key];
   });
-  
+
   if (key === 'locations') {
     return [...new Set(values.flat())].sort();
   }
-  
+
   return [...new Set(values)].filter(Boolean).sort();
 };
 
 export const getPriceRanges = () => [
   'Under ₹10,000',
-  '₹10,000-₹15,000', 
+  '₹10,000-₹15,000',
   '₹15,000-₹20,000',
   '₹20,000-₹30,000',
   'Above ₹30,000'
@@ -473,13 +473,13 @@ export const getPriceRanges = () => [
 
 export const getDurationOptions = () => [
   '2-3 Days',
-  '4-5 Days', 
+  '4-5 Days',
   '6-7 Days',
   '8+ Days'
 ];
 
 export const getRatingOptions = () => [
   '4.0+',
-  '4.5+', 
+  '4.5+',
   '4.7+'
 ];

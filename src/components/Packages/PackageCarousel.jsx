@@ -55,9 +55,9 @@ const PackageCarousel = ({
 
   // Responsive card width based on screen size
   const getCardWidth = () => {
-    if (windowWidth < 768) return "w-full max-w-sm mx-auto";
-    if (windowWidth < 1024) return "w-[280px]";
-    return "w-[270px]";
+    if (windowWidth < 768) return "w-full max-w-[340px] mx-auto";
+    if (windowWidth < 1024) return "w-[300px]";
+    return "w-[280px]";
   };
 
   const PackageCard = ({ pkg }) => {
@@ -66,12 +66,12 @@ const PackageCarousel = ({
     const CardContent = () => (
       <div className={`bg-white text-black rounded-lg shadow-md ${getCardWidth()} flex-shrink-0 overflow-hidden cursor-pointer hover:shadow-lg transition-shadow duration-300`}>
         <div className="relative">
-          <OptimizedImage 
+          <OptimizedImage
             src={pkg.image}
             alt={pkg.title}
             width={400}
-            height={200}
-            className="w-full h-32 sm:h-36 md:h-40 lg:h-44 object-cover"
+            height={250}
+            className="w-full h-40 sm:h-44 md:h-48 object-cover"
             sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 25vw"
             loading="lazy"
             decoding="async"
@@ -79,9 +79,9 @@ const PackageCarousel = ({
           {/* Duration badge positioned on the image */}
           <div className="absolute top-2 left-2 text-xs bg-black text-white inline-block px-2 py-1 rounded">{pkg.duration}</div>
         </div>
-        <div className="p-3 sm:p-4">
+        <div className="p-4">
           <h3 className="font-semibold text-sm sm:text-base mb-2 leading-tight line-clamp-2">{pkg.title}</h3>
-          
+
           <div className="grid grid-cols-2 gap-1 text-xs text-gray-600 mb-2">
             <span className="flex items-center"><span className="mr-1">✈️</span> {pkg.flights} Flights</span>
             <span className="flex items-center"><span className="mr-1">🏨</span> {pkg.hotels} Hotels</span>
@@ -91,15 +91,15 @@ const PackageCarousel = ({
 
           {/* Location Info - flexible for both nights and places */}
           {pkg.nights && (
-            <div className="text-xs bg-gray-200 inline-block px-2 py-1 rounded mb-2 truncate max-w-full">
+            <div className="text-xs bg-gray-200 px-2 py-1 rounded mb-2 break-words">
               {pkg.nights}
             </div>
           )}
-          
+
           {pkg.places && (
             <div className="flex flex-wrap gap-1 mb-2">
               {pkg.places.map((place, i) => (
-                <span key={i} className="bg-gray-100 px-1 py-1 rounded text-xs text-gray-700">
+                <span key={i} className="bg-gray-100 px-2 py-1 rounded text-xs text-gray-700 whitespace-nowrap">
                   {place}
                 </span>
               ))}
@@ -111,20 +111,20 @@ const PackageCarousel = ({
               <li key={idx} className="line-clamp-1">{item}</li>
             ))}
           </ul>
-          
+
           <div className="text-base sm:text-lg font-bold text-black mb-1">
             ₹{pkg.price.toLocaleString()}{" "}
             <span className="text-xs text-gray-500">Per person</span>
           </div>
-          
+
           <div className="text-green-600 text-sm font-semibold mb-2">
             <span className="line-through text-gray-400 mr-2">₹{pkg.originalPrice.toLocaleString()}</span>
             {discount}% OFF
           </div>
-          
+
           <p className="text-xs text-gray-500 mb-3">Updated on: {pkg.updatedDate}</p>
-          
-          <button 
+
+          <button
             onClick={() => {
               const url = `https://wa.me/918899971960?text=${encodeURIComponent(`Hi, I am interested in the ${pkg.title} from Travel Wiki.`)}`;
               window.open(url, '_blank', 'noopener,noreferrer');
@@ -154,25 +154,23 @@ const PackageCarousel = ({
         </h2>
         {subtitle && (
           <div className="max-w-4xl mx-auto mb-8 px-4 text-center">
-            <p className={`text-sm sm:text-base md:text-lg ${
-              subtitleColor ? subtitleColor : 
-              (sectionBgColor.includes('gray-900') || sectionBgColor.includes('blue-900') || sectionBgColor.includes('blue-500') || sectionBgColor.includes('black')) 
-                ? 'text-gray-300' 
-                : 'text-gray-700'
-            } mb-4`}>
+            <p className={`text-sm sm:text-base md:text-lg ${subtitleColor ? subtitleColor :
+                (sectionBgColor.includes('gray-900') || sectionBgColor.includes('blue-900') || sectionBgColor.includes('blue-500') || sectionBgColor.includes('black'))
+                  ? 'text-gray-300'
+                  : 'text-gray-700'
+              } mb-4`}>
               {subtitle}
             </p>
-            
+
             {expandedContent && (
               <>
                 {!isExpanded && (
-                  <button 
+                  <button
                     onClick={toggleExpanded}
-                    className={`font-semibold hover:underline text-lg ${
-                      sectionBgColor.includes('gray-900') || sectionBgColor.includes('blue-900') || sectionBgColor.includes('blue-500') || sectionBgColor.includes('black')
+                    className={`font-semibold hover:underline text-lg ${sectionBgColor.includes('gray-900') || sectionBgColor.includes('blue-900') || sectionBgColor.includes('blue-500') || sectionBgColor.includes('black')
                         ? 'text-orange-400 hover:text-orange-300'
                         : 'text-orange-600 hover:text-orange-500'
-                    }`}
+                      }`}
                   >
                     More ↓
                   </button>
@@ -180,22 +178,20 @@ const PackageCarousel = ({
 
                 {isExpanded && (
                   <div className="mt-6">
-                    <div className={`text-sm sm:text-base md:text-lg leading-relaxed space-y-4 text-left ${
-                      subtitleColor ? subtitleColor : 
-                      (sectionBgColor.includes('gray-900') || sectionBgColor.includes('blue-900') || sectionBgColor.includes('blue-500') || sectionBgColor.includes('black')) 
-                        ? 'text-gray-300' 
-                        : 'text-gray-700'
-                    }`}>
+                    <div className={`text-sm sm:text-base md:text-lg leading-relaxed space-y-4 text-left ${subtitleColor ? subtitleColor :
+                        (sectionBgColor.includes('gray-900') || sectionBgColor.includes('blue-900') || sectionBgColor.includes('blue-500') || sectionBgColor.includes('black'))
+                          ? 'text-gray-300'
+                          : 'text-gray-700'
+                      }`}>
                       {expandedContent}
                     </div>
                     <div className="mt-6 text-center">
-                      <button 
+                      <button
                         onClick={toggleExpanded}
-                        className={`font-semibold hover:underline text-lg ${
-                          sectionBgColor.includes('gray-900') || sectionBgColor.includes('blue-900') || sectionBgColor.includes('blue-500') || sectionBgColor.includes('black')
+                        className={`font-semibold hover:underline text-lg ${sectionBgColor.includes('gray-900') || sectionBgColor.includes('blue-900') || sectionBgColor.includes('blue-500') || sectionBgColor.includes('black')
                             ? 'text-orange-400 hover:text-orange-300'
                             : 'text-orange-600 hover:text-orange-500'
-                        }`}
+                          }`}
                       >
                         Less ↑
                       </button>
@@ -206,7 +202,7 @@ const PackageCarousel = ({
             )}
           </div>
         )}
-        
+
         {/* Desktop and Tablet Layout */}
         <div className="hidden sm:block relative">
           {maxIndex > 0 && (
@@ -214,11 +210,10 @@ const PackageCarousel = ({
               <button
                 onClick={handlePrev}
                 disabled={startIndex === 0}
-                className={`absolute left-0 top-1/2 transform -translate-y-1/2 z-10 p-2 rounded-full shadow-lg transition-all duration-300 ${
-                  startIndex === 0 
-                    ? 'bg-gray-300 text-gray-500 cursor-not-allowed' 
+                className={`absolute left-0 top-1/2 transform -translate-y-1/2 z-10 p-2 rounded-full shadow-lg transition-all duration-300 ${startIndex === 0
+                    ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
                     : 'bg-white text-gray-800 hover:bg-gray-100'
-                }`}
+                  }`}
                 aria-label="Previous tours"
               >
                 <FaChevronLeft size={windowWidth < 1024 ? 16 : 18} />
@@ -226,20 +221,19 @@ const PackageCarousel = ({
               <button
                 onClick={handleNext}
                 disabled={startIndex + visibleCount >= packages.length}
-                className={`absolute right-0 top-1/2 transform -translate-y-1/2 z-10 p-2 rounded-full shadow-lg transition-all duration-300 ${
-                  startIndex + visibleCount >= packages.length
-                    ? 'bg-gray-300 text-gray-500 cursor-not-allowed' 
+                className={`absolute right-0 top-1/2 transform -translate-y-1/2 z-10 p-2 rounded-full shadow-lg transition-all duration-300 ${startIndex + visibleCount >= packages.length
+                    ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
                     : 'bg-white text-gray-800 hover:bg-gray-100'
-                }`}
+                  }`}
                 aria-label="Next tours"
               >
                 <FaChevronRight size={windowWidth < 1024 ? 16 : 18} />
               </button>
             </>
           )}
-          
-          <div className="overflow-hidden mx-8">
-            <div className="flex gap-4 md:gap-6 transition-transform duration-500 ease-in-out">
+
+          <div className="overflow-hidden mx-10">
+            <div className="flex gap-4 md:gap-5 lg:gap-6 transition-transform duration-500 ease-in-out justify-center">
               {visiblePackages.map((pkg, idx) => (
                 <PackageCard key={idx} pkg={pkg} />
               ))}
@@ -255,11 +249,10 @@ const PackageCarousel = ({
                 <button
                   onClick={handlePrev}
                   disabled={startIndex === 0}
-                  className={`absolute left-0 top-1/2 transform -translate-y-1/2 z-10 p-2 rounded-full shadow-lg transition-all duration-300 ${
-                    startIndex === 0 
-                      ? 'bg-gray-300 text-gray-500 cursor-not-allowed' 
+                  className={`absolute left-0 top-1/2 transform -translate-y-1/2 z-10 p-2 rounded-full shadow-lg transition-all duration-300 ${startIndex === 0
+                      ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
                       : 'bg-white text-gray-800 hover:bg-gray-100'
-                  }`}
+                    }`}
                   aria-label="Previous tour"
                 >
                   <FaChevronLeft size={14} />
@@ -267,38 +260,36 @@ const PackageCarousel = ({
                 <button
                   onClick={handleNext}
                   disabled={startIndex + 1 >= packages.length}
-                  className={`absolute right-0 top-1/2 transform -translate-y-1/2 z-10 p-2 rounded-full shadow-lg transition-all duration-300 ${
-                    startIndex + 1 >= packages.length
-                      ? 'bg-gray-300 text-gray-500 cursor-not-allowed' 
+                  className={`absolute right-0 top-1/2 transform -translate-y-1/2 z-10 p-2 rounded-full shadow-lg transition-all duration-300 ${startIndex + 1 >= packages.length
+                      ? 'bg-gray-300 text-gray-500 cursor-not-allowed'
                       : 'bg-white text-gray-800 hover:bg-gray-100'
-                  }`}
+                    }`}
                   aria-label="Next tour"
                 >
                   <FaChevronRight size={14} />
                 </button>
               </>
             )}
-            
-            <div className="overflow-hidden mx-8">
-              <div className="flex transition-transform duration-500 ease-in-out">
+
+            <div className="overflow-hidden mx-10 px-2">
+              <div className="flex transition-transform duration-500 ease-in-out justify-center">
                 {visiblePackages.map((pkg, idx) => (
                   <PackageCard key={idx} pkg={pkg} />
                 ))}
               </div>
             </div>
           </div>
-          
+
           {maxIndex > 0 && (
             <div className="flex justify-center mt-4 space-x-2">
               {Array.from({ length: packages.length }, (_, index) => (
                 <button
                   key={index}
                   onClick={() => setStartIndex(index)}
-                  className={`w-2 h-2 rounded-full transition-colors ${
-                    startIndex === index
+                  className={`w-2 h-2 rounded-full transition-colors ${startIndex === index
                       ? (sectionBgColor.includes('gray-900') || sectionBgColor.includes('blue-900') || sectionBgColor.includes('blue-500') || sectionBgColor.includes('black') ? 'bg-white' : 'bg-orange-500')
                       : '0 hover:bg-gray-400'
-                  }`}
+                    }`}
                   aria-label={`Go to tour ${index + 1}`}
                 />
               ))}

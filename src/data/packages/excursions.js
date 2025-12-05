@@ -23,7 +23,7 @@ export const excursionPackages = [
     originalPrice: 31199,
     updatedDate: "30 July 2025",
     image: ex1,
-    link: "/packages/splendid-kashmir-package",
+    link: "/kashmirtourpackages/splendid-kashmir-package",
   },
   {
     title: "Fun-Filled Vacation Kashmir Package",
@@ -42,7 +42,7 @@ export const excursionPackages = [
     originalPrice: 21599,
     updatedDate: "30 July 2025",
     image: ex2,
-    link: "/packages/fun-filled-vacation-kashmir-package",
+    link: "/kashmirtourpackages/fun-filled-vacation-kashmir-package",
   },
   {
     title: "Thrilling Kashmir Holiday Package",
@@ -61,7 +61,7 @@ export const excursionPackages = [
     originalPrice: 28799,
     updatedDate: "30 July 2025",
     image: ex3,
-    link: "/packages/thrilling-kashmir-holiday-package",
+    link: "/kashmirtourpackages/thrilling-kashmir-holiday-package",
   },
   {
     title: "Week Long Holiday In Kashmir",
@@ -80,7 +80,7 @@ export const excursionPackages = [
     originalPrice: 25199,
     updatedDate: "30 July 2025",
     image: ex4,
-    link: "/packages/week-long-holiday-kashmir",
+    link: "/kashmirtourpackages/week-long-holiday-kashmir",
   },
   {
     title: "Magnificent Kashmir With Pahalgam And Gulmarg",
@@ -99,7 +99,7 @@ export const excursionPackages = [
     originalPrice: 27599,
     updatedDate: "30 July 2025",
     image: ex5,
-    link: "/packages/magnificent-kashmir-pahalgam-gulmarg",
+    link: "/kashmirtourpackages/magnificent-kashmir-pahalgam-gulmarg",
   },
   {
     title: "Srinagar Getaway Package",
@@ -118,7 +118,7 @@ export const excursionPackages = [
     originalPrice: 13199,
     updatedDate: "30 July 2025",
     image: ex6,
-    link: "/packages/srinagar-getaway-package",
+    link: "/kashmirtourpackages/srinagar-getaway-package",
   }
 ];
 

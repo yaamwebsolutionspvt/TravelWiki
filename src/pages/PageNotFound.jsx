@@ -38,7 +38,7 @@ const PageNotFound = () => {
         customTitle="404 - Page Not Found | Kashmir Tourism"
         customDescription="The page you're looking for doesn't exist. Explore our Kashmir tour packages and travel guides."
       />
-      <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-blue-50 via-green-50 to-blue-100 p-6">
+      <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-blue-50 via-green-50 to-blue-100 py-25">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}

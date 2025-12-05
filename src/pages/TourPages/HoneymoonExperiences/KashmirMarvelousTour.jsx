@@ -17,7 +17,7 @@ export default function KashmirMarvelousTour() {
     title: "Kashmir Marvelous Tour | 6 Nights 7 Days Luxury Honeymoon Package",
     description: "Experience marvelous Kashmir with our luxury 6 nights package. Premium accommodations, exclusive experiences, cultural programs and romantic arrangements. Starting at ₹27,999.",
     keywords: "Kashmir marvelous tour, luxury Kashmir honeymoon, premium Kashmir package, 6 nights luxury tour, exclusive Kashmir experience",
-    canonical: "https://www.travelwiki.org.in/packages/kashmir-marvelous-tour/"
+    canonical: "https://www.travelwiki.org.in/kashmirtourpackages/kashmir-marvelous-tour/"
   });
 
   const packageData = {
